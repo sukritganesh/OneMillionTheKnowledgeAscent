@@ -1,3 +1,5 @@
+import type { QuestionMedia } from '../media/questionMedia';
+
 export const PRIMARY_CATEGORIES = [
   'Ancient History',
   'Medieval and Early Modern History',
@@ -78,6 +80,7 @@ export interface RawQuestionMetadata {
 }
 
 export interface RawQuestion {
+  media?: QuestionMedia[];
   id: string;
   level: LadderLevel;
   category: PrimaryCategory;
@@ -193,6 +196,7 @@ export interface NormalizationRepair {
 }
 
 export interface NormalizedQuestion {
+  media?: QuestionMedia[];
   id: string;
   localId: string;
   level: LadderLevel;

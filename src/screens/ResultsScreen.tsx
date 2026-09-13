@@ -1,4 +1,5 @@
 import type { GameRunState, ResolvedQuestionSnapshot } from '../game';
+import { QuestionMedia } from '../components/QuestionMedia';
 import { formatDuration, formatMoney } from '../utils/format';
 
 interface ResultsScreenProps {
@@ -76,6 +77,7 @@ export function RunReviewScreen({ questions, results, displayedQuestionIds, titl
               <details className={`review-item review-item--${status}`} key={question.id} open={question.id === initiallyOpen}>
                 <summary><span className="review-item__level">Q{question.level}</span><strong>{question.prompt}</strong><span className="review-item__status">{status === 'correct' ? '✓ Correct' : status === 'incorrect' ? '✕ Incorrect' : '— Unanswered'}</span></summary>
                 <div className="review-item__body">
+                  <QuestionMedia media={question.media} showCredits />
                   <div className="review-choices">{question.choices.map((choice) => <div key={choice.id} className={`${choice.id === question.correctChoiceId ? 'is-correct' : ''} ${choice.id === result?.selectedChoiceId && !result.isCorrect ? 'is-wrong' : ''}`}><span>{choice.label}</span><p>{choice.text}</p>{choice.id === question.correctChoiceId && <em>Correct answer</em>}{choice.id === result?.selectedChoiceId && <em>Your answer</em>}</div>)}</div>
                   <dl><div><dt>Your answer</dt><dd>{selected ? `${selected.label}. ${selected.text}` : 'No answer submitted'}</dd></div><div><dt>Correct answer</dt><dd>{correct ? `${correct.label}. ${correct.text}` : 'Unavailable'}</dd></div><div><dt>Hint</dt><dd>{question.hint}</dd></div><div><dt>Explanation</dt><dd>{question.explanation}</dd></div></dl>
                 </div>

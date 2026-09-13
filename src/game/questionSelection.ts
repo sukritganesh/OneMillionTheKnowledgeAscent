@@ -1,3 +1,4 @@
+import { copyQuestionMedia, questionMediaError } from '../media/questionMedia';
 import { shuffleWithSeed, normalizeSeed, randomIndex, type RandomSeed } from './random';
 import {
   ANSWER_LETTERS,
@@ -89,6 +90,8 @@ function assertUniqueCatalogIds(catalog: readonly QuestionDefinition[]): void {
 }
 
 function assertQuestionCanResolve(question: QuestionDefinition): void {
+  const mediaError = questionMediaError(question.media);
+  if (mediaError) throw new QuestionSelectionError('invalid-question', mediaError);
   if (question.choices.length !== 4) {
     throw new QuestionSelectionError(
       'invalid-question',
@@ -164,6 +167,7 @@ export function resolveQuestionWithSeed(
     category: question.category,
     tags: Object.freeze([...(question.tags ?? [])]),
     prompt: question.prompt,
+    ...(question.media ? { media: Object.freeze(copyQuestionMedia(question.media).map((m) => Object.freeze(m))) } : {}),
     choices,
     correctChoiceId: question.correctChoiceId,
     hint: question.hint,

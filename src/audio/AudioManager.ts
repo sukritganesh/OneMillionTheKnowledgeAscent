@@ -32,6 +32,7 @@ export class AudioManager {
   private effects: GainNode | null = null;
   private preferences: AudioPreferences = DEFAULT_AUDIO_PREFERENCES;
   private ducked = false;
+  private mediaDucked = false;
   private lastPlayed = new Map<SoundEvent, number>();
 
   private musicScene: MusicScene = 'silent';
@@ -88,6 +89,11 @@ export class AudioManager {
 
   setDucked(ducked: boolean): void {
     this.ducked = ducked;
+    this.applyMusicLevel();
+  }
+
+  setMediaDucked(ducked: boolean): void {
+    this.mediaDucked = ducked;
     this.applyMusicLevel();
   }
 
@@ -170,7 +176,7 @@ export class AudioManager {
 
   private applyMusicLevel(): void {
     if (!this.activeMusic) return;
-    const level = this.preferences.musicVolume * (this.ducked ? 0.22 : 1);
+    const level = this.preferences.musicVolume * (this.ducked || this.mediaDucked ? 0.22 : 1);
     this.activeMusic.volume = Math.max(0, Math.min(1, level));
   }
 

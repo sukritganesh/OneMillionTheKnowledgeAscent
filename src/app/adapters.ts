@@ -1,3 +1,4 @@
+import { copyQuestionMedia, questionMediaError } from '../media/questionMedia';
 import type {
   NormalizedCuratedSet,
   NormalizedPack,
@@ -58,6 +59,7 @@ export function gameQuestionFromNormalized(question: NormalizedQuestion): Questi
     category: question.category,
     tags: question.tags,
     prompt: question.prompt,
+    ...(question.media ? { media: copyQuestionMedia(question.media) } : {}),
     choices: [choices[0], choices[1], choices[2], choices[3]],
     correctChoiceId: question.correctChoiceId,
     hint: question.hint,
@@ -117,6 +119,7 @@ export function importedGameCatalog(
 
 function decodeNormalizedQuestion(value: unknown): NormalizedQuestion | null {
   if (!isRecord(value) || typeof value.id !== 'string' || typeof value.prompt !== 'string' || !Array.isArray(value.choices) || value.choices.length !== 4) return null;
+  if (questionMediaError(value.media)) return null;
   return value as unknown as NormalizedQuestion;
 }
 
@@ -198,6 +201,7 @@ export function decodeGameRun(value: unknown): GameRunState | null {
 function isResolvedQuestion(value: unknown, level: number): value is ResolvedQuestionSnapshot {
   if (!isRecord(value) || typeof value.id !== 'string' || value.level !== level || typeof value.prompt !== 'string' || typeof value.correctChoiceId !== 'string') return false;
   if (!Array.isArray(value.choices) || value.choices.length !== 4) return false;
+  if (questionMediaError(value.media)) return false;
   const labels = ['A', 'B', 'C', 'D'];
   return value.choices.every((choice, index) => isRecord(choice) && typeof choice.id === 'string' && typeof choice.text === 'string' && choice.label === labels[index]);
 }
@@ -207,6 +211,7 @@ export function savedQuestionFromResolved(question: ResolvedQuestionSnapshot): S
     id: question.id,
     level: question.level,
     answerOrder: question.choices.map((choice) => choice.id),
+    ...(question.media ? { media: toJsonValue(copyQuestionMedia(question.media)) } : {}),
     category: question.category,
     tags: [...question.tags],
     prompt: question.prompt,

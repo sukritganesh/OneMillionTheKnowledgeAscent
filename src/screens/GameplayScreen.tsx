@@ -1,4 +1,5 @@
 import { Icon } from '../components/Icon';
+import { QuestionMedia } from '../components/QuestionMedia';
 import { useEffect } from 'react';
 
 import { BrandMark } from '../components/BrandMark';
@@ -28,6 +29,8 @@ export type GameplayControllerStatus =
 export type NarrationStatus = 'disabled' | 'idle' | 'speaking' | 'unavailable';
 
 export interface GameplayScreenProps {
+  mediaBlocked?: boolean;
+  onMediaPlayingChange?: (playing: boolean) => void;
   state: GameRunState;
   nowMs: number;
   playerName?: string;
@@ -128,6 +131,8 @@ function phaseAnnouncement(state: GameRunState): string {
 }
 
 export function GameplayScreen({
+  mediaBlocked = false,
+  onMediaPlayingChange,
   state,
   nowMs,
   playerName,
@@ -272,6 +277,10 @@ export function GameplayScreen({
             <CompletedPanel state={state} onCompleted={onCompleted} />
           ) : (
             <QuestionPlay
+              key={question.id}
+              mediaBlocked={mediaBlocked}
+              muted={muted}
+              onMediaPlayingChange={onMediaPlayingChange}
               state={state}
               nowMs={nowMs}
               controlsRun={controlsRun}
@@ -411,11 +420,17 @@ function BetweenQuestions({
 }
 
 function QuestionPlay({
+  mediaBlocked,
+  muted,
+  onMediaPlayingChange,
   state,
   nowMs,
   controlsRun,
   send,
 }: {
+  mediaBlocked: boolean;
+  muted: boolean;
+  onMediaPlayingChange?: (playing: boolean) => void;
   state: GameRunState;
   nowMs: number;
   controlsRun: boolean;
@@ -433,9 +448,10 @@ function QuestionPlay({
         <span className="question-category">{question.category}</span>
       </div>
 
-      <section className="question-panel panel" aria-labelledby="active-question">
+      <section className={`question-panel panel ${question.media?.length ? 'question-panel--media' : ''}`} aria-labelledby="active-question">
 
         <h1 id="active-question">{question.prompt}</h1>
+        <QuestionMedia media={question.media} active={controlsRun && !mediaBlocked && !state.overlay && ['question-ready', 'answer-selected', 'correct-reveal', 'incorrect-reveal', 'millionaire-reveal'].includes(state.phase)} showCredits={Boolean(result)} muted={muted} onPlayingChange={onMediaPlayingChange} />
       </section>
 
       {state.hintRevealedForQuestionId === question.id && (

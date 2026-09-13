@@ -21,6 +21,7 @@ export function rawPackFromStored(
       category: value.category,
       tags: value.tags,
       prompt: value.prompt,
+      ...(value.media ? { media: value.media } : {}),
       choices: value.choices,
       correctChoiceId: value.correctChoiceId,
       hint: value.hint,
