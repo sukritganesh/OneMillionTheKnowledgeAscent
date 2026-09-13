@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "retrievedAt": "2026-09-13",
+  "notes": "Original downloaded renditions, without content edits. Educational game; no NASA or museum endorsement implied. Keep published hash-named files append-only for historical saves.",
+  "assets": [
+    {
+      "id": "wave",
+      "path": "public/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+      "sha256": "b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841",
+      "downloadUrl": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434",
+      "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+      "license": "Public domain / Met Open Access (CC0)",
+      "licenseUrl": "https://www.metmuseum.org/hubs/open-access"
+    },
+    {
+      "id": "cypresses",
+      "path": "public/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+      "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+      "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535",
+      "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+      "license": "Public domain / Met Open Access (CC0)",
+      "licenseUrl": "https://www.metmuseum.org/hubs/open-access"
+    },
+    {
+      "id": "harvesters",
+      "path": "public/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+      "sha256": "98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25",
+      "downloadUrl": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809",
+      "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+      "license": "Public domain / Met Open Access (CC0)",
+      "licenseUrl": "https://www.metmuseum.org/hubs/open-access"
+    },
+    {
+      "id": "earth",
+      "path": "public/question-media/4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4.jpg",
+      "sha256": "4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4",
+      "downloadUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia00/pia00114/PIA00114.jpg?crop=faces%2Cfocalpoint&fit=clip&h=800&w=800",
+      "sourceUrl": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+      "credit": "NASA/JPL, Galileo, PIA00114 (1990).",
+      "license": "NASA/JPL educational reuse",
+      "licenseUrl": "https://www.jpl.nasa.gov/jpl-image-use-policy/"
+    },
+    {
+      "id": "earthSpin",
+      "path": "public/question-media/71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb.webm",
+      "sha256": "71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb",
+      "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a001300/a001375/a001375.webmhd.webm",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/1375/",
+      "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Horace Mitchell, Galileo imagery, visualization 1375.",
+      "license": "Public domain / NASA SVS",
+      "licenseUrl": "https://svs.gsfc.nasa.gov/help/"
+    },
+    {
+      "id": "hurricane",
+      "path": "public/question-media/9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee.jpg",
+      "sha256": "9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee",
+      "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/3000/3793/Isabel_Eye_ISS2003247.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/",
+      "credit": "Ed Lu / NASA, Hurricane Isabel from the ISS, September 13, 2003.",
+      "license": "Public domain / NASA imagery",
+      "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+    },
+    {
+      "id": "phases",
+      "path": "public/question-media/6c300f0dd38466055ec19a0dc8a156db9f0fdfc068d0325c9c92110f0180de37.webm",
+      "sha256": "6c300f0dd38466055ec19a0dc8a156db9f0fdfc068d0325c9c92110f0180de37",
+      "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004158/phase_orbit_1080p30.webmhd.webm",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/4158/",
+      "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+      "license": "Public domain / NASA SVS",
+      "licenseUrl": "https://svs.gsfc.nasa.gov/help/"
+    },
+    {
+      "id": "eclipses",
+      "path": "public/question-media/3cd4baaba37b08c1fbbe1b6b81ad74f7a66fd06736274bec126a70f8124e7804.webm",
+      "sha256": "3cd4baaba37b08c1fbbe1b6b81ad74f7a66fd06736274bec126a70f8124e7804",
+      "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004158/lunar_solar_1080p30.webmhd.webm",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/4158/",
+      "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+      "license": "Public domain / NASA SVS",
+      "licenseUrl": "https://svs.gsfc.nasa.gov/help/"
+    },
+    {
+      "id": "tilt",
+      "path": "public/question-media/46dd8805b111343954443abaed5518eb8c4dd550d1d6ccef268ace2a3ba9b713.webm",
+      "sha256": "46dd8805b111343954443abaed5518eb8c4dd550d1d6ccef268ace2a3ba9b713",
+      "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004158/tilt_1080p30.webmhd.webm",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/4158/",
+      "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+      "license": "Public domain / NASA SVS",
+      "licenseUrl": "https://svs.gsfc.nasa.gov/help/"
+    },
+    {
+      "id": "moon",
+      "path": "public/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+      "sha256": "8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f",
+      "downloadUrl": "https://svs.gsfc.nasa.gov/vis/a000000/a004100/a004158/moon.0080.jpg",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/4158/",
+      "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+      "license": "Public domain / NASA SVS",
+      "licenseUrl": "https://svs.gsfc.nasa.gov/help/"
+    }
+  ]
+}

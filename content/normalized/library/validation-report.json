@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.0.0",
+  "releaseVersion": "2.1.0",
   "validatedAt": "2026-09-13T00:00:00Z",
   "valid": true,
   "sourceIntegrity": {
@@ -248,6 +248,22 @@
         "setCount": 1,
         "categories": [
           "Mythology and Religion"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/culture/visual-arts/closer-look-art.json",
+        "repositoryPath": "content/sets/culture/visual-arts/closer-look-art.json",
+        "packId": "builtin-media-closer-look-art-pack",
+        "kind": "set",
+        "byteLength": 29973,
+        "utf8Bom": false,
+        "sourceSha256": "f4006c84974e7a98c53c9dc3bd88b509d6b0984fae3070093e22b98200ab6754",
+        "expectedSha256": "f4006c84974e7a98c53c9dc3bd88b509d6b0984fae3070093e22b98200ab6754",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Art and Culture"
         ]
       },
       {
@@ -555,6 +571,22 @@
         ]
       },
       {
+        "manifestPath": "content/sets/science/earth-sky/earth-from-above.json",
+        "repositoryPath": "content/sets/science/earth-sky/earth-from-above.json",
+        "packId": "builtin-media-earth-from-above-pack",
+        "kind": "set",
+        "byteLength": 28916,
+        "utf8Bom": false,
+        "sourceSha256": "f0e06a473289d74a35bbca30d39d4c36578d75cba8fbecb3583e50c54ae9845d",
+        "expectedSha256": "f0e06a473289d74a35bbca30d39d4c36578d75cba8fbecb3583e50c54ae9845d",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Nature and Earth"
+        ]
+      },
+      {
         "manifestPath": "content/sets/science/earth-sky/reading-the-sky.json",
         "repositoryPath": "content/sets/science/earth-sky/reading-the-sky.json",
         "packId": "builtin-library-weather-pack",
@@ -702,6 +734,22 @@
         ]
       },
       {
+        "manifestPath": "content/sets/science/space/moonlight-and-shadows.json",
+        "repositoryPath": "content/sets/science/space/moonlight-and-shadows.json",
+        "packId": "builtin-media-moonlight-and-shadows-pack",
+        "kind": "set",
+        "byteLength": 29686,
+        "utf8Bom": false,
+        "sourceSha256": "ce4ea68e4cb9fbb17c47a64cfc75d9ee33ee46e25caa3a98489a96e826d97efa",
+        "expectedSha256": "ce4ea68e4cb9fbb17c47a64cfc75d9ee33ee46e25caa3a98489a96e826d97efa",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Astronomy and Space"
+        ]
+      },
+      {
         "manifestPath": "content/sets/science/spaceflight/leaving-earth.json",
         "repositoryPath": "content/sets/science/spaceflight/leaving-earth.json",
         "packId": "builtin-library-space-exploration-pack",
@@ -720,68 +768,68 @@
     ]
   },
   "totals": {
-    "sourceFiles": 40,
+    "sourceFiles": 43,
     "poolFiles": 5,
-    "curatedSetFiles": 35,
-    "questions": 825,
+    "curatedSetFiles": 38,
+    "questions": 870,
     "poolQuestions": 300,
-    "curatedQuestions": 525,
-    "curatedSets": 35,
+    "curatedQuestions": 570,
+    "curatedSets": 38,
     "categories": 20,
     "normalizationRepairs": 5
   },
   "coverage": {
-    "questionCount": 825,
+    "questionCount": 870,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 525,
-    "curatedSetCount": 35,
-    "sourceCount": 40,
+    "curatedQuestionCount": 570,
+    "curatedSetCount": 38,
+    "sourceCount": 43,
     "categoryCount": 20,
     "byLevel": {
-      "1": 55,
-      "2": 55,
-      "3": 55,
-      "4": 55,
-      "5": 55,
-      "6": 55,
-      "7": 55,
-      "8": 55,
-      "9": 55,
-      "10": 55,
-      "11": 55,
-      "12": 55,
-      "13": 55,
-      "14": 55,
-      "15": 55
+      "1": 58,
+      "2": 58,
+      "3": 58,
+      "4": 58,
+      "5": 58,
+      "6": 58,
+      "7": 58,
+      "8": 58,
+      "9": 58,
+      "10": 58,
+      "11": 58,
+      "12": 58,
+      "13": 58,
+      "14": 58,
+      "15": 58
     },
     "byDisplayDifficulty": {
-      "Easy": 275,
-      "Moderate": 275,
-      "Difficult": 220,
-      "Millionaire": 55
+      "Easy": 290,
+      "Moderate": 290,
+      "Difficult": 232,
+      "Millionaire": 58
     },
     "byInternalTier": {
-      "Foundation": 165,
-      "Accessible": 110,
-      "Intermediate": 165,
-      "Advanced": 110,
-      "Expert": 110,
-      "Elite": 110,
-      "Millionaire": 55
+      "Foundation": 174,
+      "Accessible": 116,
+      "Intermediate": 174,
+      "Advanced": 116,
+      "Expert": 116,
+      "Elite": 116,
+      "Millionaire": 58
     },
     "byCategory": {
       "Ancient History": 42,
       "Medieval and Early Modern History": 30,
       "Modern History": 19,
       "Geography": 81,
-      "Astronomy and Space": 49,
+      "Astronomy and Space": 64,
       "Science": 76,
-      "Nature and Earth": 77,
+      "Nature and Earth": 92,
       "Technology": 51,
       "Computation": 49,
       "Vocabulary": 32,
       "Literature and Language": 52,
-      "Art and Culture": 38,
+      "Art and Culture": 53,
       "Film and Television": 35,
       "Music": 36,
       "Sports and Games": 31,
@@ -827,6 +875,9 @@
       "builtin-library-weather-pack": 15,
       "builtin-library-world-myths-pack": 15,
       "builtin-library-writing-systems-pack": 15,
+      "builtin-media-closer-look-art-pack": 15,
+      "builtin-media-earth-from-above-pack": 15,
+      "builtin-media-moonlight-and-shadows-pack": 15,
       "builtin-pool-release-001-group-001": 60,
       "builtin-pool-release-001-group-002": 60,
       "builtin-pool-release-001-group-003": 60,
@@ -834,7 +885,7 @@
       "builtin-pool-release-001-group-005": 60
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 825
+      "assistant-reviewed-draft": 870
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []
@@ -884,14 +935,14 @@
       "Medieval and Early Modern History": 15,
       "Modern History": 4,
       "Geography": 66,
-      "Astronomy and Space": 34,
+      "Astronomy and Space": 49,
       "Science": 61,
-      "Nature and Earth": 62,
+      "Nature and Earth": 77,
       "Technology": 36,
       "Computation": 34,
       "Vocabulary": 17,
       "Literature and Language": 37,
-      "Art and Culture": 23,
+      "Art and Culture": 38,
       "Film and Television": 20,
       "Music": 21,
       "Sports and Games": 16,
@@ -902,23 +953,23 @@
       "Business and Economics": 8
     },
     "allQuestionsPerLevel": {
-      "1": 55,
-      "2": 55,
-      "3": 55,
-      "4": 55,
-      "5": 55,
-      "6": 55,
-      "7": 55,
-      "8": 55,
-      "9": 55,
-      "10": 55,
-      "11": 55,
-      "12": 55,
-      "13": 55,
-      "14": 55,
-      "15": 55
+      "1": 58,
+      "2": 58,
+      "3": 58,
+      "4": 58,
+      "5": 58,
+      "6": 58,
+      "7": 58,
+      "8": 58,
+      "9": 58,
+      "10": 58,
+      "11": 58,
+      "12": 58,
+      "13": 58,
+      "14": 58,
+      "15": 58
     },
-    "singleCategorySets": 26,
+    "singleCategorySets": 29,
     "mixedCategorySets": 9
   },
   "schemaSignatures": {
@@ -937,7 +988,7 @@
           "sets",
           "metadata"
         ],
-        "count": 40
+        "count": 43
       }
     ],
     "question": [
@@ -970,7 +1021,24 @@
           "usage",
           "metadata"
         ],
-        "count": 300
+        "count": 325
+      },
+      {
+        "keys": [
+          "id",
+          "level",
+          "category",
+          "tags",
+          "prompt",
+          "choices",
+          "correctChoiceId",
+          "hint",
+          "explanation",
+          "media",
+          "usage",
+          "metadata"
+        ],
+        "count": 20
       }
     ],
     "choice": [
@@ -979,7 +1047,7 @@
           "id",
           "text"
         ],
-        "count": 3300
+        "count": 3480
       }
     ],
     "usage": [
@@ -988,7 +1056,7 @@
           "freshMix",
           "setIds"
         ],
-        "count": 825
+        "count": 870
       }
     ],
     "packMetadata": [
@@ -1034,6 +1102,20 @@
           "reviewStatus",
           "humanReviewRecommended",
           "timeSensitiveQuestionCount",
+          "createdAt",
+          "sourceNotes",
+          "verificationNotes"
+        ],
+        "count": 3
+      },
+      {
+        "keys": [
+          "author",
+          "questionCount",
+          "setCount",
+          "reviewStatus",
+          "humanReviewRecommended",
+          "timeSensitiveQuestionCount",
           "generatedBy",
           "verificationNotes"
         ],
@@ -1065,6 +1147,20 @@
           "folderPath"
         ],
         "count": 15
+      },
+      {
+        "keys": [
+          "id",
+          "title",
+          "description",
+          "theme",
+          "tags",
+          "folderPath",
+          "questionIds",
+          "audience",
+          "difficultyNote"
+        ],
+        "count": 3
       },
       {
         "keys": [
