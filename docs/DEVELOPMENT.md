@@ -110,7 +110,7 @@ Always cancel active speech before incompatible transitions. New speech must nev
 
 ## Built-in content workflow
 
-The supplied Release 001 source is immutable. The pipeline expects this layout:
+The supplied Release 001 source is immutable. New individual sets live under `content/sets/`, one 15-question set per file, with explicit manifest registration. Follow [Set Library](SET_LIBRARY.md) for authoring, moving files, and preserving IDs. The frozen archive keeps this layout:
 
 ```text
 content/source/release-001/
@@ -128,9 +128,9 @@ npm run build:content
 
 `validate:content` checks JSON, source hashes, manifest paths/counts, unique identities, set references, exact level coverage, and documented normalization behavior. `build:content` writes:
 
-- `content/normalized/release-001/release.json`
-- `content/normalized/release-001/catalog.json`
-- `content/normalized/release-001/validation-report.json`
+- `content/normalized/library/release.json`
+- `content/normalized/library/catalog.json`
+- `content/normalized/library/validation-report.json`
 - `src/content/generated/catalog.json`
 - `src/content/generated/catalog-report.json`
 

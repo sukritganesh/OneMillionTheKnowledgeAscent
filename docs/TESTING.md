@@ -58,6 +58,8 @@ Production question wording should not be used to prove core rules. Domain tests
 
 ## Coverage boundaries
 
+Set-library regressions cover nested navigation, breadcrumbs, global search, legacy Unfiled placement, validation of folder labels, and identity-preserving import overrides. Persistence tests exercise moves and backup/restore without a database schema upgrade. Browser tests move a set with a paused run, refresh/resume it, verify retained progress, and import/export a folder-organized set. Content validation also enforces frozen archive hashes, original set/question identity and ordering, unique active prompts, and explicit registration of every library JSON file.
+
 `npm run test:coverage` uses V8 and currently includes:
 
 - `src/game/**/*.ts`

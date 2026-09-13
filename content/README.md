@@ -1,6 +1,8 @@
 # Question Content
 
-This directory contains the hash-protected built-in source release and its generated runtime forms. Gameplay reads the generated catalog; it does not open source packs or scan content directories while creating a run.
+This directory contains the active individual-set library, the hash-protected source archive, and generated runtime forms. Gameplay reads the generated catalog; it does not open source packs or scan content directories while creating a run.
+
+The active catalog has 35 sets (525 curated questions) plus the unchanged 300-question Fresh Mix bank: 825 questions total. Add and organize sets using [the set-library guide](../docs/SET_LIBRARY.md). The Release 001 inventory below is historical, not the active count.
 
 For validator behavior, schemas, custom imports, and extension instructions, see [the content pipeline guide](../docs/CONTENT_PIPELINE.md).
 
@@ -8,6 +10,10 @@ For validator behavior, schemas, custom imports, and extension instructions, see
 
 ```text
 content/
+  sets/
+    manifest.json          Explicit file identities and hashes
+    culture/, science/, discovery/, geography/, general/, everyday/
+                           One 15-question set per JSON file, nested by topic
   source/
     release-001/
       OVERVIEW.md
@@ -19,6 +25,7 @@ content/
       curated-sets/
         curated-001-*.json ... curated-007-*.json
   normalized/
+    library/               Active release.json, catalog.json and audit report
     release-001/
       release.json
       catalog.json
@@ -35,7 +42,9 @@ src/content/
 
 scripts/content/
   validate-content.ts      Read and validate without writing outputs
-  normalize-content.ts     Write content/normalized/release-001
+  normalize-content.ts     Write content/normalized/library
+  register-sets.ts          Explicitly register added, edited or moved set files
+  set-library.ts            Validate and compose the active library
   build-catalog.ts         Write normalized and bundled generated artifacts
   pipeline.ts              Shared manifest-driven pipeline
 ```
@@ -111,5 +120,5 @@ npx vitest run src/content/content.test.ts
 Successful validation currently reports:
 
 ```text
-525 questions (300 pool + 225 curated), 15 sets, 12 source files, 5 repairs
+825 questions (300 pool + 525 curated), 35 sets, 40 source files, 5 repairs
 ```

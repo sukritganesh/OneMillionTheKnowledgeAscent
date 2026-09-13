@@ -15,7 +15,17 @@ The boundaries are intentional:
 
 Fresh Mix, set browsing, and selection services should consume the normalized catalog. They must not select a source file first, read raw JSON during a run, or depend on source-file grouping.
 
-## Current source release
+## Active set library (v2.0.0)
+
+The game now combines the unchanged 300-question Release 001 pool with 35 individual curated-set files under `content/sets/`: 525 curated questions and 825 total. Each file contains exactly one 15-question set. The original 15 sets retain their set IDs, question IDs, ordering and gameplay content; 20 new sets add 300 questions. There are 55 questions at each exact level. Question banks are not reorganized.
+
+`content/sets/manifest.json` explicitly pins each set's path, pack ID and SHA-256. The build rejects unregistered files and changed hashes, validates the entire frozen archive first, and checks the original set migration contract. It then writes the active artifacts to `content/normalized/library/` and `src/content/generated/`. The archived normalized Release 001 files remain historical evidence.
+
+Optional `folderPath: string[]` on a set supplies its in-game folder labels, independent of identity and primary question category. Legacy imports without it go to Unfiled. Local moves are ID-keyed metadata included in backups; imported-pack exports and duplicates include the chosen placement. See [Set Library](SET_LIBRARY.md) for the complete workflow and authoring contract.
+
+## Archived source release
+
+The Release 001 figures and byte-level formats below describe the frozen archive, not the current game totals. The underlying schema and validator rules still apply to new sets.
 
 ### Exact coverage
 
@@ -67,7 +77,7 @@ Schema version `1.0.0` is the only supported version.
 
 ### Pack root
 
-All 11 built-in packs have the same root keys:
+Built-in packs have the same root keys:
 
 ```json
 {
