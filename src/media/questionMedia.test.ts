@@ -25,6 +25,10 @@ describe('portable question media', () => {
     expect(questionMediaError(media)).toBeNull();
     expect(questionMediaError(media, true)).not.toBeNull();
   });
+  it('validates a full-size embedded item without recursive regular-expression backtracking', () => {
+    const bytes = String.fromCharCode(137, 80, 78, 71, 13, 10, 26, 10) + 'x'.repeat(1024 * 1024 - 8);
+    expect(questionMediaError([{ ...imageFixture, src: `data:image/png;base64,${btoa(bytes)}` }])).toBeNull();
+  });
   it('round-trips import, normalization, shuffle, saved snapshot and export without losing bytes', async () => {
     const pack = { ...SAMPLE_PACK, questions: [{ ...SAMPLE_PACK.questions[0], media: [imageFixture] }] };
     const imported = prepareCustomPackImport(pack);

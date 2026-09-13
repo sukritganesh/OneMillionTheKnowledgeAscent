@@ -136,10 +136,6 @@ export function App() {
   const [toasts, setToasts] = useState<ToastMessage[]>([]);
   const [nowMs, setNowMs] = useState(() => Date.now());
   const [narrationStatus, setNarrationStatus] = useState<NarrationStatus>('idle');
-  const handleMediaPlaying = useCallback((playing: boolean) => {
-    if (playing) { speechManager.cancel(); setNarrationStatus('idle'); }
-    audioManager.setMediaDucked(playing);
-  }, []);
   const [commitPending, setCommitPending] = useState(false);
   const [commitError, setCommitError] = useState<string | null>(null);
   const [lastCommitted, setLastCommitted] = useState<RunHistoryRecord | null>(null);
@@ -157,6 +153,10 @@ export function App() {
   const pwa = usePwa();
   const voices = useSpeechVoices();
   const audioSettings = useMemo(() => audioPreferencesFromRecord(settingsRecord), [settingsRecord]);
+  const handleMediaPlaying = useCallback((playing: boolean) => {
+    if (playing) { speechManager.cancel(); setNarrationStatus(audioSettings.narrationEnabled ? 'idle' : 'disabled'); }
+    audioManager.setMediaDucked(playing);
+  }, [audioSettings.narrationEnabled]);
 
   const setActiveSave = useCallback((value: ActiveSaveRecord | null) => {
     activeSaveRef.current = value;
@@ -642,7 +642,9 @@ export function App() {
   }, [notify, refreshImported]);
 
   const removeContentPack = useCallback(async (packId: string) => {
-    await repositories.current!.importedPacks.remove(packId);
+    // This callback runs only after the Content Manager's explicit removal
+    // confirmation. Saved runs own validated, self-contained question snapshots.
+    await repositories.current!.importedPacks.remove(packId, { allowActiveSaveReference: true });
     await refreshImported();
     notify('success', `${packId} removed. Saved and historical snapshots remain intact.`);
   }, [notify, refreshImported]);

@@ -46,7 +46,7 @@ export function questionMediaError(value: unknown, embeddedOnly = false): string
     const prefix = `data:${m.mimeType};base64,`;
     if (!m.src.startsWith(prefix)) return embeddedOnly ? 'Imported media must be embedded as a base64 data URL; remote URLs and local paths are not supported.' : 'Media must use a hashed bundled path or a base64 data URL.';
     const encoded = m.src.slice(prefix.length);
-    if (encoded.length > Math.ceil(MAX_EMBEDDED_MEDIA_BYTES / 3) * 4 || !/^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$/.test(encoded)) return 'Embedded media must be valid base64 and no larger than 1 MiB per item.';
+    if (encoded.length > Math.ceil(MAX_EMBEDDED_MEDIA_BYTES / 3) * 4 || encoded.length % 4 !== 0 || !/^[A-Za-z0-9+/]*={0,2}$/.test(encoded)) return 'Embedded media must be valid base64 and no larger than 1 MiB per item.';
     const decoded = atob(encoded);
     if (decoded.length > MAX_EMBEDDED_MEDIA_BYTES || !mediaBytesMatch(Uint8Array.from(decoded.slice(0, 16), (c) => c.charCodeAt(0)), m.mimeType)) return 'Media bytes do not match the declared type or exceed 1 MiB.';
   }

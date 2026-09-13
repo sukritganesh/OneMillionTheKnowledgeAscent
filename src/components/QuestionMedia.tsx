@@ -43,9 +43,16 @@ function MediaItem({ item, active, muted, onPlayingChange, onEnlarge }: { item: 
     let objectUrl: string | undefined;
     // Fetch the complete cached file, then play a Blob URL. The browser handles
     // byte ranges locally, including when the PWA is completely offline.
-    void fetch(item.src, { signal: controller.signal }).then(async (response) => {
+    const load = async () => {
+      if (item.src.startsWith('data:')) {
+        const bytes = Uint8Array.from(atob(item.src.slice(item.src.indexOf(',') + 1)), (c) => c.charCodeAt(0));
+        return new Blob([bytes], { type: item.mimeType });
+      }
+      const response = await fetch(item.src, { signal: controller.signal });
       if (!response.ok) throw new Error('Media unavailable');
-      const blob = await response.blob();
+      return response.blob();
+    };
+    void load().then((blob) => {
       if (controller.signal.aborted) return;
       objectUrl = URL.createObjectURL(new Blob([blob], { type: item.mimeType }));
       setSrc(objectUrl);
