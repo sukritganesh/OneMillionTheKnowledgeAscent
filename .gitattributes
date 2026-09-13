@@ -1,0 +1,3 @@
+# These source files are validated against their original SHA-256 digests.
+/content/source/release-001/pool/*.json text eol=lf
+/content/source/release-001/curated-sets/curated-007-geography-collection.json text eol=lf

@@ -24,24 +24,24 @@ export function ResultsScreen(props: ResultsScreenProps) {
     <main className={`screen results-screen results-screen--${kind}`} aria-labelledby="results-title">
       <div className="results-radiance" aria-hidden="true"><i /><i /><i /></div>
       <section className="results-card">
-        <span className="kicker">Ascent complete</span>
-        <p className="results-overline">{kind === 'millionaire' ? `${props.playerName}, you reached the summit` : kind === 'walk-away' ? 'A calculated exit' : 'The ascent ends here'}</p>
+        <span className="kicker">Game over</span>
+        <p className="results-overline">{kind === 'millionaire' ? `${props.playerName}, you did it!` : kind === 'walk-away' ? 'Nicely played.' : 'Not this time.'}</p>
         <h1 id="results-title">{kind === 'millionaire' ? 'ONE MILLION' : formatMoney(outcome.amountWon)}</h1>
-        <p className="results-message">{kind === 'millionaire' ? 'Fifteen correct answers. An extraordinary command of knowledge.' : kind === 'walk-away' ? `You walked away with ${formatMoney(outcome.amountWon)} secured.` : `A wrong answer returns the payout to ${formatMoney(outcome.amountWon)}.`}</p>
+        <p className="results-message">{kind === 'millionaire' ? '15 correct answers. You’re a millionaire!' : kind === 'walk-away' ? `You walked away with ${formatMoney(outcome.amountWon)} secured.` : outcome.amountWon ? `Your ${formatMoney(outcome.amountWon)} checkpoint is safe.` : 'No winnings this time. Ready for another try?'}</p>
         <div className="results-metrics">
           <div><span>Question reached</span><strong>{kind === 'walk-away' ? outcome.nextPrizeLevel : kind === 'incorrect' ? outcome.failedLevel : 15}<small> / 15</small></strong></div>
           <div><span>Correct answers</span><strong>{correct}<small> / 15</small></strong></div>
           <div><span>Lifelines used</span><strong>{lifelines.length}<small> / 2</small></strong></div>
-          <div><span>Run duration</span><strong>{formatDuration(Math.max(0, outcome.endedAtMs - props.run.createdAtMs))}</strong></div>
+          <div><span>Time played</span><strong>{formatDuration(Math.max(0, outcome.endedAtMs - props.run.createdAtMs))}</strong></div>
         </div>
-        {props.commitPending && <div className="notice notice--info" role="status"><span>◇</span><div><strong>Securing this result…</strong><br />History and statistics are being committed locally.</div></div>}
-        {props.commitError && <div className="notice notice--error" role="alert"><span>!</span><div><strong>This result is still in memory.</strong><br />{props.commitError}<br /><button className="quiet-button" type="button" onClick={props.onRetryCommit}>Retry save</button></div></div>}
+        {props.commitPending && <div className="notice notice--info" role="status"><span>◇</span><div><strong>Saving your result…</strong><br />Updating your past games and stats.</div></div>}
+        {props.commitError && <div className="notice notice--error" role="alert"><span>!</span><div><strong>Your result hasn't been saved yet.</strong><br />{props.commitError}<br /><button className="quiet-button" type="button" onClick={props.onRetryCommit}>Retry save</button></div></div>}
         <div className="button-row button-row--center results-actions">
-          <button className="primary-button" type="button" onClick={props.onReview}>Review This Run</button>
-          <button className="secondary-button" type="button" onClick={props.onStatistics}>View Statistics</button>
-          <button className="secondary-button" type="button" onClick={props.onPlayAgain}>Play Again</button>
-          <button className="quiet-button" type="button" onClick={props.onDashboard}>Dashboard</button>
-          <button className="quiet-button" type="button" onClick={props.onSwitchProfile}>Switch Player</button>
+          <button className="primary-button" type="button" onClick={props.onPlayAgain}>Play again</button>
+          <button className="secondary-button" type="button" onClick={props.onReview}>Review answers</button>
+          <button className="secondary-button" type="button" onClick={props.onStatistics}>Statistics</button>
+          <button className="quiet-button" type="button" onClick={props.onDashboard}>Main menu</button>
+          <button className="quiet-button" type="button" onClick={props.onSwitchProfile}>Switch player</button>
         </div>
       </section>
     </main>
@@ -61,11 +61,11 @@ export function RunReviewScreen({ questions, results, displayedQuestionIds, titl
   const initiallyOpen = displayed.at(-1)?.id;
   return (
     <main className="screen review-screen" aria-labelledby="review-title">
-      <header className="utility-bar"><div><div className="utility-label">Post-game analysis</div><div className="utility-value">Run Review</div></div><div className="utility-bar__spacer" /><button className="quiet-button" type="button" onClick={onBack}>← Results</button></header>
+      <header className="utility-bar"><div><div className="utility-label">Your answers</div><div className="utility-value">Game review</div></div><div className="utility-bar__spacer" /><button className="quiet-button" type="button" onClick={onBack}>← Results</button></header>
       <div className="review-body screen-scroll">
-        <span className="kicker">Read-only record</span>
+
         <h1 id="review-title">{title}</h1>
-        <p>Only questions actually displayed during this run appear here. Reviewing never changes encounter history.</p>
+        <p>Revisit the questions you saw and find out why each answer is correct.</p>
         <div className="review-list">
           {displayed.map((question) => {
             const result = results.find((entry) => entry.questionId === question.id);

@@ -1,3 +1,4 @@
+import { Icon } from '../components/Icon';
 import { useEffect } from 'react';
 
 import { BrandMark } from '../components/BrandMark';
@@ -100,7 +101,7 @@ function phaseAnnouncement(state: GameRunState): string {
   const question = currentQuestion(state);
   switch (state.phase) {
     case 'game-intro':
-      return 'Run ready. Question 1 has not yet been displayed.';
+      return 'Your game is ready. Start with question 1.';
     case 'question-ready':
       return `Question ${question.level} is ready.`;
     case 'answer-selected':
@@ -110,9 +111,9 @@ function phaseAnnouncement(state: GameRunState): string {
     case 'phone-confirmation':
       return 'Confirm Phone a Friend activation.';
     case 'phone-active':
-      return 'Phone a Friend is active. Locking is unavailable.';
+      return 'Phone a Friend is active. You can lock in after the call.';
     case 'answer-locked':
-      return 'Final answer locked. Awaiting result.';
+      return 'Final answer locked. Let’s see…';
     case 'correct-reveal':
       return 'Correct answer.';
     case 'incorrect-reveal':
@@ -122,7 +123,7 @@ function phaseAnnouncement(state: GameRunState): string {
     case 'between-questions':
       return `Ready to display Question ${question.level}.`;
     case 'completed':
-      return 'Run complete.';
+      return 'Game over.';
   }
 }
 
@@ -338,10 +339,10 @@ function ControllerNotice({
 }) {
   const copy =
     status === 'read-only'
-      ? 'This saved run is active in another tab. This view is read-only.'
+      ? 'This game is open in another tab. Continue there, or take control here.'
       : status === 'taking-control'
-        ? 'Requesting control of this saved run…'
-        : 'The latest game state could not be saved. Gameplay controls are paused.';
+        ? 'Opening your saved game here…'
+        : 'We couldn’t save your progress. Play is paused while we try to save it.';
 
   return (
     <div className="controller-notice" role={status === 'save-error' ? 'alert' : 'status'}>
@@ -370,8 +371,8 @@ function GameIntro({
   return (
     <div className="game-intro-card">
       <div className="game-intro-rings" aria-hidden="true"><i /><i /><i /></div>
-      <span className="kicker">Ascent initialized</span>
-      <h1>{playerName}, your path is secured.</h1>
+      <span className="kicker">Ready to play</span>
+      <h1>Let’s play, {playerName}.</h1>
       <p>{mode} · 15 questions · two lifelines · one million dollars</p>
       <div className="game-intro-checkpoints" aria-label="Guaranteed checkpoints">
         <span><small>Checkpoint 01</small><strong>$1,000</strong></span>
@@ -403,7 +404,7 @@ function BetweenQuestions({
       <h1>Question {level}</h1>
       <p>Now playing for <strong>{formatMoney(prize)}</strong></p>
       <button type="button" className="primary-button" disabled={disabled} onClick={onPresent}>
-        Present Question {level}
+        Show question {level}
       </button>
     </div>
   );
@@ -428,18 +429,18 @@ function QuestionPlay({
   return (
     <>
       <div className="question-meta">
-        <div><span>Level {String(question.level).padStart(2, '0')}</span><strong>{formatMoney(PRIZE_LADDER[question.level - 1])}</strong></div>
+        <div><span>Question {question.level} of 15</span><strong>{formatMoney(PRIZE_LADDER[question.level - 1])}</strong></div>
         <span className="question-category">{question.category}</span>
       </div>
 
       <section className="question-panel panel" aria-labelledby="active-question">
-        <span className="kicker">Question {question.level}</span>
+
         <h1 id="active-question">{question.prompt}</h1>
       </section>
 
       {state.hintRevealedForQuestionId === question.id && (
         <aside className="hint-panel" aria-label="Revealed hint">
-          <span aria-hidden="true">◇</span>
+          <Icon name="hint" />
           <div><strong>Hint</strong><p>{question.hint}</p></div>
         </aside>
       )}
@@ -451,7 +452,7 @@ function QuestionPlay({
             <i>:</i>
             <span>{String(secondsRemaining % 60).padStart(2, '0')}</span>
           </div>
-          <div><strong>Phone a Friend</strong><p>Discuss the visible question. Lock In resumes when the call ends.</p></div>
+          <div><strong>Phone a Friend</strong><p>Talk it over. You can lock in your answer when the call ends.</p></div>
           <button type="button" className="secondary-button" disabled={!controlsRun} onClick={() => send({ type: 'END_PHONE_EARLY' })}>End call early</button>
         </div>
       )}
@@ -498,7 +499,7 @@ function QuestionPlay({
             disabled={!controlsRun || !canUseHint(state)}
             onClick={() => send({ type: 'USE_HINT' })}
           >
-            <span aria-hidden="true">◇</span>
+            <Icon name="hint" />
             <span><strong>Hint</strong><small>{state.lifelines.hint.status === 'used' ? 'Used' : phoneActive ? 'Call active' : 'Available'}</small></span>
           </button>
           <button
@@ -508,7 +509,7 @@ function QuestionPlay({
             disabled={!controlsRun || !canUsePhone(state)}
             onClick={() => send({ type: 'REQUEST_PHONE' })}
           >
-            <span aria-hidden="true">◁</span>
+            <Icon name="phone" />
             <span><strong>Phone a Friend</strong><small>{state.lifelines.phone.status === 'available' ? '60 seconds' : state.lifelines.phone.status === 'active' ? 'Call active' : 'Used'}</small></span>
           </button>
         </div>
@@ -524,8 +525,8 @@ function QuestionPlay({
           <button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'ACKNOWLEDGE_TERMINAL' })}>Continue to results</button>
         ) : (
           <div className="answer-action-row">
-            <button type="button" className="quiet-button walk-button" disabled={!controlsRun || !canWalkAway(state)} onClick={() => send({ type: 'REQUEST_WALK_AWAY' })}>Walk Away</button>
-            <button type="button" className="primary-button lock-button" disabled={!controlsRun || !canLockAnswer(state)} onClick={() => send({ type: 'REQUEST_LOCK' })}>Lock In Answer</button>
+            <button type="button" className="quiet-button walk-button" disabled={!controlsRun || !canWalkAway(state)} onClick={() => send({ type: 'REQUEST_WALK_AWAY' })}>Walk away with {formatMoney(state.currentWinnings)}</button>
+            <button type="button" className="primary-button lock-button" disabled={!controlsRun || !canLockAnswer(state)} onClick={() => send({ type: 'REQUEST_LOCK' })}>Lock in answer</button>
           </div>
         )}
       </div>
@@ -553,9 +554,9 @@ function PrizeLadder({ state }: { state: GameRunState }) {
   return (
     <aside className="game-prize-ladder panel" aria-label="Prize ladder">
       <header>
-        <span className="kicker">Prize architecture</span>
+        <span className="kicker">Prize ladder</span>
         <div className="ladder-money">
-          <div><small>Current</small><strong>{formatMoney(state.currentWinnings)}</strong></div>
+          <div><small>Current winnings</small><strong>{formatMoney(state.currentWinnings)}</strong></div>
           <div><small>Guaranteed</small><strong>{formatMoney(state.guaranteedWinnings)}</strong></div>
         </div>
       </header>
@@ -596,17 +597,17 @@ function CompletedPanel({
 
   const heading =
     outcome.kind === 'millionaire'
-      ? 'One million secured.'
+      ? 'You won a million!'
       : outcome.kind === 'walk-away'
-        ? 'You chose certainty.'
-        : 'The ascent ends here.';
+        ? 'Nicely played.'
+        : 'Not this time.';
 
   return (
     <div className={`completed-card completed-card--${outcome.kind}`}>
-      <span className="kicker">Run complete</span>
+      <span className="kicker">Game over</span>
       <h1>{heading}</h1>
       <strong>{formatMoney(outcome.amountWon)}</strong>
-      <p>{outcome.kind === 'millionaire' ? 'All fifteen levels complete.' : 'Your final award is secured in local history.'}</p>
+      <p>{outcome.kind === 'millionaire' ? 'All fifteen levels complete.' : 'See your final score and review your answers.'}</p>
       {onCompleted && <button type="button" className="primary-button" onClick={onCompleted}>View full results</button>}
     </div>
   );
@@ -639,12 +640,12 @@ function GameplayDialogs({
       <Modal
         title="Game paused"
         onClose={controlsRun ? () => send({ type: 'RESUME' }) : undefined}
-        actions={<button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'RESUME' })}>Resume Game</button>}
+        actions={<button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'RESUME' })}>Resume game</button>}
       >
         <div className="pause-menu">
-          <p>Your exact question, answer selection, lifelines, and winnings remain preserved.</p>
-          <button type="button" className="secondary-button" disabled={!controlsRun || !onSaveAndExit} onClick={onSaveAndExit}>Save and Exit to Dashboard</button>
-          <button type="button" className="secondary-button" disabled={!controlsRun || !onOpenSettings} onClick={onOpenSettings}>In-Game Settings</button>
+          <p>Take your time. Your game is saved.</p>
+          <button type="button" className="secondary-button" disabled={!controlsRun || !onSaveAndExit} onClick={onSaveAndExit}>Save and exit</button>
+          <button type="button" className="secondary-button" disabled={!controlsRun || !onOpenSettings} onClick={onOpenSettings}>Settings</button>
           <button type="button" className="secondary-button" disabled={!controlsRun} onClick={() => send({ type: 'OPEN_HELP' })}>How to Play</button>
           <button type="button" className="danger-button" disabled={!controlsRun || !canWalkAway(state)} onClick={() => send({ type: 'REQUEST_WALK_AWAY' })}>Walk Away with {formatMoney(state.currentWinnings)}</button>
         </div>
@@ -654,12 +655,12 @@ function GameplayDialogs({
 
   if (state.overlay?.kind === 'help') {
     return (
-      <Modal title="How to play" wide onClose={controlsRun ? () => send({ type: 'CLOSE_HELP' }) : undefined} actions={<button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'CLOSE_HELP' })}>Return to Game</button>}>
+      <Modal title="How to play" wide onClose={controlsRun ? () => send({ type: 'CLOSE_HELP' }) : undefined} actions={<button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'CLOSE_HELP' })}>Return to game</button>}>
         <div className="game-help-grid">
-          <article><strong>Select, then lock</strong><p>A–D select answers. You may change your choice until Final Answer is confirmed.</p></article>
+          <article><strong>Select, then lock</strong><p>Press A, B, C, or D to select an answer. You can change it until you confirm.</p></article>
           <article><strong>Checkpoints</strong><p>Questions 5 and 10 guarantee $1,000 and $32,000 respectively.</p></article>
           <article><strong>Walk Away</strong><p>Leave before final lock-in and keep the value of your last correct answer.</p></article>
-          <article><strong>Lifelines</strong><p>Hint reveals one clue. Phone a Friend opens a real-world 60-second call window.</p></article>
+          <article><strong>Lifelines</strong><p>Hint reveals one clue. Phone a Friend gives you 60 seconds to call someone you know.</p></article>
         </div>
       </Modal>
     );
@@ -673,7 +674,7 @@ function GameplayDialogs({
         onClose={controlsRun ? () => send({ type: 'CANCEL_WALK_AWAY' }) : undefined}
         actions={<><button type="button" className="secondary-button" disabled={!controlsRun} onClick={() => send({ type: 'CANCEL_WALK_AWAY' })}>Return to Question</button><button type="button" className="danger-button" disabled={!controlsRun} onClick={() => send({ type: 'CONFIRM_WALK_AWAY', nowMs })}>Confirm Walk Away</button></>}
       >
-        <p>This immediately ends the run. A later wrong answer could fall to {formatMoney(state.guaranteedWinnings)}, while walking away secures the full current amount.</p>
+        <p>Your game will end, and you'll keep {formatMoney(state.currentWinnings)}. A wrong answer would leave you with {formatMoney(state.guaranteedWinnings)}.</p>
       </Modal>
     );
   }
@@ -686,7 +687,7 @@ function GameplayDialogs({
         actions={<><button type="button" className="secondary-button" disabled={!controlsRun} onClick={() => send({ type: 'CANCEL_LOCK' })}>Go Back</button><button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'CONFIRM_LOCK', nowMs })}>Yes, Final Answer</button></>}
       >
         <div className="final-answer-summary"><span>{selected.label}</span><strong>{selected.text}</strong></div>
-        <p>After confirmation, the answer cannot be changed and lifelines, Help, Pause, and Walk Away remain unavailable until the reveal.</p>
+        <p>Once you lock it in, you can't change your answer or use a lifeline.</p>
       </Modal>
     );
   }
@@ -698,7 +699,7 @@ function GameplayDialogs({
         onClose={controlsRun ? () => send({ type: 'CANCEL_PHONE' }) : undefined}
         actions={<><button type="button" className="secondary-button" disabled={!controlsRun} onClick={() => send({ type: 'CANCEL_PHONE' })}>Not Yet</button><button type="button" className="primary-button" disabled={!controlsRun} onClick={() => send({ type: 'CONFIRM_PHONE', nowMs })}>Start 60-Second Call</button></>}
       >
-        <p>Be ready to contact your friend before starting. Once activated, the lifeline is consumed. Pause or Help will immediately end the call.</p>
+        <p>Call someone you know, then start the timer when you're ready. You can use this lifeline once. Pausing or opening Help ends the call.</p>
       </Modal>
     );
   }

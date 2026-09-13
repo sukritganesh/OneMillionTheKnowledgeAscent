@@ -12,16 +12,16 @@ export function SettingsPanel({ settings, onChange, voices, compact = false }: S
   return (
     <div className={`settings-grid ${compact ? 'settings-grid--compact' : ''}`}>
       <section className="settings-section">
-        <div className="section-heading"><span>01</span><div><h3>Audio channels</h3><p>Device-wide presentation controls</p></div></div>
+        <div className="section-heading"><span>01</span><div><h3>Sound</h3><p>Music and effects</p></div></div>
         <Toggle label="Master audio" checked={!settings.masterMuted} onChange={(checked) => patch({ masterMuted: !checked })} />
-        <Toggle label="Ambient music" checked={settings.musicEnabled} onChange={(musicEnabled) => patch({ musicEnabled })} />
-        <Range label="Music level" value={settings.musicVolume} onChange={(musicVolume) => patch({ musicVolume })} disabled={!settings.musicEnabled} />
+        <Toggle label="Music" checked={settings.musicEnabled} onChange={(musicEnabled) => patch({ musicEnabled })} />
+        <Range label="Music volume" value={settings.musicVolume} onChange={(musicVolume) => patch({ musicVolume })} disabled={!settings.musicEnabled} />
         <Toggle label="Sound effects" checked={settings.effectsEnabled} onChange={(effectsEnabled) => patch({ effectsEnabled })} />
-        <Range label="Effects level" value={settings.effectsVolume} onChange={(effectsVolume) => patch({ effectsVolume })} disabled={!settings.effectsEnabled} />
+        <Range label="Effects volume" value={settings.effectsVolume} onChange={(effectsVolume) => patch({ effectsVolume })} disabled={!settings.effectsEnabled} />
       </section>
       <section className="settings-section">
-        <div className="section-heading"><span>02</span><div><h3>Voice narration</h3><p>Browser speech; all text stays visible</p></div></div>
-        <Toggle label="Narration" checked={settings.narrationEnabled} onChange={(narrationEnabled) => patch({ narrationEnabled })} />
+        <div className="section-heading"><span>02</span><div><h3>Voice narration</h3><p>Read questions and answers aloud</p></div></div>
+        <Toggle label="Read questions aloud" checked={settings.narrationEnabled} onChange={(narrationEnabled) => patch({ narrationEnabled })} />
         <label className="field-row">
           <span>Voice</span>
           <select value={settings.voiceURI ?? ''} onChange={(event) => patch({ voiceURI: event.target.value || null })} disabled={!settings.narrationEnabled}>
@@ -34,7 +34,7 @@ export function SettingsPanel({ settings, onChange, voices, compact = false }: S
         <Toggle label="Read revealed hints" checked={settings.readHints} onChange={(readHints) => patch({ readHints })} />
       </section>
       <section className="settings-section">
-        <div className="section-heading"><span>03</span><div><h3>Presentation</h3><p>Comfort and accessibility</p></div></div>
+        <div className="section-heading"><span>03</span><div><h3>Display and play</h3><p>Choose what feels comfortable.</p></div></div>
         <Toggle label="Reduced motion" checked={settings.reducedMotion} onChange={(reducedMotion) => patch({ reducedMotion })} />
         <Toggle label="Reduced glow" checked={settings.reducedGlow} onChange={(reducedGlow) => patch({ reducedGlow })} />
         <Toggle label="Increased contrast" checked={settings.highContrast} onChange={(highContrast) => patch({ highContrast })} />
