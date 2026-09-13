@@ -1,6 +1,6 @@
 # The 15-question set library
 
-The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 35 sets: the original 15 plus 20 new themed sets (300 additional questions), alongside the unchanged 300-question pool.
+The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 38 sets: the original 15, 20 themed additions and three image/video sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachment authoring, sources and offline behaviour.
 
 ## Playing and organizing
 

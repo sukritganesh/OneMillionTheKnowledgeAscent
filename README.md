@@ -87,7 +87,7 @@ npm run normalize:content
 npm run build:content
 ```
 
-The active catalog contains 300 Fresh Mix questions and 525 separate questions in 35 curated sets: 825 unique questions across 20 primary categories. The set library keeps the original 15 sets and adds 20 themed sets, each in its own file under `content/sets/`. Browse folders or search all sets in the game; moving a set preserves its progress and saved games. The Fresh Mix bank and archived Release 001 remain unchanged. See [Set Library](docs/SET_LIBRARY.md) for adding and organizing sets, and [Content Pipeline](docs/CONTENT_PIPELINE.md) for validation details.
+The active catalog contains 300 Fresh Mix questions and 570 separate questions in 38 curated sets: 870 unique questions across 20 primary categories. The set library keeps the original 15 sets, the 20 themed additions, and three new image/video sets, each in its own file under `content/sets/`. Browse folders or search all sets in the game; moving a set preserves its progress and saved games. The Fresh Mix bank and archived Release 001 remain unchanged. See [Set Library](docs/SET_LIBRARY.md) for organization, [Question Media](docs/QUESTION_MEDIA.md) for images, videos and offline imports, and [Content Pipeline](docs/CONTENT_PIPELINE.md) for validation.
 
 ## Project structure
 
