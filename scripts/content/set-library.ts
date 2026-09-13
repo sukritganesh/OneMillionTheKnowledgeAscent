@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
-import { readFile, readdir } from 'node:fs/promises';
+import { readFile, readdir, realpath } from 'node:fs/promises';
+import { BUNDLED_MEDIA_PATH, mediaBytesMatch } from '../../src/media/questionMedia';
 import path from 'node:path';
 import { validateContentPack, parseJsonData } from '../../src/content/validators';
 import { normalizePack } from '../../src/content/normalize';
@@ -30,6 +31,15 @@ export async function readSetFile(relative: string) {
   const validated = validateContentPack(parsed.value, { origin: 'built-in', inputBytes: bytes.length, expectedContentType: 'curated-sets' });
   if (!parsed.valid || !validated.valid || !validated.value) throw new Error(`${relative}: ${[...parsed.errors, ...validated.errors].map((e) => e.message).join('; ')}`);
   const pack = validated.value;
+  for (const media of pack.questions.flatMap((question) => question.media ?? [])) {
+    const match = BUNDLED_MEDIA_PATH.exec(media.src);
+    if (!match) throw new Error(`${relative}: built-in media must use content-hashed local files.`);
+    const root = await realpath(path.resolve('public/question-media'));
+    const file = await realpath(path.resolve('public', media.src.slice(1)));
+    if (!file.startsWith(root + path.sep)) throw new Error(`${relative}: unsafe media file path.`);
+    const asset = await readFile(file);
+    if (asset.length > 6 * 1024 * 1024 || !mediaBytesMatch(asset, media.mimeType) || createHash('sha256').update(asset).digest('hex') !== match[1]) throw new Error(`${relative}: media hash, type or offline cache size limit failed.`);
+  }
   if (pack.sets.length !== 1 || pack.questions.length !== 15 || pack.questions.some((q) => q.usage.freshMix)) {
     throw new Error(`${relative}: each library file must contain one 15-question set and no Fresh Mix questions.`);
   }

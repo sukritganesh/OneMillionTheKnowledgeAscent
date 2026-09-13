@@ -1,3 +1,4 @@
+import { questionMediaError } from '../media/questionMedia';
 import type {
   GlobalSettingsRecord,
   ProfileStatistics,
@@ -90,6 +91,8 @@ export function assertValidResolvedQuestions(
     if (!question || typeof question !== 'object') {
       throw new TypeError('Every resolved question must be an object.');
     }
+    const mediaError = questionMediaError(question.media);
+    if (mediaError) throw new TypeError(mediaError);
     if (!question.id || ids.has(question.id)) {
       throw new TypeError('Resolved question IDs must be nonempty and unique.');
     }

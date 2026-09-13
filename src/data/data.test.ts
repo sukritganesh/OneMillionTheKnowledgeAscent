@@ -524,6 +524,30 @@ describe('IndexedDB persistence subsystem', () => {
     expect((await repositories.profiles.get(profile.id))?.displayName).toBe('Backup Owner');
   });
 
+  it('preserves media in saves and history after pack removal and backup restore', async () => {
+    const media = [{ kind: 'image', mimeType: 'image/png', src: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aL1sAAAAASUVORK5CYII=', alt: 'A test pixel', credit: 'Test', license: 'CC0', sourceUrl: 'https://example.org/pixel' }];
+    const profile = await repositories.profiles.create('Media Player');
+    const bundle = importedPack();
+    await repositories.importedPacks.install(bundle);
+    const finished = terminalRun(profile.id);
+    finished.sourcePackIds = [bundle.pack.id];
+    finished.resolvedQuestions[0].media = media;
+    await repositories.runHistory.commitTerminal(finished);
+    await repositories.importedPacks.remove(bundle.pack.id);
+    expect((await repositories.runHistory.get(finished.runId))?.resolvedQuestions[0].media).toEqual(media);
+    const input = activeInput({ type: 'profile', profileId: profile.id });
+    input.resolvedQuestions[0].media = media;
+    await repositories.activeSave.create(input);
+    const backup = await repositories.backup.export();
+    await repositories.backup.restore(JSON.stringify(backup));
+    expect((await repositories.activeSave.get())?.resolvedQuestions[0].media).toEqual(media);
+    expect((await repositories.runHistory.get(finished.runId))?.resolvedQuestions[0].media).toEqual(media);
+    const corrupt = structuredClone(backup);
+    (corrupt.stores.activeSave[0].resolvedQuestions[0].media as typeof media)[0].src = 'https://example.org/tracker';
+    await expect(repositories.backup.restore(corrupt)).rejects.toBeInstanceOf(BackupValidationError);
+    expect((await repositories.activeSave.get())?.resolvedQuestions[0].media).toEqual(media);
+  });
+
   it('round-trips a single profile under a new identity and rewrites all owned records', async () => {
     const profile = await repositories.profiles.create('Portable Player');
     const owner = { type: 'profile', profileId: profile.id } as const;

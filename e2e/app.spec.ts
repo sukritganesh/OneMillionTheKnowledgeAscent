@@ -90,11 +90,11 @@ test('plays a deterministic full run through the millionaire result', async ({ p
   await expect(page.locator('.review-item')).toHaveCount(15);
 });
 
-test('built PWA relaunches offline and gameplay makes no external requests', async ({ page, context }) => {
+test('built PWA relaunches offline and gameplay makes no external requests', async ({ page, context, baseURL }) => {
   const external: string[] = [];
   page.on('request', (request) => {
     const url = new URL(request.url());
-    if (url.origin !== 'http://127.0.0.1:4173') external.push(request.url());
+    if (url.origin !== new URL(baseURL!).origin) external.push(request.url());
   });
   await page.goto('/');
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });

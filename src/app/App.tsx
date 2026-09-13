@@ -153,6 +153,10 @@ export function App() {
   const pwa = usePwa();
   const voices = useSpeechVoices();
   const audioSettings = useMemo(() => audioPreferencesFromRecord(settingsRecord), [settingsRecord]);
+  const handleMediaPlaying = useCallback((playing: boolean) => {
+    if (playing) { speechManager.cancel(); setNarrationStatus(audioSettings.narrationEnabled ? 'idle' : 'disabled'); }
+    audioManager.setMediaDucked(playing);
+  }, [audioSettings.narrationEnabled]);
 
   const setActiveSave = useCallback((value: ActiveSaveRecord | null) => {
     activeSaveRef.current = value;
@@ -638,7 +642,9 @@ export function App() {
   }, [notify, refreshImported]);
 
   const removeContentPack = useCallback(async (packId: string) => {
-    await repositories.current!.importedPacks.remove(packId);
+    // This callback runs only after the Content Manager's explicit removal
+    // confirmation. Saved runs own validated, self-contained question snapshots.
+    await repositories.current!.importedPacks.remove(packId, { allowActiveSaveReference: true });
     await refreshImported();
     notify('success', `${packId} removed. Saved and historical snapshots remain intact.`);
   }, [notify, refreshImported]);
@@ -663,7 +669,7 @@ export function App() {
       {screen === 'dashboard' && identity && <DashboardScreen questionCount={gameCatalog.all.questions.length} identity={identity} savedRun={savedRun} saveOwnerName={saveOwnerName} ownsSave={ownsSave} runCount={runs.length} setWins={runs.filter((run) => run.outcome === 'millionaire').length} uniqueSeen={questionHistory.length} onContinue={() => void claimSavedRun()} onNewGame={() => { setConfig((current) => ({ ...current, selectedSetId: current.selectedSetId ?? setDisplay[0]?.id ?? null })); setDialogError(null); setScreen('new-game'); }} onStatistics={() => setScreen('statistics')} onHistory={() => setScreen('history')} onSets={() => setScreen('sets')} onContent={() => openGlobalScreen('content')} onSettings={() => openGlobalScreen('settings')} onHelp={() => openGlobalScreen('help')} onSwitchProfile={() => { setIdentity(null); setScreen('title'); }} onFullscreen={() => void toggleFullscreen()} />}
       {screen === 'new-game' && identity && <NewGameScreen playerName={playerName} config={config} sets={setDisplay} freshness={freshness} existingSave={savedRun} existingSaveOwner={saveOwnerName} settings={audioSettings} onConfig={setConfig} onSettings={(next) => void updateSettings(next)} onContinue={() => { setDialogError(null); setScreen('pre-game'); }} onBack={() => setScreen('dashboard')} onHelp={() => openGlobalScreen('help')} />}
       {screen === 'pre-game' && identity && <PreGameScreen playerName={playerName} config={config} modeTitle={modeTitle} freshness={freshness} audioLabel={audioLabel} existingSave={savedRun} existingSaveOwner={saveOwnerName} busy={beginBusy} error={dialogError} onBegin={() => void beginNewGame()} onBack={() => setScreen('new-game')} />}
-      {screen === 'game' && game && <GameplayScreen state={game} nowMs={nowMs} playerName={playerName} controllerStatus={controllerStatus} controllerMessage={persistenceError ?? undefined} narrationStatus={narrationStatus} muted={audioSettings.masterMuted} onAction={(action) => { void dispatchGame(action); }} onReplayNarration={narrateCurrent} onSkipNarration={() => { speechManager.cancel(); setNarrationStatus('idle'); }} onToggleMute={() => void updateSettings({ ...audioSettings, masterMuted: !audioSettings.masterMuted })} onSaveAndExit={() => void saveAndExit()} onOpenSettings={() => setInGameSettings(true)} onTakeControl={() => setDialog({ kind: 'take-control' })} onCompleted={finishToResults} />}
+      {screen === 'game' && game && <GameplayScreen state={game} nowMs={nowMs} playerName={playerName} controllerStatus={controllerStatus} controllerMessage={persistenceError ?? undefined} narrationStatus={narrationStatus} muted={audioSettings.masterMuted} mediaBlocked={inGameSettings || Boolean(dialog) || narrationStatus === 'speaking'} onMediaPlayingChange={handleMediaPlaying} onAction={(action) => { void dispatchGame(action); }} onReplayNarration={narrateCurrent} onSkipNarration={() => { speechManager.cancel(); setNarrationStatus('idle'); }} onToggleMute={() => void updateSettings({ ...audioSettings, masterMuted: !audioSettings.masterMuted })} onSaveAndExit={() => void saveAndExit()} onOpenSettings={() => setInGameSettings(true)} onTakeControl={() => setDialog({ kind: 'take-control' })} onCompleted={finishToResults} />}
       {screen === 'results' && game?.terminalOutcome && <ResultsScreen run={game} playerName={playerName} commitPending={commitPending} commitError={commitError} onRetryCommit={() => void commitCompletedRun()} onReview={() => setScreen('review')} onStatistics={() => setScreen('statistics')} onDashboard={() => { setGame(null); setScreen('dashboard'); }} onPlayAgain={() => { setGame(null); setScreen('new-game'); }} onSwitchProfile={() => { setGame(null); setIdentity(null); setScreen('title'); }} />}
       {screen === 'review' && game && !selectedHistoryRun && <RunReviewScreen questions={game.questions} results={game.results} displayedQuestionIds={game.displayedQuestionIds} title={`${modeTitle} · ${playerName}`} onBack={() => setScreen('results')} />}
       {screen === 'review' && selectedHistoryRun && <RunReviewScreen questions={historyReviewQuestions} results={historyReviewResults} displayedQuestionIds={historyReviewQuestions.map((q) => q.id)} title={`${selectedHistoryRun.mode === 'fresh-mix' ? 'Fresh Mix' : setDisplay.find((set) => set.id === selectedHistoryRun.setId)?.title ?? 'Question set'} · ${formatMoney(selectedHistoryRun.payout)}`} onBack={() => { setSelectedHistoryRun(null); setScreen('history'); }} />}

@@ -21,6 +21,7 @@ export function rawPackFromStored(
       category: value.category,
       tags: value.tags,
       prompt: value.prompt,
+      ...(value.media ? { media: value.media } : {}),
       choices: value.choices,
       correctChoiceId: value.correctChoiceId,
       hint: value.hint,
@@ -109,6 +110,7 @@ Requirements:
 - Sets may include folderPath, an array of up to six folder labels (for example ["Science & Nature", "Space"]). Omit it for Unfiled. Keep IDs independent of folders; set-only questions use freshMix false and reciprocal setIds.
 - Use stable, non-time-sensitive facts. Avoid ambiguity, joke distractors, HTML, links, executable content, "all of the above", and answer leakage.
 - Difficulty must rise meaningfully at every exact level.
+- Optional media: one to three {kind,src,mimeType,alt,credit,license,sourceUrl} attachments per question. Images: JPEG, PNG or WebP; videos: MP4 or WebM. Imported src must be a matching base64 data URL, at most 1 MiB decoded per item and 5 MiB for the whole JSON pack. Videos also require a non-spoiling description of all motion and audio. Verify reuse permission, write meaningful alt text, and never put an identifying answer in alt text or descriptions. Do not invent asset bytes or sources.
 - Return only valid JSON. Do not wrap it in Markdown.
 
 Human factual review and difficulty play-testing are required before publication.`;

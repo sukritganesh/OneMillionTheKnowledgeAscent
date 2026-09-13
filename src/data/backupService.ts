@@ -1,3 +1,4 @@
+import { questionMediaError } from '../media/questionMedia';
 import type { IDBPDatabase } from 'idb';
 
 import { ALL_STORES, APP_DATABASE_VERSION } from './database';
@@ -562,6 +563,8 @@ export function validateBackup(input: unknown): AppBackupV1 {
     const level = assertNonnegativeInteger(record, 'level', path);
     if (level < 1 || level > 15) fail(`${path}.level`, 'must be between 1 and 15');
     if (!isRecord(record.payload)) fail(`${path}.payload`, 'must be an object');
+    const mediaError = questionMediaError((record.payload as Record<string, unknown>).media, true);
+    if (mediaError) fail(`${path}.payload.media`, mediaError);
   });
   const importedQuestionIds = new Set(importedQuestions.map((record) => String(record.id)));
   importedSets.forEach((record, index) => {

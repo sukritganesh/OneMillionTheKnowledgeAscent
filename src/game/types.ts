@@ -1,3 +1,5 @@
+import type { QuestionMedia } from '../media/questionMedia';
+
 export const LADDER_LEVELS = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
 ] as const;
@@ -37,6 +39,7 @@ export interface QuestionSourceRef {
  * is responsible for validating untrusted JSON before it reaches this type.
  */
 export interface QuestionDefinition {
+  readonly media?: readonly QuestionMedia[];
   readonly id: string;
   readonly level: LadderLevel;
   readonly category: string;
@@ -65,6 +68,7 @@ export type FourResolvedChoices = FourChoices<ResolvedChoice>;
 
 /** A self-contained question snapshot whose answer order never changes. */
 export interface ResolvedQuestionSnapshot {
+  readonly media?: readonly QuestionMedia[];
   readonly id: string;
   readonly level: LadderLevel;
   readonly category: string;

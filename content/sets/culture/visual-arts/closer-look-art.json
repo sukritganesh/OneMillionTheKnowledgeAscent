@@ -1,0 +1,818 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-media-closer-look-art-pack",
+  "title": "A Closer Look: Art",
+  "description": "Look closely at waves, wheat fields and painted skies, then follow the clues into printmaking and conservation.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Art and Culture"
+  ],
+  "questions": [
+    {
+      "id": "builtin-media-closer-look-art-q01",
+      "level": 1,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which natural feature dominates this Japanese print?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A breaking wave"
+        },
+        {
+          "id": "choice-2",
+          "text": "A sand dune"
+        },
+        {
+          "id": "choice-3",
+          "text": "A waterfall"
+        },
+        {
+          "id": "choice-4",
+          "text": "A glacier"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Look at the foam curling above the boats.",
+      "explanation": "Hokusai places a huge breaking wave in the foreground of this print.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/45434",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q02",
+      "level": 2,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "A portrait painter usually makes which subject the main focus?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A mountain range"
+        },
+        {
+          "id": "choice-2",
+          "text": "A group of fruit"
+        },
+        {
+          "id": "choice-3",
+          "text": "A map of streets"
+        },
+        {
+          "id": "choice-4",
+          "text": "A person"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Think of what a sitter does for an artist.",
+      "explanation": "A portrait represents a person, often emphasizing their face and individual appearance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/sitter",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q03",
+      "level": 3,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "In painting, what does the word 'palette' commonly name?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The wall behind a picture"
+        },
+        {
+          "id": "choice-2",
+          "text": "A protective glass sheet"
+        },
+        {
+          "id": "choice-3",
+          "text": "A surface for mixing colours"
+        },
+        {
+          "id": "choice-4",
+          "text": "The frame around a canvas"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It is something the painter uses while working.",
+      "explanation": "A palette holds and mixes paints; the word can also describe an artist's range of colours.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nga.gov/research/publications/technical-glossary",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q04",
+      "level": 4,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Who painted this landscape with swirling clouds and tall cypresses?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Johannes Vermeer"
+        },
+        {
+          "id": "choice-2",
+          "text": "Vincent van Gogh"
+        },
+        {
+          "id": "choice-3",
+          "text": "Salvador Dalí"
+        },
+        {
+          "id": "choice-4",
+          "text": "Piet Mondrian"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Its restless brushwork belongs to a Dutch painter active in late nineteenth-century France.",
+      "explanation": "Van Gogh painted Wheat Field with Cypresses in 1889, during his stay at Saint-Rémy.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/436535",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q05",
+      "level": 5,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "This scene of workers eating and harvesting is closest to which kind of painting?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A scene of everyday life"
+        },
+        {
+          "id": "choice-2",
+          "text": "A royal coronation portrait"
+        },
+        {
+          "id": "choice-3",
+          "text": "A biblical Last Judgment"
+        },
+        {
+          "id": "choice-4",
+          "text": "A military battle scene"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Consider what the people are doing, rather than the size of the landscape.",
+      "explanation": "Bruegel's The Harvesters depicts agricultural work and rest, making everyday rural life its subject.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/435809",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q06",
+      "level": 6,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Compare the two landscapes. Which was painted earlier?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The landscape with swirling clouds and cypresses"
+        },
+        {
+          "id": "choice-2",
+          "text": "They were painted in the same year"
+        },
+        {
+          "id": "choice-3",
+          "text": "Both were painted after 1900"
+        },
+        {
+          "id": "choice-4",
+          "text": "The scene of workers harvesting grain"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "One belongs to the Northern Renaissance; the other to Post-Impressionism.",
+      "explanation": "Bruegel's The Harvesters dates to 1565; Van Gogh's Wheat Field with Cypresses dates to 1889.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        },
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/435809 ; https://www.metmuseum.org/art/collection/search/436535",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q07",
+      "level": 7,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which process was used to produce this Hokusai image?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Photographic cyanotype"
+        },
+        {
+          "id": "choice-2",
+          "text": "Painting wet plaster"
+        },
+        {
+          "id": "choice-3",
+          "text": "Colour woodblock printing"
+        },
+        {
+          "id": "choice-4",
+          "text": "Etching a copper plate"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The image was designed to be printed in multiple impressions, using carved surfaces.",
+      "explanation": "The Great Wave is a woodblock print made with ink and colour on paper.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/45434",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q08",
+      "level": 8,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In the far distance of this landscape, colours become paler and details soften. What depth effect does this illustrate?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Anamorphic distortion"
+        },
+        {
+          "id": "choice-2",
+          "text": "Atmospheric perspective"
+        },
+        {
+          "id": "choice-3",
+          "text": "Mirror symmetry"
+        },
+        {
+          "id": "choice-4",
+          "text": "Reverse perspective"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Haze changes how distant objects appear.",
+      "explanation": "Atmospheric perspective suggests distance through reduced contrast, paler colour and less distinct detail.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q09",
+      "level": 9,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What term describes the thick, raised paint visible in this landscape's sky?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Impasto"
+        },
+        {
+          "id": "choice-2",
+          "text": "Intaglio"
+        },
+        {
+          "id": "choice-3",
+          "text": "Grisaille"
+        },
+        {
+          "id": "choice-4",
+          "text": "Sgraffito"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Think about the physical build-up of paint, not its hue.",
+      "explanation": "Impasto is paint applied thickly enough to give the surface a pronounced texture.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/impasto",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q10",
+      "level": 10,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "Unlike a woodcut or an engraving, traditional lithography prints from what kind of surface?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A mesh with a stencil attached"
+        },
+        {
+          "id": "choice-2",
+          "text": "A plate with ink held in incised grooves"
+        },
+        {
+          "id": "choice-3",
+          "text": "A carved block with raised printing areas"
+        },
+        {
+          "id": "choice-4",
+          "text": "A flat surface using oil-and-water repulsion"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The design need not be raised or cut below the printing surface.",
+      "explanation": "Lithography is planographic: greasy image areas attract ink while damp non-image areas repel it.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/perspectives/series/materials-and-techniques",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q11",
+      "level": 11,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "A painter softens the edges of facial features so they seem to melt into shadow. Which term best fits?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pointillism"
+        },
+        {
+          "id": "choice-2",
+          "text": "Trompe-l'œil"
+        },
+        {
+          "id": "choice-3",
+          "text": "Sfumato"
+        },
+        {
+          "id": "choice-4",
+          "text": "Foreshortening"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The Italian word evokes smoke.",
+      "explanation": "Sfumato blends tones and softens contours, producing transitions without hard outlines.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/sfumato",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q12",
+      "level": 12,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "An earlier position of a painted hand becomes visible beneath the final one. What is this alteration called?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A grisaille"
+        },
+        {
+          "id": "choice-2",
+          "text": "A pentimento"
+        },
+        {
+          "id": "choice-3",
+          "text": "A predella"
+        },
+        {
+          "id": "choice-4",
+          "text": "A cartouche"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The term refers to a change of mind during the making of the work.",
+      "explanation": "A pentimento is evidence of an artist's alteration to an earlier part of a painting.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q13",
+      "level": 13,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "When printing several colours from separate woodblocks, what does accurate registration ensure?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The successive impressions line up"
+        },
+        {
+          "id": "choice-2",
+          "text": "The paper becomes waterproof"
+        },
+        {
+          "id": "choice-3",
+          "text": "Each pigment dries at the same speed"
+        },
+        {
+          "id": "choice-4",
+          "text": "The image remains the same size in every edition"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Each block has to meet the sheet in the intended position.",
+      "explanation": "Registration aligns successive impressions so the different colour areas fit the design.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.metmuseum.org/perspectives/series/materials-and-techniques",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q14",
+      "level": 14,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "Which technique is especially useful for revealing a carbon-based underdrawing beneath suitable paint layers?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Measuring the frame's humidity"
+        },
+        {
+          "id": "choice-2",
+          "text": "Ultraviolet sterilization"
+        },
+        {
+          "id": "choice-3",
+          "text": "Scanning only the canvas edges"
+        },
+        {
+          "id": "choice-4",
+          "text": "Infrared reflectography"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Some longer-wavelength radiation passes through paint that looks opaque to our eyes.",
+      "explanation": "Infrared reflectography can reveal an absorbing carbon underdrawing through paint layers that transmit infrared.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/infrared",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-closer-look-art-q15",
+      "level": 15,
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "X-ray fluorescence finds copper in a green paint, but two candidate pigments both contain copper. What is the strongest conclusion from that finding alone?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "It proves the paint is specifically verdigris"
+        },
+        {
+          "id": "choice-2",
+          "text": "It dates the painting to a single century"
+        },
+        {
+          "id": "choice-3",
+          "text": "It supports a copper-containing material but cannot uniquely identify the pigment"
+        },
+        {
+          "id": "choice-4",
+          "text": "It proves the paint is specifically malachite"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "An element can be present in more than one chemical compound.",
+      "explanation": "Elemental analysis is not a unique molecular identification. Distinguishing copper pigments may require complementary analysis and contextual evidence.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nationalgallery.org.uk/behind-the-scenes/restoring-botticelli-adoration-part-three",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-closer-look-art",
+      "title": "A Closer Look: Art",
+      "description": "Look closely at waves, wheat fields and painted skies, then follow the clues into printmaking and conservation.",
+      "theme": "A Closer Look: Art",
+      "tags": [
+        "closer-look-art",
+        "media"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Visual Arts"
+      ],
+      "questionIds": [
+        "builtin-media-closer-look-art-q01",
+        "builtin-media-closer-look-art-q02",
+        "builtin-media-closer-look-art-q03",
+        "builtin-media-closer-look-art-q04",
+        "builtin-media-closer-look-art-q05",
+        "builtin-media-closer-look-art-q06",
+        "builtin-media-closer-look-art-q07",
+        "builtin-media-closer-look-art-q08",
+        "builtin-media-closer-look-art-q09",
+        "builtin-media-closer-look-art-q10",
+        "builtin-media-closer-look-art-q11",
+        "builtin-media-closer-look-art-q12",
+        "builtin-media-closer-look-art-q13",
+        "builtin-media-closer-look-art-q14",
+        "builtin-media-closer-look-art-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-09-13T00:00:00Z",
+    "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+    "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included."
+  }
+}

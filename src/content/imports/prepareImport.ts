@@ -1,3 +1,4 @@
+import { IMPORT_LIMITS } from '../constants';
 import { normalizePack } from '../normalize';
 import { folderPathError } from '../folders';
 import type {
@@ -104,7 +105,10 @@ export function prepareCustomPackImport(
   options: PrepareImportOptions = {}
 ): PreparedImportTransaction {
   let parsed: unknown = input;
-  let inputBytes: number | undefined;
+  let inputBytes: number;
+  try { inputBytes = new TextEncoder().encode(typeof input === 'string' ? input : JSON.stringify(input)).byteLength; }
+  catch { return rejectedPreview(null, [issue('error', 'invalid-json', '$', 'Pack must be serializable JSON.')]); }
+  if (inputBytes > IMPORT_LIMITS.maxBytes) return rejectedPreview(null, [issue('error', 'file-too-large', '$', 'Pack including embedded media exceeds the 5 MiB import limit.')]);
   if (typeof input === 'string') {
     inputBytes = new TextEncoder().encode(input).byteLength;
     const parseResult = parseJsonData(input);

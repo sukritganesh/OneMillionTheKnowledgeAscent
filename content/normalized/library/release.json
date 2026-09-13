@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "id": "builtin-question-content-release-001",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "sourceManifest": "content/sets/manifest.json + content/source/release-001/manifests/manifest.json (pool)",
   "sourceValidatedAt": "2026-09-13T00:00:00Z",
   "sources": [
@@ -360,6 +360,33 @@
         "timeSensitiveQuestionCount": 0
       },
       "sourceSha256": "adc45bf875ccc33ededcb59d653af9008abcc718ad9ccb6c54587b9eb9d7ebe2"
+    },
+    {
+      "id": "builtin-media-closer-look-art-pack",
+      "title": "A Closer Look: Art",
+      "description": "Look closely at waves, wheat fields and painted skies, then follow the clues into printmaking and conservation.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Art and Culture"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+        "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included.",
+        "createdAt": "2026-09-13T00:00:00Z"
+      },
+      "sourceSha256": "f4006c84974e7a98c53c9dc3bd88b509d6b0984fae3070093e22b98200ab6754"
     },
     {
       "id": "builtin-library-archaeology-pack",
@@ -816,6 +843,33 @@
       "sourceSha256": "32124a63656e93fd3b2ae790ddadf979aee9cd8cd2ea42f60d5bfc9dd3c7a403"
     },
     {
+      "id": "builtin-media-earth-from-above-pack",
+      "title": "Earth from Above",
+      "description": "Watch the globe turn, peer into a hurricane and learn how scientists read the planet from a distance.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Nature and Earth"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+        "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included.",
+        "createdAt": "2026-09-13T00:00:00Z"
+      },
+      "sourceSha256": "f0e06a473289d74a35bbca30d39d4c36578d75cba8fbecb3583e50c54ae9845d"
+    },
+    {
       "id": "builtin-library-weather-pack",
       "title": "Reading the Sky",
       "description": "Clouds, fronts, and the physics behind a changing forecast.",
@@ -1048,6 +1102,33 @@
         "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-001; original immutable evidence retained in content/source/release-001."
       },
       "sourceSha256": "44c575d1d2c2dc97d206385de4a35fa9aff15378823c0a0971a010f68cd1edd7"
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-pack",
+      "title": "Moonlight and Shadows",
+      "description": "Moving diagrams bring phases, shadows and orbital geometry to life, from familiar moonlight to the Saros cycle.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Astronomy and Space"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+        "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included.",
+        "createdAt": "2026-09-13T00:00:00Z"
+      },
+      "sourceSha256": "ce4ea68e4cb9fbb17c47a64cfc75d9ee33ee46e25caa3a98489a96e826d97efa"
     },
     {
       "id": "builtin-library-space-exploration-pack",
@@ -25203,6 +25284,959 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-media-closer-look-art-q01",
+      "localId": "builtin-media-closer-look-art-q01",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which natural feature dominates this Japanese print?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A breaking wave"
+        },
+        {
+          "id": "choice-2",
+          "text": "A sand dune"
+        },
+        {
+          "id": "choice-3",
+          "text": "A waterfall"
+        },
+        {
+          "id": "choice-4",
+          "text": "A glacier"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Look at the foam curling above the boats.",
+      "explanation": "Hokusai places a huge breaking wave in the foreground of this print.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/45434",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q02",
+      "localId": "builtin-media-closer-look-art-q02",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "A portrait painter usually makes which subject the main focus?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A mountain range"
+        },
+        {
+          "id": "choice-2",
+          "text": "A group of fruit"
+        },
+        {
+          "id": "choice-3",
+          "text": "A map of streets"
+        },
+        {
+          "id": "choice-4",
+          "text": "A person"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Think of what a sitter does for an artist.",
+      "explanation": "A portrait represents a person, often emphasizing their face and individual appearance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/sitter",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q03",
+      "localId": "builtin-media-closer-look-art-q03",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "In painting, what does the word 'palette' commonly name?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The wall behind a picture"
+        },
+        {
+          "id": "choice-2",
+          "text": "A protective glass sheet"
+        },
+        {
+          "id": "choice-3",
+          "text": "A surface for mixing colours"
+        },
+        {
+          "id": "choice-4",
+          "text": "The frame around a canvas"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It is something the painter uses while working.",
+      "explanation": "A palette holds and mixes paints; the word can also describe an artist's range of colours.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nga.gov/research/publications/technical-glossary",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q04",
+      "localId": "builtin-media-closer-look-art-q04",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Who painted this landscape with swirling clouds and tall cypresses?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Johannes Vermeer"
+        },
+        {
+          "id": "choice-2",
+          "text": "Vincent van Gogh"
+        },
+        {
+          "id": "choice-3",
+          "text": "Salvador Dalí"
+        },
+        {
+          "id": "choice-4",
+          "text": "Piet Mondrian"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Its restless brushwork belongs to a Dutch painter active in late nineteenth-century France.",
+      "explanation": "Van Gogh painted Wheat Field with Cypresses in 1889, during his stay at Saint-Rémy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/436535",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q05",
+      "localId": "builtin-media-closer-look-art-q05",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "This scene of workers eating and harvesting is closest to which kind of painting?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A scene of everyday life"
+        },
+        {
+          "id": "choice-2",
+          "text": "A royal coronation portrait"
+        },
+        {
+          "id": "choice-3",
+          "text": "A biblical Last Judgment"
+        },
+        {
+          "id": "choice-4",
+          "text": "A military battle scene"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Consider what the people are doing, rather than the size of the landscape.",
+      "explanation": "Bruegel's The Harvesters depicts agricultural work and rest, making everyday rural life its subject.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/435809",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q06",
+      "localId": "builtin-media-closer-look-art-q06",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Compare the two landscapes. Which was painted earlier?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        },
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The landscape with swirling clouds and cypresses"
+        },
+        {
+          "id": "choice-2",
+          "text": "They were painted in the same year"
+        },
+        {
+          "id": "choice-3",
+          "text": "Both were painted after 1900"
+        },
+        {
+          "id": "choice-4",
+          "text": "The scene of workers harvesting grain"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "One belongs to the Northern Renaissance; the other to Post-Impressionism.",
+      "explanation": "Bruegel's The Harvesters dates to 1565; Van Gogh's Wheat Field with Cypresses dates to 1889.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/435809 ; https://www.metmuseum.org/art/collection/search/436535",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q07",
+      "localId": "builtin-media-closer-look-art-q07",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which process was used to produce this Hokusai image?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Photographic cyanotype"
+        },
+        {
+          "id": "choice-2",
+          "text": "Painting wet plaster"
+        },
+        {
+          "id": "choice-3",
+          "text": "Colour woodblock printing"
+        },
+        {
+          "id": "choice-4",
+          "text": "Etching a copper plate"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The image was designed to be printed in multiple impressions, using carved surfaces.",
+      "explanation": "The Great Wave is a woodblock print made with ink and colour on paper.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/45434",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q08",
+      "localId": "builtin-media-closer-look-art-q08",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In the far distance of this landscape, colours become paler and details soften. What depth effect does this illustrate?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Workers cut golden grain while others eat or rest beneath a tree; fields fade into the distance.",
+          "credit": "Pieter Bruegel the Elder, The Harvesters, 1565. The Metropolitan Museum of Art, 19.164.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435809"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Anamorphic distortion"
+        },
+        {
+          "id": "choice-2",
+          "text": "Atmospheric perspective"
+        },
+        {
+          "id": "choice-3",
+          "text": "Mirror symmetry"
+        },
+        {
+          "id": "choice-4",
+          "text": "Reverse perspective"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Haze changes how distant objects appear.",
+      "explanation": "Atmospheric perspective suggests distance through reduced contrast, paler colour and less distinct detail.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q09",
+      "localId": "builtin-media-closer-look-art-q09",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What term describes the thick, raised paint visible in this landscape's sky?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "Thick swirling strokes form pale clouds, golden grain, low hills and tall dark trees.",
+          "credit": "Vincent van Gogh, Wheat Field with Cypresses, 1889. The Metropolitan Museum of Art, 1993.132.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Impasto"
+        },
+        {
+          "id": "choice-2",
+          "text": "Intaglio"
+        },
+        {
+          "id": "choice-3",
+          "text": "Grisaille"
+        },
+        {
+          "id": "choice-4",
+          "text": "Sgraffito"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Think about the physical build-up of paint, not its hue.",
+      "explanation": "Impasto is paint applied thickly enough to give the surface a pronounced texture.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/impasto",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q10",
+      "localId": "builtin-media-closer-look-art-q10",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "Unlike a woodcut or an engraving, traditional lithography prints from what kind of surface?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A mesh with a stencil attached"
+        },
+        {
+          "id": "choice-2",
+          "text": "A plate with ink held in incised grooves"
+        },
+        {
+          "id": "choice-3",
+          "text": "A carved block with raised printing areas"
+        },
+        {
+          "id": "choice-4",
+          "text": "A flat surface using oil-and-water repulsion"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The design need not be raised or cut below the printing surface.",
+      "explanation": "Lithography is planographic: greasy image areas attract ink while damp non-image areas repel it.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/perspectives/series/materials-and-techniques",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q11",
+      "localId": "builtin-media-closer-look-art-q11",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "A painter softens the edges of facial features so they seem to melt into shadow. Which term best fits?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Pointillism"
+        },
+        {
+          "id": "choice-2",
+          "text": "Trompe-l'œil"
+        },
+        {
+          "id": "choice-3",
+          "text": "Sfumato"
+        },
+        {
+          "id": "choice-4",
+          "text": "Foreshortening"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The Italian word evokes smoke.",
+      "explanation": "Sfumato blends tones and softens contours, producing transitions without hard outlines.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/sfumato",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q12",
+      "localId": "builtin-media-closer-look-art-q12",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "An earlier position of a painted hand becomes visible beneath the final one. What is this alteration called?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A grisaille"
+        },
+        {
+          "id": "choice-2",
+          "text": "A pentimento"
+        },
+        {
+          "id": "choice-3",
+          "text": "A predella"
+        },
+        {
+          "id": "choice-4",
+          "text": "A cartouche"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The term refers to a change of mind during the making of the work.",
+      "explanation": "A pentimento is evidence of an artist's alteration to an earlier part of a painting.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/pentimento",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q13",
+      "localId": "builtin-media-closer-look-art-q13",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "When printing several colours from separate woodblocks, what does accurate registration ensure?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A curling blue wave towers over narrow boats; a small snow-capped peak sits in the distance.",
+          "credit": "Katsushika Hokusai, The Great Wave, ca. 1830–32. The Metropolitan Museum of Art, JP1847.",
+          "license": "Public domain / Met Open Access (CC0)",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The successive impressions line up"
+        },
+        {
+          "id": "choice-2",
+          "text": "The paper becomes waterproof"
+        },
+        {
+          "id": "choice-3",
+          "text": "Each pigment dries at the same speed"
+        },
+        {
+          "id": "choice-4",
+          "text": "The image remains the same size in every edition"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Each block has to meet the sheet in the intended position.",
+      "explanation": "Registration aligns successive impressions so the different colour areas fit the design.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.metmuseum.org/perspectives/series/materials-and-techniques",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q14",
+      "localId": "builtin-media-closer-look-art-q14",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "Which technique is especially useful for revealing a carbon-based underdrawing beneath suitable paint layers?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Measuring the frame's humidity"
+        },
+        {
+          "id": "choice-2",
+          "text": "Ultraviolet sterilization"
+        },
+        {
+          "id": "choice-3",
+          "text": "Scanning only the canvas edges"
+        },
+        {
+          "id": "choice-4",
+          "text": "Infrared reflectography"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Some longer-wavelength radiation passes through paint that looks opaque to our eyes.",
+      "explanation": "Infrared reflectography can reveal an absorbing carbon underdrawing through paint layers that transmit infrared.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/paintings/glossary/infrared",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-closer-look-art-q15",
+      "localId": "builtin-media-closer-look-art-q15",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Art and Culture",
+      "tags": [
+        "closer-look-art"
+      ],
+      "prompt": "X-ray fluorescence finds copper in a green paint, but two candidate pigments both contain copper. What is the strongest conclusion from that finding alone?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "It proves the paint is specifically verdigris"
+        },
+        {
+          "id": "choice-2",
+          "text": "It dates the painting to a single century"
+        },
+        {
+          "id": "choice-3",
+          "text": "It supports a copper-containing material but cannot uniquely identify the pigment"
+        },
+        {
+          "id": "choice-4",
+          "text": "It proves the paint is specifically malachite"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "An element can be present in more than one chemical compound.",
+      "explanation": "Elemental analysis is not a unique molecular identification. Distinguishing copper pigments may require complementary analysis and contextual evidence.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-closer-look-art"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nationalgallery.org.uk/behind-the-scenes/restoring-botticelli-adoration-part-three",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-library-archaeology-papyrus",
       "localId": "builtin-library-archaeology-papyrus",
       "level": 1,
@@ -38762,6 +39796,926 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-media-earth-from-above-q01",
+      "localId": "builtin-media-earth-from-above-q01",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The white patterns crossing Earth's surface in this time-lapse are mainly what?",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb.webm",
+          "mimeType": "video/webm",
+          "alt": "A time-lapse view of the turning Earth.",
+          "description": "Silent time-lapse: pale swirling patterns cross the land and oceans of a turning globe. The animation plays at 3,600 times real speed; its timer shows elapsed hours and minutes.",
+          "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Horace Mitchell, Galileo imagery, visualization 1375.",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/1375/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Cloud systems"
+        },
+        {
+          "id": "choice-2",
+          "text": "Mountain ranges"
+        },
+        {
+          "id": "choice-3",
+          "text": "Ocean trenches"
+        },
+        {
+          "id": "choice-4",
+          "text": "City lights"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "These patterns belong to the atmosphere, not the solid ground.",
+      "explanation": "The white patterns are clouds, seen above the oceans and continents as Earth turns.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q02",
+      "localId": "builtin-media-earth-from-above-q02",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In an ordinary colour photograph of Earth from space, the broad blue areas are mainly what?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A blue globe with clouds, a tapering continent near its center and a bright white continent below.",
+          "credit": "NASA/JPL, Galileo, PIA00114 (1990).",
+          "license": "NASA/JPL educational reuse",
+          "sourceUrl": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deserts"
+        },
+        {
+          "id": "choice-2",
+          "text": "Forests"
+        },
+        {
+          "id": "choice-3",
+          "text": "Glaciers"
+        },
+        {
+          "id": "choice-4",
+          "text": "Oceans"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Think about what covers most of the planet's surface.",
+      "explanation": "The blue areas are mainly ocean water, which covers roughly 71 percent of Earth's surface.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://oceanservice.noaa.gov/facts/oceanwater.html",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q03",
+      "localId": "builtin-media-earth-from-above-q03",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which continent tapers southward near the centre of this Galileo image?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A blue globe with clouds, a tapering continent near its center and a bright white continent below.",
+          "credit": "NASA/JPL, Galileo, PIA00114 (1990).",
+          "license": "NASA/JPL educational reuse",
+          "sourceUrl": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Australia"
+        },
+        {
+          "id": "choice-2",
+          "text": "Europe"
+        },
+        {
+          "id": "choice-3",
+          "text": "South America"
+        },
+        {
+          "id": "choice-4",
+          "text": "Africa"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "Its long western mountain chain is the Andes.",
+      "explanation": "South America is near the centre; bright Antarctica lies toward the bottom of the image.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q04",
+      "localId": "builtin-media-earth-from-above-q04",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What is the relatively calm central region shown in this hurricane photograph called?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A circular opening in a vast cloud system, surrounded by a steep ring of cloud.",
+          "credit": "Ed Lu / NASA, Hurricane Isabel from the ISS, September 13, 2003.",
+          "license": "Public domain / NASA imagery",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The jet stream"
+        },
+        {
+          "id": "choice-2",
+          "text": "The eye"
+        },
+        {
+          "id": "choice-3",
+          "text": "The anvil"
+        },
+        {
+          "id": "choice-4",
+          "text": "The cold front"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "It is surrounded by a ring of much taller storm clouds.",
+      "explanation": "The eye is the storm's central region; the surrounding eyewall contains intense convection and strong winds.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q05",
+      "localId": "builtin-media-earth-from-above-q05",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Why can a satellite take a thermal-infrared image of the ground at night?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The ground emits infrared radiation"
+        },
+        {
+          "id": "choice-2",
+          "text": "Moonlight always replaces sunlight"
+        },
+        {
+          "id": "choice-3",
+          "text": "Infrared detectors illuminate the whole planet"
+        },
+        {
+          "id": "choice-4",
+          "text": "Night air becomes transparent to visible light"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "A surface does not stop giving off heat when the Sun sets.",
+      "explanation": "Thermal sensors detect emitted radiation, so they do not depend on reflected sunlight.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/remote-sensing/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q06",
+      "localId": "builtin-media-earth-from-above-q06",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Which orbital arrangement lets a weather satellite appear fixed above one point on the equator?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Any low orbit passing over both poles"
+        },
+        {
+          "id": "choice-2",
+          "text": "An orbit around the Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "A circular orbit completed every 90 minutes"
+        },
+        {
+          "id": "choice-4",
+          "text": "A circular equatorial orbit matching Earth's rotation"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Its motion must keep pace with the ground beneath it.",
+      "explanation": "A geostationary satellite orbits eastward above the equator once per sidereal day.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q07",
+      "localId": "builtin-media-earth-from-above-q07",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The clouds move during this sequence, but the continental coastlines retain their relative positions. Why is tectonic drift not visible?",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb.webm",
+          "mimeType": "video/webm",
+          "alt": "A time-lapse view of the turning Earth.",
+          "description": "Silent time-lapse: pale swirling patterns cross the land and oceans of a turning globe. The animation plays at 3,600 times real speed; its timer shows elapsed hours and minutes.",
+          "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Horace Mitchell, Galileo imagery, visualization 1375.",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/1375/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Tectonic plates only move at night"
+        },
+        {
+          "id": "choice-2",
+          "text": "Spacecraft cameras cannot record rock"
+        },
+        {
+          "id": "choice-3",
+          "text": "Plate movement is far too slow over about a day"
+        },
+        {
+          "id": "choice-4",
+          "text": "The ocean prevents continents from moving"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "Compare a day's motion with the centimetres plates typically move in a year.",
+      "explanation": "Plate motions measured in centimetres per year are negligible in a time-lapse covering about 25 hours.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.usgs.gov/programs/earthquake-hazards/science/plate-tectonics ; https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q08",
+      "localId": "builtin-media-earth-from-above-q08",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Why does a geostationary weather satellite have a poor view of regions near Earth's poles?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Polar regions emit no electromagnetic radiation"
+        },
+        {
+          "id": "choice-2",
+          "text": "Earth's curvature places them near or beyond its horizon"
+        },
+        {
+          "id": "choice-3",
+          "text": "Polar ice blocks radio waves everywhere"
+        },
+        {
+          "id": "choice-4",
+          "text": "The satellite orbits behind the Moon at noon"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The satellite stays above the equator instead of passing overhead at high latitudes.",
+      "explanation": "From an equatorial geostationary orbit, high latitudes are viewed at very oblique angles and the poles are beyond the horizon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q09",
+      "localId": "builtin-media-earth-from-above-q09",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A satellite image renders vigorous vegetation bright red. What does that most likely mean?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Near-infrared measurements were assigned to the red display channel"
+        },
+        {
+          "id": "choice-2",
+          "text": "The plants have all turned red in visible light"
+        },
+        {
+          "id": "choice-3",
+          "text": "The sensor recorded only surface temperature"
+        },
+        {
+          "id": "choice-4",
+          "text": "The image contains no measurement data"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Display colours can stand for wavelengths our eyes cannot see.",
+      "explanation": "False-colour composites often map near-infrared reflectance to red; healthy vegetation reflects strongly in that band.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/how-to-interpret-a-false-color-satellite-image/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q10",
+      "localId": "builtin-media-earth-from-above-q10",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In a mature hurricane, which feature surrounds this eye and typically contains the strongest sustained surface winds?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A circular opening in a vast cloud system, surrounded by a steep ring of cloud.",
+          "credit": "Ed Lu / NASA, Hurricane Isabel from the ISS, September 13, 2003.",
+          "license": "Public domain / NASA imagery",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The distant cirrus shield"
+        },
+        {
+          "id": "choice-2",
+          "text": "The subtropical ridge"
+        },
+        {
+          "id": "choice-3",
+          "text": "The centre of the clear opening"
+        },
+        {
+          "id": "choice-4",
+          "text": "The eyewall"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Focus on the steep ring just outside the opening.",
+      "explanation": "The eyewall is the convective ring around the eye and normally contains the storm's strongest sustained winds.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.aoml.noaa.gov/hrd/tcfaq/A11old.html",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q11",
+      "localId": "builtin-media-earth-from-above-q11",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Which sensor is an active remote-sensing instrument?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A radiometer measuring emitted terrestrial infrared"
+        },
+        {
+          "id": "choice-2",
+          "text": "A detector measuring naturally emitted microwave energy"
+        },
+        {
+          "id": "choice-3",
+          "text": "A radar that transmits pulses and measures their echoes"
+        },
+        {
+          "id": "choice-4",
+          "text": "A camera recording reflected sunlight"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "An active sensor supplies the energy used to probe its target.",
+      "explanation": "Radar sends out electromagnetic pulses and records the return; passive sensors receive naturally available radiation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/remote-sensing/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q12",
+      "localId": "builtin-media-earth-from-above-q12",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A band has 30-metre square ground pixels. Ignoring edge effects, about how many pixels cover one square kilometre?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "30,000"
+        },
+        {
+          "id": "choice-2",
+          "text": "1,111"
+        },
+        {
+          "id": "choice-3",
+          "text": "33"
+        },
+        {
+          "id": "choice-4",
+          "text": "900"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Work with areas: each pixel covers 30 times 30 square metres.",
+      "explanation": "One square kilometre is 1,000,000 square metres; dividing by 900 gives about 1,111 pixels.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://hls.gsfc.nasa.gov/data-products/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q13",
+      "localId": "builtin-media-earth-from-above-q13",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A patch has near-infrared reflectance 0.6 and red reflectance 0.2. Using NDVI = (NIR − red)/(NIR + red), what is its NDVI?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "0.5"
+        },
+        {
+          "id": "choice-2",
+          "text": "0.4"
+        },
+        {
+          "id": "choice-3",
+          "text": "0.8"
+        },
+        {
+          "id": "choice-4",
+          "text": "2.0"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Evaluate the difference and the sum separately before dividing.",
+      "explanation": "The ratio is (0.6 − 0.2)/(0.6 + 0.2) = 0.4/0.8 = 0.5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://hls.gsfc.nasa.gov/data-products/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q14",
+      "localId": "builtin-media-earth-from-above-q14",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Away from the equator and surface friction, steady geostrophic wind reflects an approximate balance between which two effects?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Gravity and centrifugal force about the Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "Magnetic force and electrical resistance"
+        },
+        {
+          "id": "choice-3",
+          "text": "Evaporation and condensation"
+        },
+        {
+          "id": "choice-4",
+          "text": "Pressure-gradient force and Coriolis force"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "It is the balance that allows wind to run roughly along straight isobars.",
+      "explanation": "In geostrophic balance, the horizontal pressure-gradient force is balanced by the Coriolis force.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.ready.noaa.gov/documents/Tutorial_2022/view/traj_eqns.html",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-earth-from-above-q15",
+      "localId": "builtin-media-earth-from-above-q15",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "In the ideal Northern Hemisphere Ekman model, a steady wind blows due north over deep open water. In which direction is the depth-integrated wind-driven transport?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "West"
+        },
+        {
+          "id": "choice-2",
+          "text": "South"
+        },
+        {
+          "id": "choice-3",
+          "text": "East"
+        },
+        {
+          "id": "choice-4",
+          "text": "North"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The integrated transport differs from the direction of the very top layer.",
+      "explanation": "Ideal Ekman transport is 90 degrees to the right of the wind in the Northern Hemisphere. Right of north is east.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.aoml.noaa.gov/phod/docs/Maximenko.pdf",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-library-weather-thermometer",
       "localId": "builtin-library-weather-thermometer",
       "level": 1,
@@ -46350,6 +48304,930 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-media-moonlight-and-shadows-q01",
+      "localId": "builtin-media-moonlight-and-shadows-q01",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The animation shows the Moon changing appearance. What provides the light on its bright side?",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/6c300f0dd38466055ec19a0dc8a156db9f0fdfc068d0325c9c92110f0180de37.webm",
+          "mimeType": "video/webm",
+          "alt": "An animation of the Moon's orbit and changing appearance.",
+          "description": "Silent scientific animation: a small Moon travels around Earth beside an enlarged view of its face. The visible bright portion changes. Sizes and distances are exaggerated.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "Fires on the lunar surface"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth's magnetic field"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's molten core"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "The Moon shines without producing visible light of its own.",
+      "explanation": "Moonlight is sunlight reflected from the lunar surface.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q02",
+      "localId": "builtin-media-moonlight-and-shadows-q02",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What do astronomers call the round depressions covering much of the lunar surface?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deltas"
+        },
+        {
+          "id": "choice-2",
+          "text": "Dunes"
+        },
+        {
+          "id": "choice-3",
+          "text": "Fjords"
+        },
+        {
+          "id": "choice-4",
+          "text": "Craters"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Many mark places where objects struck the ground.",
+      "explanation": "Most lunar craters were produced by impacts.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q03",
+      "localId": "builtin-media-moonlight-and-shadows-q03",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "About how long does it take to go from one full Moon to the next?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "7 days"
+        },
+        {
+          "id": "choice-2",
+          "text": "365 days"
+        },
+        {
+          "id": "choice-3",
+          "text": "29.5 days"
+        },
+        {
+          "id": "choice-4",
+          "text": "24 hours"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It is close to a calendar month, rather than a week.",
+      "explanation": "The phase cycle, or synodic month, lasts about 29.5 days.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q04",
+      "localId": "builtin-media-moonlight-and-shadows-q04",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "If the visible illuminated part of the Moon is getting larger over successive evenings, the Moon is doing what?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Receding"
+        },
+        {
+          "id": "choice-2",
+          "text": "Waxing"
+        },
+        {
+          "id": "choice-3",
+          "text": "Waning"
+        },
+        {
+          "id": "choice-4",
+          "text": "Precessing"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The word describes the growing part of the phase cycle.",
+      "explanation": "Waxing means the illuminated fraction visible from Earth is increasing.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/moon-phases/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q05",
+      "localId": "builtin-media-moonlight-and-shadows-q05",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "In the first alignment shown, the Moon passes through Earth's shadow. What event is this?",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/3cd4baaba37b08c1fbbe1b6b81ad74f7a66fd06736274bec126a70f8124e7804.webm",
+          "mimeType": "video/webm",
+          "alt": "An overhead animation of Earth, Moon and their shadows.",
+          "description": "Silent scientific animation: the smaller body moves through the larger body's shadow, then passes between the larger body and the incoming sunlight. An inset shows the Moon's appearance. Earth and Moon are shown at twice their true relative-to-orbit scale.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A lunar eclipse"
+        },
+        {
+          "id": "choice-2",
+          "text": "A solar eclipse"
+        },
+        {
+          "id": "choice-3",
+          "text": "A meteor shower"
+        },
+        {
+          "id": "choice-4",
+          "text": "A planetary transit of the Sun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Ask which body is being darkened by the shadow.",
+      "explanation": "A lunar eclipse occurs when Earth blocks sunlight from reaching the Moon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q06",
+      "localId": "builtin-media-moonlight-and-shadows-q06",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "The Moon's broad dark plains are called maria. What principally formed their surfaces?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deep oceans that still remain"
+        },
+        {
+          "id": "choice-2",
+          "text": "Recent forest fires"
+        },
+        {
+          "id": "choice-3",
+          "text": "Wind-deposited desert sand"
+        },
+        {
+          "id": "choice-4",
+          "text": "Ancient basaltic lava flows"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Their old name reflects how they looked through early telescopes, not what they contain.",
+      "explanation": "Lunar maria are plains of basalt formed by ancient volcanic lava flows.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q07",
+      "localId": "builtin-media-moonlight-and-shadows-q07",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In this lunar view, what is the boundary between the sunlit and unlit portions called?",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The prime meridian"
+        },
+        {
+          "id": "choice-2",
+          "text": "The ecliptic"
+        },
+        {
+          "id": "choice-3",
+          "text": "The terminator"
+        },
+        {
+          "id": "choice-4",
+          "text": "The equator"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It separates lunar day from lunar night.",
+      "explanation": "The terminator divides the illuminated and dark portions of a body's surface.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/viewing-tips/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q08",
+      "localId": "builtin-media-moonlight-and-shadows-q08",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why does roughly the same lunar hemisphere always face Earth?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon's axis always points directly at the Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Moon rotates once per orbit around Earth"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon never rotates in space"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth's clouds conceal the other side"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Imagine turning as you walk around something while keeping your face toward it.",
+      "explanation": "Synchronous rotation makes the Moon's rotation period match its orbital period relative to the stars.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/tidal-locking/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q09",
+      "localId": "builtin-media-moonlight-and-shadows-q09",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why can the Moon appear copper-red during a total lunar eclipse?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Earth's atmosphere filters and bends sunlight into the shadow"
+        },
+        {
+          "id": "choice-2",
+          "text": "Lunar rocks suddenly become hot enough to glow"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth's shadow selectively reflects red light"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's magnetic field produces a red aurora"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Some sunlight reaches the Moon after passing through air around Earth's rim.",
+      "explanation": "Earth's atmosphere scatters shorter wavelengths more strongly; reddened sunlight refracted into the shadow can illuminate the Moon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q10",
+      "localId": "builtin-media-moonlight-and-shadows-q10",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why is the Moon's phase cycle longer than its roughly 27.3-day orbit relative to the stars?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon stops moving for two days each month"
+        },
+        {
+          "id": "choice-2",
+          "text": "The stars orbit Earth faster than the Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon reverses its direction at full Moon"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth has moved along its orbit, so the Moon must travel farther to regain the Sun–Earth alignment"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The phase depends on the Sun's direction, not just the background stars.",
+      "explanation": "As Earth moves around the Sun, the Moon needs additional orbital motion to return to the same phase geometry.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q11",
+      "localId": "builtin-media-moonlight-and-shadows-q11",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The camera changes angle in this animation. What feature explains why most full Moons do not produce an eclipse?",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/46dd8805b111343954443abaed5518eb8c4dd550d1d6ccef268ace2a3ba9b713.webm",
+          "mimeType": "video/webm",
+          "alt": "A changing viewpoint reveals the Moon's orbital plane.",
+          "description": "Silent scientific animation: from above, the Moon appears to meet Earth's shadow; a lower viewing angle shows it missing. Months pass until their paths cross. Earth and Moon are shown at twice their true relative-to-orbit scale.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon becomes transparent outside eclipse season"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Sun switches off its gravity at full Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon's orbit is tilted relative to Earth's orbital plane"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth casts no shadow during most months"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The overhead view hides an important third dimension.",
+      "explanation": "The lunar orbital plane is tilted about 5 degrees, so the full Moon usually passes above or below Earth's shadow.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://svs.gsfc.nasa.gov/4158/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q12",
+      "localId": "builtin-media-moonlight-and-shadows-q12",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "The Moon rotates fairly uniformly but travels at varying speed in its elliptical orbit. Which observed effect does this help produce?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The precession of Earth's equinoxes"
+        },
+        {
+          "id": "choice-2",
+          "text": "Libration in longitude"
+        },
+        {
+          "id": "choice-3",
+          "text": "The daily rotation of the entire sky"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth's axial seasons"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Rotation and orbital motion do not remain exactly in step at every instant.",
+      "explanation": "Their changing angular relationship lets us peek slightly around the Moon's eastern and western edges over time.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://svs.gsfc.nasa.gov/5195/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q13",
+      "localId": "builtin-media-moonlight-and-shadows-q13",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "All else equal, which change makes an annular solar eclipse more likely than a total one?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon being farther from Earth"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Moon being closer to Earth"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth having a shorter day"
+        },
+        {
+          "id": "choice-4",
+          "text": "The observer using a darker filter"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Compare the apparent sizes of the Moon and Sun.",
+      "explanation": "A more distant Moon appears smaller and may not cover the Sun completely, leaving an annulus.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q14",
+      "localId": "builtin-media-moonlight-and-shadows-q14",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Using 27.3 days for a prograde moon's sidereal orbit and 365.25 days for its planet's year, which expression gives the phase-cycle period?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "1 / (1/27.3 + 1/365.25)"
+        },
+        {
+          "id": "choice-2",
+          "text": "365.25 − 27.3"
+        },
+        {
+          "id": "choice-3",
+          "text": "27.3 / 365.25"
+        },
+        {
+          "id": "choice-4",
+          "text": "1 / (1/27.3 − 1/365.25)"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The alignment repeats at the difference between two angular frequencies.",
+      "explanation": "For prograde motion, synodic frequency is lunar orbital frequency minus the planet's orbital frequency; taking its reciprocal gives about 29.5 days.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q15",
+      "localId": "builtin-media-moonlight-and-shadows-q15",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "A Saros brings similar eclipse geometry back after about 18 years, 11 days and 8 hours. Why is the next solar eclipse in that series usually visible about 120° farther west?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The continents drift west by 120°"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Sun reverses its apparent yearly motion"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth turns about one third of a revolution during the extra eight hours"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's orbital tilt increases by 120°"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The cycle is not a whole number of solar days.",
+      "explanation": "The extra third of a day lets Earth rotate about 120 degrees. Similar shadow geometry therefore falls at a different longitude, typically westward.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://eclipse.gsfc.nasa.gov/SEsaros/SEsaros.html",
+        "generatedBy": null,
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-library-space-exploration-suit-oxygen",
       "localId": "builtin-library-space-exploration-suit-oxygen",
       "level": 1,
@@ -47537,6 +50415,45 @@
     },
     {
       "folderPath": [
+        "Arts & Culture",
+        "Visual Arts"
+      ],
+      "id": "builtin-set-closer-look-art",
+      "localId": "builtin-set-closer-look-art",
+      "title": "A Closer Look: Art",
+      "description": "Look closely at waves, wheat fields and painted skies, then follow the clues into printmaking and conservation.",
+      "theme": "A Closer Look: Art",
+      "tags": [
+        "closer-look-art",
+        "media"
+      ],
+      "questionIds": [
+        "builtin-media-closer-look-art-q01",
+        "builtin-media-closer-look-art-q02",
+        "builtin-media-closer-look-art-q03",
+        "builtin-media-closer-look-art-q04",
+        "builtin-media-closer-look-art-q05",
+        "builtin-media-closer-look-art-q06",
+        "builtin-media-closer-look-art-q07",
+        "builtin-media-closer-look-art-q08",
+        "builtin-media-closer-look-art-q09",
+        "builtin-media-closer-look-art-q10",
+        "builtin-media-closer-look-art-q11",
+        "builtin-media-closer-look-art-q12",
+        "builtin-media-closer-look-art-q13",
+        "builtin-media-closer-look-art-q14",
+        "builtin-media-closer-look-art-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-closer-look-art-pack",
+      "sourceFile": "content/sets/culture/visual-arts/closer-look-art.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
         "History & Discovery",
         "Archaeology"
       ],
@@ -48156,6 +51073,45 @@
         "Science & Nature",
         "Earth & Sky"
       ],
+      "id": "builtin-set-earth-from-above",
+      "localId": "builtin-set-earth-from-above",
+      "title": "Earth from Above",
+      "description": "Watch the globe turn, peer into a hurricane and learn how scientists read the planet from a distance.",
+      "theme": "Earth from Above",
+      "tags": [
+        "earth-from-above",
+        "media"
+      ],
+      "questionIds": [
+        "builtin-media-earth-from-above-q01",
+        "builtin-media-earth-from-above-q02",
+        "builtin-media-earth-from-above-q03",
+        "builtin-media-earth-from-above-q04",
+        "builtin-media-earth-from-above-q05",
+        "builtin-media-earth-from-above-q06",
+        "builtin-media-earth-from-above-q07",
+        "builtin-media-earth-from-above-q08",
+        "builtin-media-earth-from-above-q09",
+        "builtin-media-earth-from-above-q10",
+        "builtin-media-earth-from-above-q11",
+        "builtin-media-earth-from-above-q12",
+        "builtin-media-earth-from-above-q13",
+        "builtin-media-earth-from-above-q14",
+        "builtin-media-earth-from-above-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-earth-from-above-pack",
+      "sourceFile": "content/sets/science/earth-sky/earth-from-above.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Science & Nature",
+        "Earth & Sky"
+      ],
       "id": "builtin-library-weather-set",
       "localId": "builtin-library-weather-set",
       "title": "Reading the Sky",
@@ -48493,6 +51449,45 @@
       "origin": "built-in",
       "sourcePackId": "builtin-library-legacy-astronomy-01",
       "sourceFile": "content/sets/science/space/first-light.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Science & Nature",
+        "Space"
+      ],
+      "id": "builtin-set-moonlight-and-shadows",
+      "localId": "builtin-set-moonlight-and-shadows",
+      "title": "Moonlight and Shadows",
+      "description": "Moving diagrams bring phases, shadows and orbital geometry to life, from familiar moonlight to the Saros cycle.",
+      "theme": "Moonlight and Shadows",
+      "tags": [
+        "moonlight-and-shadows",
+        "media"
+      ],
+      "questionIds": [
+        "builtin-media-moonlight-and-shadows-q01",
+        "builtin-media-moonlight-and-shadows-q02",
+        "builtin-media-moonlight-and-shadows-q03",
+        "builtin-media-moonlight-and-shadows-q04",
+        "builtin-media-moonlight-and-shadows-q05",
+        "builtin-media-moonlight-and-shadows-q06",
+        "builtin-media-moonlight-and-shadows-q07",
+        "builtin-media-moonlight-and-shadows-q08",
+        "builtin-media-moonlight-and-shadows-q09",
+        "builtin-media-moonlight-and-shadows-q10",
+        "builtin-media-moonlight-and-shadows-q11",
+        "builtin-media-moonlight-and-shadows-q12",
+        "builtin-media-moonlight-and-shadows-q13",
+        "builtin-media-moonlight-and-shadows-q14",
+        "builtin-media-moonlight-and-shadows-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-media-moonlight-and-shadows-pack",
+      "sourceFile": "content/sets/science/space/moonlight-and-shadows.json",
       "sourceVersion": "1.0.0",
       "enabled": true
     },

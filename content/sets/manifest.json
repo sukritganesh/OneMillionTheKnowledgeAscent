@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "validatedAt": "2026-09-13T00:00:00Z",
   "files": [
     {
@@ -47,6 +47,11 @@
       "path": "culture/mythology/tales-across-the-world.json",
       "packId": "builtin-library-world-myths-pack",
       "sha256": "adc45bf875ccc33ededcb59d653af9008abcc718ad9ccb6c54587b9eb9d7ebe2"
+    },
+    {
+      "path": "culture/visual-arts/closer-look-art.json",
+      "packId": "builtin-media-closer-look-art-pack",
+      "sha256": "f4006c84974e7a98c53c9dc3bd88b509d6b0984fae3070093e22b98200ab6754"
     },
     {
       "path": "discovery/history-and-discovery/archaeology/clues-beneath-our-feet.json",
@@ -129,6 +134,11 @@
       "sha256": "32124a63656e93fd3b2ae790ddadf979aee9cd8cd2ea42f60d5bfc9dd3c7a403"
     },
     {
+      "path": "science/earth-sky/earth-from-above.json",
+      "packId": "builtin-media-earth-from-above-pack",
+      "sha256": "f0e06a473289d74a35bbca30d39d4c36578d75cba8fbecb3583e50c54ae9845d"
+    },
+    {
       "path": "science/earth-sky/reading-the-sky.json",
       "packId": "builtin-library-weather-pack",
       "sha256": "e99fbfd74aa0cf8966229a0e4e2c721fae38013e256eb48953495a2507cc900c"
@@ -172,6 +182,11 @@
       "path": "science/space/first-light.json",
       "packId": "builtin-library-legacy-astronomy-01",
       "sha256": "44c575d1d2c2dc97d206385de4a35fa9aff15378823c0a0971a010f68cd1edd7"
+    },
+    {
+      "path": "science/space/moonlight-and-shadows.json",
+      "packId": "builtin-media-moonlight-and-shadows-pack",
+      "sha256": "ce4ea68e4cb9fbb17c47a64cfc75d9ee33ee46e25caa3a98489a96e826d97efa"
     },
     {
       "path": "science/spaceflight/leaving-earth.json",

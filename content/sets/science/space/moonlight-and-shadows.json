@@ -1,0 +1,789 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-media-moonlight-and-shadows-pack",
+  "title": "Moonlight and Shadows",
+  "description": "Moving diagrams bring phases, shadows and orbital geometry to life, from familiar moonlight to the Saros cycle.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Astronomy and Space"
+  ],
+  "questions": [
+    {
+      "id": "builtin-media-moonlight-and-shadows-q01",
+      "level": 1,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The animation shows the Moon changing appearance. What provides the light on its bright side?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "Fires on the lunar surface"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth's magnetic field"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's molten core"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "The Moon shines without producing visible light of its own.",
+      "explanation": "Moonlight is sunlight reflected from the lunar surface.",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/6c300f0dd38466055ec19a0dc8a156db9f0fdfc068d0325c9c92110f0180de37.webm",
+          "mimeType": "video/webm",
+          "alt": "An animation of the Moon's orbit and changing appearance.",
+          "description": "Silent scientific animation: a small Moon travels around Earth beside an enlarged view of its face. The visible bright portion changes. Sizes and distances are exaggerated.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q02",
+      "level": 2,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What do astronomers call the round depressions covering much of the lunar surface?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deltas"
+        },
+        {
+          "id": "choice-2",
+          "text": "Dunes"
+        },
+        {
+          "id": "choice-3",
+          "text": "Fjords"
+        },
+        {
+          "id": "choice-4",
+          "text": "Craters"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Many mark places where objects struck the ground.",
+      "explanation": "Most lunar craters were produced by impacts.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q03",
+      "level": 3,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "About how long does it take to go from one full Moon to the next?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "7 days"
+        },
+        {
+          "id": "choice-2",
+          "text": "365 days"
+        },
+        {
+          "id": "choice-3",
+          "text": "29.5 days"
+        },
+        {
+          "id": "choice-4",
+          "text": "24 hours"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It is close to a calendar month, rather than a week.",
+      "explanation": "The phase cycle, or synodic month, lasts about 29.5 days.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q04",
+      "level": 4,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "If the visible illuminated part of the Moon is getting larger over successive evenings, the Moon is doing what?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Receding"
+        },
+        {
+          "id": "choice-2",
+          "text": "Waxing"
+        },
+        {
+          "id": "choice-3",
+          "text": "Waning"
+        },
+        {
+          "id": "choice-4",
+          "text": "Precessing"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The word describes the growing part of the phase cycle.",
+      "explanation": "Waxing means the illuminated fraction visible from Earth is increasing.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/moon-phases/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q05",
+      "level": 5,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "In the first alignment shown, the Moon passes through Earth's shadow. What event is this?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A lunar eclipse"
+        },
+        {
+          "id": "choice-2",
+          "text": "A solar eclipse"
+        },
+        {
+          "id": "choice-3",
+          "text": "A meteor shower"
+        },
+        {
+          "id": "choice-4",
+          "text": "A planetary transit of the Sun"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Ask which body is being darkened by the shadow.",
+      "explanation": "A lunar eclipse occurs when Earth blocks sunlight from reaching the Moon.",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/3cd4baaba37b08c1fbbe1b6b81ad74f7a66fd06736274bec126a70f8124e7804.webm",
+          "mimeType": "video/webm",
+          "alt": "An overhead animation of Earth, Moon and their shadows.",
+          "description": "Silent scientific animation: the smaller body moves through the larger body's shadow, then passes between the larger body and the incoming sunlight. An inset shows the Moon's appearance. Earth and Moon are shown at twice their true relative-to-orbit scale.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q06",
+      "level": 6,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "The Moon's broad dark plains are called maria. What principally formed their surfaces?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deep oceans that still remain"
+        },
+        {
+          "id": "choice-2",
+          "text": "Recent forest fires"
+        },
+        {
+          "id": "choice-3",
+          "text": "Wind-deposited desert sand"
+        },
+        {
+          "id": "choice-4",
+          "text": "Ancient basaltic lava flows"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Their old name reflects how they looked through early telescopes, not what they contain.",
+      "explanation": "Lunar maria are plains of basalt formed by ancient volcanic lava flows.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/facts/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q07",
+      "level": 7,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In this lunar view, what is the boundary between the sunlit and unlit portions called?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The prime meridian"
+        },
+        {
+          "id": "choice-2",
+          "text": "The ecliptic"
+        },
+        {
+          "id": "choice-3",
+          "text": "The terminator"
+        },
+        {
+          "id": "choice-4",
+          "text": "The equator"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "It separates lunar day from lunar night.",
+      "explanation": "The terminator divides the illuminated and dark portions of a body's surface.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/8620efa8090fb65b4fd11830d71dc565b118a215d48a76f2bb08505a9049e22f.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A diagram of Earth and the Moon's orbit beside a large, partly illuminated lunar disk.",
+          "description": "Scientific illustration; sizes and distances are exaggerated. An enlarged view shows craters and the boundary between the bright and dark portions.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/viewing-tips/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q08",
+      "level": 8,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why does roughly the same lunar hemisphere always face Earth?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon's axis always points directly at the Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Moon rotates once per orbit around Earth"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon never rotates in space"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth's clouds conceal the other side"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Imagine turning as you walk around something while keeping your face toward it.",
+      "explanation": "Synchronous rotation makes the Moon's rotation period match its orbital period relative to the stars.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/tidal-locking/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q09",
+      "level": 9,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why can the Moon appear copper-red during a total lunar eclipse?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Earth's atmosphere filters and bends sunlight into the shadow"
+        },
+        {
+          "id": "choice-2",
+          "text": "Lunar rocks suddenly become hot enough to glow"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth's shadow selectively reflects red light"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's magnetic field produces a red aurora"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Some sunlight reaches the Moon after passing through air around Earth's rim.",
+      "explanation": "Earth's atmosphere scatters shorter wavelengths more strongly; reddened sunlight refracted into the shadow can illuminate the Moon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q10",
+      "level": 10,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Why is the Moon's phase cycle longer than its roughly 27.3-day orbit relative to the stars?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon stops moving for two days each month"
+        },
+        {
+          "id": "choice-2",
+          "text": "The stars orbit Earth faster than the Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon reverses its direction at full Moon"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth has moved along its orbit, so the Moon must travel farther to regain the Sun–Earth alignment"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The phase depends on the Sun's direction, not just the background stars.",
+      "explanation": "As Earth moves around the Sun, the Moon needs additional orbital motion to return to the same phase geometry.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q11",
+      "level": 11,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The camera changes angle in this animation. What feature explains why most full Moons do not produce an eclipse?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon becomes transparent outside eclipse season"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Sun switches off its gravity at full Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "The Moon's orbit is tilted relative to Earth's orbital plane"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth casts no shadow during most months"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The overhead view hides an important third dimension.",
+      "explanation": "The lunar orbital plane is tilted about 5 degrees, so the full Moon usually passes above or below Earth's shadow.",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/46dd8805b111343954443abaed5518eb8c4dd550d1d6ccef268ace2a3ba9b713.webm",
+          "mimeType": "video/webm",
+          "alt": "A changing viewpoint reveals the Moon's orbital plane.",
+          "description": "Silent scientific animation: from above, the Moon appears to meet Earth's shadow; a lower viewing angle shows it missing. Months pass until their paths cross. Earth and Moon are shown at twice their true relative-to-orbit scale.",
+          "credit": "NASA's Scientific Visualization Studio / Ernie Wright, visualization 4158 (2014).",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/4158/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://svs.gsfc.nasa.gov/4158/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q12",
+      "level": 12,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "The Moon rotates fairly uniformly but travels at varying speed in its elliptical orbit. Which observed effect does this help produce?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The precession of Earth's equinoxes"
+        },
+        {
+          "id": "choice-2",
+          "text": "Libration in longitude"
+        },
+        {
+          "id": "choice-3",
+          "text": "The daily rotation of the entire sky"
+        },
+        {
+          "id": "choice-4",
+          "text": "Earth's axial seasons"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Rotation and orbital motion do not remain exactly in step at every instant.",
+      "explanation": "Their changing angular relationship lets us peek slightly around the Moon's eastern and western edges over time.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://svs.gsfc.nasa.gov/5195/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q13",
+      "level": 13,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "All else equal, which change makes an annular solar eclipse more likely than a total one?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The Moon being farther from Earth"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Moon being closer to Earth"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth having a shorter day"
+        },
+        {
+          "id": "choice-4",
+          "text": "The observer using a darker filter"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Compare the apparent sizes of the Moon and Sun.",
+      "explanation": "A more distant Moon appears smaller and may not cover the Sun completely, leaving an annulus.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/moon/eclipses/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q14",
+      "level": 14,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "Using 27.3 days for a prograde moon's sidereal orbit and 365.25 days for its planet's year, which expression gives the phase-cycle period?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "1 / (1/27.3 + 1/365.25)"
+        },
+        {
+          "id": "choice-2",
+          "text": "365.25 − 27.3"
+        },
+        {
+          "id": "choice-3",
+          "text": "27.3 / 365.25"
+        },
+        {
+          "id": "choice-4",
+          "text": "1 / (1/27.3 − 1/365.25)"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "The alignment repeats at the difference between two angular frequencies.",
+      "explanation": "For prograde motion, synodic frequency is lunar orbital frequency minus the planet's orbital frequency; taking its reciprocal gives about 29.5 days.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.nasa.gov/wp-content/uploads/2013/05/737171main_exploring_lunar_surface.pdf",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-moonlight-and-shadows-q15",
+      "level": 15,
+      "category": "Astronomy and Space",
+      "tags": [
+        "moonlight-and-shadows"
+      ],
+      "prompt": "A Saros brings similar eclipse geometry back after about 18 years, 11 days and 8 hours. Why is the next solar eclipse in that series usually visible about 120° farther west?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The continents drift west by 120°"
+        },
+        {
+          "id": "choice-2",
+          "text": "The Sun reverses its apparent yearly motion"
+        },
+        {
+          "id": "choice-3",
+          "text": "Earth turns about one third of a revolution during the extra eight hours"
+        },
+        {
+          "id": "choice-4",
+          "text": "The Moon's orbital tilt increases by 120°"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The cycle is not a whole number of solar days.",
+      "explanation": "The extra third of a day lets Earth rotate about 120 degrees. Similar shadow geometry therefore falls at a different longitude, typically westward.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-moonlight-and-shadows"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://eclipse.gsfc.nasa.gov/SEsaros/SEsaros.html",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-moonlight-and-shadows",
+      "title": "Moonlight and Shadows",
+      "description": "Moving diagrams bring phases, shadows and orbital geometry to life, from familiar moonlight to the Saros cycle.",
+      "theme": "Moonlight and Shadows",
+      "tags": [
+        "moonlight-and-shadows",
+        "media"
+      ],
+      "folderPath": [
+        "Science & Nature",
+        "Space"
+      ],
+      "questionIds": [
+        "builtin-media-moonlight-and-shadows-q01",
+        "builtin-media-moonlight-and-shadows-q02",
+        "builtin-media-moonlight-and-shadows-q03",
+        "builtin-media-moonlight-and-shadows-q04",
+        "builtin-media-moonlight-and-shadows-q05",
+        "builtin-media-moonlight-and-shadows-q06",
+        "builtin-media-moonlight-and-shadows-q07",
+        "builtin-media-moonlight-and-shadows-q08",
+        "builtin-media-moonlight-and-shadows-q09",
+        "builtin-media-moonlight-and-shadows-q10",
+        "builtin-media-moonlight-and-shadows-q11",
+        "builtin-media-moonlight-and-shadows-q12",
+        "builtin-media-moonlight-and-shadows-q13",
+        "builtin-media-moonlight-and-shadows-q14",
+        "builtin-media-moonlight-and-shadows-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-09-13T00:00:00Z",
+    "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+    "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included."
+  }
+}

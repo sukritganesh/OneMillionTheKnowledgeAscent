@@ -1,3 +1,4 @@
+import { questionMediaError } from '../../media/questionMedia';
 import { folderPathError } from '../folders';
 import {
   BUILT_IN_ID_PATTERN,
@@ -326,6 +327,8 @@ export function validateContentPack(input: unknown, options: PackValidationOptio
       IMPORT_LIMITS.maxTagLength
     );
     requiredString(question, 'prompt', path, errors, IMPORT_LIMITS.maxPromptLength);
+    const mediaError = questionMediaError(question.media, options.origin === 'imported');
+    if (mediaError) addIssue(errors, 'error', 'invalid-question-media', `${path}.media`, mediaError);
     requiredString(question, 'hint', path, errors, IMPORT_LIMITS.maxHintLength);
     requiredString(question, 'explanation', path, errors, IMPORT_LIMITS.maxExplanationLength);
 

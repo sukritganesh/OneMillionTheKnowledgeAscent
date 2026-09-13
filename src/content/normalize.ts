@@ -1,3 +1,4 @@
+import { copyQuestionMedia } from '../media/questionMedia';
 import {
   BUILT_IN_HINT_REPAIRS,
   displayDifficultyForLevel,
@@ -121,6 +122,7 @@ export function normalizePack(pack: RawContentPack, options: NormalizePackOption
       category: question.category,
       tags: [...question.tags],
       prompt: question.prompt,
+      ...(question.media ? { media: copyQuestionMedia(question.media) } : {}),
       choices: question.choices.map((choice) => ({ ...choice })),
       correctChoiceId: question.correctChoiceId,
       hint,

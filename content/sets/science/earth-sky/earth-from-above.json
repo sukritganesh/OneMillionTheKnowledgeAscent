@@ -1,0 +1,785 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-media-earth-from-above-pack",
+  "title": "Earth from Above",
+  "description": "Watch the globe turn, peer into a hurricane and learn how scientists read the planet from a distance.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Nature and Earth"
+  ],
+  "questions": [
+    {
+      "id": "builtin-media-earth-from-above-q01",
+      "level": 1,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The white patterns crossing Earth's surface in this time-lapse are mainly what?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Cloud systems"
+        },
+        {
+          "id": "choice-2",
+          "text": "Mountain ranges"
+        },
+        {
+          "id": "choice-3",
+          "text": "Ocean trenches"
+        },
+        {
+          "id": "choice-4",
+          "text": "City lights"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "These patterns belong to the atmosphere, not the solid ground.",
+      "explanation": "The white patterns are clouds, seen above the oceans and continents as Earth turns.",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb.webm",
+          "mimeType": "video/webm",
+          "alt": "A time-lapse view of the turning Earth.",
+          "description": "Silent time-lapse: pale swirling patterns cross the land and oceans of a turning globe. The animation plays at 3,600 times real speed; its timer shows elapsed hours and minutes.",
+          "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Horace Mitchell, Galileo imagery, visualization 1375.",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/1375/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q02",
+      "level": 2,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In an ordinary colour photograph of Earth from space, the broad blue areas are mainly what?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Deserts"
+        },
+        {
+          "id": "choice-2",
+          "text": "Forests"
+        },
+        {
+          "id": "choice-3",
+          "text": "Glaciers"
+        },
+        {
+          "id": "choice-4",
+          "text": "Oceans"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Think about what covers most of the planet's surface.",
+      "explanation": "The blue areas are mainly ocean water, which covers roughly 71 percent of Earth's surface.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A blue globe with clouds, a tapering continent near its center and a bright white continent below.",
+          "credit": "NASA/JPL, Galileo, PIA00114 (1990).",
+          "license": "NASA/JPL educational reuse",
+          "sourceUrl": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://oceanservice.noaa.gov/facts/oceanwater.html",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q03",
+      "level": 3,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "Which continent tapers southward near the centre of this Galileo image?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Australia"
+        },
+        {
+          "id": "choice-2",
+          "text": "Europe"
+        },
+        {
+          "id": "choice-3",
+          "text": "South America"
+        },
+        {
+          "id": "choice-4",
+          "text": "Africa"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "Its long western mountain chain is the Andes.",
+      "explanation": "South America is near the centre; bright Antarctica lies toward the bottom of the image.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/4657f921c99c62ab3130a043375346038c920112aa6ba65592d8a655f0dd7ed4.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A blue globe with clouds, a tapering continent near its center and a bright white continent below.",
+          "credit": "NASA/JPL, Galileo, PIA00114 (1990).",
+          "license": "NASA/JPL educational reuse",
+          "sourceUrl": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q04",
+      "level": 4,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "What is the relatively calm central region shown in this hurricane photograph called?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The jet stream"
+        },
+        {
+          "id": "choice-2",
+          "text": "The eye"
+        },
+        {
+          "id": "choice-3",
+          "text": "The anvil"
+        },
+        {
+          "id": "choice-4",
+          "text": "The cold front"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "It is surrounded by a ring of much taller storm clouds.",
+      "explanation": "The eye is the storm's central region; the surrounding eyewall contains intense convection and strong winds.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A circular opening in a vast cloud system, surrounded by a steep ring of cloud.",
+          "credit": "Ed Lu / NASA, Hurricane Isabel from the ISS, September 13, 2003.",
+          "license": "Public domain / NASA imagery",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q05",
+      "level": 5,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Why can a satellite take a thermal-infrared image of the ground at night?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The ground emits infrared radiation"
+        },
+        {
+          "id": "choice-2",
+          "text": "Moonlight always replaces sunlight"
+        },
+        {
+          "id": "choice-3",
+          "text": "Infrared detectors illuminate the whole planet"
+        },
+        {
+          "id": "choice-4",
+          "text": "Night air becomes transparent to visible light"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "A surface does not stop giving off heat when the Sun sets.",
+      "explanation": "Thermal sensors detect emitted radiation, so they do not depend on reflected sunlight.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/remote-sensing/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q06",
+      "level": 6,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Which orbital arrangement lets a weather satellite appear fixed above one point on the equator?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Any low orbit passing over both poles"
+        },
+        {
+          "id": "choice-2",
+          "text": "An orbit around the Moon"
+        },
+        {
+          "id": "choice-3",
+          "text": "A circular orbit completed every 90 minutes"
+        },
+        {
+          "id": "choice-4",
+          "text": "A circular equatorial orbit matching Earth's rotation"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Its motion must keep pace with the ground beneath it.",
+      "explanation": "A geostationary satellite orbits eastward above the equator once per sidereal day.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q07",
+      "level": 7,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "video"
+      ],
+      "prompt": "The clouds move during this sequence, but the continental coastlines retain their relative positions. Why is tectonic drift not visible?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Tectonic plates only move at night"
+        },
+        {
+          "id": "choice-2",
+          "text": "Spacecraft cameras cannot record rock"
+        },
+        {
+          "id": "choice-3",
+          "text": "Plate movement is far too slow over about a day"
+        },
+        {
+          "id": "choice-4",
+          "text": "The ocean prevents continents from moving"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "Compare a day's motion with the centimetres plates typically move in a year.",
+      "explanation": "Plate motions measured in centimetres per year are negligible in a time-lapse covering about 25 hours.",
+      "media": [
+        {
+          "kind": "video",
+          "src": "/question-media/71cc5e7b4ae898bdd6d513687a6d0b0c71af9b7e4ed88904ee9e167bb7409fbb.webm",
+          "mimeType": "video/webm",
+          "alt": "A time-lapse view of the turning Earth.",
+          "description": "Silent time-lapse: pale swirling patterns cross the land and oceans of a turning globe. The animation plays at 3,600 times real speed; its timer shows elapsed hours and minutes.",
+          "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio / Horace Mitchell, Galileo imagery, visualization 1375.",
+          "license": "Public domain / NASA SVS",
+          "sourceUrl": "https://svs.gsfc.nasa.gov/1375/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.usgs.gov/programs/earthquake-hazards/science/plate-tectonics ; https://science.nasa.gov/photojournal/earth-south-america-first-frame-of-earth-spin-movie/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q08",
+      "level": 8,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Why does a geostationary weather satellite have a poor view of regions near Earth's poles?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Polar regions emit no electromagnetic radiation"
+        },
+        {
+          "id": "choice-2",
+          "text": "Earth's curvature places them near or beyond its horizon"
+        },
+        {
+          "id": "choice-3",
+          "text": "Polar ice blocks radio waves everywhere"
+        },
+        {
+          "id": "choice-4",
+          "text": "The satellite orbits behind the Moon at noon"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "The satellite stays above the equator instead of passing overhead at high latitudes.",
+      "explanation": "From an equatorial geostationary orbit, high latitudes are viewed at very oblique angles and the poles are beyond the horizon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/catalog-of-earth-satellite-orbits/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q09",
+      "level": 9,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A satellite image renders vigorous vegetation bright red. What does that most likely mean?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Near-infrared measurements were assigned to the red display channel"
+        },
+        {
+          "id": "choice-2",
+          "text": "The plants have all turned red in visible light"
+        },
+        {
+          "id": "choice-3",
+          "text": "The sensor recorded only surface temperature"
+        },
+        {
+          "id": "choice-4",
+          "text": "The image contains no measurement data"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Display colours can stand for wavelengths our eyes cannot see.",
+      "explanation": "False-colour composites often map near-infrared reflectance to red; healthy vegetation reflects strongly in that band.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/how-to-interpret-a-false-color-satellite-image/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q10",
+      "level": 10,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above",
+        "visual-question",
+        "image"
+      ],
+      "prompt": "In a mature hurricane, which feature surrounds this eye and typically contains the strongest sustained surface winds?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "The distant cirrus shield"
+        },
+        {
+          "id": "choice-2",
+          "text": "The subtropical ridge"
+        },
+        {
+          "id": "choice-3",
+          "text": "The centre of the clear opening"
+        },
+        {
+          "id": "choice-4",
+          "text": "The eyewall"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "Focus on the steep ring just outside the opening.",
+      "explanation": "The eyewall is the convective ring around the eye and normally contains the storm's strongest sustained winds.",
+      "media": [
+        {
+          "kind": "image",
+          "src": "/question-media/9040dd9adf6d2d00d04e08dcf56e326e746d49ccec885c25b4a753a779be64ee.jpg",
+          "mimeType": "image/jpeg",
+          "alt": "A circular opening in a vast cloud system, surrounded by a steep ring of cloud.",
+          "credit": "Ed Lu / NASA, Hurricane Isabel from the ISS, September 13, 2003.",
+          "license": "Public domain / NASA imagery",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/hurricane-isabel-3793/"
+        }
+      ],
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.aoml.noaa.gov/hrd/tcfaq/A11old.html",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q11",
+      "level": 11,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Which sensor is an active remote-sensing instrument?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "A radiometer measuring emitted terrestrial infrared"
+        },
+        {
+          "id": "choice-2",
+          "text": "A detector measuring naturally emitted microwave energy"
+        },
+        {
+          "id": "choice-3",
+          "text": "A radar that transmits pulses and measures their echoes"
+        },
+        {
+          "id": "choice-4",
+          "text": "A camera recording reflected sunlight"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "An active sensor supplies the energy used to probe its target.",
+      "explanation": "Radar sends out electromagnetic pulses and records the return; passive sensors receive naturally available radiation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/remote-sensing/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q12",
+      "level": 12,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A band has 30-metre square ground pixels. Ignoring edge effects, about how many pixels cover one square kilometre?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "30,000"
+        },
+        {
+          "id": "choice-2",
+          "text": "1,111"
+        },
+        {
+          "id": "choice-3",
+          "text": "33"
+        },
+        {
+          "id": "choice-4",
+          "text": "900"
+        }
+      ],
+      "correctChoiceId": "choice-2",
+      "hint": "Work with areas: each pixel covers 30 times 30 square metres.",
+      "explanation": "One square kilometre is 1,000,000 square metres; dividing by 900 gives about 1,111 pixels.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://hls.gsfc.nasa.gov/data-products/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q13",
+      "level": 13,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "A patch has near-infrared reflectance 0.6 and red reflectance 0.2. Using NDVI = (NIR − red)/(NIR + red), what is its NDVI?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "0.5"
+        },
+        {
+          "id": "choice-2",
+          "text": "0.4"
+        },
+        {
+          "id": "choice-3",
+          "text": "0.8"
+        },
+        {
+          "id": "choice-4",
+          "text": "2.0"
+        }
+      ],
+      "correctChoiceId": "choice-1",
+      "hint": "Evaluate the difference and the sum separately before dividing.",
+      "explanation": "The ratio is (0.6 − 0.2)/(0.6 + 0.2) = 0.4/0.8 = 0.5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://hls.gsfc.nasa.gov/data-products/",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q14",
+      "level": 14,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "Away from the equator and surface friction, steady geostrophic wind reflects an approximate balance between which two effects?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "Gravity and centrifugal force about the Sun"
+        },
+        {
+          "id": "choice-2",
+          "text": "Magnetic force and electrical resistance"
+        },
+        {
+          "id": "choice-3",
+          "text": "Evaporation and condensation"
+        },
+        {
+          "id": "choice-4",
+          "text": "Pressure-gradient force and Coriolis force"
+        }
+      ],
+      "correctChoiceId": "choice-4",
+      "hint": "It is the balance that allows wind to run roughly along straight isobars.",
+      "explanation": "In geostrophic balance, the horizontal pressure-gradient force is balanced by the Coriolis force.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.ready.noaa.gov/documents/Tutorial_2022/view/traj_eqns.html",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-media-earth-from-above-q15",
+      "level": 15,
+      "category": "Nature and Earth",
+      "tags": [
+        "earth-from-above"
+      ],
+      "prompt": "In the ideal Northern Hemisphere Ekman model, a steady wind blows due north over deep open water. In which direction is the depth-integrated wind-driven transport?",
+      "choices": [
+        {
+          "id": "choice-1",
+          "text": "West"
+        },
+        {
+          "id": "choice-2",
+          "text": "South"
+        },
+        {
+          "id": "choice-3",
+          "text": "East"
+        },
+        {
+          "id": "choice-4",
+          "text": "North"
+        }
+      ],
+      "correctChoiceId": "choice-3",
+      "hint": "The integrated transport differs from the direction of the very top layer.",
+      "explanation": "Ideal Ekman transport is 90 degrees to the right of the wind in the Northern Hemisphere. Right of north is east.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-earth-from-above"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "sourceNotes": "https://www.aoml.noaa.gov/phod/docs/Maximenko.pdf",
+        "verificationNotes": "Assistant checked the cited reference and the answer/distractors; calculations were evaluated directly. Human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-earth-from-above",
+      "title": "Earth from Above",
+      "description": "Watch the globe turn, peer into a hurricane and learn how scientists read the planet from a distance.",
+      "theme": "Earth from Above",
+      "tags": [
+        "earth-from-above",
+        "media"
+      ],
+      "folderPath": [
+        "Science & Nature",
+        "Earth & Sky"
+      ],
+      "questionIds": [
+        "builtin-media-earth-from-above-q01",
+        "builtin-media-earth-from-above-q02",
+        "builtin-media-earth-from-above-q03",
+        "builtin-media-earth-from-above-q04",
+        "builtin-media-earth-from-above-q05",
+        "builtin-media-earth-from-above-q06",
+        "builtin-media-earth-from-above-q07",
+        "builtin-media-earth-from-above-q08",
+        "builtin-media-earth-from-above-q09",
+        "builtin-media-earth-from-above-q10",
+        "builtin-media-earth-from-above-q11",
+        "builtin-media-earth-from-above-q12",
+        "builtin-media-earth-from-above-q13",
+        "builtin-media-earth-from-above-q14",
+        "builtin-media-earth-from-above-q15"
+      ],
+      "audience": "General audience, with specialist final questions",
+      "difficultyNote": "Starts with visual recognition, then moves into mechanisms and technical interpretation. Draft difficulty ladder; human play-testing recommended."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-09-13T00:00:00Z",
+    "sourceNotes": "Original questions with reference links on each question. Media credit, license and source page travel with each attachment.",
+    "verificationNotes": "Exactly one question per level, stable IDs, four distinct options and reciprocal set references. Reusable media bundled for offline play; no copyrighted soundtrack is included."
+  }
+}
