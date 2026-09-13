@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-cinema-craft-pack",
+  "title": "Behind the Screen",
+  "description": "Discover how filmmakers shape pictures, sound, and the spaces between shots.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Film and Television"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-cinema-craft-screenplay",
+      "level": 1,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "screenplay"
+      ],
+      "prompt": "What is the written script for a film usually called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A screenplay"
+        },
+        {
+          "id": "b",
+          "text": "A soundtrack"
+        },
+        {
+          "id": "c",
+          "text": "A storyboard"
+        },
+        {
+          "id": "d",
+          "text": "A trailer"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It contains dialogue and descriptions of scenes.",
+      "explanation": "A screenplay is a film's written script.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.screenonline.org.uk/education/glossary.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-storyboard",
+      "level": 2,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "storyboard"
+      ],
+      "prompt": "What does a storyboard use to plan a film's shots?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Casting notices"
+        },
+        {
+          "id": "b",
+          "text": "A sequence of drawings"
+        },
+        {
+          "id": "c",
+          "text": "Ticket-sales charts"
+        },
+        {
+          "id": "d",
+          "text": "Lists of sound cues"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It helps the crew visualize action before shooting.",
+      "explanation": "A storyboard arranges drawings to plan shots and their sequence.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.screenonline.org.uk/education/glossary.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-credits",
+      "level": 3,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "credits"
+      ],
+      "prompt": "Where would you normally find the names of a film's cast and crew listed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the subtitles"
+        },
+        {
+          "id": "b",
+          "text": "In the synopsis"
+        },
+        {
+          "id": "c",
+          "text": "In the credits"
+        },
+        {
+          "id": "d",
+          "text": "In the aspect ratio"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "These acknowledge the people who made the production.",
+      "explanation": "Credits identify cast and crew members and their contributions.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.screenonline.org.uk/education/glossary.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-close-up",
+      "level": 4,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "close-up"
+      ],
+      "prompt": "Which shot typically fills the frame with a person's face?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Establishing shot"
+        },
+        {
+          "id": "b",
+          "text": "Extreme long shot"
+        },
+        {
+          "id": "c",
+          "text": "Wide shot"
+        },
+        {
+          "id": "d",
+          "text": "Close-up"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Think of framing that emphasizes an expression.",
+      "explanation": "A close-up shows a subject at a large scale, often isolating a face.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/cinematography/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-stop-motion",
+      "level": 5,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "stop-motion"
+      ],
+      "prompt": "How is stop-motion animation made?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moving objects slightly between photographed frames"
+        },
+        {
+          "id": "b",
+          "text": "Filming actors behind a transparent screen"
+        },
+        {
+          "id": "c",
+          "text": "Drawing directly onto a camera lens"
+        },
+        {
+          "id": "d",
+          "text": "Playing ordinary footage at double speed"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The objects do not need to move while each individual image is captured.",
+      "explanation": "Stop-motion builds movement from separate frames of repositioned objects.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/cinematography/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-melies",
+      "level": 6,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "melies"
+      ],
+      "prompt": "Who made the 1902 fantasy film A Trip to the Moon?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Auguste Lumière"
+        },
+        {
+          "id": "b",
+          "text": "Georges Méliès"
+        },
+        {
+          "id": "c",
+          "text": "Buster Keaton"
+        },
+        {
+          "id": "d",
+          "text": "Fritz Lang"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "He brought his experience as a stage illusionist to cinema.",
+      "explanation": "Georges Méliès made A Trip to the Moon, using theatrical staging and visual tricks.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://en.wikisource.org/wiki/Le_Voyage_dans_la_Lune",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-cinematographe",
+      "level": 7,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "cinematographe"
+      ],
+      "prompt": "The Lumière Cinématographe could record, print, and do what else with motion-picture film?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add magnetic sound"
+        },
+        {
+          "id": "b",
+          "text": "Broadcast television"
+        },
+        {
+          "id": "c",
+          "text": "Project it"
+        },
+        {
+          "id": "d",
+          "text": "Record it in three-strip colour"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "One device could help both make films and present them to a group.",
+      "explanation": "The Cinématographe served as camera, printer, and projector.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.si.edu/object/nmah_759313",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-post-sync",
+      "level": 8,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "post-sync"
+      ],
+      "prompt": "What is postsynchronization of dialogue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Translating a screenplay before filming"
+        },
+        {
+          "id": "b",
+          "text": "Recording audience reactions"
+        },
+        {
+          "id": "c",
+          "text": "Adding captions to an archive print"
+        },
+        {
+          "id": "d",
+          "text": "Recording dialogue to match an already filmed scene"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The image is already available to guide the performance.",
+      "explanation": "Postsynchronized dialogue is recorded afterward and aligned with the filmed speech.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/sound/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-jump-cut",
+      "level": 9,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "jump-cut"
+      ],
+      "prompt": "Which edit creates a noticeable leap within a similar view of the same subject?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jump cut"
+        },
+        {
+          "id": "b",
+          "text": "Dissolve"
+        },
+        {
+          "id": "c",
+          "text": "Fade-out"
+        },
+        {
+          "id": "d",
+          "text": "Wipe"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The interruption can make missing time conspicuous.",
+      "explanation": "A jump cut breaks apparent continuity between similar shots.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/editing/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-graphic-match",
+      "level": 10,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "graphic-match"
+      ],
+      "prompt": "An editor cuts from a circular clock face to a similarly framed full moon. What links the shots?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eyeline direction"
+        },
+        {
+          "id": "b",
+          "text": "A graphic match"
+        },
+        {
+          "id": "c",
+          "text": "Continuous dialogue"
+        },
+        {
+          "id": "d",
+          "text": "A shared camera movement"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The connection is visual, even if the locations differ.",
+      "explanation": "A graphic match connects shots through similarities of shape or composition.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/editing/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-rack-focus",
+      "level": 11,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "rack-focus"
+      ],
+      "prompt": "What happens during a rack focus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The image dissolves into another shot"
+        },
+        {
+          "id": "b",
+          "text": "The camera tilts away from the subject"
+        },
+        {
+          "id": "c",
+          "text": "Sharpness shifts between different distances"
+        },
+        {
+          "id": "d",
+          "text": "The entire scene becomes equally sharp"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The viewer's attention moves without an edit.",
+      "explanation": "Rack focus changes the lens's focus from one plane to another.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/cinematography/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-deep-focus",
+      "level": 12,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "deep-focus"
+      ],
+      "prompt": "What distinguishes deep-focus cinematography?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A deliberately tilted horizon"
+        },
+        {
+          "id": "b",
+          "text": "An unusually long uninterrupted take"
+        },
+        {
+          "id": "c",
+          "text": "A camera mounted near the floor"
+        },
+        {
+          "id": "d",
+          "text": "Near and distant subjects remaining sharp"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider how much depth the viewer can examine at once.",
+      "explanation": "Deep focus keeps subjects at multiple distances in sharp focus.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/cinematography/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-eyeline",
+      "level": 13,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "eyeline"
+      ],
+      "prompt": "A character looks offscreen; the next shot shows a doorway. Which continuity device suggests that the character sees it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eyeline match"
+        },
+        {
+          "id": "b",
+          "text": "Iris transition"
+        },
+        {
+          "id": "c",
+          "text": "Graphic contrast"
+        },
+        {
+          "id": "d",
+          "text": "Parallel montage"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The relationship depends on the direction of the first look.",
+      "explanation": "An eyeline match connects a look with its presumed object.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/editing/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-sound-bridge",
+      "level": 14,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "sound-bridge"
+      ],
+      "prompt": "Music from one scene continues over the opening image of the next. What is this transition called?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A silent insert"
+        },
+        {
+          "id": "b",
+          "text": "A sound bridge"
+        },
+        {
+          "id": "c",
+          "text": "A freeze-frame"
+        },
+        {
+          "id": "d",
+          "text": "A split screen"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The ear provides continuity while the picture changes.",
+      "explanation": "A sound bridge carries audio across a visual transition.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://filmanalysis.yale.edu/sound/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cinema-craft-dolly-zoom",
+      "level": 15,
+      "category": "Film and Television",
+      "tags": [
+        "cinema-craft",
+        "dolly-zoom"
+      ],
+      "prompt": "A subject stays roughly the same size while the background seems to stretch in a dolly zoom. Which combination creates this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Panning while tilting in the opposite direction"
+        },
+        {
+          "id": "b",
+          "text": "Changing aperture while holding focal length fixed"
+        },
+        {
+          "id": "c",
+          "text": "Moving away while zooming in, or the reverse"
+        },
+        {
+          "id": "d",
+          "text": "Rotating the camera while keeping its position fixed"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Separate what camera distance changes from what focal length changes.",
+      "explanation": "Opposing camera movement and zoom hold the subject's size while the changing viewpoint alters perspective.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cinema-craft-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://screeningshorts.org.uk/glossary/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-cinema-craft-set",
+      "title": "Behind the Screen",
+      "description": "Discover how filmmakers shape pictures, sound, and the spaces between shots.",
+      "theme": "Film and Television",
+      "tags": [
+        "cinema-craft"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Film"
+      ],
+      "questionIds": [
+        "builtin-library-cinema-craft-screenplay",
+        "builtin-library-cinema-craft-storyboard",
+        "builtin-library-cinema-craft-credits",
+        "builtin-library-cinema-craft-close-up",
+        "builtin-library-cinema-craft-stop-motion",
+        "builtin-library-cinema-craft-melies",
+        "builtin-library-cinema-craft-cinematographe",
+        "builtin-library-cinema-craft-post-sync",
+        "builtin-library-cinema-craft-jump-cut",
+        "builtin-library-cinema-craft-graphic-match",
+        "builtin-library-cinema-craft-rack-focus",
+        "builtin-library-cinema-craft-deep-focus",
+        "builtin-library-cinema-craft-eyeline",
+        "builtin-library-cinema-craft-sound-bridge",
+        "builtin-library-cinema-craft-dolly-zoom"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

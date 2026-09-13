@@ -1,0 +1,732 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-animal-adaptations-pack",
+  "title": "Built to Survive",
+  "description": "From winter coats to the ingenious ways animals manage heat, water, and oxygen.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Nature and Earth"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-animal-adaptations-camouflage",
+      "level": 1,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "A snowshoe hare's white winter coat helps it do what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blend into snowy surroundings"
+        },
+        {
+          "id": "b",
+          "text": "Attract insects to eat"
+        },
+        {
+          "id": "c",
+          "text": "Store more body fat"
+        },
+        {
+          "id": "d",
+          "text": "Hear beneath the snow"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider how a predator first notices its prey.",
+      "explanation": "The pale coat makes a hare harder to see against snow. Seasonal camouflage reduces visual contrast.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/arctic/wildlife.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-migration",
+      "level": 2,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "What is the usual term for animals making regular seasonal journeys between habitats?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Germination"
+        },
+        {
+          "id": "b",
+          "text": "Migration"
+        },
+        {
+          "id": "c",
+          "text": "Hibernation"
+        },
+        {
+          "id": "d",
+          "text": "Molting"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The same animal may use different places at different times of year.",
+      "explanation": "Migration takes animals between seasonal habitats, often to find food or reproduce.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/grte/learn/nature/what-is-migration.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-webbed-feet",
+      "level": 3,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "A beaver's webbed hind feet are especially useful for which activity?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peeling bark"
+        },
+        {
+          "id": "b",
+          "text": "Detecting scents"
+        },
+        {
+          "id": "c",
+          "text": "Swimming"
+        },
+        {
+          "id": "d",
+          "text": "Climbing tree trunks"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think about the surface that pushes against the surroundings.",
+      "explanation": "Webbing increases the area of each hind foot, making it an effective paddle.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/articles/north-american-beaver-acadia.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-blubber",
+      "level": 4,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "Which tissue forms the insulating blubber layer of a seal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cartilage"
+        },
+        {
+          "id": "b",
+          "text": "Muscle"
+        },
+        {
+          "id": "c",
+          "text": "Bone"
+        },
+        {
+          "id": "d",
+          "text": "Fat"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Water carries heat away from a body more readily than air.",
+      "explanation": "Blubber is a thick layer of fat beneath the skin that reduces heat loss and also stores energy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-skin-breathing",
+      "level": 5,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "Why must an earthworm's skin stay moist for it to breathe effectively?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Respiratory gases must dissolve before diffusing across it"
+        },
+        {
+          "id": "b",
+          "text": "Water turns its skin into a rigid air tube"
+        },
+        {
+          "id": "c",
+          "text": "Dry skin would produce too much oxygen"
+        },
+        {
+          "id": "d",
+          "text": "Moisture pumps air into tiny lungs"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider what must happen as gases cross a living membrane.",
+      "explanation": "Oxygen dissolves in the surface moisture before diffusing through the skin. Earthworms lack lungs.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-ruminants",
+      "level": 6,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "What chiefly enables a cow to obtain nutrition from cellulose in grass?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Photosynthesis inside its stomach"
+        },
+        {
+          "id": "b",
+          "text": "Microbes in its digestive system"
+        },
+        {
+          "id": "c",
+          "text": "An extra set of grinding teeth"
+        },
+        {
+          "id": "d",
+          "text": "Cellulose-dissolving saliva alone"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The animal benefits from the chemistry of organisms living inside it.",
+      "explanation": "Microbes in the rumen ferment cellulose and produce compounds the cow can use for energy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-torpor",
+      "level": 7,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "What happens to a hummingbird's metabolism during nightly torpor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It doubles to fuel shivering"
+        },
+        {
+          "id": "b",
+          "text": "It stops permanently"
+        },
+        {
+          "id": "c",
+          "text": "It drops markedly"
+        },
+        {
+          "id": "d",
+          "text": "It remains at flight level"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A small bird has limited reserves to get through a cold night.",
+      "explanation": "Torpor is a controlled reduction in metabolic activity, often with a lower body temperature. It saves energy during periods without feeding.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://academy.allaboutbirds.org/live-event/how-high-energy-hummingbirds-survive-a-qa-with-the-experts/",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-freshwater-urine",
+      "level": 8,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "A freshwater bony fish gains water by osmosis. How do its kidneys help maintain balance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Produce little concentrated urine"
+        },
+        {
+          "id": "b",
+          "text": "Stop filtration while pumping water inward"
+        },
+        {
+          "id": "c",
+          "text": "Retain water while excreting more salt"
+        },
+        {
+          "id": "d",
+          "text": "Produce plentiful dilute urine"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its body fluids are more concentrated than the surrounding water.",
+      "explanation": "Freshwater fish must remove water that continually enters their bodies. They excrete large volumes of dilute urine while conserving salts.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/41-1-osmoregulation-and-osmotic-balance",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-bird-airflow",
+      "level": 9,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "What is distinctive about airflow through the main gas-exchanging passages of a bird's lungs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It remains largely one-way through both phases of breathing"
+        },
+        {
+          "id": "b",
+          "text": "It reverses through those passages with every breath"
+        },
+        {
+          "id": "c",
+          "text": "It stops throughout exhalation"
+        },
+        {
+          "id": "d",
+          "text": "It bypasses the lungs during flight"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Air sacs act as bellows, not as the principal gas-exchange surface.",
+      "explanation": "Birds use air sacs to maintain largely unidirectional flow through the parabronchi during inhalation and exhalation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/29-5-birds",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-uric-acid",
+      "level": 10,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "Why is excreting nitrogen mainly as uric acid useful to many birds and reptiles?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It dissolves more readily than urea in water"
+        },
+        {
+          "id": "b",
+          "text": "It allows waste removal with relatively little water"
+        },
+        {
+          "id": "c",
+          "text": "It uses less energy than excreting ammonia directly"
+        },
+        {
+          "id": "d",
+          "text": "It eliminates nitrogen without losing any carbon"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Compare a concentrated paste with a large volume of dilute liquid.",
+      "explanation": "Uric acid is poorly soluble and can be eliminated in a concentrated form. Producing it costs energy but helps conserve water.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-ap-courses/pages/32-4-nitrogenous-wastes",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-countercurrent-heat",
+      "level": 11,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "In a cold-water bird's leg, warm arterial blood flows beside cooler venous blood. What is the main benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arterial and venous blood mix before reaching the heart"
+        },
+        {
+          "id": "b",
+          "text": "The blood's freezing point rises as it enters the foot"
+        },
+        {
+          "id": "c",
+          "text": "Heat returns toward the body before reaching the foot"
+        },
+        {
+          "id": "d",
+          "text": "Heat is carried more efficiently from the core to the foot"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Follow the heat separately from the direction of blood flow.",
+      "explanation": "Countercurrent exchange transfers heat from outgoing arterial blood to returning venous blood, reducing heat lost through the extremity.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/33-3-homeostasis",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-gill-exchange",
+      "level": 12,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "Why does opposite-direction flow of water and blood improve oxygen uptake in fish gills?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It makes oxygen diffusion independent of concentration"
+        },
+        {
+          "id": "b",
+          "text": "It equalizes oxygen levels at the midpoint of the gill"
+        },
+        {
+          "id": "c",
+          "text": "It replaces diffusion with active pumping of oxygen"
+        },
+        {
+          "id": "d",
+          "text": "It maintains an oxygen gradient along the exchange surface"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Compare conditions along the entire gill, not just at its entrance.",
+      "explanation": "Countercurrent flow keeps water relatively richer in oxygen than the adjacent blood over much of the gill, sustaining diffusion.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://journals.physiology.org/doi/full/10.1152/physrev.00050.2003",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-bohr-effect",
+      "level": 13,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "In active mammalian muscle, increased carbon dioxide and acidity tend to make hemoglobin do what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Release oxygen more readily"
+        },
+        {
+          "id": "b",
+          "text": "Bind oxygen more tightly"
+        },
+        {
+          "id": "c",
+          "text": "Bind oxygen without cooperative effects"
+        },
+        {
+          "id": "d",
+          "text": "Lose all ability to bind oxygen reversibly"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The local chemical conditions change where the carrier releases its load.",
+      "explanation": "The Bohr effect lowers hemoglobin's oxygen affinity in more acidic, carbon-dioxide-rich conditions, aiding oxygen delivery to active tissue.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/39-4-transport-of-gases-in-human-bodily-fluids",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-osmotic-switch",
+      "level": 14,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "A bony fish moves from fresh water into seawater more concentrated than its body fluids. Which osmotic tendency reverses?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Net water flow ceases despite the concentration difference"
+        },
+        {
+          "id": "b",
+          "text": "Net water gain becomes net water loss"
+        },
+        {
+          "id": "c",
+          "text": "Net water loss becomes net water gain"
+        },
+        {
+          "id": "d",
+          "text": "Net salt gain becomes net water gain"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Track water movement across a membrane before considering the fish's compensating behavior.",
+      "explanation": "Water tends toward the more concentrated solution. The fish gains water in fresh water but tends to lose it in seawater, requiring different regulation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/41-1-osmoregulation-and-osmotic-balance",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-animal-adaptations-scaling-exchange",
+      "level": 15,
+      "category": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "prompt": "A hypothetical animal doubles every linear dimension without changing shape. If oxygen demand follows volume, what happens to demand per unit of outer surface area?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It stays the same"
+        },
+        {
+          "id": "b",
+          "text": "It increases eightfold"
+        },
+        {
+          "id": "c",
+          "text": "It doubles"
+        },
+        {
+          "id": "d",
+          "text": "It halves"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare how area and volume scale, then take their ratio.",
+      "explanation": "Doubling length multiplies area by four and volume by eight. Demand per unit surface therefore doubles, helping explain the need for internal exchange surfaces in larger animals.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-animal-adaptations-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+        "verificationNotes": "Verified scaling independently: (2 cubed)/(2 squared)=2. Idealized constant shape and volume-proportional demand are explicit; not a claim about actual whole-animal metabolic scaling."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-animal-adaptations-set",
+      "title": "Built to Survive",
+      "description": "From winter coats to the ingenious ways animals manage heat, water, and oxygen.",
+      "theme": "Nature and Earth",
+      "tags": [
+        "animal-adaptations"
+      ],
+      "folderPath": [
+        "Science & Nature",
+        "Living World"
+      ],
+      "questionIds": [
+        "builtin-library-animal-adaptations-camouflage",
+        "builtin-library-animal-adaptations-migration",
+        "builtin-library-animal-adaptations-webbed-feet",
+        "builtin-library-animal-adaptations-blubber",
+        "builtin-library-animal-adaptations-skin-breathing",
+        "builtin-library-animal-adaptations-ruminants",
+        "builtin-library-animal-adaptations-torpor",
+        "builtin-library-animal-adaptations-freshwater-urine",
+        "builtin-library-animal-adaptations-bird-airflow",
+        "builtin-library-animal-adaptations-uric-acid",
+        "builtin-library-animal-adaptations-countercurrent-heat",
+        "builtin-library-animal-adaptations-gill-exchange",
+        "builtin-library-animal-adaptations-bohr-effect",
+        "builtin-library-animal-adaptations-osmotic-switch",
+        "builtin-library-animal-adaptations-scaling-exchange"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds to specialist knowledge and reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Original questions; source-linked assistant review, not human editorial certification."
+  }
+}

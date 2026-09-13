@@ -1,0 +1,605 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-legacy-arts-and-culture-01",
+  "title": "Arts and Culture",
+  "description": "A mixed set covering painting, sculpture, literature, film, music, performance, and critical terminology.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Art and Culture",
+    "Film and Television",
+    "Music",
+    "Literature and Language"
+  ],
+  "questions": [
+    {
+      "id": "builtin-set-arts-and-culture-01-q01",
+      "level": 1,
+      "category": "Art and Culture",
+      "tags": [
+        "sculpture"
+      ],
+      "prompt": "Who sculpted The Thinker?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Henry Moore"
+        },
+        {
+          "id": "b",
+          "text": "Donatello"
+        },
+        {
+          "id": "c",
+          "text": "Constantin Brâncuși"
+        },
+        {
+          "id": "d",
+          "text": "Auguste Rodin"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The work was conceived in connection with The Gates of Hell.",
+      "explanation": "Auguste Rodin created The Thinker.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q02",
+      "level": 2,
+      "category": "Film and Television",
+      "tags": [
+        "awards",
+        "film"
+      ],
+      "prompt": "What nickname is commonly used for the Academy Award statuette?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Emmy"
+        },
+        {
+          "id": "b",
+          "text": "Grammy"
+        },
+        {
+          "id": "c",
+          "text": "Tony"
+        },
+        {
+          "id": "d",
+          "text": "Oscar"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The award honors film achievement.",
+      "explanation": "The Academy Award statuette is commonly called an Oscar.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q03",
+      "level": 3,
+      "category": "Music",
+      "tags": [
+        "instruments"
+      ],
+      "prompt": "How many strings does a standard guitar usually have?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eight"
+        },
+        {
+          "id": "b",
+          "text": "Five"
+        },
+        {
+          "id": "c",
+          "text": "Six"
+        },
+        {
+          "id": "d",
+          "text": "Four"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The most common tuning runs E-A-D-G-B-E.",
+      "explanation": "A standard guitar usually has six strings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q04",
+      "level": 4,
+      "category": "Literature and Language",
+      "tags": [
+        "children's literature"
+      ],
+      "prompt": "Who wrote Alice's Adventures in Wonderland?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lewis Carroll"
+        },
+        {
+          "id": "b",
+          "text": "A. A. Milne"
+        },
+        {
+          "id": "c",
+          "text": "J. M. Barrie"
+        },
+        {
+          "id": "d",
+          "text": "Kenneth Grahame"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The author's real name was Charles Dodgson.",
+      "explanation": "Lewis Carroll wrote Alice's Adventures in Wonderland.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q05",
+      "level": 5,
+      "category": "Art and Culture",
+      "tags": [
+        "dance",
+        "South America"
+      ],
+      "prompt": "Tango developed primarily around the Río de la Plata, especially in Argentina and which other country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uruguay"
+        },
+        {
+          "id": "b",
+          "text": "Paraguay"
+        },
+        {
+          "id": "c",
+          "text": "Chile"
+        },
+        {
+          "id": "d",
+          "text": "Peru"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Montevideo shares the tradition with Buenos Aires.",
+      "explanation": "Tango developed in the urban culture of Argentina and Uruguay.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q06",
+      "level": 6,
+      "category": "Music",
+      "tags": [
+        "opera"
+      ],
+      "prompt": "Who composed the opera Carmen?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Claude Debussy"
+        },
+        {
+          "id": "b",
+          "text": "Hector Berlioz"
+        },
+        {
+          "id": "c",
+          "text": "Georges Bizet"
+        },
+        {
+          "id": "d",
+          "text": "Gioachino Rossini"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The opera includes the Habanera.",
+      "explanation": "Georges Bizet composed Carmen.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q07",
+      "level": 7,
+      "category": "Film and Television",
+      "tags": [
+        "editing"
+      ],
+      "prompt": "A montage sequence often serves what purpose?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Changing the film's language"
+        },
+        {
+          "id": "b",
+          "text": "Showing one uncut real-time action only"
+        },
+        {
+          "id": "c",
+          "text": "Removing all sound"
+        },
+        {
+          "id": "d",
+          "text": "Compressing time or conveying a series of developments"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Training sequences often use it.",
+      "explanation": "Montage can condense many events into a short screen duration.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q08",
+      "level": 8,
+      "category": "Art and Culture",
+      "tags": [
+        "design",
+        "Art Nouveau"
+      ],
+      "prompt": "Art Nouveau is especially known for what visual quality?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strict brutalist concrete only"
+        },
+        {
+          "id": "b",
+          "text": "Flowing organic lines"
+        },
+        {
+          "id": "c",
+          "text": "Tiny monochrome dots only"
+        },
+        {
+          "id": "d",
+          "text": "Perfectly plain grids"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Plant-like curves are common.",
+      "explanation": "Art Nouveau favors sinuous, natural forms and decorative integration.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q09",
+      "level": 9,
+      "category": "Literature and Language",
+      "tags": [
+        "narrative technique"
+      ],
+      "prompt": "Stream-of-consciousness writing tries to represent what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only external action"
+        },
+        {
+          "id": "b",
+          "text": "A legal argument"
+        },
+        {
+          "id": "c",
+          "text": "The flow of a character's thoughts and perceptions"
+        },
+        {
+          "id": "d",
+          "text": "Stage directions"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "It may follow associative mental movement.",
+      "explanation": "Stream of consciousness imitates the continuous movement of inner experience.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q10",
+      "level": 10,
+      "category": "Music",
+      "tags": [
+        "music theory"
+      ],
+      "prompt": "The circle of fifths organizes what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The seating of an orchestra"
+        },
+        {
+          "id": "b",
+          "text": "The length of songs"
+        },
+        {
+          "id": "c",
+          "text": "Relationships among musical keys"
+        },
+        {
+          "id": "d",
+          "text": "The history of instruments"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Moving around it changes the key by a perfect fifth.",
+      "explanation": "The circle of fifths maps key signatures and harmonic relationships.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q11",
+      "level": 11,
+      "category": "Film and Television",
+      "tags": [
+        "film theory"
+      ],
+      "prompt": "What does mise-en-scène refer to?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the screenplay's dialogue"
+        },
+        {
+          "id": "b",
+          "text": "The arrangement of visual elements within the filmed scene"
+        },
+        {
+          "id": "c",
+          "text": "The theater's ticket sales"
+        },
+        {
+          "id": "d",
+          "text": "The final soundtrack mix only"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Sets, lighting, costume, and blocking are included.",
+      "explanation": "Mise-en-scène describes what is placed before the camera and how it is arranged.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q12",
+      "level": 12,
+      "category": "Art and Culture",
+      "tags": [
+        "painting",
+        "Baroque"
+      ],
+      "prompt": "Tenebrism is characterized by what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unshaded line drawing"
+        },
+        {
+          "id": "b",
+          "text": "Pastel landscapes only"
+        },
+        {
+          "id": "c",
+          "text": "Dramatic darkness with sharply illuminated areas"
+        },
+        {
+          "id": "d",
+          "text": "Geometric sculpture only"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Caravaggio is closely associated with it.",
+      "explanation": "Tenebrism uses extreme contrasts between darkness and concentrated light.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q13",
+      "level": 13,
+      "category": "Literature and Language",
+      "tags": [
+        "narrative"
+      ],
+      "prompt": "What is an unreliable narrator?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A narrator who never appears"
+        },
+        {
+          "id": "b",
+          "text": "A narrator who speaks only in rhyme"
+        },
+        {
+          "id": "c",
+          "text": "A narrator whose account cannot be fully trusted"
+        },
+        {
+          "id": "d",
+          "text": "A narrator who knows every fact accurately"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Bias, deception, or limited understanding may distort the story.",
+      "explanation": "An unreliable narrator presents a questionable or incomplete version of events.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q14",
+      "level": 14,
+      "category": "Music",
+      "tags": [
+        "modern music",
+        "composition"
+      ],
+      "prompt": "Which composer is most associated with developing the twelve-tone method?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jean Sibelius"
+        },
+        {
+          "id": "b",
+          "text": "Arnold Schoenberg"
+        },
+        {
+          "id": "c",
+          "text": "Antonín Dvořák"
+        },
+        {
+          "id": "d",
+          "text": "Giacomo Puccini"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The method organizes all twelve chromatic pitches.",
+      "explanation": "Arnold Schoenberg developed the twelve-tone technique.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-arts-and-culture-01-q15",
+      "level": 15,
+      "category": "Art and Culture",
+      "tags": [
+        "religion",
+        "art history"
+      ],
+      "prompt": "What is iconoclasm?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The restoration of musical instruments"
+        },
+        {
+          "id": "b",
+          "text": "The creation of miniature portraits"
+        },
+        {
+          "id": "c",
+          "text": "The rejection or destruction of religious images"
+        },
+        {
+          "id": "d",
+          "text": "The study of ancient coins"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The term combines image and breaker.",
+      "explanation": "Iconoclasm is opposition to or destruction of sacred images.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-arts-and-culture-01"
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-arts-and-culture-01",
+      "title": "Arts and Culture",
+      "description": "A mixed set covering painting, sculpture, literature, film, music, performance, and critical terminology.",
+      "theme": "Arts and Culture",
+      "tags": [
+        "mixed",
+        "arts"
+      ],
+      "questionIds": [
+        "builtin-set-arts-and-culture-01-q01",
+        "builtin-set-arts-and-culture-01-q02",
+        "builtin-set-arts-and-culture-01-q03",
+        "builtin-set-arts-and-culture-01-q04",
+        "builtin-set-arts-and-culture-01-q05",
+        "builtin-set-arts-and-culture-01-q06",
+        "builtin-set-arts-and-culture-01-q07",
+        "builtin-set-arts-and-culture-01-q08",
+        "builtin-set-arts-and-culture-01-q09",
+        "builtin-set-arts-and-culture-01-q10",
+        "builtin-set-arts-and-culture-01-q11",
+        "builtin-set-arts-and-culture-01-q12",
+        "builtin-set-arts-and-culture-01-q13",
+        "builtin-set-arts-and-culture-01-q14",
+        "builtin-set-arts-and-culture-01-q15"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Art"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-006; original immutable evidence retained in content/source/release-001."
+  }
+}

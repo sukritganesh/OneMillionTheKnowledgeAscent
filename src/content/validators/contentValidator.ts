@@ -1,3 +1,4 @@
+import { folderPathError } from '../folders';
 import {
   BUILT_IN_ID_PATTERN,
   IMPORT_LIMITS,
@@ -431,6 +432,10 @@ export function validateContentPack(input: unknown, options: PackValidationOptio
     validateStringArray(set.tags, `${path}.tags`, errors, IMPORT_LIMITS.maxTagsPerQuestion, IMPORT_LIMITS.maxTagLength);
     optionalString(set, 'audience', path, errors, 240);
     optionalString(set, 'difficultyNote', path, errors, 500);
+    if (set.folderPath !== undefined) {
+      const folderError = folderPathError(set.folderPath);
+      if (folderError) addIssue(errors, 'error', 'invalid-folder-path', `${path}.folderPath`, folderError);
+    }
     const rawQuestionIds = validateStringArray(
       set.questionIds,
       `${path}.questionIds`,

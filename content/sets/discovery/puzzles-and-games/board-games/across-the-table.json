@@ -1,0 +1,733 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-tabletop-games-pack",
+  "title": "Across the Table",
+  "description": "Familiar boards, useful rule distinctions and a few situations worth thinking through.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Sports and Games"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-tabletop-games-chess-board",
+      "level": 1,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "How many squares are on a standard chessboard?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "36"
+        },
+        {
+          "id": "b",
+          "text": "49"
+        },
+        {
+          "id": "c",
+          "text": "64"
+        },
+        {
+          "id": "d",
+          "text": "81"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Count the rows and columns.",
+      "explanation": "Eight rows of eight squares make 64.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://handbook.fide.com/chapter/e012023",
+        "verificationNotes": "FIDE 2023, Article2.1; independently8*8=64."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-go-intersections",
+      "level": 2,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "Where are stones placed when playing Go?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On intersections of the grid lines"
+        },
+        {
+          "id": "b",
+          "text": "In the centres of the squares"
+        },
+        {
+          "id": "c",
+          "text": "Only around the outer border"
+        },
+        {
+          "id": "d",
+          "text": "Between adjacent intersections"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The grid marks positions rather than spaces to be filled.",
+      "explanation": "Go stones sit where horizontal and vertical lines meet, including the board’s edges and corners.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britgo.org/intro/intro2.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-scrabble-blank",
+      "level": 3,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In classic English-language Scrabble, what is a blank tile’s own point value?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The flexibility of the tile comes with a scoring trade-off.",
+      "explanation": "A blank has no letter points, whichever letter it represents. Word multipliers can still affect the word’s other points.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.hasbro.com/common/documents/dad2884b1c4311ddbd0b0800200c9a66/0606acdbbc9d4b55bfd2df956f61a723.pdf",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-othello-flip",
+      "level": 4,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In Othello, what happens to opposing discs directly trapped in a line between the disc you place and another of your discs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are removed from play"
+        },
+        {
+          "id": "b",
+          "text": "They are flipped to your colour"
+        },
+        {
+          "id": "c",
+          "text": "They move to the nearest corner"
+        },
+        {
+          "id": "d",
+          "text": "They score points but stay unchanged"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "A move changes ownership of pieces already on the board.",
+      "explanation": "All opposing discs outflanked by the move are turned over to show your colour.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-monopoly-hotels",
+      "level": 5,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "Under classic Monopoly rules, how many houses must be on each property of a complete colour group before its first hotel can be bought?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The rules require even development across the group, not just on one property.",
+      "explanation": "Each property must have four houses. A hotel then replaces the four houses on its own property.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.hasbro.com/common/instruct/monins.pdf",
+        "verificationNotes": "Checked HOTELS and even-building rule in classic full-length rules, not optional short-game variation."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-catan-city",
+      "level": 6,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In the 2020 CATAN base-game rules, a city is worth how many victory points in total?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "An upgrade replaces the settlement; do not add the two buildings’ values together.",
+      "explanation": "A city is worth two victory points, compared with one for a settlement.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.catan.com/sites/default/files/2021-06/catan_base_rules_2020_200707.pdf",
+        "verificationNotes": "Checked base-game city value; asks total rather than points gained by upgrading."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-scrabble-bingo",
+      "level": 7,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In classic English-language Scrabble, what bonus is awarded for using all seven rack tiles in one turn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "25 points"
+        },
+        {
+          "id": "b",
+          "text": "35 points"
+        },
+        {
+          "id": "c",
+          "text": "40 points"
+        },
+        {
+          "id": "d",
+          "text": "50 points"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "This bonus is added after calculating the score for the words formed.",
+      "explanation": "Using seven tiles in one turn adds a 50-point bonus to the word score.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.hasbro.com/common/documents/dad2884b1c4311ddbd0b0800200c9a66/0606acdbbc9d4b55bfd2df956f61a723.pdf",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-monopoly-auction",
+      "level": 8,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In classic Monopoly, a player lands on an unowned property and declines to buy it at the printed price. What happens next?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The property is removed from the game"
+        },
+        {
+          "id": "b",
+          "text": "The bank offers it at auction"
+        },
+        {
+          "id": "c",
+          "text": "The next player receives it free"
+        },
+        {
+          "id": "d",
+          "text": "It becomes unavailable until the next round"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The bank has a second way to sell property besides the printed-price purchase.",
+      "explanation": "The bank auctions it to the highest bidder. The player who declined the printed price may also bid.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.hasbro.com/common/instruct/monins.pdf",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-chess-stalemate",
+      "level": 9,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In standard chess, a player has no legal move but is not in check. What is the result?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A loss by checkmate"
+        },
+        {
+          "id": "b",
+          "text": "A skipped turn"
+        },
+        {
+          "id": "c",
+          "text": "A draw by stalemate"
+        },
+        {
+          "id": "d",
+          "text": "A mandatory resignation"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Being unable to move is not, by itself, checkmate.",
+      "explanation": "Stalemate immediately draws the game.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://handbook.fide.com/chapter/e012023",
+        "verificationNotes": "FIDE2023 Article5.2.1; assumes the position arose legally."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-catan-discard",
+      "level": 10,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "Using the 2020 CATAN base-game rules, you hold 9 resource cards when a 7 is rolled. How many must you discard, before any theft by the robber?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "0"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The discard applies only above the hand-size threshold, and half is rounded down.",
+      "explanation": "With more than seven resource cards, discard half rounded down: half of nine rounds down to four.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.catan.com/sites/default/files/2021-06/catan_base_rules_2020_200707.pdf",
+        "verificationNotes": "Checked printed rule p5; floor(9/2)=4. Development cards and later robber theft excluded explicitly."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-pandemic-outbreak",
+      "level": 11,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In the standard Pandemic base game, an unprevented infection would add a fourth cube of one colour to a city. What happens instead?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Remove every cube from that city"
+        },
+        {
+          "id": "b",
+          "text": "Discover a cure for that colour"
+        },
+        {
+          "id": "c",
+          "text": "Place two cubes in that city"
+        },
+        {
+          "id": "d",
+          "text": "Trigger an outbreak from that city"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The danger spreads through the network when a city reaches its local limit.",
+      "explanation": "An outbreak replaces the fourth cube: the outbreak marker advances, and connected cities receive that disease’s cubes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://cdn.svc.asmodee.net/production-zman/uploads/2024/09/Pandemic_Rulebook.pdf",
+        "verificationNotes": "Checked Infection and Outbreaks rules. Unprevented qualifier excludes role/event prevention; colour specified because a city can hold cubes of several colours."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-backgammon-gammon",
+      "level": 12,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In standard backgammon scoring, how much is a gammon worth relative to the current value of the doubling cube?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The same value"
+        },
+        {
+          "id": "b",
+          "text": "Twice the value"
+        },
+        {
+          "id": "c",
+          "text": "Three times the value"
+        },
+        {
+          "id": "d",
+          "text": "Four times the value"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "A gammon is a stronger win than a single game, but differs from a backgammon.",
+      "explanation": "A gammon scores twice the cube value. A backgammon scores three times; a single game scores once.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.bkgm.com/rules.html",
+        "verificationNotes": "Checked standard Gammons and Backgammons section; optional Jacoby rule excluded by standard scoring scope."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-go-ko",
+      "level": 13,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "Under the simple ko rule described by the British Go Association, what is forbidden immediately after a ko capture?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Playing anywhere else on the board"
+        },
+        {
+          "id": "b",
+          "text": "Passing the next turn"
+        },
+        {
+          "id": "c",
+          "text": "Recapturing to recreate the position before that capture"
+        },
+        {
+          "id": "d",
+          "text": "Capturing stones in a different group"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The rule prevents a local exchange from repeating without intervening play.",
+      "explanation": "Immediate ko recapture is forbidden. A player must first play elsewhere before that recapture becomes available.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britgo.org/intro/intro2.html",
+        "verificationNotes": "Scoped to simple ko, not positional or situational superko; checked introductory ko example."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-backgammon-higher-die",
+      "level": 14,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "In standard backgammon, a roll is 3 and 5. Either number can be played legally, but no sequence allows both to be used. What must the player do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Play the 5"
+        },
+        {
+          "id": "b",
+          "text": "Play the 3"
+        },
+        {
+          "id": "c",
+          "text": "Choose either number"
+        },
+        {
+          "id": "d",
+          "text": "Forfeit both numbers"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The rules limit the choice when part of a roll cannot be used.",
+      "explanation": "When either number alone is playable but both cannot be used, the larger number must be played.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.bkgm.com/rules.html",
+        "verificationNotes": "Checked Movement of the Checkers rule4; both move orders excluded by wording, so no hidden legal sequence overrides the answer."
+      }
+    },
+    {
+      "id": "builtin-library-tabletop-games-chess-time-draw",
+      "level": 15,
+      "category": "Sports and Games",
+      "tags": [
+        "tabletop-games"
+      ],
+      "prompt": "Under the 2023 FIDE Laws, which condition makes an otherwise live game a draw when a player runs out of time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The opponent cannot force mate against best defence"
+        },
+        {
+          "id": "b",
+          "text": "The opponent has not yet given check"
+        },
+        {
+          "id": "c",
+          "text": "The players have equal material"
+        },
+        {
+          "id": "d",
+          "text": "The opponent cannot mate by any legal sequence"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Distinguish what can be forced from what is possible even with cooperative play.",
+      "explanation": "Article6.9 requires that no legal continuation could let the opponent checkmate. Merely lacking a forced mate is insufficient.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-tabletop-games-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://handbook.fide.com/chapter/e012023",
+        "verificationNotes": "Checked Article6.9; live game excludes one already ended under Article5."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-tabletop-games-set",
+      "title": "Across the Table",
+      "description": "Familiar boards, useful rule distinctions and a few situations worth thinking through.",
+      "theme": "Board Games and Chess",
+      "tags": [
+        "tabletop-games"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Board Games"
+      ],
+      "questionIds": [
+        "builtin-library-tabletop-games-chess-board",
+        "builtin-library-tabletop-games-go-intersections",
+        "builtin-library-tabletop-games-scrabble-blank",
+        "builtin-library-tabletop-games-othello-flip",
+        "builtin-library-tabletop-games-monopoly-hotels",
+        "builtin-library-tabletop-games-catan-city",
+        "builtin-library-tabletop-games-scrabble-bingo",
+        "builtin-library-tabletop-games-monopoly-auction",
+        "builtin-library-tabletop-games-chess-stalemate",
+        "builtin-library-tabletop-games-catan-discard",
+        "builtin-library-tabletop-games-pandemic-outbreak",
+        "builtin-library-tabletop-games-backgammon-gammon",
+        "builtin-library-tabletop-games-go-ko",
+        "builtin-library-tabletop-games-backgammon-higher-die",
+        "builtin-library-tabletop-games-chess-time-draw"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning.",
+      "audience": "Players curious about classic board games; rules are scoped to the editions or systems named in each question."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

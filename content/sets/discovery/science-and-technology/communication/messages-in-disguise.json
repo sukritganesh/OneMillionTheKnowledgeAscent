@@ -1,0 +1,733 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-codes-pack",
+  "title": "Messages in Disguise",
+  "description": "From flags and tactile dots to compression, error correction and secret messages.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Technology",
+    "Modern History"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-codes-morse-elements",
+      "level": 1,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "Morse code represents letters using combinations of which two kinds of signal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "High and low musical notes"
+        },
+        {
+          "id": "b",
+          "text": "Dots and dashes"
+        },
+        {
+          "id": "c",
+          "text": "Red and green flashes"
+        },
+        {
+          "id": "d",
+          "text": "Circles and crosses"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The basic distinction is in the duration of a signal.",
+      "explanation": "Morse code combines short dots and longer dashes, separated by timed gaps.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.itu.int/rec/R-REC-M.1677-1-200910-I/en",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-ascii-purpose",
+      "level": 2,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "What does a character encoding such as ASCII assign to letters and other characters?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A spoken pronunciation"
+        },
+        {
+          "id": "b",
+          "text": "A typeface design"
+        },
+        {
+          "id": "c",
+          "text": "A numerical code"
+        },
+        {
+          "id": "d",
+          "text": "A screen position"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The same text must be represented consistently inside different computers.",
+      "explanation": "A character encoding maps characters to numerical values that can be stored and transmitted.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.rfc-editor.org/rfc/rfc20.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-braille-cell",
+      "level": 3,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "A traditional braille cell has how many possible raised-dot positions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Picture two columns of dots, each with the same number of positions.",
+      "explanation": "The traditional cell has six positions, arranged in two columns of three. Eight-dot computer braille is a separate extension.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-semaphore-flags",
+      "level": 4,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "In flag semaphore, how are different letters primarily distinguished?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By the positions of the signaller’s arms and flags"
+        },
+        {
+          "id": "b",
+          "text": "By burning a different colour of smoke"
+        },
+        {
+          "id": "c",
+          "text": "By changing the size of the flags"
+        },
+        {
+          "id": "d",
+          "text": "By striking a different number of bells"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The receiver needs to see the sender, but no electrical circuit is required.",
+      "explanation": "Semaphore uses combinations of flag positions to represent letters and other signals.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.history.navy.mil/content/dam/museums/undersea/education/Semaphore.pdf",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-five-bit-alphabet",
+      "level": 5,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "What is the smallest fixed number of binary digits needed to give 32 symbols different codes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Each extra binary digit doubles the number of possible patterns.",
+      "explanation": "Five bits provide 2⁵ = 32 patterns, exactly enough for 32 distinct symbols.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://ocw.mit.edu/courses/6-050j-information-and-entropy-spring-2008/80c7258fd6bc5780797975eabb6fd747_MIT6_050JS08_textbook.pdf",
+        "verificationNotes": "Independent counting check2^4=16 insufficient;2^5=32 sufficient. Fixed-length and distinct codes specified."
+      }
+    },
+    {
+      "id": "builtin-library-codes-atlantic-cable",
+      "level": 6,
+      "category": "Modern History",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "The successful 1866 transatlantic link carried messages between Europe and North America using which technology?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shortwave radio"
+        },
+        {
+          "id": "b",
+          "text": "Optical fibre"
+        },
+        {
+          "id": "c",
+          "text": "A submarine telegraph cable"
+        },
+        {
+          "id": "d",
+          "text": "Microwave relays"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Place the achievement before practical radio and electronic amplifiers.",
+      "explanation": "The 1866 cable established a lasting electrical telegraph connection across the Atlantic, after earlier failed attempts.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://blog.sciencemuseum.org.uk/sending-messages-across-the-atlantic-156-years-on-from-the-first-transatlantic-cable/",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-checksum-job",
+      "level": 7,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "What is a basic non-cryptographic checksum mainly intended to detect?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The language of a message"
+        },
+        {
+          "id": "b",
+          "text": "The identity of its author"
+        },
+        {
+          "id": "c",
+          "text": "Its intended reading speed"
+        },
+        {
+          "id": "d",
+          "text": "Accidental changes in the data"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The receiver recalculates a small value and compares it with the one sent.",
+      "explanation": "Checksums can reveal transmission or storage errors. A basic checksum does not by itself authenticate an author or keep data secret.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://csrc.nist.gov/glossary/term/checksum",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-frequency-substitution",
+      "level": 8,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "Why can letter-frequency analysis help attack a simple one-to-one substitution cipher?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It preserves how often each substituted symbol occurs"
+        },
+        {
+          "id": "b",
+          "text": "It puts all letters in alphabetical order"
+        },
+        {
+          "id": "c",
+          "text": "It makes every encrypted letter equally common"
+        },
+        {
+          "id": "d",
+          "text": "It leaves the first letter of every word unchanged"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A long message can reveal statistical regularities even when no word is readable.",
+      "explanation": "A fixed substitution relabels letters but preserves their frequency pattern, which can be compared with patterns in the likely language.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cornell.edu/courses/cs513/2000SP/L23.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-hamming-count",
+      "level": 9,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "What is the Hamming distance between the bit strings 101101 and 100011?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Compare aligned positions; do not rearrange the bits.",
+      "explanation": "They differ in the third, fourth and fifth positions, so their Hamming distance is 3.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://xlinux.nist.gov/dads/HTML/HammingDistance.html",
+        "verificationNotes": "Independently compared six positions:1=1,0=0,1!=0,1!=0,0!=1,1=1; three differences. XOR101101^100011=001110 has three set bits."
+      }
+    },
+    {
+      "id": "builtin-library-codes-parity-limit",
+      "level": 10,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "A data block has one even-parity bit covering the whole block. Which error can escape that parity check?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Exactly one bit flips"
+        },
+        {
+          "id": "b",
+          "text": "Exactly three bits flip"
+        },
+        {
+          "id": "c",
+          "text": "Exactly two bits flip"
+        },
+        {
+          "id": "d",
+          "text": "Exactly five bits flip"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A single flip changes oddness or evenness; consider what another flip does.",
+      "explanation": "Flipping two bits leaves the overall parity unchanged, so a single parity check cannot detect that error.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cmu.edu/~srini/15-441/F11/lectures/06-datalink.pdf",
+        "verificationNotes": "Verified algebraically: XOR parity changes once per flipped bit; an even count of flips cancels. Includes parity bit among checked block bits; only net flips counted."
+      }
+    },
+    {
+      "id": "builtin-library-codes-huffman-lengths",
+      "level": 11,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "What is the basic compression idea behind Huffman coding?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Assign the same long code to every symbol"
+        },
+        {
+          "id": "b",
+          "text": "Delete symbols that occur most often"
+        },
+        {
+          "id": "c",
+          "text": "Encrypt common symbols with a second key"
+        },
+        {
+          "id": "d",
+          "text": "Give frequent symbols short codewords"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Reducing the average length matters more than giving every symbol equal space.",
+      "explanation": "Huffman coding builds a prefix code whose lengths reflect symbol frequencies, reducing the average bits used per symbol.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cmu.edu/~cburch/211-sp96/6Mar.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-codes-prefix-free",
+      "level": 12,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "Which set of four binary codewords is prefix-free, so no codeword starts another?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0, 10, 110, 111"
+        },
+        {
+          "id": "b",
+          "text": "0, 01, 10, 11"
+        },
+        {
+          "id": "c",
+          "text": "1, 10, 110, 111"
+        },
+        {
+          "id": "d",
+          "text": "00, 01, 011, 10"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think of a decoder walking a binary tree and stopping at a leaf for each symbol.",
+      "explanation": "In 0, 10, 110, 111, none is a prefix of another. Each alternative has a shorter codeword that starts a longer one.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cmu.edu/~cburch/211-sp96/6Mar.html",
+        "verificationNotes": "Independently checked all ordered codeword pairs with startsWith; only the first choice has zero prefix collisions."
+      }
+    },
+    {
+      "id": "builtin-library-codes-compression-counting",
+      "level": 13,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "Why can no standalone lossless binary code turn every possible 8-bit string into a string shorter than 8 bits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eight-bit values cannot represent letters"
+        },
+        {
+          "id": "b",
+          "text": "There are fewer distinct shorter outputs than inputs"
+        },
+        {
+          "id": "c",
+          "text": "All short binary strings contain transmission errors"
+        },
+        {
+          "id": "d",
+          "text": "Lossless decoding always requires a secret key"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Count possible outputs of lengths zero through seven, including the empty string.",
+      "explanation": "There are 256 possible inputs but only 1 + 2 + 4 + … + 128 = 255 shorter outputs. At least two inputs would collide, preventing unique recovery.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cmu.edu/afs/cs.cmu.edu/project/pscico-guyb/realworld/www/compression.pdf",
+        "verificationNotes": "Original counting proof independently verified sum(2^n,n=0..7)=255<256=2^8. Standalone excludes an external lookup choice or side channel conveying missing information."
+      }
+    },
+    {
+      "id": "builtin-library-codes-distance-correction",
+      "level": 14,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "A binary block code has minimum Hamming distance 5. What is the largest number of arbitrary bit errors per block that nearest-codeword decoding is guaranteed to correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Error-correction regions around distinct valid codewords must not overlap.",
+      "explanation": "A minimum distance of 2t + 1 guarantees correction of t errors. With distance 5, t is 2.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://ocw.mit.edu/courses/18-200-principles-of-discrete-applied-mathematics-spring-2024/mit18_200_s24_lec21-22.pdf",
+        "verificationNotes": "Verified bound floor((5-1)/2)=2. Three errors can bring a word closer to another codeword at distance5; claim is guarantee for arbitrary errors."
+      }
+    },
+    {
+      "id": "builtin-library-codes-reused-pad",
+      "level": 15,
+      "category": "Technology",
+      "tags": [
+        "codes"
+      ],
+      "prompt": "Two equal-length messages are XOR-encrypted using the same one-time pad. What does XORing their ciphertexts reveal directly, without knowing the pad?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pad itself"
+        },
+        {
+          "id": "b",
+          "text": "Both original messages separately"
+        },
+        {
+          "id": "c",
+          "text": "An all-zero bit string"
+        },
+        {
+          "id": "d",
+          "text": "The XOR of the two original messages"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "XORing any bit with itself cancels it; group the repeated terms.",
+      "explanation": "If C₁ = M₁ XOR K and C₂ = M₂ XOR K, then C₁ XOR C₂ = M₁ XOR M₂. This leaks a relation between the messages and destroys the pad’s intended secrecy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-codes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cs.cornell.edu/courses/cs5430/2017sp/l/06-symm-enc/lec.pdf",
+        "verificationNotes": "Checked lecture’s reused-pad identity. Independently verified associative XOR cancellation K^K=0; does not overclaim that both plaintexts are always immediately recoverable."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-codes-set",
+      "title": "Messages in Disguise",
+      "description": "From flags and tactile dots to compression, error correction and secret messages.",
+      "theme": "Codes and Communication",
+      "tags": [
+        "codes"
+      ],
+      "folderPath": [
+        "Science & Technology",
+        "Communication"
+      ],
+      "questionIds": [
+        "builtin-library-codes-morse-elements",
+        "builtin-library-codes-ascii-purpose",
+        "builtin-library-codes-braille-cell",
+        "builtin-library-codes-semaphore-flags",
+        "builtin-library-codes-five-bit-alphabet",
+        "builtin-library-codes-atlantic-cable",
+        "builtin-library-codes-checksum-job",
+        "builtin-library-codes-frequency-substitution",
+        "builtin-library-codes-hamming-count",
+        "builtin-library-codes-parity-limit",
+        "builtin-library-codes-huffman-lengths",
+        "builtin-library-codes-prefix-free",
+        "builtin-library-codes-compression-counting",
+        "builtin-library-codes-distance-correction",
+        "builtin-library-codes-reused-pad"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

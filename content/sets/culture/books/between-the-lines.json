@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-storytelling-pack",
+  "title": "Between the Lines",
+  "description": "Famous stories open the door to the forms and techniques writers use.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Literature and Language"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-storytelling-sherlock",
+      "level": 1,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "sherlock"
+      ],
+      "prompt": "What is Sherlock Holmes's profession in Arthur Conan Doyle's stories?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Detective"
+        },
+        {
+          "id": "b",
+          "text": "Surgeon"
+        },
+        {
+          "id": "c",
+          "text": "Sea captain"
+        },
+        {
+          "id": "d",
+          "text": "Newspaper editor"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "People seek his help when ordinary investigations have stalled.",
+      "explanation": "Sherlock Holmes works as a consulting detective.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/ebooks/1661",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-hobbit",
+      "level": 2,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "hobbit"
+      ],
+      "prompt": "Which character is the central hobbit in J. R. R. Tolkien's The Hobbit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Frodo Baggins"
+        },
+        {
+          "id": "b",
+          "text": "Bilbo Baggins"
+        },
+        {
+          "id": "c",
+          "text": "Samwise Gamgee"
+        },
+        {
+          "id": "d",
+          "text": "Peregrin Took"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "His adventure begins before the main events of The Lord of the Rings.",
+      "explanation": "Bilbo Baggins joins the dwarves' expedition in The Hobbit.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.tolkienestate.com/writing/john-d-rateliff-the-hobbit/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-fable",
+      "level": 3,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "fable"
+      ],
+      "prompt": "A short tale such as The Tortoise and the Hare, often teaching a moral, is called what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An elegy"
+        },
+        {
+          "id": "b",
+          "text": "A memoir"
+        },
+        {
+          "id": "c",
+          "text": "A fable"
+        },
+        {
+          "id": "d",
+          "text": "An epic"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Animals may behave like people to make a lesson memorable.",
+      "explanation": "A fable is a brief story that illustrates a moral, often using animal characters.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/ebooks/11339",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-frankenstein",
+      "level": 4,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "frankenstein"
+      ],
+      "prompt": "Who wrote Frankenstein; or, The Modern Prometheus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Emily Brontë"
+        },
+        {
+          "id": "b",
+          "text": "George Eliot"
+        },
+        {
+          "id": "c",
+          "text": "Ann Radcliffe"
+        },
+        {
+          "id": "d",
+          "text": "Mary Shelley"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The novel grew from a ghost-story challenge in 1816.",
+      "explanation": "Mary Shelley wrote Frankenstein, first published in 1818.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/etext/84",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-first-person",
+      "level": 5,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "first-person"
+      ],
+      "prompt": "A narrator tells their own story using 'I'. Which viewpoint is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "First person"
+        },
+        {
+          "id": "b",
+          "text": "Second person"
+        },
+        {
+          "id": "c",
+          "text": "Third-person omniscient"
+        },
+        {
+          "id": "d",
+          "text": "Third-person objective"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The narrator participates in the grammatical perspective of the account.",
+      "explanation": "First-person narration speaks from an 'I' or 'we' perspective.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/44.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-canterbury",
+      "level": 6,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "canterbury"
+      ],
+      "prompt": "What shared activity frames the storytelling in The Canterbury Tales?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A military siege"
+        },
+        {
+          "id": "b",
+          "text": "A pilgrimage"
+        },
+        {
+          "id": "c",
+          "text": "A voyage to the Arctic"
+        },
+        {
+          "id": "d",
+          "text": "A royal coronation"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The travellers are headed toward a shrine.",
+      "explanation": "Chaucer's pilgrims tell stories on their journey to Canterbury.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/ebooks/2383",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-epistolary",
+      "level": 7,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "epistolary"
+      ],
+      "prompt": "An epistolary novel primarily unfolds through which form?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stage directions"
+        },
+        {
+          "id": "b",
+          "text": "Rhymed couplets"
+        },
+        {
+          "id": "c",
+          "text": "Letters or similar documents"
+        },
+        {
+          "id": "d",
+          "text": "Dictionary entries"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The reader pieces together exchanges between correspondents.",
+      "explanation": "An epistolary novel tells its story through letters, sometimes including diaries and other documents.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://assets.cambridge.org/97813165/18854/excerpt/9781316518854_excerpt.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-bildungsroman",
+      "level": 8,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "bildungsroman"
+      ],
+      "prompt": "What is the central concern of a Bildungsroman?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The solving of a locked-room crime"
+        },
+        {
+          "id": "b",
+          "text": "The collapse of an ancient empire"
+        },
+        {
+          "id": "c",
+          "text": "The reconstruction of a family tree"
+        },
+        {
+          "id": "d",
+          "text": "A protagonist's growth toward maturity"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The German term is associated with formation or education.",
+      "explanation": "A Bildungsroman follows a protagonist's development, especially psychological and moral maturation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://cspcontents.s3.eu-west-1.amazonaws.com/master/samples/978-1-5275-0304-5-sample.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-enjambment",
+      "level": 9,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "enjambment"
+      ],
+      "prompt": "What is enjambment in poetry?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A sentence continuing beyond a line break"
+        },
+        {
+          "id": "b",
+          "text": "A repeated opening phrase"
+        },
+        {
+          "id": "c",
+          "text": "A pause marked within a line"
+        },
+        {
+          "id": "d",
+          "text": "A rhyme between consecutive lines"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The printed boundary and the grammatical boundary do not coincide.",
+      "explanation": "Enjambment carries syntax or sense from one poetic line into the next without a full stop.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.poetryfoundation.org/articles/70144/learning-the-poetic-line",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-blank-verse",
+      "level": 10,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "blank-verse"
+      ],
+      "prompt": "In English poetry, blank verse conventionally means what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rhymed iambic tetrameter"
+        },
+        {
+          "id": "b",
+          "text": "Unrhymed iambic pentameter"
+        },
+        {
+          "id": "c",
+          "text": "Unmetered prose paragraphs"
+        },
+        {
+          "id": "d",
+          "text": "Rhymed anapestic trimeter"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It preserves a regular beat while dispensing with end rhyme.",
+      "explanation": "English blank verse is unrhymed iambic pentameter.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.poetryfoundation.org/education/glossary/blank-verse",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-terza-rima",
+      "level": 11,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "terza-rima"
+      ],
+      "prompt": "Which rhyme pattern characterizes terza rima?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "AABB CCDD EEFF"
+        },
+        {
+          "id": "b",
+          "text": "ABBA CDDC EFFE"
+        },
+        {
+          "id": "c",
+          "text": "ABA BCB CDC"
+        },
+        {
+          "id": "d",
+          "text": "ABC ABC DEF DEF"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Each tercet hands a rhyme forward to the next.",
+      "explanation": "Terza rima interlocks three-line stanzas, typically ABA BCB CDC and onward.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.poetryfoundation.org/poetrymagazine/articles/68451/formal-wear-notes-on-rhyme-meter-stanza-pattern",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-villanelle",
+      "level": 12,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "villanelle"
+      ],
+      "prompt": "Which form typically has nineteen lines and two alternating refrains that meet at the end?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sestina"
+        },
+        {
+          "id": "b",
+          "text": "Ballade"
+        },
+        {
+          "id": "c",
+          "text": "Sonnet"
+        },
+        {
+          "id": "d",
+          "text": "Villanelle"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its repeated lines move through five tercets into a concluding quatrain.",
+      "explanation": "A villanelle uses five tercets and a final quatrain, with two recurrent refrain lines.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.poetryfoundation.org/education/glossary/villanelle",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-sestina",
+      "level": 13,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "sestina"
+      ],
+      "prompt": "What is systematically repeated and reordered in a sestina?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Six end words"
+        },
+        {
+          "id": "b",
+          "text": "Four complete refrain lines"
+        },
+        {
+          "id": "c",
+          "text": "Seven stanza titles"
+        },
+        {
+          "id": "d",
+          "text": "Three alternating metres"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its organizing principle need not involve rhyme.",
+      "explanation": "A sestina rotates six line-ending words across six six-line stanzas, then reuses them in an envoi.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.poetryfoundation.org/education/glossary/sestina",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-metalepsis",
+      "level": 14,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "metalepsis"
+      ],
+      "prompt": "A fictional narrator steps into the story they are narrating and changes its events. Which term best describes this boundary crossing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Analepsis"
+        },
+        {
+          "id": "b",
+          "text": "Metalepsis"
+        },
+        {
+          "id": "c",
+          "text": "Ellipsis"
+        },
+        {
+          "id": "d",
+          "text": "Prolepsis"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "This is a crossing between narrative levels, not simply a jump in time.",
+      "explanation": "Narrative metalepsis transgresses the boundary between the world of telling and the world being told.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www-archiv.fdm.uni-hamburg.de/lhn/node/51.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-storytelling-recognition-reversal",
+      "level": 15,
+      "category": "Literature and Language",
+      "tags": [
+        "storytelling",
+        "recognition-reversal"
+      ],
+      "prompt": "In Aristotle's Poetics, how does anagnorisis differ from peripeteia?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a change of setting rather than a change of speaker"
+        },
+        {
+          "id": "b",
+          "text": "It is a comic resolution rather than a tragic one"
+        },
+        {
+          "id": "c",
+          "text": "It is a change from ignorance to knowledge rather than a reversal of events"
+        },
+        {
+          "id": "d",
+          "text": "It is an opening invocation rather than a closing speech"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "These two changes can occur together at a decisive moment in a tragedy.",
+      "explanation": "Anagnorisis is recognition or discovery. Peripeteia is a reversal in the action; the two can occur together.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-storytelling-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://classics.mit.edu/Aristotle/poetics.2.2.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-storytelling-set",
+      "title": "Between the Lines",
+      "description": "Famous stories open the door to the forms and techniques writers use.",
+      "theme": "Literature and Language",
+      "tags": [
+        "storytelling"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Books & Language"
+      ],
+      "questionIds": [
+        "builtin-library-storytelling-sherlock",
+        "builtin-library-storytelling-hobbit",
+        "builtin-library-storytelling-fable",
+        "builtin-library-storytelling-frankenstein",
+        "builtin-library-storytelling-first-person",
+        "builtin-library-storytelling-canterbury",
+        "builtin-library-storytelling-epistolary",
+        "builtin-library-storytelling-bildungsroman",
+        "builtin-library-storytelling-enjambment",
+        "builtin-library-storytelling-blank-verse",
+        "builtin-library-storytelling-terza-rima",
+        "builtin-library-storytelling-villanelle",
+        "builtin-library-storytelling-sestina",
+        "builtin-library-storytelling-metalepsis",
+        "builtin-library-storytelling-recognition-reversal"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

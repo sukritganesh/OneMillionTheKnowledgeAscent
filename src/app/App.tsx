@@ -87,12 +87,13 @@ type DialogState =
   | null;
 
 interface ImportedState {
+  placements: import('../data/setLibraryRepository').SetPlacement[];
   packs: ImportedPackRecord[];
   questions: ImportedQuestionRecord[];
   sets: ImportedSetRecord[];
 }
 
-const EMPTY_IMPORTED: ImportedState = { packs: [], questions: [], sets: [] };
+const EMPTY_IMPORTED: ImportedState = { packs: [], questions: [], sets: [], placements: [] };
 const DEFAULT_CONFIG: NewGameConfig = { mode: 'fresh-mix', selectedSetId: null, contentScope: 'built-in' };
 
 function currentTabControllerId(): string {
@@ -172,7 +173,7 @@ export function App() {
     const packs = await repos.importedPacks.list();
     const questionGroups = await Promise.all(packs.map((pack) => repos.importedPacks.getQuestions(pack.id)));
     const setGroups = await Promise.all(packs.map((pack) => repos.importedPacks.getSets(pack.id)));
-    return { packs, questions: questionGroups.flat(), sets: setGroups.flat() };
+    return { packs, questions: questionGroups.flat(), sets: setGroups.flat(), placements: await repos.setLibrary.list() };
   }, []);
 
   const loadOwnerData = useCallback(async (activeIdentity: ActiveIdentity | null) => {
@@ -271,6 +272,9 @@ export function App() {
   const gameCatalog = useMemo(() => {
     const builtIn = builtInCatalogRef.current ? builtInGameCatalog(builtInCatalogRef.current) : { questions: [], sets: [] };
     const custom = importedGameCatalog(imported.packs, imported.questions, imported.sets);
+    const placements = new Map(imported.placements.map((item) => [item.setId, item.folderPath]));
+    builtIn.sets = builtIn.sets.map((set) => ({ ...set, folderPath: placements.get(set.id) ?? set.folderPath }));
+    custom.sets = custom.sets.map((set) => ({ ...set, folderPath: placements.get(set.id) ?? set.folderPath }));
     return { builtIn, all: { questions: [...builtIn.questions, ...custom.questions], sets: [...builtIn.sets, ...custom.sets] } };
   }, [imported]);
   const selectedCatalog = config.contentScope === 'built-in' ? gameCatalog.builtIn : gameCatalog.all;
@@ -612,20 +616,20 @@ export function App() {
 
   const exportContentPack = useCallback(async (packId: string) => {
     const parts = storedPackParts(packId);
-    downloadJson(`${packId}.json`, rawPackFromStored(parts.pack, parts.questions, parts.sets));
+    downloadJson(`${packId}.json`, rawPackFromStored(parts.pack, parts.questions, parts.sets, imported.placements));
     notify('success', `${parts.pack.title} exported.`);
-  }, [notify, storedPackParts]);
+  }, [notify, storedPackParts, imported.placements]);
 
   const duplicateContentPack = useCallback(async (packId: string) => {
     const parts = storedPackParts(packId);
-    const raw = rawPackFromStored(parts.pack, parts.questions, parts.sets);
+    const raw = rawPackFromStored(parts.pack, parts.questions, parts.sets, imported.placements);
     raw.id = `${raw.id}-copy-${Date.now().toString(36)}`;
     raw.title = `${raw.title} Copy`;
     raw.version = '1.0.0';
     const prepared = prepareCustomPackImport(raw, contentIdentity, { enabled: true });
     if (prepared.status !== 'ready' || !prepared.payload) throw new Error(prepared.preview.errors[0]?.message ?? 'The pack copy did not validate.');
     await commitContentPack(prepared.payload, prepared.preview);
-  }, [commitContentPack, contentIdentity, storedPackParts]);
+  }, [commitContentPack, contentIdentity, storedPackParts, imported.placements]);
 
   const toggleContentPack = useCallback(async (packId: string, enabled: boolean) => {
     await repositories.current!.importedPacks.setEnabled(packId, enabled);
@@ -639,7 +643,13 @@ export function App() {
     notify('success', `${packId} removed. Saved and historical snapshots remain intact.`);
   }, [notify, refreshImported]);
 
-  if (booting) return <StageFrame><div className="boot-screen"><BrandMark /><div className="boot-line"><i /></div><p>Validating local systems and 525-question catalog…</p></div></StageFrame>;
+  const moveSet = async (setId: string, folderPath: string[]) => {
+    await repositories.current!.setLibrary.move(setId, folderPath);
+    await refreshImported();
+    notify('success', 'Set moved. Your progress is unchanged.');
+  };
+
+  if (booting) return <StageFrame><div className="boot-screen"><BrandMark /><div className="boot-line"><i /></div><p>Opening your question library…</p></div></StageFrame>;
   if (fatalError) return <StageFrame><div className="fatal-screen"><span className="kicker">Recovery mode</span><h1>One Million could not start.</h1><p>{fatalError}</p><div className="button-row"><button className="primary-button" type="button" onClick={() => location.reload()}>Retry startup</button></div></div></StageFrame>;
 
   const modeTitle = config.mode === 'fresh-mix' ? 'Fresh Mix' : config.mode === 'surprise' ? 'Surprise Me' : setDisplay.find((set) => set.id === config.selectedSetId)?.title ?? 'Curated Set';
@@ -649,8 +659,8 @@ export function App() {
 
   return (
     <StageFrame>
-      {screen === 'title' && <TitleScreen profiles={profiles} savedRun={savedRun} saveOwnerName={saveOwnerName} offlineReady={pwa.offlineReady} online={pwa.online} onSelectProfile={(profile) => void selectIdentity({ kind: 'profile', profile })} onGuest={() => void selectIdentity({ kind: 'guest', displayName: 'Guest' })} onCreateProfile={() => { setCreateName(''); setDialogError(null); setDialog({ kind: 'create-profile' }); }} onDeleteProfile={(profile) => { setDialogError(null); setDialog({ kind: 'delete-profile', profile }); }} onSettings={() => openGlobalScreen('settings')} onHelp={() => openGlobalScreen('help')} onContent={() => openGlobalScreen('content')} onFullscreen={() => void toggleFullscreen()} />}
-      {screen === 'dashboard' && identity && <DashboardScreen identity={identity} savedRun={savedRun} saveOwnerName={saveOwnerName} ownsSave={ownsSave} runCount={runs.length} setWins={runs.filter((run) => run.outcome === 'millionaire').length} uniqueSeen={questionHistory.length} onContinue={() => void claimSavedRun()} onNewGame={() => { setConfig((current) => ({ ...current, selectedSetId: current.selectedSetId ?? setDisplay[0]?.id ?? null })); setDialogError(null); setScreen('new-game'); }} onStatistics={() => setScreen('statistics')} onHistory={() => setScreen('history')} onSets={() => setScreen('sets')} onContent={() => openGlobalScreen('content')} onSettings={() => openGlobalScreen('settings')} onHelp={() => openGlobalScreen('help')} onSwitchProfile={() => { setIdentity(null); setScreen('title'); }} onFullscreen={() => void toggleFullscreen()} />}
+      {screen === 'title' && <TitleScreen questionCount={gameCatalog.all.questions.length} setCount={gameCatalog.all.sets.length} profiles={profiles} savedRun={savedRun} saveOwnerName={saveOwnerName} offlineReady={pwa.offlineReady} online={pwa.online} onSelectProfile={(profile) => void selectIdentity({ kind: 'profile', profile })} onGuest={() => void selectIdentity({ kind: 'guest', displayName: 'Guest' })} onCreateProfile={() => { setCreateName(''); setDialogError(null); setDialog({ kind: 'create-profile' }); }} onDeleteProfile={(profile) => { setDialogError(null); setDialog({ kind: 'delete-profile', profile }); }} onSettings={() => openGlobalScreen('settings')} onHelp={() => openGlobalScreen('help')} onContent={() => openGlobalScreen('content')} onFullscreen={() => void toggleFullscreen()} />}
+      {screen === 'dashboard' && identity && <DashboardScreen questionCount={gameCatalog.all.questions.length} identity={identity} savedRun={savedRun} saveOwnerName={saveOwnerName} ownsSave={ownsSave} runCount={runs.length} setWins={runs.filter((run) => run.outcome === 'millionaire').length} uniqueSeen={questionHistory.length} onContinue={() => void claimSavedRun()} onNewGame={() => { setConfig((current) => ({ ...current, selectedSetId: current.selectedSetId ?? setDisplay[0]?.id ?? null })); setDialogError(null); setScreen('new-game'); }} onStatistics={() => setScreen('statistics')} onHistory={() => setScreen('history')} onSets={() => setScreen('sets')} onContent={() => openGlobalScreen('content')} onSettings={() => openGlobalScreen('settings')} onHelp={() => openGlobalScreen('help')} onSwitchProfile={() => { setIdentity(null); setScreen('title'); }} onFullscreen={() => void toggleFullscreen()} />}
       {screen === 'new-game' && identity && <NewGameScreen playerName={playerName} config={config} sets={setDisplay} freshness={freshness} existingSave={savedRun} existingSaveOwner={saveOwnerName} settings={audioSettings} onConfig={setConfig} onSettings={(next) => void updateSettings(next)} onContinue={() => { setDialogError(null); setScreen('pre-game'); }} onBack={() => setScreen('dashboard')} onHelp={() => openGlobalScreen('help')} />}
       {screen === 'pre-game' && identity && <PreGameScreen playerName={playerName} config={config} modeTitle={modeTitle} freshness={freshness} audioLabel={audioLabel} existingSave={savedRun} existingSaveOwner={saveOwnerName} busy={beginBusy} error={dialogError} onBegin={() => void beginNewGame()} onBack={() => setScreen('new-game')} />}
       {screen === 'game' && game && <GameplayScreen state={game} nowMs={nowMs} playerName={playerName} controllerStatus={controllerStatus} controllerMessage={persistenceError ?? undefined} narrationStatus={narrationStatus} muted={audioSettings.masterMuted} onAction={(action) => { void dispatchGame(action); }} onReplayNarration={narrateCurrent} onSkipNarration={() => { speechManager.cancel(); setNarrationStatus('idle'); }} onToggleMute={() => void updateSettings({ ...audioSettings, masterMuted: !audioSettings.masterMuted })} onSaveAndExit={() => void saveAndExit()} onOpenSettings={() => setInGameSettings(true)} onTakeControl={() => setDialog({ kind: 'take-control' })} onCompleted={finishToResults} />}
@@ -659,7 +669,7 @@ export function App() {
       {screen === 'review' && selectedHistoryRun && <RunReviewScreen questions={historyReviewQuestions} results={historyReviewResults} displayedQuestionIds={historyReviewQuestions.map((q) => q.id)} title={`${selectedHistoryRun.mode === 'fresh-mix' ? 'Fresh Mix' : setDisplay.find((set) => set.id === selectedHistoryRun.setId)?.title ?? 'Question set'} · ${formatMoney(selectedHistoryRun.payout)}`} onBack={() => { setSelectedHistoryRun(null); setScreen('history'); }} />}
       {screen === 'statistics' && identity && <StatisticsScreen profile={identity.kind === 'profile' ? identity.profile : null} runs={runs} questionHistory={questionHistory} playerName={playerName} onBack={() => setScreen(game?.terminalOutcome ? 'results' : 'dashboard')} />}
       {screen === 'history' && identity && <HistoryScreen runs={runs} sets={setDisplay} playerName={playerName} onBack={() => setScreen('dashboard')} onSelect={reviewHistoryRun} />}
-      {screen === 'sets' && identity && <SetProgressScreen sets={gameCatalog.all.sets} progress={setProgress} playerName={playerName} onBack={() => setScreen('dashboard')} onPlay={(setId) => { setConfig({ mode: 'curated-set', selectedSetId: setId, contentScope: 'all-enabled' }); setScreen('pre-game'); }} />}
+      {screen === 'sets' && identity && <SetProgressScreen sets={gameCatalog.all.sets} onMove={moveSet} progress={setProgress} playerName={playerName} onBack={() => setScreen('dashboard')} onPlay={(setId) => { setConfig({ mode: 'curated-set', selectedSetId: setId, contentScope: 'all-enabled' }); setScreen('pre-game'); }} />}
       {screen === 'settings' && <SettingsScreen settings={audioSettings} voices={voices} playerIsProfile={identity?.kind === 'profile'} offlineReady={pwa.offlineReady} online={pwa.online} updateAvailable={pwa.updateAvailable} storageMessage={storageMessage} onChange={(next) => void updateSettings(next)} onBack={() => setScreen(returnScreen === 'game' ? 'dashboard' : returnScreen)} onFullscreen={() => void toggleFullscreen()} onApplyUpdate={() => void pwa.applyUpdate()} onExportBackup={() => void exportBackup()} onRestoreBackup={(file) => void stageRestore(file)} onExportProfile={() => void exportProfile()} onImportProfile={(file) => void stageProfileImport(file)} onResetAll={() => { setDialogError(null); setDialog({ kind: 'reset-all' }); }} />}
       {screen === 'help' && <GenericScreen title="How to Play" kicker="One Million" onBack={() => setScreen(returnScreen)}><HelpContent /></GenericScreen>}
       {screen === 'content' && <ContentManagerScreen installedPacks={managedPacks} existingIdentity={contentIdentity} builtInSummary={builtInCatalogRef.current?.summary} onBack={() => setScreen(returnScreen)} onTogglePack={toggleContentPack} onExportPack={exportContentPack} onDuplicatePack={duplicateContentPack} onRemovePack={removeContentPack} onCommitPack={commitContentPack} onDownloadText={(filename, contents, mimeType) => downloadText(filename, contents, mimeType)} />}

@@ -1,0 +1,732 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-mental-maths-pack",
+  "title": "Small Numbers, Big Ideas",
+  "description": "A little arithmetic, a few chances, and some satisfying shortcuts.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Computation"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-mental-maths-halving",
+      "level": 1,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "What is half of 18?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Splitting a quantity equally is the reverse of doubling.",
+      "explanation": "Half of 18 is 9, since 9 + 9 = 18.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified by division: 18 / 2 = 9; inverse check 9 * 2 = 18."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-equal-bags",
+      "level": 2,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Four bags each contain six marbles. How many marbles are there altogether?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "28"
+        },
+        {
+          "id": "d",
+          "text": "36"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "You can add the contents of two bags, then double that subtotal.",
+      "explanation": "Four groups of six make 24 marbles.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified by multiplication 4 * 6 = 24 and repeated addition 6 + 6 + 6 + 6 = 24."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-percent-fifths",
+      "level": 3,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "What is 40% of 50?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "20"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Find one tenth of the total before scaling up.",
+      "explanation": "Ten percent of 50 is 5, so 40% is 4 × 5 = 20.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified 0.4 * 50 = 20; fraction check (2/5) * 50 = 20."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-die-threshold",
+      "level": 4,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A fair six-sided die numbered 1 to 6 is rolled once. What is the probability of a result greater than 4?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/6"
+        },
+        {
+          "id": "b",
+          "text": "1/4"
+        },
+        {
+          "id": "c",
+          "text": "1/2"
+        },
+        {
+          "id": "d",
+          "text": "1/3"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Count the successful faces and compare that count with all possible faces.",
+      "explanation": "The successful results are 5 and 6: 2 out of 6, or 1/3.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original probability problem.",
+        "verificationNotes": "Enumerated outcomes {1,2,3,4,5,6}; successful {5,6}; 2/6 = 1/3."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-ratio-share",
+      "level": 5,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A prize of 35 tokens is split in the ratio 2:3. How many tokens are in the larger share?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "21"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The two ratio numbers tell you how many equal parts make the whole.",
+      "explanation": "There are five equal parts, each worth 7 tokens. The larger share is three parts, or 21.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified 35/(2+3)*3 = 21; complementary share14 gives total35 and ratio14:21 =2:3."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-successive-percentages",
+      "level": 6,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A price falls by 20%, then rises by 25% of its reduced value. How does the final price compare with the original?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5% higher"
+        },
+        {
+          "id": "b",
+          "text": "The same"
+        },
+        {
+          "id": "c",
+          "text": "5% lower"
+        },
+        {
+          "id": "d",
+          "text": "10% lower"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Try an original price of 100; the two percentages use different starting amounts.",
+      "explanation": "Starting at 100 gives 80 after the fall and 100 after the rise. The changes exactly cancel.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified multipliers 0.8 * 1.25 = 1; independent example100 ->80 ->100."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-equal-distance-speed",
+      "level": 7,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A cyclist rides 12 km at 60 km/h, then 12 km at 40 km/h, with no stops. What is the average speed for the whole trip?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "50 km/h"
+        },
+        {
+          "id": "b",
+          "text": "45 km/h"
+        },
+        {
+          "id": "c",
+          "text": "48 km/h"
+        },
+        {
+          "id": "d",
+          "text": "52 km/h"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Average speed uses total distance divided by total time, not the average of the two speeds.",
+      "explanation": "The two legs take 12 and 18 minutes. Covering 24 km in half an hour gives 48 km/h.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original rate problem.",
+        "verificationNotes": "Verified times12/60+12/40=0.5h; total24/0.5=48. Harmonic mean 2*60*40/(60+40)=48."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-matching-marbles",
+      "level": 8,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A bag holds 3 red and 2 blue marbles. Two are drawn at random without replacement. What is the probability that their colours match?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "2/5"
+        },
+        {
+          "id": "c",
+          "text": "3/5"
+        },
+        {
+          "id": "d",
+          "text": "1/5"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Treat two reds and two blues as separate ways to succeed.",
+      "explanation": "Two reds have probability 3/10 and two blues 1/10. Together that is 4/10, or 2/5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original probability problem.",
+        "verificationNotes": "Verified ordered probabilities(3/5)*(2/4)+(2/5)*(1/4)=2/5; unordered choose(3,2)+choose(2,2)=4 successful pairs among choose(5,2)=10."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-difference-squares",
+      "level": 9,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "What is 48 × 52?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2,496"
+        },
+        {
+          "id": "b",
+          "text": "2,500"
+        },
+        {
+          "id": "c",
+          "text": "2,404"
+        },
+        {
+          "id": "d",
+          "text": "2,596"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The numbers sit the same distance below and above a convenient round number.",
+      "explanation": "Use (50 − 2)(50 + 2) = 50² − 2² = 2,496.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original arithmetic problem.",
+        "verificationNotes": "Verified48*52=2496; independent expansion48*(50+2)=2400+96=2496."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-track-lap",
+      "level": 10,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Two runners start together around a 400-metre track in the same direction, at constant speeds of 6 km/h and 4 km/h. How long until the faster runner first laps the slower?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4 minutes"
+        },
+        {
+          "id": "b",
+          "text": "8 minutes"
+        },
+        {
+          "id": "c",
+          "text": "10 minutes"
+        },
+        {
+          "id": "d",
+          "text": "12 minutes"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A lap is gained through the difference between their speeds.",
+      "explanation": "The faster runner gains 2 km each hour. Gaining 0.4 km takes 0.2 hours, or 12 minutes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original relative-rate problem.",
+        "verificationNotes": "Verified0.4/(6-4)*60=12 minutes; in12min distances1.2km and0.8km differ0.4km."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-at-least-one-six",
+      "level": 11,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Two independent fair six-sided dice are rolled. What is the probability that at least one shows 6?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/3"
+        },
+        {
+          "id": "b",
+          "text": "11/36"
+        },
+        {
+          "id": "c",
+          "text": "1/6"
+        },
+        {
+          "id": "d",
+          "text": "5/18"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It is often easier to count the outcomes where the desired event never happens.",
+      "explanation": "Neither die shows 6 with probability 25/36. The complement is 11/36.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original probability problem.",
+        "verificationNotes": "Enumerated36 ordered pairs: six with first6 plus six with second6 minus doublecount(6,6)=11; complement1-(5/6)^2=11/36."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-even-product",
+      "level": 12,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Two different numbers are chosen uniformly from 1, 2, 3, 4, 5, 6. What is the probability that their product is even?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "3/5"
+        },
+        {
+          "id": "c",
+          "text": "4/5"
+        },
+        {
+          "id": "d",
+          "text": "5/6"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think about the only way a product of two integers can be odd.",
+      "explanation": "Only a pair of odd numbers gives an odd product. There are 3 such pairs among 15 possible pairs, leaving 12/15 = 4/5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original probability problem.",
+        "verificationNotes": "Enumerated15 unordered pairs, odd-odd(1,3),(1,5),(3,5) only; ordered cross-check1-(3/6)*(2/5)=4/5."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-bag-after-red",
+      "level": 13,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Bag A has 2 red and 1 blue marble; Bag B has 1 red and 2 blue. A bag is chosen by a fair coin, then one marble is drawn uniformly. Given that it is red, what is the probability it came from Bag A?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "3/4"
+        },
+        {
+          "id": "d",
+          "text": "2/3"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The bags are equally likely beforehand, but a red draw is more likely from one of them.",
+      "explanation": "Of six equally likely bag-and-marble outcomes, three are red. Two of those three belong to Bag A.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original conditional-probability problem.",
+        "verificationNotes": "Verified Bayes:(1/2*2/3)/(1/2*2/3+1/2*1/3)=2/3; independently enumerated three red elementary outcomes."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-four-misplaced",
+      "level": 14,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "Four distinct letters are put randomly into four addressed envelopes, one per envelope. What is the probability that none goes into its correct envelope?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1/4"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "3/8"
+        },
+        {
+          "id": "d",
+          "text": "1/2"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Successful arrangements consist either of two swapped pairs or one cycle involving all four letters.",
+      "explanation": "There are 3 ways to make two swapped pairs and 6 four-letter cycles: 9 successes among 24 arrangements. Thus the probability is 3/8.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original combinatorics problem.",
+        "verificationNotes": "Verified all24 permutations independently;9 have no fixed point. Inclusion-exclusion24-24+12-4+1=9;9/24=3/8."
+      }
+    },
+    {
+      "id": "builtin-library-mental-maths-waiting-two-heads",
+      "level": 15,
+      "category": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "prompt": "A fair coin is tossed repeatedly until two heads occur consecutively. What is the expected total number of tosses, including those final two heads?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "After a tail you start over; after a single head you are closer, but a tail can still reset the process.",
+      "explanation": "Let E be the wait from the start and H the wait after one head. Then E = 1 + (E + H)/2 and H = 1 + E/2. Solving gives E = 6.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-mental-maths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Original expectation problem.",
+        "verificationNotes": "Verified two-state first-step equations E=1+E/2+H/2 and H=1+E/2; substitution E=2+H gives E=3+E/2=6. Independently sum geometric survival probabilities via state recurrence (documented in review notes)."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-mental-maths-set",
+      "title": "Small Numbers, Big Ideas",
+      "description": "A little arithmetic, a few chances, and some satisfying shortcuts.",
+      "theme": "Computation",
+      "tags": [
+        "mental-maths"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Numbers"
+      ],
+      "questionIds": [
+        "builtin-library-mental-maths-halving",
+        "builtin-library-mental-maths-equal-bags",
+        "builtin-library-mental-maths-percent-fifths",
+        "builtin-library-mental-maths-die-threshold",
+        "builtin-library-mental-maths-ratio-share",
+        "builtin-library-mental-maths-successive-percentages",
+        "builtin-library-mental-maths-equal-distance-speed",
+        "builtin-library-mental-maths-matching-marbles",
+        "builtin-library-mental-maths-difference-squares",
+        "builtin-library-mental-maths-track-lap",
+        "builtin-library-mental-maths-at-least-one-six",
+        "builtin-library-mental-maths-even-product",
+        "builtin-library-mental-maths-bag-after-red",
+        "builtin-library-mental-maths-four-misplaced",
+        "builtin-library-mental-maths-waiting-two-heads"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

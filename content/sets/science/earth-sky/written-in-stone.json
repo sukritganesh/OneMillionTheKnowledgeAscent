@@ -1,0 +1,732 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-rocks-minerals-pack",
+  "title": "Written in Stone",
+  "description": "Read the clues in crystals, textures, and the conditions that turn one rock into another.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Nature and Earth"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-rocks-minerals-sandstone",
+      "level": 1,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Sandstone is made mainly from grains of what material?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sand"
+        },
+        {
+          "id": "b",
+          "text": "Wood"
+        },
+        {
+          "id": "c",
+          "text": "Ice"
+        },
+        {
+          "id": "d",
+          "text": "Lava"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its name records the size of the particles that became rock.",
+      "explanation": "Sandstone forms when sand grains are compacted and cemented together.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/sedimentary.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-igneous-origin",
+      "level": 2,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "What must happen to molten material for an igneous rock to form?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It absorbs sunlight for years"
+        },
+        {
+          "id": "b",
+          "text": "It cools and solidifies"
+        },
+        {
+          "id": "c",
+          "text": "It dissolves completely in water"
+        },
+        {
+          "id": "d",
+          "text": "It is ground into loose sand"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The key change is between physical states.",
+      "explanation": "Igneous rocks form when molten rock cools and becomes solid, either underground or at the surface.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/igneous.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-marble-parent",
+      "level": 3,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Which rock commonly changes into marble during metamorphism?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Basalt"
+        },
+        {
+          "id": "b",
+          "text": "Sandstone"
+        },
+        {
+          "id": "c",
+          "text": "Limestone"
+        },
+        {
+          "id": "d",
+          "text": "Granite"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of a parent rock rich in calcium carbonate.",
+      "explanation": "Marble commonly forms as limestone recrystallizes under heat and pressure.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/wica/learn/education/learning-about-rocks.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-mohs",
+      "level": 4,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "The Mohs scale compares minerals by their resistance to what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Melting"
+        },
+        {
+          "id": "b",
+          "text": "Dissolving"
+        },
+        {
+          "id": "c",
+          "text": "Bending"
+        },
+        {
+          "id": "d",
+          "text": "Scratching"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A harder specimen can mark a softer one.",
+      "explanation": "Mohs hardness is resistance to scratching, not resistance to breaking or melting.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/minerals.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-granite-crystals",
+      "level": 5,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Granite's large, visible crystals usually indicate that its magma cooled how?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slowly underground"
+        },
+        {
+          "id": "b",
+          "text": "Instantly on contact with ice"
+        },
+        {
+          "id": "c",
+          "text": "Only after turning into sand"
+        },
+        {
+          "id": "d",
+          "text": "Rapidly in the open air"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Crystal growth needs time.",
+      "explanation": "Slow cooling below the surface allows crystals to grow large enough to see readily.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/igneous.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-pumice",
+      "level": 6,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Why can a fresh piece of pumice sometimes float on water?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its crystals are made of frozen gas"
+        },
+        {
+          "id": "b",
+          "text": "Its many gas cavities lower its bulk density"
+        },
+        {
+          "id": "c",
+          "text": "Its minerals repel gravity"
+        },
+        {
+          "id": "d",
+          "text": "Its surface makes water denser"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Consider the volume occupied by the solid material and the holes together.",
+      "explanation": "Pumice contains many vesicles left by gas. These can make its overall density lower than water's.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/igneous.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-mica-cleavage",
+      "level": 7,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "A mineral peeling into thin, flexible sheets is especially characteristic of which group?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Garnets"
+        },
+        {
+          "id": "b",
+          "text": "Olivines"
+        },
+        {
+          "id": "c",
+          "text": "Micas"
+        },
+        {
+          "id": "d",
+          "text": "Quartz varieties"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The way its crystal layers are bonded matters more than its color.",
+      "explanation": "Micas have excellent cleavage in one direction, allowing them to separate into thin sheets.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/minerals.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-calcite-test",
+      "level": 8,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Which common mineral fizzes readily when a drop of dilute hydrochloric acid is applied?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quartz"
+        },
+        {
+          "id": "b",
+          "text": "Feldspar"
+        },
+        {
+          "id": "c",
+          "text": "Olivine"
+        },
+        {
+          "id": "d",
+          "text": "Calcite"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A carbonate reacts with acid and releases a gas.",
+      "explanation": "Calcite is calcium carbonate. Acid reacts with the carbonate and releases carbon dioxide bubbles.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/minerals.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-gneiss-bands",
+      "level": 9,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Alternating light and dark mineral bands are characteristic of which metamorphic rock?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gneiss"
+        },
+        {
+          "id": "b",
+          "text": "Marble"
+        },
+        {
+          "id": "c",
+          "text": "Quartzite"
+        },
+        {
+          "id": "d",
+          "text": "Hornfels"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its texture reflects the segregation of different minerals.",
+      "explanation": "Gneiss commonly shows distinct light and dark bands, a form of metamorphic foliation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/metamorphic.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-bowen-olivine",
+      "level": 10,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "In Bowen's discontinuous reaction series, which mineral normally crystallizes at the highest temperature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pyroxene"
+        },
+        {
+          "id": "b",
+          "text": "Olivine"
+        },
+        {
+          "id": "c",
+          "text": "Biotite"
+        },
+        {
+          "id": "d",
+          "text": "Amphibole"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The early mineral is common in magnesium- and iron-rich mantle rocks.",
+      "explanation": "Olivine lies at the high-temperature end of the discontinuous series, followed on cooling by pyroxene, amphibole, and biotite.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://pubs.usgs.gov/gip/99/pdf/gip99_chapter2.pdf",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-zircon-clock",
+      "level": 11,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "An undisturbed uranium-lead date from a zircon that grew in cooling magma primarily dates which event?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The creation of uranium in the Solar System"
+        },
+        {
+          "id": "b",
+          "text": "The deposition of any sediment later covering it"
+        },
+        {
+          "id": "c",
+          "text": "The zircon's crystallization"
+        },
+        {
+          "id": "d",
+          "text": "The first exposure of the rock at the surface"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The clock belongs to the mineral, not automatically to every later event affecting the landscape.",
+      "explanation": "A magmatic zircon records its crystallization age if its isotopic system remains undisturbed. That can date formation of the igneous body.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/yell/learn/upload/YS_20_2.pdf",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-contact-aureole",
+      "level": 12,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "A narrow zone of altered rock immediately surrounding a hot intrusion is most directly evidence of what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regional metamorphism"
+        },
+        {
+          "id": "b",
+          "text": "Burial compaction"
+        },
+        {
+          "id": "c",
+          "text": "Hydraulic sediment sorting"
+        },
+        {
+          "id": "d",
+          "text": "Contact metamorphism"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The change is concentrated next to a localized heat source.",
+      "explanation": "Heat from an intrusion can metamorphose the surrounding country rock, producing a contact aureole.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/metamorphic.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-basalt-gabbro",
+      "level": 13,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Basalt and gabbro can have similar mineral composition but different crystal sizes. Which contrast best explains this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Basalt cools rapidly; gabbro cools slowly"
+        },
+        {
+          "id": "b",
+          "text": "Basalt cools slowly; gabbro cools rapidly"
+        },
+        {
+          "id": "c",
+          "text": "Basalt is recrystallized gabbro formed without melting"
+        },
+        {
+          "id": "d",
+          "text": "Gabbro is compacted basaltic sediment formed without melting"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Composition and cooling history describe different properties of a rock.",
+      "explanation": "Basalt is the fine-grained volcanic counterpart of coarse-grained intrusive gabbro. Their contrasting cooling rates explain the textures.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/subjects/geology/igneous.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-flux-melting",
+      "level": 14,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "At a given pressure, adding water to hot mantle rock generally has which effect?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It prevents partial melting while allowing total melting"
+        },
+        {
+          "id": "b",
+          "text": "It lowers the temperature at which melting begins"
+        },
+        {
+          "id": "c",
+          "text": "It raises the temperature at which melting begins"
+        },
+        {
+          "id": "d",
+          "text": "It leaves the onset unchanged but stops crystallization"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Subducting material carries an ingredient that changes the melting threshold.",
+      "explanation": "Water lowers the solidus of mantle rock, helping generate magma above subduction zones.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.usgs.gov/faqs/are-tectonic-plates-floating-magma",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-rocks-minerals-diamond-persistence",
+      "level": 15,
+      "category": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "prompt": "Graphite is thermodynamically favored over diamond at ordinary surface conditions. Why can a diamond nevertheless persist?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Conversion can occur only after all carbon melts"
+        },
+        {
+          "id": "b",
+          "text": "The pressure of formation remains trapped in every bond"
+        },
+        {
+          "id": "c",
+          "text": "Conversion requires overcoming a large kinetic barrier"
+        },
+        {
+          "id": "d",
+          "text": "Cooling removes the thermodynamic preference for graphite"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A favorable final state does not tell you how quickly a material can reach it.",
+      "explanation": "Diamond is metastable at ordinary conditions. Rearranging its strongly bonded structure into graphite is so slow that the diamond persists.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-rocks-minerals-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity",
+        "verificationNotes": "Reviewed distinction between thermodynamic preference and reaction kinetics; no claim that diamond is the equilibrium carbon phase at room conditions."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-rocks-minerals-set",
+      "title": "Written in Stone",
+      "description": "Read the clues in crystals, textures, and the conditions that turn one rock into another.",
+      "theme": "Nature and Earth",
+      "tags": [
+        "rocks-minerals"
+      ],
+      "folderPath": [
+        "Science & Nature",
+        "Earth & Sky"
+      ],
+      "questionIds": [
+        "builtin-library-rocks-minerals-sandstone",
+        "builtin-library-rocks-minerals-igneous-origin",
+        "builtin-library-rocks-minerals-marble-parent",
+        "builtin-library-rocks-minerals-mohs",
+        "builtin-library-rocks-minerals-granite-crystals",
+        "builtin-library-rocks-minerals-pumice",
+        "builtin-library-rocks-minerals-mica-cleavage",
+        "builtin-library-rocks-minerals-calcite-test",
+        "builtin-library-rocks-minerals-gneiss-bands",
+        "builtin-library-rocks-minerals-bowen-olivine",
+        "builtin-library-rocks-minerals-zircon-clock",
+        "builtin-library-rocks-minerals-contact-aureole",
+        "builtin-library-rocks-minerals-basalt-gabbro",
+        "builtin-library-rocks-minerals-flux-melting",
+        "builtin-library-rocks-minerals-diamond-persistence"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds to specialist knowledge and reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Original questions; source-linked assistant review, not human editorial certification."
+  }
+}

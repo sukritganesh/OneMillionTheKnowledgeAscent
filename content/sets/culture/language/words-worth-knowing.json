@@ -1,0 +1,598 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-legacy-vocabulary-01",
+  "title": "Vocabulary: Words Worth Knowing",
+  "description": "Fifteen vocabulary questions progressing from useful everyday words to advanced rhetorical and linguistic terms.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Vocabulary"
+  ],
+  "questions": [
+    {
+      "id": "builtin-set-vocabulary-01-q01",
+      "level": 1,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'jubilant' mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Extremely joyful"
+        },
+        {
+          "id": "b",
+          "text": "Deeply uncertain"
+        },
+        {
+          "id": "c",
+          "text": "Quietly resentful"
+        },
+        {
+          "id": "d",
+          "text": "Physically exhausted"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It often describes a celebration.",
+      "explanation": "Jubilant means feeling or expressing great happiness.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q02",
+      "level": 2,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'reluctant' mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Highly amused"
+        },
+        {
+          "id": "b",
+          "text": "Fully prepared"
+        },
+        {
+          "id": "c",
+          "text": "Unwilling or hesitant"
+        },
+        {
+          "id": "d",
+          "text": "Completely invisible"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A reluctant person does not readily agree.",
+      "explanation": "Reluctant means hesitant or disinclined.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q03",
+      "level": 3,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "A 'pragmatic' solution is primarily what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Practical"
+        },
+        {
+          "id": "b",
+          "text": "Imaginary"
+        },
+        {
+          "id": "c",
+          "text": "Ceremonial"
+        },
+        {
+          "id": "d",
+          "text": "Needlessly ornate"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It focuses on what works.",
+      "explanation": "Pragmatic describes an approach based on practical results.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q04",
+      "level": 4,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'candid' mean when describing speech?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Secretly coded"
+        },
+        {
+          "id": "b",
+          "text": "Highly poetic"
+        },
+        {
+          "id": "c",
+          "text": "Deliberately vague"
+        },
+        {
+          "id": "d",
+          "text": "Frank and honest"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It suggests openness.",
+      "explanation": "Candid speech is direct and truthful.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q05",
+      "level": 5,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'ephemeral' mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ancient and permanent"
+        },
+        {
+          "id": "b",
+          "text": "Short-lived"
+        },
+        {
+          "id": "c",
+          "text": "Perfectly symmetrical"
+        },
+        {
+          "id": "d",
+          "text": "Unbreakable"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "A mayfly's adult life is often used as an example.",
+      "explanation": "Ephemeral means lasting for a very short time.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q06",
+      "level": 6,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'obdurate' mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Briefly distracted"
+        },
+        {
+          "id": "b",
+          "text": "Soft and flexible"
+        },
+        {
+          "id": "c",
+          "text": "Easily persuaded"
+        },
+        {
+          "id": "d",
+          "text": "Stubbornly resistant"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It can describe a hardened attitude.",
+      "explanation": "Obdurate means stubborn and unyielding.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q07",
+      "level": 7,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "A 'parsimonious' person is excessively what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fond of storytelling"
+        },
+        {
+          "id": "b",
+          "text": "Skilled at painting"
+        },
+        {
+          "id": "c",
+          "text": "Eager to travel"
+        },
+        {
+          "id": "d",
+          "text": "Unwilling to spend"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The word often means stingy.",
+      "explanation": "Parsimonious means extremely frugal or miserly.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q08",
+      "level": 8,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'anodyne' mean when describing a remark?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Violently provocative"
+        },
+        {
+          "id": "b",
+          "text": "Inoffensive or soothing"
+        },
+        {
+          "id": "c",
+          "text": "Legally binding"
+        },
+        {
+          "id": "d",
+          "text": "Mathematically exact"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It originally referred to something that relieves pain.",
+      "explanation": "Anodyne can mean pain-relieving or unlikely to cause offense.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q09",
+      "level": 9,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "What does 'liminal' mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hidden underground"
+        },
+        {
+          "id": "b",
+          "text": "Situated at a threshold or transition"
+        },
+        {
+          "id": "c",
+          "text": "Measured by weight"
+        },
+        {
+          "id": "d",
+          "text": "Completely finished"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of an in-between state.",
+      "explanation": "Liminal describes a boundary, threshold, or transitional condition.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q10",
+      "level": 10,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "A 'perfunctory' action is performed how?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "With elaborate care"
+        },
+        {
+          "id": "b",
+          "text": "In complete secrecy"
+        },
+        {
+          "id": "c",
+          "text": "With minimal effort or interest"
+        },
+        {
+          "id": "d",
+          "text": "At random intervals"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "It may be done only to satisfy a requirement.",
+      "explanation": "Perfunctory means routine and lacking genuine attention.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q11",
+      "level": 11,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions"
+      ],
+      "prompt": "To 'tergiversate' is to do what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Speak in perfect rhyme"
+        },
+        {
+          "id": "b",
+          "text": "Evade a clear position or repeatedly change sides"
+        },
+        {
+          "id": "c",
+          "text": "Translate word for word"
+        },
+        {
+          "id": "d",
+          "text": "Measure a coastline"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It suggests evasiveness or apostasy.",
+      "explanation": "Tergiversate means to equivocate or shift one's allegiance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q12",
+      "level": 12,
+      "category": "Vocabulary",
+      "tags": [
+        "definitions",
+        "etymology"
+      ],
+      "prompt": "An 'ultracrepidarian' is someone who does what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Studies only astronomy"
+        },
+        {
+          "id": "b",
+          "text": "Offers opinions beyond their expertise"
+        },
+        {
+          "id": "c",
+          "text": "Repairs antique shoes"
+        },
+        {
+          "id": "d",
+          "text": "Avoids all public speech"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The term comes from a warning not to judge beyond the sandal.",
+      "explanation": "An ultracrepidarian comments confidently on matters outside their knowledge.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q13",
+      "level": 13,
+      "category": "Vocabulary",
+      "tags": [
+        "rhetoric"
+      ],
+      "prompt": "What is antanaclasis?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Repeating a word in different senses"
+        },
+        {
+          "id": "b",
+          "text": "Omitting conjunctions"
+        },
+        {
+          "id": "c",
+          "text": "Inventing a fictional language"
+        },
+        {
+          "id": "d",
+          "text": "Ending lines with the same rhyme"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "'Your argument is sound—nothing but sound' illustrates it.",
+      "explanation": "Antanaclasis repeats the same word with a changed meaning.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q14",
+      "level": 14,
+      "category": "Vocabulary",
+      "tags": [
+        "linguistics",
+        "wordplay"
+      ],
+      "prompt": "What is a mondegreen?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A misheard word or phrase"
+        },
+        {
+          "id": "b",
+          "text": "A palindrome"
+        },
+        {
+          "id": "c",
+          "text": "A word with opposite meanings"
+        },
+        {
+          "id": "d",
+          "text": "A formal legal definition"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Song lyrics often produce them.",
+      "explanation": "A mondegreen is an error caused by mishearing spoken or sung language.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-vocabulary-01-q15",
+      "level": 15,
+      "category": "Vocabulary",
+      "tags": [
+        "semantics"
+      ],
+      "prompt": "What is an auto-antonym?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A word borrowed from two languages"
+        },
+        {
+          "id": "b",
+          "text": "A word used only once"
+        },
+        {
+          "id": "c",
+          "text": "A word with no consonants"
+        },
+        {
+          "id": "d",
+          "text": "A word that can mean its own opposite"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "'Sanction' can mean permit or penalize.",
+      "explanation": "An auto-antonym, or contronym, has two opposite meanings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-vocabulary-01"
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-vocabulary-01",
+      "title": "Vocabulary: Words Worth Knowing",
+      "description": "Fifteen vocabulary questions progressing from useful everyday words to advanced rhetorical and linguistic terms.",
+      "theme": "Vocabulary",
+      "tags": [
+        "single-category",
+        "words"
+      ],
+      "questionIds": [
+        "builtin-set-vocabulary-01-q01",
+        "builtin-set-vocabulary-01-q02",
+        "builtin-set-vocabulary-01-q03",
+        "builtin-set-vocabulary-01-q04",
+        "builtin-set-vocabulary-01-q05",
+        "builtin-set-vocabulary-01-q06",
+        "builtin-set-vocabulary-01-q07",
+        "builtin-set-vocabulary-01-q08",
+        "builtin-set-vocabulary-01-q09",
+        "builtin-set-vocabulary-01-q10",
+        "builtin-set-vocabulary-01-q11",
+        "builtin-set-vocabulary-01-q12",
+        "builtin-set-vocabulary-01-q13",
+        "builtin-set-vocabulary-01-q14",
+        "builtin-set-vocabulary-01-q15"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Language"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-002; original immutable evidence retained in content/source/release-001."
+  }
+}

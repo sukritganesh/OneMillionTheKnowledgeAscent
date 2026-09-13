@@ -1,0 +1,733 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-archaeology-pack",
+  "title": "Clues Beneath Our Feet",
+  "description": "Ancient materials and clever inventions, followed by the science that helps us understand them.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Ancient History",
+    "Science"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-archaeology-papyrus",
+      "level": 1,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Ancient Egyptian papyrus sheets were made from which material?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Animal skin"
+        },
+        {
+          "id": "b",
+          "text": "Plant stems"
+        },
+        {
+          "id": "c",
+          "text": "Wool fibres"
+        },
+        {
+          "id": "d",
+          "text": "Tree bark"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The Nile supplied more than water and fertile soil.",
+      "explanation": "Papyrus sheets were made from strips cut from the papyrus plant, arranged in layers and pressed together.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.ucl.ac.uk/museums-static/digitalegypt/craft/papyrusrolls.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-bronze-alloy",
+      "level": 2,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "The bronze widely used for ancient tools is chiefly an alloy of copper and which metal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zinc"
+        },
+        {
+          "id": "b",
+          "text": "Iron"
+        },
+        {
+          "id": "c",
+          "text": "Tin"
+        },
+        {
+          "id": "d",
+          "text": "Silver"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "An alloy combines metals to obtain properties different from either ingredient alone.",
+      "explanation": "Copper mixed with tin forms tin bronze. Copper mixed with zinc instead forms brass.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/en/essays/ancient-greek-bronze-vessels",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-wedge-writing",
+      "level": 3,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "What did Mesopotamian scribes usually press into damp clay to make cuneiform marks?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A reed stylus"
+        },
+        {
+          "id": "b",
+          "text": "A horsehair brush"
+        },
+        {
+          "id": "c",
+          "text": "A metal printing block"
+        },
+        {
+          "id": "d",
+          "text": "A bird-feather quill"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think about making repeated impressions rather than painting lines.",
+      "explanation": "A cut reed stylus produced the wedge-shaped impressions characteristic of cuneiform.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britishmuseum.org/blog/how-write-cuneiform",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-aqueduct-gradient",
+      "level": 4,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "What kept water moving along the gently sloping channel of the Roman aqueduct to Nîmes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Steam pressure"
+        },
+        {
+          "id": "b",
+          "text": "Tidal motion"
+        },
+        {
+          "id": "c",
+          "text": "Wind power"
+        },
+        {
+          "id": "d",
+          "text": "Gravity"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Compare the height of the water source with the height of its destination.",
+      "explanation": "The source stood higher than Nîmes, so gravity carried water down the aqueduct without powered pumps.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://pontdugard.fr/de/entdecken/pfad-der-relikte",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-stratigraphy",
+      "level": 5,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "In an undisturbed sequence of archaeological deposits, which layer was normally deposited first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The darkest layer"
+        },
+        {
+          "id": "b",
+          "text": "The deepest layer"
+        },
+        {
+          "id": "c",
+          "text": "The thickest layer"
+        },
+        {
+          "id": "d",
+          "text": "The layer with the most pottery"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Imagine rubbish accumulating on the same patch of ground over many years.",
+      "explanation": "Later deposits build up over earlier ones, so the deepest layer is normally oldest. Disturbance can change that relationship.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://home.nps.gov/articles/000/how-do-archeologists-date-sites-and-artifacts.htm",
+        "verificationNotes": "Checked stratigraphy principle; prompt explicitly excludes disturbance and asks relative deposition order, not an exact calendar date."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-tree-ring-matching",
+      "level": 6,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Dendrochronology dates ancient timber by matching patterns in what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mineral deposits"
+        },
+        {
+          "id": "b",
+          "text": "Bark colour"
+        },
+        {
+          "id": "c",
+          "text": "Growth rings"
+        },
+        {
+          "id": "d",
+          "text": "Wood grain direction"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The method compares changes recorded over successive growing seasons.",
+      "explanation": "Matching sequences of tree-ring widths with dated reference sequences can assign calendar years to the wood.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nps.gov/tont/learn/nature/dendrochronology.htm",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-pozzolana",
+      "level": 7,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "What was pozzolana, an important ingredient in many Roman concrete mixtures?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Volcanic ash"
+        },
+        {
+          "id": "b",
+          "text": "Crushed seashells"
+        },
+        {
+          "id": "c",
+          "text": "Ground charcoal"
+        },
+        {
+          "id": "d",
+          "text": "Powdered marble"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its usefulness came from a reaction with lime and water, not simply from filling space.",
+      "explanation": "Pozzolana is volcanic material used with lime to make durable mortar, including mixtures able to harden in wet conditions.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://doi.org/10.1073/pnas.1417456111",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-lost-wax",
+      "level": 8,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "In lost-wax metal casting, why is the mould heated before molten metal is poured into it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To turn clay into metal"
+        },
+        {
+          "id": "b",
+          "text": "To expand the finished statue"
+        },
+        {
+          "id": "c",
+          "text": "To dissolve the metal alloy"
+        },
+        {
+          "id": "d",
+          "text": "To remove the wax model"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The desired form first exists as a model inside a heat-resistant casing.",
+      "explanation": "Heating removes the wax, leaving a shaped cavity for the molten metal to fill.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.getty.edu/publications/bronze-guidelines/vocabulary/lost-wax-casting/",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-hypocaust",
+      "level": 9,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "What feature would most strongly identify a Roman room as having a hypocaust heating system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mosaic of bathing scenes"
+        },
+        {
+          "id": "b",
+          "text": "A floor raised on small pillars"
+        },
+        {
+          "id": "c",
+          "text": "A roof open to the sky"
+        },
+        {
+          "id": "d",
+          "text": "A central stone fountain"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look for a route by which heat from a furnace could reach the room.",
+      "explanation": "Pillars supported a raised floor, leaving space for hot air from a furnace to circulate underneath.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.english-heritage.org.uk/learn/story-of-england/romans/roman-bathing/",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-obsidian-source",
+      "level": 10,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "How can analysis of an obsidian blade help archaeologists trace ancient trade?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its colour gives its exact age"
+        },
+        {
+          "id": "b",
+          "text": "Its sharpness reveals its owner"
+        },
+        {
+          "id": "c",
+          "text": "Its chemistry can identify its geological source"
+        },
+        {
+          "id": "d",
+          "text": "Its weight determines how far it travelled"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Volcanic deposits can differ in trace elements even when their glass looks similar.",
+      "explanation": "Matching an artefact’s chemical fingerprint to an obsidian deposit helps establish where its material originated.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://home.nps.gov/articles/000/obsidianseak.htm",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-radiocarbon-sample",
+      "level": 11,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Which part of an ancient burial is the most suitable of these for direct radiocarbon dating?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Preserved bone collagen"
+        },
+        {
+          "id": "b",
+          "text": "A polished quartz bead"
+        },
+        {
+          "id": "c",
+          "text": "A bronze bracelet"
+        },
+        {
+          "id": "d",
+          "text": "A flint arrowhead"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The method follows a radioactive isotope taken up during an organism’s life.",
+      "explanation": "Collagen is organic material from the once-living person. Quartz, bronze and flint do not directly record that biological carbon history.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://home.nps.gov/articles/000/how-do-archeologists-know-how-old-a-site-is.htm",
+        "verificationNotes": "Reference establishes radiocarbon applies to once-living material. Chosen collagen rather than unspecified whole bone; assumes sufficient uncontaminated preservation."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-luminescence-reset",
+      "level": 12,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Thermoluminescence dating of a pottery fragment usually estimates the time since which event?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clay was first formed geologically"
+        },
+        {
+          "id": "b",
+          "text": "The pot was first painted"
+        },
+        {
+          "id": "c",
+          "text": "The fragment was first buried"
+        },
+        {
+          "id": "d",
+          "text": "The material was last sufficiently heated"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The clock depends on trapped energy accumulating after a resetting event.",
+      "explanation": "Sufficient heating clears the earlier luminescence signal. Radiation then builds up a new signal, allowing the time since firing to be estimated.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2022.933342/full",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-plimpton-relations",
+      "level": 13,
+      "category": "Ancient History",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "The Babylonian tablet Plimpton 322 contains numbers associated with which mathematical relationship?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The circumference and area of circles"
+        },
+        {
+          "id": "b",
+          "text": "The side lengths of right triangles"
+        },
+        {
+          "id": "c",
+          "text": "The volumes of regular tetrahedra"
+        },
+        {
+          "id": "d",
+          "text": "The angles of regular pentagons"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Some ancient calculations express familiar geometry without using modern notation.",
+      "explanation": "Its entries are associated with Pythagorean triples: whole-number side lengths satisfying a² + b² = c². The tablet’s precise teaching purpose is debated.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.math.stonybrook.edu/~tony/archive/336S06/plimpton322.html",
+        "verificationNotes": "Checked number relationships, avoiding disputed claims that the tablet was definitively a trigonometric table or the first of anything."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-archaeomagnetic-clock",
+      "level": 14,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Archaeomagnetic dating of an undisturbed ancient hearth relies on what being recorded as heated material cools?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The prevailing wind direction"
+        },
+        {
+          "id": "b",
+          "text": "The length of the solar year"
+        },
+        {
+          "id": "c",
+          "text": "The direction of Earth’s magnetic field"
+        },
+        {
+          "id": "d",
+          "text": "The atmospheric oxygen percentage"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Certain mineral grains preserve a directional signal rather than a chemical calendar.",
+      "explanation": "Magnetic minerals can retain the field direction present during cooling. Comparing it with a regional record helps date the last firing.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://archeox.conted.ox.ac.uk/www.archeox.net/fact-sheets/chronology/dating-methods/archaeomagnetic-dating.html",
+        "verificationNotes": "Checked fired material and retained magnetic orientation; prompt specifies undisturbed hearth because later rotation invalidates its original directional context."
+      }
+    },
+    {
+      "id": "builtin-library-archaeology-marine-reservoir",
+      "level": 15,
+      "category": "Science",
+      "tags": [
+        "archaeology"
+      ],
+      "prompt": "Why can a marine shell yield an apparently older radiocarbon age than a land plant that died at the same time?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ocean carbon can be depleted in carbon-14 relative to the atmosphere"
+        },
+        {
+          "id": "b",
+          "text": "Salt prevents radioactive decay inside the shell"
+        },
+        {
+          "id": "c",
+          "text": "Shells keep absorbing atmospheric carbon after burial"
+        },
+        {
+          "id": "d",
+          "text": "Seawater makes the carbon-14 half-life shorter"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Organisms inherit the carbon signature of their environment; not all carbon reservoirs are in balance.",
+      "explanation": "The marine reservoir effect reflects older, carbon-14-depleted ocean carbon. Marine samples therefore need appropriate calibration and regional corrections.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-archaeology-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.radiocarbon.com/marine-reservoir-effect.htm",
+        "verificationNotes": "Checked laboratory explanation; no fixed global correction asserted, since reservoir offsets vary by region and time."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-archaeology-set",
+      "title": "Clues Beneath Our Feet",
+      "description": "Ancient materials and clever inventions, followed by the science that helps us understand them.",
+      "theme": "Archaeology",
+      "tags": [
+        "archaeology"
+      ],
+      "folderPath": [
+        "History & Discovery",
+        "Archaeology"
+      ],
+      "questionIds": [
+        "builtin-library-archaeology-papyrus",
+        "builtin-library-archaeology-bronze-alloy",
+        "builtin-library-archaeology-wedge-writing",
+        "builtin-library-archaeology-aqueduct-gradient",
+        "builtin-library-archaeology-stratigraphy",
+        "builtin-library-archaeology-tree-ring-matching",
+        "builtin-library-archaeology-pozzolana",
+        "builtin-library-archaeology-lost-wax",
+        "builtin-library-archaeology-hypocaust",
+        "builtin-library-archaeology-obsidian-source",
+        "builtin-library-archaeology-radiocarbon-sample",
+        "builtin-library-archaeology-luminescence-reset",
+        "builtin-library-archaeology-plimpton-relations",
+        "builtin-library-archaeology-archaeomagnetic-clock",
+        "builtin-library-archaeology-marine-reservoir"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

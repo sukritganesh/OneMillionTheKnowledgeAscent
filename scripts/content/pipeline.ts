@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { buildSetLibrary } from './set-library';
 import { BUILT_IN_HINT_REPAIRS } from '../../src/content/constants';
 import { createSerializedCatalog } from '../../src/content/catalog/createCatalog';
 import { normalizePack } from '../../src/content/normalize';
@@ -16,7 +17,7 @@ import { parseJsonData, validateContentPack, validateReleaseManifest } from '../
 
 const REPOSITORY_ROOT = process.cwd();
 const SOURCE_ROOT = path.join(REPOSITORY_ROOT, 'content', 'source', 'release-001');
-const NORMALIZED_ROOT = path.join(REPOSITORY_ROOT, 'content', 'normalized', 'release-001');
+const NORMALIZED_ROOT = path.join(REPOSITORY_ROOT, 'content', 'normalized', 'library');
 const GENERATED_ROOT = path.join(REPOSITORY_ROOT, 'src', 'content', 'generated');
 
 interface SourceFileReport {
@@ -190,7 +191,7 @@ async function validateNoUnlistedPayloads(manifest: ReleaseManifest, errors: Val
   }
 }
 
-export async function runContentPipeline(): Promise<ContentPipelineResult> {
+export async function runArchivePipeline(): Promise<ContentPipelineResult> {
   const errors: ValidationIssue[] = [];
   const warnings: ValidationIssue[] = [];
   const manifestFile = await readJsonFile(path.join(SOURCE_ROOT, 'manifests', 'manifest.json'));
@@ -473,6 +474,12 @@ export async function runContentPipeline(): Promise<ContentPipelineResult> {
 async function writeJson(filePath: string, value: unknown): Promise<void> {
   await mkdir(path.dirname(filePath), { recursive: true });
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+export async function runContentPipeline(): Promise<ContentPipelineResult> {
+  const archive = await runArchivePipeline();
+  assertValidPipeline(archive);
+  return buildSetLibrary(archive);
 }
 
 export async function writeNormalizedArtifacts(result: ContentPipelineResult): Promise<void> {

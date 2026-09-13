@@ -1,0 +1,615 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-legacy-borders-geography-01",
+  "title": "Borders and Human Geography",
+  "description": "Fifteen questions moving from familiar borders and languages to enclaves, counter-enclaves, and unusual territorial patterns.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-set-borders-geography-01-q01",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "borders",
+        "North America"
+      ],
+      "prompt": "Which two countries share the world's longest international land border?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "China and Russia"
+        },
+        {
+          "id": "b",
+          "text": "Argentina and Chile"
+        },
+        {
+          "id": "c",
+          "text": "Canada and the United States"
+        },
+        {
+          "id": "d",
+          "text": "India and Bangladesh"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The border includes a long section along the 49th parallel.",
+      "explanation": "Canada and the United States share the world's longest international land boundary.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q02",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "languages",
+        "Brazil"
+      ],
+      "prompt": "Which language is the official language of Brazil?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Spanish"
+        },
+        {
+          "id": "b",
+          "text": "Portuguese"
+        },
+        {
+          "id": "c",
+          "text": "French"
+        },
+        {
+          "id": "d",
+          "text": "Italian"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Brazil was colonized by a different Iberian power from most of its neighbors.",
+      "explanation": "Portuguese is Brazil's official language.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q03",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "isthmuses",
+        "Panama"
+      ],
+      "prompt": "The Isthmus of Panama connects North America with which continent?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Europe"
+        },
+        {
+          "id": "b",
+          "text": "Asia"
+        },
+        {
+          "id": "c",
+          "text": "Africa"
+        },
+        {
+          "id": "d",
+          "text": "South America"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The isthmus forms Central America's southern end.",
+      "explanation": "The Isthmus of Panama is the land bridge between North and South America.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q04",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "borders",
+        "West Africa"
+      ],
+      "prompt": "Apart from its Atlantic coast, The Gambia is almost entirely surrounded by which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Senegal"
+        },
+        {
+          "id": "b",
+          "text": "Guinea"
+        },
+        {
+          "id": "c",
+          "text": "Mali"
+        },
+        {
+          "id": "d",
+          "text": "Mauritania"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The neighboring country lies both north and south of The Gambia.",
+      "explanation": "Senegal surrounds The Gambia on every landward side.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q05",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "capitals",
+        "West Africa"
+      ],
+      "prompt": "Ouagadougou is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benin"
+        },
+        {
+          "id": "b",
+          "text": "Niger"
+        },
+        {
+          "id": "c",
+          "text": "Burkina Faso"
+        },
+        {
+          "id": "d",
+          "text": "Togo"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The landlocked country was formerly called Upper Volta.",
+      "explanation": "Ouagadougou is the capital and largest city of Burkina Faso.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q06",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "exclaves",
+        "Europe"
+      ],
+      "prompt": "Kaliningrad is an exclave of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poland"
+        },
+        {
+          "id": "b",
+          "text": "Russia"
+        },
+        {
+          "id": "c",
+          "text": "Lithuania"
+        },
+        {
+          "id": "d",
+          "text": "Belarus"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It is separated from the rest of its country by Lithuania and Belarus.",
+      "explanation": "Kaliningrad Oblast is a Russian exclave on the Baltic Sea.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q07",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "exclaves",
+        "North America"
+      ],
+      "prompt": "Point Roberts, reachable by land from the rest of its country only through Canada, belongs to which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Canada"
+        },
+        {
+          "id": "b",
+          "text": "Mexico"
+        },
+        {
+          "id": "c",
+          "text": "France"
+        },
+        {
+          "id": "d",
+          "text": "United States"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Traveling there by land requires crossing the Canadian border.",
+      "explanation": "Point Roberts belongs to Washington state but is connected by land only to British Columbia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q08",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "exclaves",
+        "Arabian Peninsula"
+      ],
+      "prompt": "The Musandam Peninsula is an exclave of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oman"
+        },
+        {
+          "id": "b",
+          "text": "Yemen"
+        },
+        {
+          "id": "c",
+          "text": "Saudi Arabia"
+        },
+        {
+          "id": "d",
+          "text": "Qatar"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It overlooks the Strait of Hormuz.",
+      "explanation": "Musandam is separated from the rest of Oman by the United Arab Emirates.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q09",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "enclaves",
+        "Belgium",
+        "Netherlands"
+      ],
+      "prompt": "Baarle-Hertog consists of Belgian enclaves within which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Luxembourg"
+        },
+        {
+          "id": "b",
+          "text": "Germany"
+        },
+        {
+          "id": "c",
+          "text": "Netherlands"
+        },
+        {
+          "id": "d",
+          "text": "France"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Some of the enclaves themselves contain pieces of Baarle-Nassau.",
+      "explanation": "Baarle-Hertog is a Belgian municipality composed largely of enclaves in the Netherlands.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q10",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "exclaves",
+        "Spain",
+        "France"
+      ],
+      "prompt": "The town of Llívia is a Spanish exclave surrounded by which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Portugal"
+        },
+        {
+          "id": "b",
+          "text": "France"
+        },
+        {
+          "id": "c",
+          "text": "Andorra"
+        },
+        {
+          "id": "d",
+          "text": "Morocco"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It lies in the Pyrenees just beyond Spain's main border.",
+      "explanation": "Llívia is Spanish territory surrounded by France.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q11",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "enclaves",
+        "Italy",
+        "Switzerland"
+      ],
+      "prompt": "Campione d'Italia is an Italian enclave within which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Austria"
+        },
+        {
+          "id": "b",
+          "text": "Slovenia"
+        },
+        {
+          "id": "c",
+          "text": "San Marino"
+        },
+        {
+          "id": "d",
+          "text": "Switzerland"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The enclave sits beside Lake Lugano.",
+      "explanation": "Campione d'Italia is Italian territory enclosed by Switzerland.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q12",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "enclaves",
+        "Belgium",
+        "Germany"
+      ],
+      "prompt": "Sovereignty over the Vennbahn railway created several enclaves of Germany inside which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Belgium"
+        },
+        {
+          "id": "b",
+          "text": "Denmark"
+        },
+        {
+          "id": "c",
+          "text": "Czechia"
+        },
+        {
+          "id": "d",
+          "text": "Switzerland"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The railway territory changed hands after the First World War.",
+      "explanation": "Belgian sovereignty over parts of the Vennbahn left several small German enclaves west of the line.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q13",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "counter-enclaves",
+        "Arabian Peninsula"
+      ],
+      "prompt": "Nahwa, a counter-enclave inside Oman's Madha enclave, belongs to which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bahrain"
+        },
+        {
+          "id": "b",
+          "text": "Saudi Arabia"
+        },
+        {
+          "id": "c",
+          "text": "United Arab Emirates"
+        },
+        {
+          "id": "d",
+          "text": "Yemen"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The surrounding Madha enclave lies within the same federation.",
+      "explanation": "Nahwa belongs to the United Arab Emirates and is enclosed by Oman's Madha enclave.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q14",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "hemispheres",
+        "Kiribati"
+      ],
+      "prompt": "Which sovereign country has territory in all four geographic hemispheres?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Indonesia"
+        },
+        {
+          "id": "b",
+          "text": "Ecuador"
+        },
+        {
+          "id": "c",
+          "text": "Maldives"
+        },
+        {
+          "id": "d",
+          "text": "Kiribati"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its islands cross both the Equator and the 180th meridian.",
+      "explanation": "Kiribati spans north and south of the Equator and east and west of the 180th meridian.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-borders-geography-01-q15",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "landlocked countries",
+        "political geography"
+      ],
+      "prompt": "Which pair are the world's only two doubly landlocked sovereign countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Andorra and Mongolia"
+        },
+        {
+          "id": "b",
+          "text": "Liechtenstein and Uzbekistan"
+        },
+        {
+          "id": "c",
+          "text": "Nepal and Paraguay"
+        },
+        {
+          "id": "d",
+          "text": "Bhutan and Moldova"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Every country bordering either member of the pair is itself landlocked.",
+      "explanation": "Liechtenstein and Uzbekistan are each surrounded entirely by landlocked countries.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-borders-geography-01"
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-borders-geography-01",
+      "title": "Borders and Human Geography",
+      "description": "Fifteen questions moving from familiar borders and languages to enclaves, counter-enclaves, and unusual territorial patterns.",
+      "theme": "Political and Human Geography",
+      "tags": [
+        "single-category",
+        "political geography"
+      ],
+      "questionIds": [
+        "builtin-set-borders-geography-01-q01",
+        "builtin-set-borders-geography-01-q02",
+        "builtin-set-borders-geography-01-q03",
+        "builtin-set-borders-geography-01-q04",
+        "builtin-set-borders-geography-01-q05",
+        "builtin-set-borders-geography-01-q06",
+        "builtin-set-borders-geography-01-q07",
+        "builtin-set-borders-geography-01-q08",
+        "builtin-set-borders-geography-01-q09",
+        "builtin-set-borders-geography-01-q10",
+        "builtin-set-borders-geography-01-q11",
+        "builtin-set-borders-geography-01-q12",
+        "builtin-set-borders-geography-01-q13",
+        "builtin-set-borders-geography-01-q14",
+        "builtin-set-borders-geography-01-q15"
+      ],
+      "folderPath": [
+        "Geography",
+        "World"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-007; original immutable evidence retained in content/source/release-001."
+  }
+}

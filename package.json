@@ -21,6 +21,7 @@
     "validate:content": "tsx scripts/content/validate-content.ts",
     "normalize:content": "tsx scripts/content/normalize-content.ts",
     "build:content": "tsx scripts/content/build-catalog.ts",
+    "register:sets": "tsx scripts/content/register-sets.ts",
     "validate": "npm run typecheck && npm run validate:content && npm test && npm run test:e2e"
   },
   "dependencies": {

@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-writing-systems-pack",
+  "title": "Signs, Sounds, and Scripts",
+  "description": "Explore the many ways people turn language into writing.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Literature and Language"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-writing-systems-english-alphabet",
+      "level": 1,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "english-alphabet"
+      ],
+      "prompt": "How many letters are in the modern English alphabet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "26"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "28"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Count the familiar sequence from A to Z.",
+      "explanation": "The modern English alphabet has 26 letters.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/charts/PDF/U0000.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-braille",
+      "level": 2,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "braille"
+      ],
+      "prompt": "Braille is designed to be read primarily using which sense?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hearing"
+        },
+        {
+          "id": "b",
+          "text": "Touch"
+        },
+        {
+          "id": "c",
+          "text": "Smell"
+        },
+        {
+          "id": "d",
+          "text": "Taste"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Raised patterns carry the information.",
+      "explanation": "Braille uses arrangements of raised dots that can be read by touch.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-cyrillic",
+      "level": 3,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "cyrillic"
+      ],
+      "prompt": "Modern Russian is normally written using which alphabet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Latin"
+        },
+        {
+          "id": "b",
+          "text": "Greek"
+        },
+        {
+          "id": "c",
+          "text": "Cyrillic"
+        },
+        {
+          "id": "d",
+          "text": "Armenian"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Several other Slavic languages share this script family.",
+      "explanation": "Russian is written in a form of the Cyrillic alphabet.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-7/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-hangul-language",
+      "level": 4,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "hangul-language"
+      ],
+      "prompt": "Hangul is a writing system developed for which language?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thai"
+        },
+        {
+          "id": "b",
+          "text": "Japanese"
+        },
+        {
+          "id": "c",
+          "text": "Vietnamese"
+        },
+        {
+          "id": "d",
+          "text": "Korean"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its creation is associated with King Sejong.",
+      "explanation": "Hangul was developed in fifteenth-century Korea to write Korean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-kanji",
+      "level": 5,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "kanji"
+      ],
+      "prompt": "In Japanese writing, what are kanji?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Characters of Chinese origin"
+        },
+        {
+          "id": "b",
+          "text": "Letters used only for foreign words"
+        },
+        {
+          "id": "c",
+          "text": "A set of punctuation marks"
+        },
+        {
+          "id": "d",
+          "text": "A Roman-letter transcription"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Japanese combines these with two kana systems.",
+      "explanation": "Kanji are characters adopted from Chinese writing and used in Japanese.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-sequoyah",
+      "level": 6,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "sequoyah"
+      ],
+      "prompt": "Sequoyah created a syllabary for which language?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Navajo"
+        },
+        {
+          "id": "b",
+          "text": "Cherokee"
+        },
+        {
+          "id": "c",
+          "text": "Inuktitut"
+        },
+        {
+          "id": "d",
+          "text": "Lakota"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The script spread rapidly among its southeastern North American community.",
+      "explanation": "Sequoyah developed the Cherokee syllabary in the early nineteenth century.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-20/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-esperanto",
+      "level": 7,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "esperanto"
+      ],
+      "prompt": "Who introduced the constructed language Esperanto in 1887?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noah Webster"
+        },
+        {
+          "id": "b",
+          "text": "Jacob Grimm"
+        },
+        {
+          "id": "c",
+          "text": "L. L. Zamenhof"
+        },
+        {
+          "id": "d",
+          "text": "Ferdinand de Saussure"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "He hoped a shared auxiliary language could ease communication between communities.",
+      "explanation": "L. L. Zamenhof published the first Esperanto book in 1887.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://esperanto.net/en/esperanto-the-international-language/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-ipa",
+      "level": 8,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "ipa"
+      ],
+      "prompt": "What is the main purpose of the International Phonetic Alphabet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To replace every national writing system"
+        },
+        {
+          "id": "b",
+          "text": "To classify words by their meanings"
+        },
+        {
+          "id": "c",
+          "text": "To encode computer instructions"
+        },
+        {
+          "id": "d",
+          "text": "To represent speech sounds consistently"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A dictionary can use it even when ordinary spelling is misleading.",
+      "explanation": "The IPA provides a shared notation for transcribing speech sounds across languages.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.internationalphoneticassociation.org/node/125",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-agglutination",
+      "level": 9,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "agglutination"
+      ],
+      "prompt": "An agglutinative language tends to build words in which way?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By joining relatively distinct meaningful affixes"
+        },
+        {
+          "id": "b",
+          "text": "By using only single-syllable words"
+        },
+        {
+          "id": "c",
+          "text": "By omitting all grammatical markers"
+        },
+        {
+          "id": "d",
+          "text": "By replacing writing with tone marks"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think of a word whose pieces remain relatively easy to separate.",
+      "explanation": "Agglutination combines morphemes that typically retain clear boundaries and identifiable grammatical functions.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://glossary.sil.org/term/agglutinative-language",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-abjad",
+      "level": 10,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "abjad"
+      ],
+      "prompt": "Which description best fits an abjad such as the basic Arabic writing system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each sign normally represents a whole word"
+        },
+        {
+          "id": "b",
+          "text": "Consonants are primary, with vowels often omitted or marked separately"
+        },
+        {
+          "id": "c",
+          "text": "Every sign represents one complete syllable"
+        },
+        {
+          "id": "d",
+          "text": "Letter shapes directly depict the things named"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Consider the difference between the main letters and optional vowel marks.",
+      "explanation": "An abjad principally represents consonants. Vowels may be omitted or indicated through additional devices.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-6/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-rebus",
+      "level": 11,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "rebus"
+      ],
+      "prompt": "What is the rebus principle in writing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Using colour to mark grammatical tense"
+        },
+        {
+          "id": "b",
+          "text": "Arranging text to resemble its subject"
+        },
+        {
+          "id": "c",
+          "text": "Using a pictured object's name for its sound value"
+        },
+        {
+          "id": "d",
+          "text": "Assigning every word a unique numeral"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A drawing of an eye can contribute to writing a sentence unrelated to vision.",
+      "explanation": "The rebus principle uses a sign's pronunciation to represent another word or syllable with a similar sound.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britishmuseum.org/hieroglyphs-resources",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-boustrophedon",
+      "level": 12,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "boustrophedon"
+      ],
+      "prompt": "How are successive lines arranged in boustrophedon writing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They spiral outward from the centre"
+        },
+        {
+          "id": "b",
+          "text": "They all run vertically downward"
+        },
+        {
+          "id": "c",
+          "text": "They alternate between red and black ink"
+        },
+        {
+          "id": "d",
+          "text": "They alternate left-to-right and right-to-left"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The term evokes the back-and-forth route of ploughing.",
+      "explanation": "Boustrophedon reverses writing direction on alternate lines.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-2/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-virama",
+      "level": 13,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "virama"
+      ],
+      "prompt": "In Devanagari, what does a virama normally indicate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The absence of a consonant's inherent vowel"
+        },
+        {
+          "id": "b",
+          "text": "A doubled consonant's increased volume"
+        },
+        {
+          "id": "c",
+          "text": "The end of a complete sentence"
+        },
+        {
+          "id": "d",
+          "text": "A change from present to past tense"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The basic consonant sign otherwise includes more than a consonant sound.",
+      "explanation": "A virama suppresses the inherent vowel associated with a consonant; it also participates in forming consonant clusters.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/faq/indic.html; https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-12/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-hangul-blocks",
+      "level": 14,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "hangul-blocks"
+      ],
+      "prompt": "Why is Hangul alphabetic even though its text is arranged in syllable blocks?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every block has an unrelated, indivisible shape"
+        },
+        {
+          "id": "b",
+          "text": "Its component letters represent consonants and vowels"
+        },
+        {
+          "id": "c",
+          "text": "Each block represents a word independently of pronunciation"
+        },
+        {
+          "id": "d",
+          "text": "It uses the Latin alphabet inside each block"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Distinguish a unit's visual grouping from what its internal parts encode.",
+      "explanation": "Hangul groups letters into syllable blocks, but the component jamo represent consonants and vowels.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-writing-systems-semantic-phonetic",
+      "level": 15,
+      "category": "Literature and Language",
+      "tags": [
+        "writing-systems",
+        "semantic-phonetic"
+      ],
+      "prompt": "In a Chinese phono-semantic compound character, what roles do the two main components typically serve?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One marks tense and the other marks number"
+        },
+        {
+          "id": "b",
+          "text": "One gives stroke order and the other gives punctuation"
+        },
+        {
+          "id": "c",
+          "text": "One suggests meaning and the other suggests pronunciation"
+        },
+        {
+          "id": "d",
+          "text": "One gives a translation and the other gives a page reference"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The character combines different kinds of clues; historical sound changes can weaken one of them.",
+      "explanation": "A phono-semantic compound pairs a semantic component with a phonetic component. Neither guarantees a complete modern definition or exact modern pronunciation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-writing-systems-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unicode.org/versions/Unicode16.0.0/core-spec/chapter-18/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-writing-systems-set",
+      "title": "Signs, Sounds, and Scripts",
+      "description": "Explore the many ways people turn language into writing.",
+      "theme": "Literature and Language",
+      "tags": [
+        "writing-systems"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Books & Language"
+      ],
+      "questionIds": [
+        "builtin-library-writing-systems-english-alphabet",
+        "builtin-library-writing-systems-braille",
+        "builtin-library-writing-systems-cyrillic",
+        "builtin-library-writing-systems-hangul-language",
+        "builtin-library-writing-systems-kanji",
+        "builtin-library-writing-systems-sequoyah",
+        "builtin-library-writing-systems-esperanto",
+        "builtin-library-writing-systems-ipa",
+        "builtin-library-writing-systems-agglutination",
+        "builtin-library-writing-systems-abjad",
+        "builtin-library-writing-systems-rebus",
+        "builtin-library-writing-systems-boustrophedon",
+        "builtin-library-writing-systems-virama",
+        "builtin-library-writing-systems-hangul-blocks",
+        "builtin-library-writing-systems-semantic-phonetic"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

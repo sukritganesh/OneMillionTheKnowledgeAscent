@@ -1,0 +1,618 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-legacy-world-civilizations-01",
+  "title": "World and Civilizations",
+  "description": "A mixed historical and cultural set connecting societies, languages, religions, trade routes, and political ideas.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography",
+    "Mythology and Religion",
+    "Ancient History",
+    "Medieval and Early Modern History",
+    "Food and Drink",
+    "Literature and Language",
+    "Art and Culture",
+    "Politics and World Affairs",
+    "Business and Economics",
+    "Modern History"
+  ],
+  "questions": [
+    {
+      "id": "builtin-set-world-civilizations-01-q01",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "Africa",
+        "capitals"
+      ],
+      "prompt": "What is the capital of Kenya?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kampala"
+        },
+        {
+          "id": "b",
+          "text": "Mombasa"
+        },
+        {
+          "id": "c",
+          "text": "Dar es Salaam"
+        },
+        {
+          "id": "d",
+          "text": "Nairobi"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It lies in the country's south-central highlands.",
+      "explanation": "Nairobi is Kenya's capital.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q02",
+      "level": 2,
+      "category": "Mythology and Religion",
+      "tags": [
+        "Roman mythology"
+      ],
+      "prompt": "Mars was the Roman god of what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Healing"
+        },
+        {
+          "id": "b",
+          "text": "The sea"
+        },
+        {
+          "id": "c",
+          "text": "Commerce"
+        },
+        {
+          "id": "d",
+          "text": "War"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "His Greek counterpart was Ares.",
+      "explanation": "Mars was the Roman god of war.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q03",
+      "level": 3,
+      "category": "Ancient History",
+      "tags": [
+        "Carthage",
+        "Phoenicia"
+      ],
+      "prompt": "Carthage was founded by settlers from which people?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Etruscans"
+        },
+        {
+          "id": "b",
+          "text": "The Mycenaeans"
+        },
+        {
+          "id": "c",
+          "text": "The Hittites"
+        },
+        {
+          "id": "d",
+          "text": "The Phoenicians"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its legendary founder was Dido of Tyre.",
+      "explanation": "Carthage began as a Phoenician colony.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q04",
+      "level": 4,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade",
+        "Asia"
+      ],
+      "prompt": "The Silk Road was best understood as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A network of trade routes"
+        },
+        {
+          "id": "b",
+          "text": "A religious pilgrimage only"
+        },
+        {
+          "id": "c",
+          "text": "One paved imperial highway"
+        },
+        {
+          "id": "d",
+          "text": "A single sea lane"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It linked many regions rather than following one road.",
+      "explanation": "The Silk Road was a changing network of overland and maritime routes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q05",
+      "level": 5,
+      "category": "Food and Drink",
+      "tags": [
+        "tea",
+        "China"
+      ],
+      "prompt": "Tea cultivation originated in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Turkey"
+        },
+        {
+          "id": "b",
+          "text": "Kenya"
+        },
+        {
+          "id": "c",
+          "text": "Brazil"
+        },
+        {
+          "id": "d",
+          "text": "China"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Early traditions connect it with Yunnan and Sichuan.",
+      "explanation": "Tea originated in China before spreading widely.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q06",
+      "level": 6,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "Ottoman Empire",
+        "cities"
+      ],
+      "prompt": "Constantinople served as the Ottoman capital under what later common name?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ankara"
+        },
+        {
+          "id": "b",
+          "text": "Bursa"
+        },
+        {
+          "id": "c",
+          "text": "Istanbul"
+        },
+        {
+          "id": "d",
+          "text": "Izmir"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The city straddles the Bosporus.",
+      "explanation": "Constantinople became widely known internationally as Istanbul.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q07",
+      "level": 7,
+      "category": "Literature and Language",
+      "tags": [
+        "linguistics",
+        "communication"
+      ],
+      "prompt": "What is a lingua franca?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A language with no grammar"
+        },
+        {
+          "id": "b",
+          "text": "A language spoken only in France"
+        },
+        {
+          "id": "c",
+          "text": "A secret code"
+        },
+        {
+          "id": "d",
+          "text": "A common language used among people with different native languages"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It facilitates trade and communication.",
+      "explanation": "A lingua franca is a bridge language between different speech communities.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q08",
+      "level": 8,
+      "category": "Literature and Language",
+      "tags": [
+        "Arabic",
+        "writing"
+      ],
+      "prompt": "Arabic script is normally written in which direction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Right to left"
+        },
+        {
+          "id": "b",
+          "text": "Left to right"
+        },
+        {
+          "id": "c",
+          "text": "In alternating directions"
+        },
+        {
+          "id": "d",
+          "text": "Top to bottom only"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Hebrew shares this orientation.",
+      "explanation": "Arabic is written from right to left.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q09",
+      "level": 9,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "Gothic"
+      ],
+      "prompt": "Which architectural feature is especially characteristic of Gothic churches?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Massive glassless walls"
+        },
+        {
+          "id": "b",
+          "text": "Pyramidal ziggurats"
+        },
+        {
+          "id": "c",
+          "text": "Pointed arches"
+        },
+        {
+          "id": "d",
+          "text": "Flat roofs only"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Ribbed vaults and flying buttresses are also typical.",
+      "explanation": "Pointed arches are a hallmark of Gothic architecture.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q10",
+      "level": 10,
+      "category": "Politics and World Affairs",
+      "tags": [
+        "international relations"
+      ],
+      "prompt": "The 'Westphalian' model is commonly associated with what principle?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mandatory global government"
+        },
+        {
+          "id": "b",
+          "text": "State sovereignty"
+        },
+        {
+          "id": "c",
+          "text": "Rule by hereditary guilds"
+        },
+        {
+          "id": "d",
+          "text": "Abolition of borders"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The concept is linked to the 1648 peace settlements.",
+      "explanation": "Westphalian sovereignty emphasizes states' authority within their territories.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q11",
+      "level": 11,
+      "category": "Business and Economics",
+      "tags": [
+        "economic history"
+      ],
+      "prompt": "Mercantilism generally favored what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Abolishing all currency"
+        },
+        {
+          "id": "b",
+          "text": "Accumulating national wealth through regulated trade and exports"
+        },
+        {
+          "id": "c",
+          "text": "Completely unrestricted imports"
+        },
+        {
+          "id": "d",
+          "text": "Replacing trade with barter only"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Bullion and favorable trade balances were important.",
+      "explanation": "Mercantilist policies sought state power through controlled commerce and accumulated specie.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q12",
+      "level": 12,
+      "category": "Mythology and Religion",
+      "tags": [
+        "Sikhism",
+        "South Asia"
+      ],
+      "prompt": "Sikhism originated in which region?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Andes"
+        },
+        {
+          "id": "b",
+          "text": "The Balkans"
+        },
+        {
+          "id": "c",
+          "text": "The Korean Peninsula"
+        },
+        {
+          "id": "d",
+          "text": "The Punjab"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Guru Nanak was born there.",
+      "explanation": "Sikhism arose in the Punjab region of South Asia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q13",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "Africa",
+        "climate"
+      ],
+      "prompt": "The Sahel lies immediately south of which desert?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Atacama"
+        },
+        {
+          "id": "b",
+          "text": "The Sahara"
+        },
+        {
+          "id": "c",
+          "text": "The Kalahari"
+        },
+        {
+          "id": "d",
+          "text": "The Gobi"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It is a semi-arid transition zone.",
+      "explanation": "The Sahel stretches across Africa south of the Sahara.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q14",
+      "level": 14,
+      "category": "Modern History",
+      "tags": [
+        "Cold War",
+        "diplomacy"
+      ],
+      "prompt": "The first summit of the Non-Aligned Movement was held in which city?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cairo"
+        },
+        {
+          "id": "b",
+          "text": "Jakarta"
+        },
+        {
+          "id": "c",
+          "text": "Belgrade"
+        },
+        {
+          "id": "d",
+          "text": "Havana"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "It took place in Yugoslavia in 1961.",
+      "explanation": "The first NAM summit met in Belgrade.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-world-civilizations-01-q15",
+      "level": 15,
+      "category": "Ancient History",
+      "tags": [
+        "Africa",
+        "Axum"
+      ],
+      "prompt": "The monumental stelae of Axum are found in which modern country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Somalia"
+        },
+        {
+          "id": "c",
+          "text": "Sudan"
+        },
+        {
+          "id": "d",
+          "text": "Ethiopia"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Axum was a major ancient kingdom in the Horn of Africa.",
+      "explanation": "The famous Aksumite stelae stand in northern Ethiopia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-world-civilizations-01"
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-world-civilizations-01",
+      "title": "World and Civilizations",
+      "description": "A mixed historical and cultural set connecting societies, languages, religions, trade routes, and political ideas.",
+      "theme": "World Civilizations",
+      "tags": [
+        "mixed",
+        "history",
+        "culture"
+      ],
+      "questionIds": [
+        "builtin-set-world-civilizations-01-q01",
+        "builtin-set-world-civilizations-01-q02",
+        "builtin-set-world-civilizations-01-q03",
+        "builtin-set-world-civilizations-01-q04",
+        "builtin-set-world-civilizations-01-q05",
+        "builtin-set-world-civilizations-01-q06",
+        "builtin-set-world-civilizations-01-q07",
+        "builtin-set-world-civilizations-01-q08",
+        "builtin-set-world-civilizations-01-q09",
+        "builtin-set-world-civilizations-01-q10",
+        "builtin-set-world-civilizations-01-q11",
+        "builtin-set-world-civilizations-01-q12",
+        "builtin-set-world-civilizations-01-q13",
+        "builtin-set-world-civilizations-01-q14",
+        "builtin-set-world-civilizations-01-q15"
+      ],
+      "folderPath": [
+        "History & Discovery",
+        "Civilizations"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-005; original immutable evidence retained in content/source/release-001."
+  }
+}

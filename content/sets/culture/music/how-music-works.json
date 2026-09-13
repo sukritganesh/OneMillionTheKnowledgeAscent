@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-music-making-pack",
+  "title": "How Music Works",
+  "description": "Instruments, notation, and the patterns behind the sound.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Music"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-music-making-trumpet",
+      "level": 1,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "trumpet"
+      ],
+      "prompt": "What does a trumpet player vibrate to begin producing sound?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The lips"
+        },
+        {
+          "id": "b",
+          "text": "A wooden reed"
+        },
+        {
+          "id": "c",
+          "text": "A stretched string"
+        },
+        {
+          "id": "d",
+          "text": "A drum skin"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The mouthpiece helps couple the player's vibration to the air inside.",
+      "explanation": "A trumpet is sounded by vibrating the lips against its mouthpiece.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.yamaha.com/en/musical_instrument_guide/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-drum",
+      "level": 2,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "drum"
+      ],
+      "prompt": "Which part of a snare drum is normally struck with sticks?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The tuning peg"
+        },
+        {
+          "id": "b",
+          "text": "The drumhead"
+        },
+        {
+          "id": "c",
+          "text": "The mouthpiece"
+        },
+        {
+          "id": "d",
+          "text": "The bridge"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of the stretched surface across the shell.",
+      "explanation": "The drumhead is a stretched membrane. Its vibration produces sound when struck.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.yamaha.com/en/musical_instrument_guide/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-tempo",
+      "level": 3,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "tempo"
+      ],
+      "prompt": "In music, tempo tells performers about what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pitch"
+        },
+        {
+          "id": "b",
+          "text": "Volume"
+        },
+        {
+          "id": "c",
+          "text": "Speed"
+        },
+        {
+          "id": "d",
+          "text": "Key"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A metronome helps a performer maintain it.",
+      "explanation": "Tempo is the speed or pace of the musical pulse.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://viva.pressbooks.pub/openmusictheory/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-pizzicato",
+      "level": 4,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "pizzicato"
+      ],
+      "prompt": "What does pizzicato ask a string player to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slide between pitches"
+        },
+        {
+          "id": "b",
+          "text": "Mute the strings"
+        },
+        {
+          "id": "c",
+          "text": "Play near the bridge"
+        },
+        {
+          "id": "d",
+          "text": "Pluck the strings"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The bow is not used for this particular sound.",
+      "explanation": "Pizzicato means plucking a string instead of bowing it.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.yamaha.com/en/musical_instrument_guide/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-oboe-reed",
+      "level": 5,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "oboe-reed"
+      ],
+      "prompt": "Which of these instruments normally uses a double reed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oboe"
+        },
+        {
+          "id": "b",
+          "text": "Clarinet"
+        },
+        {
+          "id": "c",
+          "text": "Flute"
+        },
+        {
+          "id": "d",
+          "text": "Trumpet"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Two small blades vibrate against each other.",
+      "explanation": "An oboe's double reed has two vibrating cane blades; a clarinet uses a single reed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.yamaha.com/en/musical_instrument_guide/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-pentatonic",
+      "level": 6,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "pentatonic"
+      ],
+      "prompt": "How many distinct notes occur in a pentatonic scale before the octave repeats?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four"
+        },
+        {
+          "id": "b",
+          "text": "Five"
+        },
+        {
+          "id": "c",
+          "text": "Six"
+        },
+        {
+          "id": "d",
+          "text": "Seven"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The name uses a Greek numerical prefix also found in geometry.",
+      "explanation": "A pentatonic scale contains five distinct pitches within an octave.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://viva.pressbooks.pub/openmusictheory/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-harpsichord",
+      "level": 7,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "harpsichord"
+      ],
+      "prompt": "How does a traditional harpsichord set its strings vibrating?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "With felt hammers"
+        },
+        {
+          "id": "b",
+          "text": "With a rotating wheel"
+        },
+        {
+          "id": "c",
+          "text": "With small plucking plectra"
+        },
+        {
+          "id": "d",
+          "text": "With a continuous bow"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its keyboard action produces a different attack from a piano's.",
+      "explanation": "A harpsichord uses plectra to pluck strings when its keys are pressed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://resources.metmuseum.org/resources/metpublications/pdf/Musical_Instruments_in_the_Metropolitan_Museum_The_Metropolitan_Museum_of_Art_Bulletin_v_35.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-relative-minor",
+      "level": 8,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "relative-minor"
+      ],
+      "prompt": "Which minor key shares the key signature of C major?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "C minor"
+        },
+        {
+          "id": "b",
+          "text": "D minor"
+        },
+        {
+          "id": "c",
+          "text": "E minor"
+        },
+        {
+          "id": "d",
+          "text": "A minor"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A relative minor begins on the sixth degree of its relative major scale.",
+      "explanation": "A minor and C major both have key signatures with no sharps or flats.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://viva.pressbooks.pub/openmusictheory/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-first-inversion",
+      "level": 9,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "first-inversion"
+      ],
+      "prompt": "A C-major triad has E as its lowest note. What position is it in?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "First inversion"
+        },
+        {
+          "id": "b",
+          "text": "Root position"
+        },
+        {
+          "id": "c",
+          "text": "Second inversion"
+        },
+        {
+          "id": "d",
+          "text": "Third inversion"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "For a triad, identify whether the root, third, or fifth is in the bass.",
+      "explanation": "A triad is in first inversion when its third is the bass note. E is the third of C major.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://viva.pressbooks.pub/openmusictheory/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-clarinet-register",
+      "level": 10,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "clarinet-register"
+      ],
+      "prompt": "A clarinet's basic overblowing interval is approximately which interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An octave"
+        },
+        {
+          "id": "b",
+          "text": "A twelfth"
+        },
+        {
+          "id": "c",
+          "text": "A major tenth"
+        },
+        {
+          "id": "d",
+          "text": "Two octaves"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Its nearly cylindrical bore behaves roughly like a pipe closed at one end.",
+      "explanation": "The clarinet overblows a twelfth, moving approximately from the first to the third harmonic.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://newt.phys.unsw.edu.au/jw/clarinetacoustics.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-dorian",
+      "level": 11,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "dorian"
+      ],
+      "prompt": "Compared with the natural minor scale on the same tonic, Dorian raises which degree?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The second"
+        },
+        {
+          "id": "b",
+          "text": "The fourth"
+        },
+        {
+          "id": "c",
+          "text": "The sixth"
+        },
+        {
+          "id": "d",
+          "text": "The seventh"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare the white-note scales beginning on D and A after aligning their tonics.",
+      "explanation": "Dorian has a major sixth where natural minor has a minor sixth.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://viva.pressbooks.pub/openmusictheory/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-mbira",
+      "level": 12,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "mbira"
+      ],
+      "prompt": "In the Hornbostel–Sachs system, an mbira belongs to which broad family?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chordophones"
+        },
+        {
+          "id": "b",
+          "text": "Membranophones"
+        },
+        {
+          "id": "c",
+          "text": "Aerophones"
+        },
+        {
+          "id": "d",
+          "text": "Idiophones"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The vibrating metal tongues themselves are the sound-producing bodies.",
+      "explanation": "An mbira is a plucked idiophone, more specifically a lamellaphone.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/503679",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-sheng",
+      "level": 13,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "sheng"
+      ],
+      "prompt": "Which Chinese instrument is a free-reed mouth organ with multiple pipes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sheng"
+        },
+        {
+          "id": "b",
+          "text": "Pipa"
+        },
+        {
+          "id": "c",
+          "text": "Erhu"
+        },
+        {
+          "id": "d",
+          "text": "Dizi"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think of an instrument that can supply harmony as well as a melody.",
+      "explanation": "The sheng is a mouth organ whose pipes contain free reeds.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/505403",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-sympathetic-strings",
+      "level": 14,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "sympathetic-strings"
+      ],
+      "prompt": "What is the main role of the sarangi's sympathetic strings?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They set the bow's tension"
+        },
+        {
+          "id": "b",
+          "text": "They resonate with the played notes"
+        },
+        {
+          "id": "c",
+          "text": "They mark finger positions"
+        },
+        {
+          "id": "d",
+          "text": "They replace the soundboard"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "They need not be directly bowed to contribute to the instrument's tone.",
+      "explanation": "Sympathetic strings vibrate in response to matching frequencies from the melody strings, enriching resonance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/503204; https://blog.metmuseum.org/guitarheroes/viola-damore-18th-century/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-music-making-touch-third",
+      "level": 15,
+      "category": "Music",
+      "tags": [
+        "music-making",
+        "touch-third"
+      ],
+      "prompt": "On an ideal string, a light touch one-third of the way along permits which lowest natural harmonic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An octave above the open note"
+        },
+        {
+          "id": "b",
+          "text": "Two octaves above the open note"
+        },
+        {
+          "id": "c",
+          "text": "An octave and a fifth above the open note"
+        },
+        {
+          "id": "d",
+          "text": "Two octaves and a major third above the open note"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The touch creates a node. Find the lowest whole-number vibration pattern with a node there.",
+      "explanation": "The third harmonic has a node at one-third of the string and a frequency three times the fundamental: an octave plus a fifth.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-music-making-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://phys.unsw.edu.au/jw/strings.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-music-making-set",
+      "title": "How Music Works",
+      "description": "Instruments, notation, and the patterns behind the sound.",
+      "theme": "Music",
+      "tags": [
+        "music-making"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Music"
+      ],
+      "questionIds": [
+        "builtin-library-music-making-trumpet",
+        "builtin-library-music-making-drum",
+        "builtin-library-music-making-tempo",
+        "builtin-library-music-making-pizzicato",
+        "builtin-library-music-making-oboe-reed",
+        "builtin-library-music-making-pentatonic",
+        "builtin-library-music-making-harpsichord",
+        "builtin-library-music-making-relative-minor",
+        "builtin-library-music-making-first-inversion",
+        "builtin-library-music-making-clarinet-register",
+        "builtin-library-music-making-dorian",
+        "builtin-library-music-making-mbira",
+        "builtin-library-music-making-sheng",
+        "builtin-library-music-making-sympathetic-strings",
+        "builtin-library-music-making-touch-third"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

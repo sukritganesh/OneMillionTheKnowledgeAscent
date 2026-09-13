@@ -140,6 +140,7 @@ export function normalizePack(pack: RawContentPack, options: NormalizePackOption
   });
 
   const sets = pack.sets.map((set) => ({
+    folderPath: [...(set.folderPath ?? [])],
     id: normalizedIdentity(pack, options.origin, set.id),
     localId: set.id.startsWith(`${pack.id}:`) ? set.id.slice(pack.id.length + 1) : set.id,
     title: set.title,
