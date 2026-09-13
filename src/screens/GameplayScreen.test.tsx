@@ -68,7 +68,7 @@ describe('GameplayScreen', () => {
     const onAction = vi.fn();
     render(<GameplayScreen state={createState()} nowMs={100} onAction={onAction} />);
 
-    expect(screen.getByRole('heading', { name: /Ada, your path is secured/i })).toBeVisible();
+    expect(screen.getByRole('heading', { name: /Let’s play, Ada/i })).toBeVisible();
     const ladder = screen.getByRole('complementary', { name: 'Prize ladder' });
     expect(within(ladder).getAllByRole('listitem')).toHaveLength(15);
 
@@ -252,7 +252,7 @@ describe('GameplayScreen', () => {
     fireEvent.click(within(dialog).getByRole('button', { name: 'How to Play' }));
     expect(onAction).toHaveBeenCalledWith({ type: 'OPEN_HELP' });
     fireEvent.click(
-      within(dialog).getByRole('button', { name: 'Save and Exit to Dashboard' }),
+      within(dialog).getByRole('button', { name: 'Save and exit' }),
     );
     expect(onSaveAndExit).toHaveBeenCalledOnce();
     fireEvent.click(within(dialog).getByRole('button', { name: 'Walk Away with $0' }));

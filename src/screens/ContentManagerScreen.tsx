@@ -267,27 +267,27 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
         <BrandMark compact />
         <div className="utility-divider" />
         <div>
-          <div className="utility-label">Local content system</div>
-          <div className="utility-value">Content Manager</div>
+          <div className="utility-label">Your questions</div>
+          <div className="utility-value">Question packs</div>
         </div>
         <div className="utility-bar__spacer" />
-        <span className="utility-status"><i className="status-dot" /> Offline catalog</span>
+        <span className="utility-status"><i className="status-dot" /> Saved in this browser</span>
         <button className="secondary-button content-manager__back" type="button" onClick={props.onBack}>Back</button>
       </header>
 
       <div className="content-manager__layout">
-        <aside className="content-manager__rail" aria-label="Content Manager sections">
-          <span className="kicker">Catalog control</span>
-          <h1 id="content-manager-heading">Question content</h1>
-          <p>Validate, organize, and author local packs without sending content anywhere.</p>
+        <aside className="content-manager__rail" aria-label="Question packs sections">
+
+          <h1 id="content-manager-heading">Question packs</h1>
+          <p>Add your own questions and choose which packs to play.</p>
           <nav className="content-manager__tabs">
-            <button type="button" className={tab === 'library' ? 'active' : ''} aria-current={tab === 'library' ? 'page' : undefined} onClick={() => setTab('library')}><b>01</b><span><strong>Library</strong><small>Coverage and installed packs</small></span></button>
-            <button type="button" className={tab === 'import' ? 'active' : ''} aria-current={tab === 'import' ? 'page' : undefined} onClick={() => setTab('import')}><b>02</b><span><strong>Import & templates</strong><small>Preview before commit</small></span></button>
-            <button type="button" className={tab === 'author' ? 'active' : ''} aria-current={tab === 'author' ? 'page' : undefined} onClick={() => setTab('author')}><b>03</b><span><strong>Manual editor</strong><small>Build a pool pack</small></span></button>
+            <button type="button" className={tab === 'library' ? 'active' : ''} aria-current={tab === 'library' ? 'page' : undefined} onClick={() => setTab('library')}><b>01</b><span><strong>Library</strong><small>Built-in and added questions</small></span></button>
+            <button type="button" className={tab === 'import' ? 'active' : ''} aria-current={tab === 'import' ? 'page' : undefined} onClick={() => setTab('import')}><b>02</b><span><strong>Import & templates</strong><small>Check a pack before adding it</small></span></button>
+            <button type="button" className={tab === 'author' ? 'active' : ''} aria-current={tab === 'author' ? 'page' : undefined} onClick={() => setTab('author')}><b>03</b><span><strong>Manual editor</strong><small>Write your own questions</small></span></button>
           </nav>
           <div className="content-manager__guardrail">
-            <strong>Atomic imports</strong>
-            <span>Every question and set validates before a repository callback receives the pack.</span>
+            <strong>Checked before adding</strong>
+            <span>We'll check the whole pack before adding any questions.</span>
           </div>
         </aside>
 
@@ -353,7 +353,7 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
             </>
           }
         >
-          <p>Future games will no longer use this pack. Saved and completed runs should retain their resolved question snapshots.</p>
+          <p>New games will no longer use this pack. Your saved game and past answers will still be available.</p>
         </Modal>
       )}
     </main>
@@ -375,14 +375,14 @@ function LibraryPanel(props: {
   return (
     <div className="content-manager__section">
       <header className="content-manager__section-heading">
-        <div><span className="kicker">Built-in release 001</span><h2>Coverage at a glance</h2></div>
-        <span className="content-manager__verified">Validated catalog</span>
+        <div><span className="kicker">Included with the game</span><h2>Built-in questions</h2></div>
+        <span className="content-manager__verified">Ready to play</span>
       </header>
       <div className="content-manager__metrics" aria-label="Built-in coverage summary">
         <article><span>Questions</span><strong>{props.summary.questionCount}</strong><small>{props.summary.freshMixQuestionCount} Fresh Mix + {props.summary.curatedQuestionCount} curated</small></article>
-        <article><span>Curated sets</span><strong>{props.summary.curatedSetCount}</strong><small>Every set spans Levels 1-15</small></article>
-        <article><span>Categories</span><strong>{props.summary.categoryCount}</strong><small>Complete pool category coverage</small></article>
-        <article><span>Source packs</span><strong>{props.summary.sourceCount}</strong><small>{props.summary.missingFreshMixLevels.length === 0 ? 'No missing Fresh Mix levels' : `${props.summary.missingFreshMixLevels.length} levels missing`}</small></article>
+        <article><span>Curated sets</span><strong>{props.summary.curatedSetCount}</strong><small>15 questions in each set</small></article>
+        <article><span>Categories</span><strong>{props.summary.categoryCount}</strong><small>Topics to explore</small></article>
+        <article><span>Source packs</span><strong>{props.summary.sourceCount}</strong><small>{props.summary.missingFreshMixLevels.length === 0 ? 'Questions at every level' : `${props.summary.missingFreshMixLevels.length} levels missing`}</small></article>
       </div>
       <div className="content-manager__level-strip" aria-label="Questions per ladder level">
         {Array.from({ length: 15 }, (_, index) => index + 1).map((level) => (
@@ -391,7 +391,7 @@ function LibraryPanel(props: {
       </div>
 
       <header className="content-manager__subheading">
-        <div><h2>Installed custom packs</h2><p>{props.packTotal} local {props.packTotal === 1 ? 'pack' : 'packs'} · disabled packs stay installed</p></div>
+        <div><h2>Your question packs</h2><p>{props.packTotal} local {props.packTotal === 1 ? 'pack' : 'packs'} · disabled packs stay installed</p></div>
         <label className="content-manager__search"><span className="sr-only">Search installed packs</span><input type="search" value={props.search} onChange={(event) => props.onSearch(event.target.value)} placeholder="Search title, ID, author, category..." /></label>
       </header>
       {props.packs.length === 0 ? (
@@ -431,7 +431,7 @@ function ImportPanel(props: {
 }) {
   return (
     <div className="content-manager__section">
-      <header className="content-manager__section-heading"><div><span className="kicker">Transactional intake</span><h2>Import a question pack</h2><p>Nothing is committed until the complete preview passes structural and conflict validation.</p></div></header>
+      <header className="content-manager__section-heading"><div><span className="kicker">Add questions</span><h2>Import a question pack</h2><p>Choose a file or paste a pack below. You'll review it before adding it.</p></div></header>
       <div className="content-import-grid">
         <section className="content-import-source panel panel--soft">
           <div className="section-heading"><span>01</span><div><h3>Choose a source</h3><p>JSON file or pasted JSON</p></div></div>
@@ -442,7 +442,7 @@ function ImportPanel(props: {
           <button type="button" className="primary-button" onClick={props.onPreview}>Validate & preview</button>
         </section>
         <section className="content-import-preview panel panel--soft" aria-live="polite">
-          <div className="section-heading"><span>02</span><div><h3>Review the transaction</h3><p>{props.importName}</p></div></div>
+          <div className="section-heading"><span>02</span><div><h3>Review your pack</h3><p>{props.importName}</p></div></div>
           {props.prepared === null ? (
             <div className="content-import-preview__idle"><span>⌁</span><strong>No preview yet</strong><p>Select or paste a pack, then run validation.</p></div>
           ) : (
@@ -451,11 +451,11 @@ function ImportPanel(props: {
           <button type="button" className="primary-button content-import-preview__commit" disabled={props.prepared?.status !== 'ready' || props.busy} onClick={props.onCommit}>{props.prepared?.payload?.operation === 'update' ? 'Commit update' : 'Import entire pack'}</button>
         </section>
       </div>
-      <header className="content-manager__subheading"><div><h2>Authoring resources</h2><p>Use the same schema and validation path for hand-authored or externally AI-assisted content.</p></div></header>
+      <header className="content-manager__subheading"><div><h2>Templates and tools</h2><p>Start with a template, see an example, or get a prompt for drafting questions with AI.</p></div></header>
       <div className="content-template-grid">
-        <button type="button" onClick={props.onBlank}><b>{'{ }'}</b><span><strong>Blank schema template</strong><small>Start a new pack in your editor</small></span></button>
-        <button type="button" onClick={props.onSample}><b>✓</b><span><strong>Sample valid pack</strong><small>One complete Fresh Mix question</small></span></button>
-        <button type="button" onClick={props.onPrompt}><b>AI</b><span><strong>External AI prompt</strong><small>Generate elsewhere, fact-check, import here</small></span></button>
+        <button type="button" onClick={props.onBlank}><b>{'{ }'}</b><span><strong>Blank template</strong><small>Start a new pack in your editor</small></span></button>
+        <button type="button" onClick={props.onSample}><b>✓</b><span><strong>Example pack</strong><small>One complete Fresh Mix question</small></span></button>
+        <button type="button" onClick={props.onPrompt}><b>AI</b><span><strong>External AI prompt</strong><small>Draft questions, then check the facts</small></span></button>
       </div>
     </div>
   );
@@ -615,10 +615,10 @@ function ManualPackEditor(props: {
 
   return (
     <div className="content-manager__section manual-pack-editor">
-      <header className="content-manager__section-heading"><div><span className="kicker">Form-based authoring</span><h2>Build a Fresh Mix pack</h2><p>Add, edit, and remove questions locally. The same import validator checks the completed pack.</p></div></header>
+      <header className="content-manager__section-heading"><div><span className="kicker">Write questions</span><h2>Create a question pack</h2><p>Write your questions below. We'll check the pack before saving it.</p></div></header>
       <div className="manual-pack-editor__meta panel panel--soft">
         <label className="field-stack"><span>Pack title</span><input type="text" value={title} onChange={(event) => setTitle(event.target.value)} onBlur={() => packId === 'my-trivia-pack' && setPackId(slug(title))} /></label>
-        <label className="field-stack"><span>Pack ID</span><input type="text" value={packId} onChange={(event) => setPackId(event.target.value)} /><small className="field-help">Lowercase kebab-case; identity remains stable across updates.</small></label>
+        <label className="field-stack"><span>Pack ID</span><input type="text" value={packId} onChange={(event) => setPackId(event.target.value)} /><small className="field-help">Use lowercase words joined by hyphens, like my-trivia-pack. Keep this ID when updating the pack.</small></label>
         <label className="field-stack"><span>Version</span><input type="text" value={version} onChange={(event) => setVersion(event.target.value)} /></label>
         <label className="field-stack"><span>Author</span><input type="text" value={author} onChange={(event) => setAuthor(event.target.value)} /></label>
         <label className="field-stack manual-pack-editor__description"><span>Description</span><textarea value={description} onChange={(event) => setDescription(event.target.value)} /></label>
@@ -630,8 +630,8 @@ function ManualPackEditor(props: {
         <label className={`manual-pack-editor__auto-set ${completeLadder ? '' : 'disabled'}`}><input type="checkbox" checked={autoSet && completeLadder} disabled={!completeLadder} onChange={(event) => setAutoSet(event.target.checked)} /><i /><span><strong>Also create a curated set</strong><small>{completeLadder ? 'Uses the first question at every level' : 'Unlocks when Levels 1-15 are covered'}</small></span></label>
       </div>
 
-      <header className="content-manager__subheading"><div><h2>Questions</h2><p>{questions.length} authored · choices may reshuffle at run creation</p></div><button type="button" className="secondary-button" onClick={openNewQuestion}>Add question</button></header>
-      {questions.length === 0 ? <div className="content-manager__empty"><span>+</span><strong>No questions yet</strong><p>Add a question at any level. Partial pool packs can supplement the built-in catalog.</p></div> : <div className="manual-question-list">{[...questions].sort((left, right) => left.level - right.level).map((question) => { const sourceIndex = questions.indexOf(question); return <article key={question.id}><b>{question.level}</b><div><span>{question.category}</span><strong>{question.prompt}</strong><small>{question.id} · Correct: {question.choices.find((choice) => choice.id === question.correctChoiceId)?.text}</small></div><button type="button" onClick={() => openQuestion(question, sourceIndex)}>Edit</button><button type="button" className="danger" aria-label={`Delete ${question.id}`} onClick={() => { setQuestions((current) => current.filter((_, index) => index !== sourceIndex)); setPrepared(null); }}>Delete</button></article>; })}</div>}
+      <header className="content-manager__subheading"><div><h2>Questions</h2><p>{questions.length} questions · answer choices are shuffled for each game</p></div><button type="button" className="secondary-button" onClick={openNewQuestion}>Add question</button></header>
+      {questions.length === 0 ? <div className="content-manager__empty"><span>+</span><strong>No questions yet</strong><p>Start with one question. Your pack can be used alongside the built-in questions.</p></div> : <div className="manual-question-list">{[...questions].sort((left, right) => left.level - right.level).map((question) => { const sourceIndex = questions.indexOf(question); return <article key={question.id}><b>{question.level}</b><div><span>{question.category}</span><strong>{question.prompt}</strong><small>{question.id} · Correct: {question.choices.find((choice) => choice.id === question.correctChoiceId)?.text}</small></div><button type="button" onClick={() => openQuestion(question, sourceIndex)}>Edit</button><button type="button" className="danger" aria-label={`Delete ${question.id}`} onClick={() => { setQuestions((current) => current.filter((_, index) => index !== sourceIndex)); setPrepared(null); }}>Delete</button></article>; })}</div>}
 
       <div className="manual-pack-editor__savebar"><label className="content-import-update"><input type="checkbox" checked={allowUpdate} onChange={(event) => setAllowUpdate(event.target.checked)} /><span>Update an installed pack with this ID</span></label><button type="button" className="primary-button" disabled={props.busy} onClick={() => void validateAndSave()}>Validate & save pack</button></div>
       {prepared && <ValidationPreview prepared={prepared} />}
@@ -645,7 +645,7 @@ function ManualPackEditor(props: {
             <label className="field-stack manual-question-form__tags"><span>Tags</span><input type="text" value={draft.tags} onChange={(event) => setDraft({ ...draft, tags: event.target.value })} placeholder="chemistry, discoveries" /></label>
             <label className="field-stack manual-question-form__wide"><span>Prompt</span><textarea value={draft.prompt} onChange={(event) => setDraft({ ...draft, prompt: event.target.value })} /></label>
             <fieldset className="manual-question-form__choices"><legend>Answer choices</legend>{CHOICE_IDS.map((choiceId, index) => <div key={choiceId}><input type="radio" name="correct-choice" aria-label={`Mark choice ${choiceId.toUpperCase()} correct`} checked={draft.correctChoiceId === choiceId} onChange={() => setDraft({ ...draft, correctChoiceId: choiceId })} /><span>{choiceId.toUpperCase()}</span><input type="text" aria-label={`Choice ${choiceId.toUpperCase()}`} value={draft.choices[index]} onChange={(event) => { const choices = [...draft.choices] as QuestionDraft['choices']; choices[index] = event.target.value; setDraft({ ...draft, choices }); }} /></div>)}</fieldset>
-            <label className="field-stack manual-question-form__wide"><span>Handcrafted hint</span><textarea value={draft.hint} onChange={(event) => setDraft({ ...draft, hint: event.target.value })} /></label>
+            <label className="field-stack manual-question-form__wide"><span>Hint</span><textarea value={draft.hint} onChange={(event) => setDraft({ ...draft, hint: event.target.value })} /></label>
             <label className="field-stack manual-question-form__wide"><span>Explanation</span><textarea value={draft.explanation} onChange={(event) => setDraft({ ...draft, explanation: event.target.value })} /></label>
             {draftError && <p className="field-error manual-question-form__wide" role="alert">{draftError}</p>}
           </form>

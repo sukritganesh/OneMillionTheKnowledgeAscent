@@ -1,3 +1,4 @@
+import { Icon } from '../components/Icon';
 import type { ActiveIdentity } from '../app/types';
 import type { GameRunState } from '../game';
 import { BrandMark } from '../components/BrandMark';
@@ -33,43 +34,43 @@ export function DashboardScreen(props: DashboardScreenProps) {
         <div className="utility-divider" />
         <div><div className="utility-label">Active player</div><div className="utility-value">{name}</div></div>
         <div className="utility-bar__spacer" />
-        <button className="icon-button" onClick={props.onFullscreen} type="button" aria-label="Toggle fullscreen">⛶</button>
-        <button className="icon-button" onClick={props.onSettings} type="button" aria-label="Settings">⚙</button>
-        <button className="icon-button" onClick={props.onHelp} type="button" aria-label="Help">?</button>
+        <button className="icon-button" onClick={props.onFullscreen} type="button" aria-label="Toggle fullscreen"><Icon name="expand" /></button>
+        <button className="icon-button" onClick={props.onSettings} type="button" aria-label="Settings"><Icon name="settings" /></button>
+        <button className="icon-button" onClick={props.onHelp} type="button" aria-label="Help"><Icon name="help" /></button>
       </header>
       <div className="dashboard-body">
         <section className="dashboard-welcome">
-          <span className="kicker">Command deck</span>
-          <h1 id="dashboard-heading">Welcome back, {name}.</h1>
-          <p>{props.identity.kind === 'guest' ? 'Guest progress is available for this browser session. Create a profile whenever you want a permanent local career.' : 'Your ascent data is local, private, and ready whenever you are.'}</p>
+
+          <h1 id="dashboard-heading">{props.identity.kind === 'guest' ? 'Ready to play?' : `Welcome back, ${name}.`}</h1>
+          <p>{props.identity.kind === 'guest' ? 'Playing as guest. Create a profile from the player screen to keep your own stats.' : '15 questions stand between you and a million.'}</p>
           {props.ownsSave && props.savedRun ? (
             <button className="continue-panel" type="button" onClick={props.onContinue}>
               <span className="continue-panel__signal" aria-hidden="true" />
-              <span className="continue-panel__copy"><small>Resume saved ascent</small><strong>Question {props.savedRun.currentQuestionIndex + 1} of 15</strong><span>{props.savedRun.mode.kind === 'fresh-mix' ? 'Fresh Mix' : props.savedRun.mode.setTitle} · {formatMoney(props.savedRun.currentWinnings)} banked · saved {formatRelativeDate(props.savedRun.createdAtMs)}</span></span>
+              <span className="continue-panel__copy"><small>Saved game</small><strong>Question {props.savedRun.currentQuestionIndex + 1} of 15</strong><span>{props.savedRun.mode.kind === 'fresh-mix' ? 'Fresh Mix' : props.savedRun.mode.setTitle} · {formatMoney(props.savedRun.currentWinnings)} in current winnings · started {formatRelativeDate(props.savedRun.createdAtMs)}</span></span>
               <span className="continue-panel__action">Continue →</span>
             </button>
           ) : (
             <button className="new-run-panel" type="button" onClick={props.onNewGame}>
-              <span><small>Begin a new ascent</small><strong>Start New Game</strong><em>Fresh Mix · Curated Sets · Surprise Me</em></span><b>→</b>
+              <span><small>15 questions · two lifelines</small><strong>New game</strong><em>Mix things up or choose a question set.</em></span><b>→</b>
             </button>
           )}
-          {!props.ownsSave && props.savedRun && <div className="notice"><span>◇</span><div><strong>{props.saveOwnerName ?? 'Another player'} has the global save.</strong><br />Starting a confirmed new game will replace their Question {props.savedRun.currentQuestionIndex + 1} run.</div></div>}
+          {!props.ownsSave && props.savedRun && <div className="notice"><span>◇</span><div><strong>{props.saveOwnerName ?? 'Another player'} has a saved game.</strong><br />Beginning a new game will replace their question {props.savedRun.currentQuestionIndex + 1} game.</div></div>}
           {props.ownsSave && <button type="button" className="secondary-button dashboard-new-button" onClick={props.onNewGame}>Start a different game</button>}
         </section>
         <aside className="dashboard-stats panel">
-          <div className="dashboard-stats__heading"><span className="kicker">Career telemetry</span><strong>{props.identity.kind === 'guest' ? 'Session' : 'All time'}</strong></div>
+          <div className="dashboard-stats__heading"><span className="kicker">Your stats</span><strong>{props.identity.kind === 'guest' ? 'Guest' : 'All time'}</strong></div>
           <div className="dashboard-stat"><span>Personal best</span><strong>{formatMoney(stats?.highestPrize ?? 0)}</strong></div>
-          <div className="dashboard-stat"><span>Runs completed</span><strong>{props.runCount}</strong></div>
-          <div className="dashboard-stat"><span>Millionaire wins</span><strong>{stats?.millionaireWins ?? props.setWins}</strong></div>
-          <div className="dashboard-stat"><span>Questions discovered</span><strong>{props.uniqueSeen}<small> / 525</small></strong></div>
+          <div className="dashboard-stat"><span>Games played</span><strong>{props.runCount}</strong></div>
+          <div className="dashboard-stat"><span>Million-dollar wins</span><strong>{stats?.millionaireWins ?? props.setWins}</strong></div>
+          <div className="dashboard-stat"><span>Questions seen</span><strong>{props.uniqueSeen}<small> / 525</small></strong></div>
         </aside>
         <nav className="dashboard-nav" aria-label="Dashboard destinations">
-          <button type="button" onClick={props.onStatistics}><span>⌁</span><strong>Statistics</strong><small>Career accuracy and milestones</small></button>
-          <button type="button" onClick={props.onHistory}><span>◷</span><strong>Run History</strong><small>Results and question review</small></button>
-          <button type="button" onClick={props.onSets}><span>◆</span><strong>Set Progress</strong><small>Track all 12 authored sets</small></button>
-          <button type="button" onClick={props.onContent}><span>▧</span><strong>Content Manager</strong><small>Import, author, and organize packs</small></button>
-          <button type="button" onClick={props.onSettings}><span>⚙</span><strong>Settings & Data</strong><small>Audio, accessibility, backup</small></button>
-          <button type="button" onClick={props.onSwitchProfile}><span>⇄</span><strong>Switch Player</strong><small>Return to profile selection</small></button>
+          <button type="button" onClick={props.onStatistics}><Icon name="stats" /><strong>Statistics</strong><small>Scores and accuracy</small></button>
+          <button type="button" onClick={props.onHistory}><Icon name="history" /><strong>Past games</strong><small>Review your answers</small></button>
+          <button type="button" onClick={props.onSets}><Icon name="packs" /><strong>Set progress</strong><small>See how far you've got</small></button>
+          <button type="button" onClick={props.onContent}><Icon name="packs" /><strong>Question packs</strong><small>Add and manage questions</small></button>
+          <button type="button" onClick={props.onSettings}><Icon name="settings" /><strong>Settings</strong><small>Sound, display, and backups</small></button>
+          <button type="button" onClick={props.onSwitchProfile}><Icon name="switch" /><strong>Switch player</strong><small>Choose a different player</small></button>
         </nav>
       </div>
     </main>

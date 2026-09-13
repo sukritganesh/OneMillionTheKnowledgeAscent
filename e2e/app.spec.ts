@@ -16,15 +16,15 @@ async function createProfileAndReachSetup(page: Page, name = 'Browser Tester') {
   await expect(page.getByRole('heading', { name: /One Million/i })).toBeAttached();
   await page.getByRole('button', { name: /Create profile/i }).click();
   await page.getByLabel('Display name').fill(name);
-  await page.getByRole('button', { name: 'Create Profile', exact: true }).click();
+  await page.getByRole('button', { name: 'Create profile', exact: true }).click();
   await expect(page.getByRole('heading', { name: new RegExp(`Welcome back, ${name}`) })).toBeVisible();
-  await page.getByRole('button', { name: /Start New Game/i }).click();
-  await expect(page.getByRole('heading', { name: /Build your next ascent/i })).toBeVisible();
+  await page.getByRole('button', { name: /New game/i }).click();
+  await expect(page.getByRole('heading', { name: /Choose your game/i })).toBeVisible();
 }
 
 async function beginFreshMix(page: Page) {
-  await page.getByRole('button', { name: /Review ascent/i }).click();
-  await expect(page.getByRole('heading', { name: /Your path to one million/i })).toBeVisible();
+  await page.getByRole('button', { name: /Continue/i }).click();
+  await expect(page.getByRole('heading', { name: /Ready to play/i })).toBeVisible();
   await page.getByRole('button', { name: /^Begin Game$/i }).click();
   await expect(page.getByRole('button', { name: /Begin Question 1/i })).toBeVisible();
   await page.getByRole('button', { name: /Begin Question 1/i }).click();
@@ -62,7 +62,7 @@ test('creates a profile, uses both lifelines, and resumes the exact selected ans
   await page.reload();
   await expect(page.getByRole('button', { name: /Play as Browser Tester/i })).toBeVisible();
   await page.getByRole('button', { name: /Play as Browser Tester/i }).click();
-  await page.getByRole('button', { name: /Resume saved ascent/i }).click();
+  await page.getByRole('button', { name: /Saved game/i }).click();
   await expect(page.locator('#active-question')).toHaveText(prompt ?? '');
   await expect(page.locator(`[data-choice-id="${selectedId}"]`)).toHaveAttribute('data-state', 'selected');
   await expect(page.getByRole('button', { name: /^Hint/i })).toBeDisabled();
@@ -78,14 +78,14 @@ test('plays a deterministic full run through the millionaire result', async ({ p
     await answerCurrentCorrectly(page);
     if (level < 15) {
       await page.getByRole('button', { name: new RegExp(`Continue to Question ${level + 1}`) }).click();
-      await page.getByRole('button', { name: new RegExp(`Present Question ${level + 1}`) }).click();
+      await page.getByRole('button', { name: new RegExp(`Show question ${level + 1}`) }).click();
     }
   }
 
   await page.getByRole('button', { name: /Continue to results/i }).click();
   await expect(page.getByRole('heading', { name: 'ONE MILLION', exact: true })).toBeVisible();
-  await expect(page.getByText(/Fifteen correct answers/i)).toBeVisible();
-  await page.getByRole('button', { name: /Review This Run/i }).click();
+  await expect(page.getByText(/15 correct answers/i)).toBeVisible();
+  await page.getByRole('button', { name: /Review answers/i }).click();
   await expect(page.getByRole('heading', { name: /Fresh Mix/i })).toBeVisible();
   await expect(page.locator('.review-item')).toHaveCount(15);
 });
@@ -99,18 +99,18 @@ test('built PWA relaunches offline and gameplay makes no external requests', asy
   await page.goto('/');
   await page.evaluate(async () => { await navigator.serviceWorker.ready; });
   await page.reload();
-  await expect(page.getByRole('button', { name: /Continue as Guest/i })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Play as guest/i })).toBeVisible();
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByRole('button', { name: /Continue as Guest/i })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Play as guest/i })).toBeVisible();
   expect(external).toEqual([]);
   await context.setOffline(false);
 });
 
 test('wrong-answer and browser-back paths preserve game integrity', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: /Continue as Guest/i }).click();
-  await page.getByRole('button', { name: /Start New Game/i }).click();
+  await page.getByRole('button', { name: /Play as guest/i }).click();
+  await page.getByRole('button', { name: /New game/i }).click();
   await page.getByLabel('Reduced motion').check();
   await beginFreshMix(page);
 
@@ -121,7 +121,7 @@ test('wrong-answer and browser-back paths preserve game integrity', async ({ pag
 
   await page.evaluate(() => history.back());
   await expect(page.getByRole('heading', { name: /Game paused/i })).toBeVisible();
-  await page.getByRole('button', { name: /Resume Game/i }).click();
+  await page.getByRole('button', { name: /Resume game/i }).click();
   await expect(page.locator(`[data-choice-id="${wrongId}"]`)).toHaveAttribute('data-state', 'selected');
 
   await page.getByRole('button', { name: /Lock In Answer/i }).click();
@@ -133,13 +133,13 @@ test('wrong-answer and browser-back paths preserve game integrity', async ({ pag
 
 test('in-game settings keep the dialog chrome fixed while changing lower options', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: /Continue as Guest/i }).click();
-  await page.getByRole('button', { name: /Start New Game/i }).click();
+  await page.getByRole('button', { name: /Play as guest/i }).click();
+  await page.getByRole('button', { name: /New game/i }).click();
   await page.getByLabel('Reduced motion').check();
   await beginFreshMix(page);
 
   await page.getByRole('button', { name: /Pause game/i }).click();
-  await page.getByRole('button', { name: /In-Game Settings/i }).click();
+  await page.getByRole('button', { name: /Settings/i }).click();
 
   const dialog = page.getByRole('dialog', { name: 'In-game settings' });
   const contrastToggle = dialog.locator('label.toggle-row').filter({ hasText: 'Increased contrast' });
@@ -176,7 +176,7 @@ test('imports and manages a structurally validated custom pack', async ({ page }
     sets: [], metadata: { author: 'Playwright', questionCount: 1, reviewStatus: 'human-reviewed', humanReviewRecommended: false, timeSensitiveQuestionCount: 0 }
   };
   await page.goto('/');
-  await page.getByRole('button', { name: /Content manager/i }).click();
+  await page.getByRole('button', { name: /Question packs/i }).click();
   await page.getByRole('button', { name: /Import & templates/i }).click();
   await page.getByLabel('Question-pack JSON').fill(JSON.stringify(pack));
   await page.getByRole('button', { name: /Validate & preview/i }).click();
@@ -195,21 +195,21 @@ test('explicit multi-tab takeover makes the stale controller read-only', async (
   const other = await context.newPage();
   await other.goto('/');
   await other.getByRole('button', { name: /Play as Tab Controller/i }).click();
-  await other.getByRole('button', { name: /Resume saved ascent/i }).click();
-  await expect(other.getByRole('heading', { name: /Run active in another tab/i })).toBeVisible();
+  await other.getByRole('button', { name: /Saved game/i }).click();
+  await expect(other.getByRole('heading', { name: /Game open in another tab/i })).toBeVisible();
   await other.getByRole('button', { name: /Take Control Here/i }).click();
   await expect(other.locator('#active-question')).toBeVisible();
-  await expect(page.getByText(/This saved run is active in another tab/i)).toBeVisible({ timeout: 8_000 });
+  await expect(page.getByText(/This game is open in another tab/i)).toBeVisible({ timeout: 8_000 });
   await expect(page.locator('.answer-choice').first()).toBeDisabled();
 });
 
 test('walks away before locking and records the voluntary outcome once', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: /Continue as Guest/i }).click();
-  await page.getByRole('button', { name: /Start New Game/i }).click();
+  await page.getByRole('button', { name: /Play as guest/i }).click();
+  await page.getByRole('button', { name: /New game/i }).click();
   await page.getByLabel('Reduced motion').check();
   await beginFreshMix(page);
-  await page.getByRole('button', { name: 'Walk Away', exact: true }).click();
+  await page.getByRole('button', { name: 'Walk away with $0', exact: true }).click();
   await page.getByRole('button', { name: /Confirm Walk Away/i }).click();
   await expect(page.getByRole('heading', { name: '$0', exact: true })).toBeVisible();
   await expect(page.getByText(/walked away with \$0 secured/i)).toBeVisible();
@@ -220,16 +220,16 @@ test('a confirmed new profile run replaces the one global save without cross-pro
   await page.getByLabel('Reduced motion').check();
   await beginFreshMix(page);
   await page.getByRole('button', { name: /Pause game/i }).click();
-  await page.getByRole('button', { name: /Save and Exit to Dashboard/i }).click();
+  await page.getByRole('button', { name: /Save and exit/i }).click();
   await page.getByRole('button', { name: /Switch Player/i }).click();
 
   await page.getByRole('button', { name: /Create profile/i }).click();
   await page.getByLabel('Display name').fill('Save Owner B');
-  await page.getByRole('button', { name: 'Create Profile', exact: true }).click();
-  await expect(page.getByText(/Save Owner A has the global save/i)).toBeVisible();
-  await page.getByRole('button', { name: /Start New Game/i }).click();
-  await page.getByRole('button', { name: /Review ascent/i }).click();
+  await page.getByRole('button', { name: 'Create profile', exact: true }).click();
+  await expect(page.getByText(/Save Owner A has a saved game/i)).toBeVisible();
+  await page.getByRole('button', { name: /New game/i }).click();
+  await page.getByRole('button', { name: /Continue/i }).click();
   await expect(page.getByText(/replace Save Owner A/i)).toBeVisible();
-  await page.getByRole('button', { name: /Replace Save & Begin/i }).click();
-  await expect(page.getByText(/Save Owner B, your path is secured/i)).toBeVisible();
+  await page.getByRole('button', { name: /Replace save and begin/i }).click();
+  await expect(page.getByText(/Let’s play, Save Owner B/i)).toBeVisible();
 });

@@ -43,7 +43,6 @@ export function Modal({ title, children, actions, onClose, destructive = false, 
       <div ref={panel} className={`modal ${wide ? 'modal--wide' : ''} ${destructive ? 'modal--danger' : ''}`} role="dialog" aria-modal="true" aria-labelledby={titleId}>
         <div className="modal__scan" aria-hidden="true" />
         <header className="modal__header">
-          <span className="kicker">System confirmation</span>
           <h2 id={titleId}>{title}</h2>
           {onClose && <button type="button" className="icon-button" aria-label="Close dialog" onClick={onClose}>×</button>}
         </header>

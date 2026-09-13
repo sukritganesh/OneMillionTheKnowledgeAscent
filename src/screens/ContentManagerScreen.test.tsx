@@ -137,7 +137,7 @@ describe('ContentManagerScreen', () => {
     const onCommitPack = vi.fn();
     const { user } = setup({ onDownloadText, onCommitPack });
     await user.click(screen.getByRole('button', { name: /Import & templates/i }));
-    await user.click(screen.getByRole('button', { name: /Blank schema template/i }));
+    await user.click(screen.getByRole('button', { name: /Blank template/i }));
     expect(onDownloadText).toHaveBeenCalledWith(
       'blank-question-pack.json',
       expect.stringContaining('"schemaVersion": "1.0.0"'),
@@ -152,7 +152,7 @@ describe('ContentManagerScreen', () => {
     await user.type(screen.getByLabelText('Choice C'), 'Earth');
     await user.type(screen.getByLabelText('Choice D'), 'Mars');
     await user.click(screen.getByRole('radio', { name: /B/i }));
-    await user.type(screen.getByLabelText('Handcrafted hint'), 'It has the shortest orbital period.');
+    await user.type(screen.getByLabelText('Hint'), 'It has the shortest orbital period.');
     await user.type(screen.getByLabelText('Explanation'), 'Mercury is the innermost planet.');
     await user.click(screen.getByRole('button', { name: 'Save question' }));
     expect(screen.getByText('Which planet is closest to the Sun?')).toBeInTheDocument();

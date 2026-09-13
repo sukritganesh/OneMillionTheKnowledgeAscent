@@ -1,0 +1,291 @@
+/* A quieter presentation of the existing stage and screen layouts. */
+:root {
+  --stage: #060d18;
+  --surface: #0d1a2c;
+  --surface-raised: #102036;
+  --muted: #9aabbf;
+  --panel-border: #293b50;
+  --shadow: 0 12px 32px rgba(0, 0, 0, .18);
+}
+
+.app-frame { background: #030811; }
+.stage { background: radial-gradient(ellipse at 35% 48%, #0d2238, transparent 70%), var(--stage); box-shadow: none; }
+.stage-background { opacity: .15; }
+.stage::before { display: none; }
+.ambient-rings, .save-beacon__pulse, .results-radiance i { animation: none; }
+.utility-bar { background: #080f1b; box-shadow: none; border-color: #1c293b; }
+.utility-label { font-size: 11px; letter-spacing: 0; text-transform: none; }
+.utility-status { font-size: 12px; }
+.status-dot { width: 6px; height: 6px; box-shadow: none; }
+.ui-icon { width: 20px; height: 20px; flex: 0 0 auto; }
+.profile-add > .ui-icon { grid-row: 1 / 3; align-self: center; width: 24px; height: 24px; color: var(--blue-bright); }
+.dashboard-nav .ui-icon { grid-row: 1 / 3; align-self: center; color: var(--text-soft); }
+.icon-button { border-color: transparent; border-radius: 5px; background: transparent; }
+.icon-button:hover { transform: none; background: #15273c; }
+.brand-mark__orb { filter: none; }
+.brand-mark__copy strong { text-shadow: none; }
+.brand-mark__eyebrow { letter-spacing: .18em; }
+.kicker { font-size: 12px; letter-spacing: .04em; text-transform: none; font-weight: 500; }
+.hero-title, .dashboard-welcome h1, .settings-body > h1, .insights-body > h1, .generic-body > h1 { font-size: clamp(36px, 3.2vw, 54px); line-height: 1.1; letter-spacing: -.02em; }
+.hero-subtitle { font-size: clamp(13px, 1vw, 17px); line-height: 1.65; }
+.panel { background: var(--surface); border-radius: 6px; box-shadow: none; }
+.panel::after { display: none; }
+.primary-button, .secondary-button, .quiet-button, .danger-button {
+  font-family: var(--font-ui); font-weight: 500; font-size: clamp(12px, .9vw, 16px);
+  letter-spacing: 0; text-transform: none; min-height: 42px; border-radius: 5px;
+  padding: 10px 18px; line-height: 1.4;
+}
+.primary-button { color: #071725; background: #8ed6f5; border-color: #9edcf7; box-shadow: none; }
+.primary-button:hover:not(:disabled) { background: #b1e7fc; box-shadow: none; transform: none; }
+.secondary-button { color: var(--text); background: #101d30; border-color: #4a6179; }
+.secondary-button:hover:not(:disabled) { transform: none; background: #19324a; }
+.quiet-button { background: transparent; border-color: transparent; padding-inline: 10px; }
+.quiet-button:hover:not(:disabled) { border-color: transparent; background: #102036; }
+.danger-button:hover:not(:disabled) { transform: none; }
+.field-stack > span, .field-row > span { text-transform: none; letter-spacing: 0; font-size: 12px; }
+input[type='text'], input[type='search'], input[type='number'], select, textarea { font-size: 14px; background: #0a1525; border-color: #40546b; }
+.field-help, .field-error { font-size: 12px; line-height: 1.6; }
+.section-heading > span, .setup-section-heading > span { display: none; }
+.section-heading h3 { font-size: 24px; }
+.section-heading p { font-size: 12px; }
+.modal { background: #0d1a2c; border-radius: 8px; box-shadow: 0 20px 60px #0007; }
+.modal__scan { display: none; }
+.modal__header .icon-button { grid-row: 1; }
+.modal__header h2 { line-height: 1.2; font-size: 30px; }
+.modal__body { font-size: 14px; line-height: 1.7; }
+.modal__actions { padding-top: 16px; }
+.notice { font-size: 12px; line-height: 1.6; }
+.toast p { font-size: 12px; }
+
+/* Player selection and main menu. */
+.title-hero > p { text-transform: none; letter-spacing: 0; font: 400 clamp(14px, 1.15vw, 20px)/1.6 var(--font-ui); }
+.profile-rack__heading h2 { font-size: clamp(30px, 2.6vw, 46px); }
+.profile-card, .profile-add { background: #0d1a2c; border: 1px solid var(--panel-border); border-radius: 6px; min-height: 112px; }
+.profile-card:hover, .profile-add:hover { transform: none; background: #12243a; }
+.profile-card__index { display: none; }
+.profile-card__meta, .profile-card__date, .profile-add small { font-size: 11px; line-height: 1.55; white-space: normal; }
+.profile-card__select { padding-bottom: 26px; }
+.profile-card__badge { text-transform: none; letter-spacing: 0; font-size: 11px; }
+.profile-add strong, .profile-card__name { font: 500 15px var(--font-ui); }
+.profile-add > span { border: none; border-radius: 0; width: 28px; }
+.title-footer { font: 400 11px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.save-beacon { background: #102338; box-shadow: none; }
+.save-beacon__pulse { width: 7px; height: 7px; box-shadow: none; }
+.save-beacon strong { font-size: 16px; letter-spacing: 0; }
+.save-beacon span { font-size: 12px; }
+.dashboard-welcome > p { font-size: 14px; line-height: 1.65; }
+.continue-panel, .new-run-panel { background: #102b43; border-color: #436682; box-shadow: none; border-radius: 6px; }
+.continue-panel:hover, .new-run-panel:hover { transform: none; box-shadow: none; background: #14344e; }
+.continue-panel__signal { display: none; }
+.continue-panel { grid-template-columns: 1fr auto; }
+.continue-panel__copy small, .new-run-panel small { font-size: 12px; text-transform: none; letter-spacing: 0; }
+.continue-panel__copy span, .new-run-panel em { font-size: 12px; line-height: 1.6; }
+.continue-panel__copy strong, .new-run-panel strong { font-size: clamp(28px, 2.3vw, 42px); }
+.dashboard-stats { background: transparent; border: 0; border-left: 1px solid var(--panel-border); border-radius: 0; }
+.dashboard-stat span { font-size: 13px; }
+.dashboard-stat strong { font-size: 30px; }
+.dashboard-stats__heading .kicker { font: 600 24px var(--font-display); color: var(--text); }
+.dashboard-nav { border-top: 1px solid var(--panel-border); padding-top: 18px; gap: 8px; }
+.dashboard-nav button { border: 0; background: transparent; min-height: 66px; padding: 9px; }
+.dashboard-nav button:hover { transform: none; background: #102036; }
+.dashboard-nav strong { font: 500 12px var(--font-ui); white-space: normal; overflow: visible; }
+.dashboard-nav small { display: none; }
+.dashboard-nav button > span { font-size: 21px; color: var(--text-soft); }
+
+/* Setup and the final pregame review. */
+.setup-layout { grid-template-columns: minmax(0, 1fr) minmax(240px, .31fr); }
+.setup-section-heading h2 { font-size: 24px; }
+.setup-section-heading p { font-size: 12px; }
+.mode-card { background: #0b1525; box-shadow: none; border-radius: 5px; }
+.mode-card:hover { transform: none; }
+.mode-card--active { background: #112b41; border-color: #659ab7; box-shadow: none; }
+.mode-card > span:first-child { display: none; }
+.mode-card__eyebrow { font-size: 11px; letter-spacing: 0; text-transform: none; padding: 0; margin-bottom: 14px; }
+.mode-card > i { top: 12px; bottom: auto; font-size: 11px; text-transform: none; }
+.mode-card strong { font-size: 24px; margin: 0 0 8px; }
+.mode-card p { font-size: 13px; line-height: 1.65; }
+.mode-card small, .mode-card em { font-size: 11px; letter-spacing: 0; text-transform: none; }
+.segmented-control button { font-size: 12px; letter-spacing: 0; text-transform: none; padding: 10px 14px; }
+.quick-settings { background: transparent; border: 0; padding: 0; }
+.quick-toggle { font-size: 12px; }
+.setup-summary { background: transparent; border: 0; border-left: 1px solid var(--panel-border); border-radius: 0; }
+.setup-summary dt { font-size: 12px; }
+.setup-summary dd { font-size: 13px; overflow-wrap: anywhere; white-space: normal; }
+.setup-summary .notice { font-size: 12px; }
+.set-card p { font-size: 12px; line-height: 1.6; }
+.set-card__status { font-size: 11px; }
+.pregame-brief h1 { font-size: clamp(36px, 3.3vw, 58px); line-height: 1.1; }
+.pregame-brief > p { font-size: 14px; line-height: 1.6; }
+.pregame-facts span { font: 400 12px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.pregame-facts strong { font-size: 19px; }
+.rules-strip p { font-size: 12px; line-height: 1.6; }
+.rules-strip strong { font-size: 18px; }
+.pregame-ladder { background: transparent; border: 0; border-left: 1px solid var(--panel-border); border-radius: 0; }
+.pregame-ladder > p { font-size: 12px; line-height: 1.6; }
+.pregame-ladder li { font-size: 18px; }
+.pregame-ladder li > span, .pregame-ladder li em { font-size: 11px; text-transform: none; }
+.pregame-ladder li.million { font-size: 21px; }
+
+/* Keep the question, answers, and checkpoint ladder as the focal points. */
+.gameplay-stage { gap: 14px; }
+.question-meta span, .question-meta .question-category { text-transform: none; letter-spacing: 0; font: 400 13px var(--font-ui); color: var(--text-soft); }
+.question-meta strong { font-size: 30px; }
+.question-panel { padding: 26px; min-height: 140px; background: linear-gradient(150deg, #102339, #0b1626); border-color: #39506a; }
+.question-panel::before, .question-panel::after { display: none; }
+.question-panel h1 { font-size: clamp(21px, 1.6vw, 30px); line-height: 1.5; }
+.answer-grid { min-height: 140px; }
+.answer-choice { clip-path: none; border-radius: 5px; min-height: 64px; background: #0d1a2c; grid-template-columns: 24px minmax(0, 1fr) auto; box-shadow: none; }
+.answer-choice::before { display: none; }
+.answer-choice:hover:not(:disabled), .answer-choice:focus-visible { transform: none; box-shadow: none; }
+.answer-choice__letter { width: 24px; height: 28px; border: none; background: transparent; border-radius: 3px; font-size: 24px; }
+.answer-choice__text { font-size: clamp(14px, 1.1vw, 20px); line-height: 1.45; }
+.answer-choice__state { font: 500 11px/1.3 var(--font-ui); letter-spacing: 0; text-transform: none; }
+.answer-choice--selected { background: #123751; border-color: #8ed6f5; box-shadow: none; }
+.answer-choice--selected .answer-choice__letter { color: var(--blue-bright); background: transparent; }
+.answer-choice--locked { background: #443718; border-color: var(--gold); box-shadow: none; }
+.answer-choice--correct { background: #11372f; border-color: var(--correct); box-shadow: none; }
+.answer-choice--incorrect { background: #43212a; border-color: var(--wrong); box-shadow: none; }
+.game-prize-ladder { background: transparent; border: 0; border-left: 1px solid var(--panel-border); border-radius: 0; }
+.game-prize-ladder .kicker { font: 500 14px var(--font-ui); color: var(--text); }
+.ladder-money div { padding: 6px 0; background: transparent; border: 0; }
+.ladder-money small { font: 400 11px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.ladder-money strong { font-size: 26px; }
+.ladder-money div:last-child strong { color: var(--gold); }
+.game-prize-ladder li { font-size: clamp(17px, 1.25vw, 23px); color: #c5d1df; }
+.game-prize-ladder li > span { font-size: 12px; color: var(--text-soft); }
+.game-prize-ladder li > em { font: 400 11px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.game-prize-ladder .ladder-row--current { background: #173a52; box-shadow: none; border-color: transparent; }
+.game-prize-ladder li > strong { letter-spacing: 0; }
+.lifeline-button { border-radius: 5px; background: #0d192b; box-shadow: none; }
+.lifeline-button strong { font-size: 15px; }
+.lifeline-button small { font-size: 11px; letter-spacing: 0; text-transform: none; }
+.explanation-panel p, .hint-panel p, .phone-active p { font-size: 13px; line-height: 1.5; }
+.explanation-panel h2 { font-size: 20px; }
+.game-intro-rings { opacity: .18; }
+.game-intro-card h1 { font-size: clamp(36px, 3.5vw, 64px); }
+
+/* Results, statistics, and past games. */
+.results-radiance { opacity: .16; }
+.results-overline { font: 400 15px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.results-card h1 { color: var(--gold); font-size: clamp(76px, 9vw, 150px); line-height: 1.1; text-shadow: none; }
+.results-screen--incorrect .results-card h1 { color: var(--gold); }
+.results-message { font-size: 14px; line-height: 1.65; }
+.results-metrics span, .metric-card span { font: 400 12px var(--font-ui); text-transform: none; letter-spacing: 0; }
+.results-metrics > div { border-right: none; }
+.results-metrics strong { font-size: 30px; }
+.review-item summary strong { white-space: normal; font-size: 14px; line-height: 1.5; }
+.review-item__status { font-size: 12px; letter-spacing: 0; text-transform: none; }
+.review-choices p, .review-item dd { font-size: 13px; line-height: 1.6; }
+.review-item dt, .review-choices em { font-size: 12px; letter-spacing: 0; text-transform: none; }
+.history-row { font-size: 13px; min-height: 58px; }
+.history-row--header { font-size: 12px; letter-spacing: 0; text-transform: none; }
+.set-progress-card p { font-size: 13px; line-height: 1.6; }
+.set-progress-card dt { font-size: 12px; text-transform: none; }
+.set-progress-card dd { font-size: 15px; }
+.level-bars span { font-size: 12px; }
+.set-progress-card .secondary-button { font-size: 12px; }
+.game-prize-ladder footer { font-size: 11px; letter-spacing: 0; text-transform: none; }
+.gameplay-utility__round span { font-size: 11px; letter-spacing: 0; text-transform: none; }
+.validation-preview dt, .validation-preview dd, .validation-preview__conflicts, .manual-pack-editor__level-grid b, .manual-pack-editor__level-grid small { font-size: 12px; }
+.validation-preview__issues { font-size: 12px; line-height: 1.6; }
+.empty-state p { font-size: 14px; }
+
+/* Settings, help, and editing tools use ordinary readable labels. */
+.settings-section { background: transparent; border: 0; border-left: 1px solid var(--panel-border); border-radius: 0; }
+.settings-section:first-child { border-left: 0; }
+.settings-grid--compact .settings-section { border-left: 0; border-top: 1px solid var(--panel-border); }
+.settings-data { grid-template-columns: 1fr; }
+.settings-data__intro p { font-size: 13px; max-width: 760px; line-height: 1.65; }
+.data-actions button { padding: 15px; }
+.data-actions strong { font: 500 13px var(--font-ui); white-space: normal; }
+.data-actions small { font-size: 11px; white-space: normal; line-height: 1.5; }
+.system-status { gap: 12px; }
+.system-status strong { font-size: 15px; }
+.system-status small, .privacy-note { font-size: 12px; line-height: 1.6; }
+.system-status .secondary-button { font-size: 12px; white-space: nowrap; }
+.help-sections section { background: transparent; border: 0; border-top: 1px solid var(--panel-border); border-radius: 0; padding: 20px 0; }
+.help-sections h3 { font-size: 23px; }
+.help-sections p { font-size: 13px; line-height: 1.7; }
+.help-index { display: none; }
+.content-manager__rail { background: transparent; }
+.content-manager__rail > p, .content-manager__guardrail span { font-size: 12px; line-height: 1.65; }
+.content-manager__tabs button b { display: none; }
+.content-manager__tabs button { grid-template-columns: 1fr; }
+.content-manager__tabs strong { font-size: 19px; }
+.content-manager__tabs small { font-size: 12px; white-space: normal; line-height: 1.5; }
+.content-manager__guardrail strong { font-size: 16px; }
+.content-manager__section-heading h2 { font-size: 30px; }
+.content-manager__section-heading p, .content-manager__subheading p { font-size: 13px; }
+.content-manager__metrics small, .content-manager__metrics span { font-size: 12px; text-transform: none; letter-spacing: 0; }
+.content-manager__metrics small { white-space: normal; line-height: 1.5; margin-top: 8px; }
+.content-manager__metrics strong { margin-top: 14px; }
+.content-manager__level-strip b { font-size: 12px; }
+.content-manager__verified { font-size: 11px; text-transform: none; letter-spacing: 0; background: transparent; border: 0; }
+.content-manager__guardrail { background: transparent; border: 0; padding: 12px 0 0; }
+.content-manager__guardrail strong { font-size: 15px; text-transform: none; letter-spacing: 0; }
+.content-manager__tabs button.active { background: #112b41; box-shadow: none; }
+.content-manager__tabs button:hover { transform: none; }
+.content-manager__empty > span { display: none; }
+.content-pack-card p, .content-manager__empty p, .content-import-preview__idle p { font-size: 13px; }
+.content-pack-card dt, .content-pack-card dd { font-size: 12px; }
+.content-pack-card__toggle span, .content-import-update span { font-size: 12px; }
+.content-file-drop small, .content-template-grid small { font-size: 12px; line-height: 1.5; white-space: normal; }
+.content-template-grid strong { font-size: 18px; }
+.content-file-drop span { font-size: 16px; text-transform: none; letter-spacing: 0; }
+.content-import-or { font-size: 11px; text-transform: none; }
+.content-import-source textarea { font-size: 13px; }
+.validation-preview__status strong { font-size: 18px; }
+.validation-preview__status small, .validation-preview__issues b, .validation-preview__issues span { font-size: 12px; }
+.manual-pack-editor__meta { align-items: start; }
+.manual-pack-editor__meta .field-stack, .manual-question-form .field-stack { align-content: start; }
+.manual-pack-editor__meta label > span, .manual-question-form label > span { font-size: 12px; }
+.manual-pack-editor__meta input, .manual-pack-editor__meta textarea, .manual-question-form input, .manual-question-form textarea, .manual-question-form select { font-size: 14px; }
+.manual-question-list article strong { font: 500 14px/1.5 var(--font-ui); white-space: normal; }
+.manual-question-list article small, .manual-question-list article span { font-size: 12px; text-transform: none; }
+.manual-pack-editor__auto-set strong { font-size: 16px; }
+.manual-pack-editor__auto-set small { font-size: 12px; }
+.manual-pack-editor__savebar .primary-button { font-size: 13px; }
+.manual-question-form__choices legend { font-size: 12px; text-transform: none; }
+
+@media (max-width: 1300px) {
+  .dashboard-body { gap: 24px; padding: 30px 44px; }
+  .dashboard-nav { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .setup-layout { gap: 22px; padding: 26px 32px; }
+  .mode-card { padding: 16px; }
+  .pregame-layout { gap: 24px; padding: 24px 34px; }
+  .pregame-facts { margin-block: 16px; }
+  .pregame-brief .notice { font-size: 12px; }
+  .gameplay-layout { grid-template-columns: minmax(0, 1fr) 255px; gap: 24px; padding: 20px 26px; }
+  .gameplay-stage { gap: 12px; }
+  .gameplay-actions { gap: 12px; flex-wrap: wrap; }
+  .gameplay-actions .primary-button, .gameplay-actions .quiet-button { padding-inline: 12px; }
+  .game-prize-ladder li > em { font-size: 10px; }
+  .content-manager__layout { grid-template-columns: 220px minmax(0, 1fr); }
+  .content-manager__workspace { padding: 24px; }
+  .content-pack-card { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .content-pack-card__actions { grid-column: 1 / -1; }
+  .content-template-grid { grid-template-columns: 1fr; }
+  .manual-pack-editor__coverage { grid-template-columns: 100px minmax(0, 1fr); }
+  .manual-pack-editor__auto-set { grid-column: 1 / -1; }
+}
+
+/* Keep all controls reachable when a desktop window is made smaller. */
+@media (max-width: 1000px), (max-height: 620px) {
+  .stage { width: 100vw; height: 100vh; }
+  .title-screen__body, .dashboard-body, .pregame-layout, .gameplay-layout, .generic-body { overflow-y: auto; }
+  .gameplay-layout { grid-template-columns: minmax(0, 1fr) 235px; }
+  .gameplay-stage { min-height: 540px; }
+  .game-prize-ladder { min-height: 540px; }
+  .pregame-layout { min-height: 0; }
+  .pregame-ladder { min-height: 490px; }
+  .dashboard-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .mode-grid { grid-template-columns: 1fr; }
+  .settings-grid { grid-template-columns: 1fr; }
+  .settings-section { border-left: 0; border-top: 1px solid var(--panel-border); }
+  .system-status { grid-template-columns: 1fr; }
+  .system-status > div { border-right: 0; }
+  .content-import-grid { grid-template-columns: 1fr; }
+}
+
+[data-high-contrast='true'] { --muted: #d0dce8; --panel-border: #87a4c0; }
+[data-reduced-glow='true'] .stage-background { opacity: .05; }
