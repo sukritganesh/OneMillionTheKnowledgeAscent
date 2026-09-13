@@ -155,4 +155,6 @@ If the app has not yet been controlled by a service worker, `navigator.onLine ==
 
 `npm run validate` is the intended aggregate local gate. It currently repeats some work because `test:e2e` invokes a production build; this is deliberate in favor of testing the exact production artifact.
 
-Do not record a command as passing unless it was run in the current environment. Preserve Playwright traces/screenshots and the failing seed or fixture when reporting a defect. The repository does not currently contain a hosted CI workflow, so local command output is the authoritative execution record unless CI is added later.
+Do not record a command as passing unless it was run in the current environment. Preserve Playwright traces/screenshots and the failing seed or fixture when reporting a defect.
+
+The `Validate` GitHub Actions workflow runs the same aggregate gate on pull requests and pushes to `main`. It uses the Node.js version in `.nvmrc`, installs dependencies from the lockfile, and installs Chromium with its system dependencies on Ubuntu 24.04. Failed browser-test reports and traces are retained as artifacts for seven days. The workflow can also be started manually.
