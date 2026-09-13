@@ -11,6 +11,7 @@ import { QuestionHistoryRepository } from './questionHistoryRepository';
 import { RunHistoryRepository } from './runHistoryRepository';
 import { SetProgressRepository } from './setProgressRepository';
 import { SettingsRepository } from './settingsRepository';
+import { SetLibraryRepository } from './setLibraryRepository';
 import type { AppDatabase } from './types';
 
 export interface RepositoryOptions {
@@ -28,6 +29,7 @@ export class DataRepositories {
   readonly activeSave: ActiveSaveRepository;
   readonly setProgress: SetProgressRepository;
   readonly backup: BackupService;
+  readonly setLibrary: SetLibraryRepository;
 
   constructor(
     readonly database: IDBPDatabase<AppDatabase>,
@@ -45,6 +47,7 @@ export class DataRepositories {
       options.idFactory ?? systemIdFactory
     );
     this.settings = new SettingsRepository(database, clock);
+    this.setLibrary = new SetLibraryRepository(database);
     this.questionHistory = new QuestionHistoryRepository(database, clock);
     this.runHistory = new RunHistoryRepository(database, clock);
     this.importedPacks = new ImportedPackRepository(database, clock);

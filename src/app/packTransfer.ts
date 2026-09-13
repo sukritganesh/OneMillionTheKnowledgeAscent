@@ -8,7 +8,8 @@ function record(value: unknown): Record<string, unknown> | null {
 export function rawPackFromStored(
   pack: ImportedPackRecord,
   questions: readonly ImportedQuestionRecord[],
-  sets: readonly ImportedSetRecord[]
+  sets: readonly ImportedSetRecord[],
+  placements: readonly { setId: string; folderPath: string[] }[] = []
 ): RawContentPack {
   const rawQuestions = questions.map((entry) => {
     const value = record(entry.payload);
@@ -42,7 +43,8 @@ export function rawPackFromStored(
       tags: value.tags,
       questionIds: entry.questionIds.map((id) => id.replace(`${pack.id}:`, '')),
       audience: value.audience ?? undefined,
-      difficultyNote: value.difficultyNote ?? undefined
+      difficultyNote: value.difficultyNote ?? undefined,
+      folderPath: placements.find((placement) => placement.setId === entry.id)?.folderPath ?? value.folderPath ?? []
     } as RawCuratedSet;
   });
   return {
@@ -104,6 +106,7 @@ Requirements:
 - Root fields: schemaVersion, id, title, description, version, language, contentType, categories, questions, sets, metadata.
 - Each question: stable id, integer level 1-15, one allowed primary category, optional tags, concise prompt, exactly four distinct {id,text} choices, correctChoiceId, a non-leaking hint, a concise explanation, and usage {freshMix,setIds}.
 - Curated sets reference exactly 15 unique questions in fixed Level 1 through Level 15 order.
+- Sets may include folderPath, an array of up to six folder labels (for example ["Science & Nature", "Space"]). Omit it for Unfiled. Keep IDs independent of folders; set-only questions use freshMix false and reciprocal setIds.
 - Use stable, non-time-sensitive facts. Avoid ambiguity, joke distractors, HTML, links, executable content, "all of the above", and answer leakage.
 - Difficulty must rise meaningfully at every exact level.
 - Return only valid JSON. Do not wrap it in Markdown.

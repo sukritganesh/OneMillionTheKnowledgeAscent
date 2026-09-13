@@ -107,6 +107,74 @@ test('built PWA relaunches offline and gameplay makes no external requests', asy
   await context.setOffline(false);
 });
 
+test('browses folders and moves an existing set without changing a saved game or progress', async ({ page }) => {
+  await createProfileAndReachSetup(page, 'Library Tester');
+  await page.getByLabel('Reduced motion').check();
+  await page.getByRole('button', { name: /Choose a Set/i }).click();
+  await page.getByRole('button', { name: 'Open folder Science & Nature', exact: true }).click();
+  await page.getByRole('button', { name: 'Open folder Space', exact: true }).click();
+  await page.getByRole('button', { name: /Astronomy and Space: First Light/ }).click();
+  await beginFreshMix(page); // Begins whichever mode is selected in setup.
+  await answerCurrentCorrectly(page);
+  await page.getByRole('button', { name: /Continue to Question 2/ }).click();
+  await page.getByRole('button', { name: /Show question 2/ }).click();
+  const prompt = await page.locator('#active-question').textContent();
+  await page.keyboard.press('a');
+  const selected = await page.locator('[data-state="selected"]').getAttribute('data-choice-id');
+  await page.getByRole('button', { name: /Pause game/i }).click();
+  await page.getByRole('button', { name: 'Save and exit', exact: true }).click();
+  await page.getByRole('button', { name: 'Set library', exact: true }).click();
+  await page.getByRole('searchbox', { name: 'Search all sets' }).fill('First Light');
+  await page.getByRole('button', { name: 'Move Astronomy and Space: First Light', exact: true }).click();
+  await page.getByLabel('Destination folder').fill('My collection / Space');
+  await page.getByRole('dialog').getByRole('button', { name: 'Move set', exact: true }).click();
+  await expect(page.getByText('My collection / Space', { exact: true })).toBeVisible();
+  await page.reload();
+  await page.getByRole('button', { name: /Play as Library Tester/ }).click();
+  await page.getByRole('button', { name: /Saved game/i }).click();
+  await expect(page.locator('#active-question')).toHaveText(prompt!);
+  await expect(page.locator(`[data-choice-id="${selected}"]`)).toHaveAttribute('data-state', 'selected');
+  await page.getByRole('button', { name: 'Resume game', exact: true }).click();
+  await page.getByRole('button', { name: /^Walk away with/i }).click();
+  await page.getByRole('button', { name: /Confirm Walk Away/i }).click();
+  await expect(page.getByRole('heading', { name: '$100', exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Main menu', exact: true }).click();
+  await page.getByRole('button', { name: 'Set library', exact: true }).click();
+  await page.getByRole('button', { name: 'Open folder My collection' }).click();
+  await page.getByRole('button', { name: 'Open folder Space' }).click();
+  const card = page.locator('.set-progress-card').filter({ hasText: 'Astronomy and Space: First Light' });
+  await expect(card).toContainText('$100');
+  await expect(card.locator('dl div').filter({ hasText: 'Attempts' })).toContainText('1');
+});
+
+test('imports a curated set into a chosen folder and retains that folder on export', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: /Play as guest/i }).click();
+  await page.getByRole('button', { name: 'Question packs', exact: true }).click();
+  await page.getByRole('button', { name: /Import & templates/ }).click();
+  const questions = Array.from({ length: 15 }, (_, i) => ({
+    id: `question-${i + 1}`, level: i + 1, category: 'Science', tags: [], prompt: `Library import fixture ${i + 1}?`,
+    choices: [{ id: 'a', text: 'First' }, { id: 'b', text: 'Second' }, { id: 'c', text: 'Third' }, { id: 'd', text: 'Fourth' }],
+    correctChoiceId: 'a', hint: 'A fixture clue.', explanation: 'A fixture explanation.', usage: { freshMix: false, setIds: ['ladder'] }
+  }));
+  const pack = { schemaVersion: '1.0.0', id: 'library-import-test', title: 'Library Import Test', description: 'Browser test fixture.', version: '1.0.0', language: 'en-US', contentType: 'curated-sets', categories: ['Science'], questions, sets: [{ id: 'ladder', title: 'Imported Ladder', description: 'Browser test set.', theme: 'Science', tags: [], questionIds: questions.map((q) => q.id) }], metadata: { author: 'Test', reviewStatus: 'unreviewed', questionCount: 15, setCount: 1 } };
+  await page.getByLabel('Question-pack JSON').fill(JSON.stringify(pack));
+  await page.getByLabel('Folder for imported sets (optional)').fill('My sets / Quiz night');
+  await page.getByRole('button', { name: 'Validate & preview', exact: true }).click();
+  await page.getByRole('button', { name: 'Import entire pack', exact: true }).click();
+  await page.getByRole('button', { name: /Library Built-in/ }).click();
+  const downloaded = page.waitForEvent('download');
+  await page.locator('.content-pack-card').filter({ hasText: 'Library Import Test' }).getByRole('button', { name: 'Export', exact: true }).click();
+  const file = await downloaded;
+  const exported = JSON.parse(readFileSync((await file.path())!, 'utf8'));
+  expect(exported.sets[0].folderPath).toEqual(['My sets', 'Quiz night']);
+  await page.getByRole('button', { name: 'Back', exact: true }).click();
+  await page.getByRole('button', { name: 'Set library', exact: true }).click();
+  await page.getByRole('button', { name: 'Open folder My sets' }).click();
+  await page.getByRole('button', { name: 'Open folder Quiz night' }).click();
+  await expect(page.getByRole('heading', { name: 'Imported Ladder' })).toBeVisible();
+});
+
 test('wrong-answer and browser-back paths preserve game integrity', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: /Play as guest/i }).click();

@@ -1,0 +1,732 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-weather-pack",
+  "title": "Reading the Sky",
+  "description": "Clouds, fronts, and the physics behind a changing forecast.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Nature and Earth"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-weather-thermometer",
+      "level": 1,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Which instrument measures air temperature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thermometer"
+        },
+        {
+          "id": "b",
+          "text": "Barometer"
+        },
+        {
+          "id": "c",
+          "text": "Anemometer"
+        },
+        {
+          "id": "d",
+          "text": "Rain gauge"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Different weather instruments measure different properties of the air.",
+      "explanation": "A thermometer measures temperature; the other instruments measure pressure, wind speed, and rainfall.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/definitions/dry_wet_bulb_definition/dry_wet_bulb.html",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-fog",
+      "level": 2,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "What do we call a cloud of tiny water droplets at ground level?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Frost"
+        },
+        {
+          "id": "b",
+          "text": "Fog"
+        },
+        {
+          "id": "c",
+          "text": "Hail"
+        },
+        {
+          "id": "d",
+          "text": "Sleet"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Its defining feature is where it forms.",
+      "explanation": "Fog is a cloud at or near the ground, often formed when moist air cools to saturation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/lmk/cloud_classification",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-thundercloud",
+      "level": 3,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Which cloud type is most closely associated with thunderstorms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Altostratus"
+        },
+        {
+          "id": "b",
+          "text": "Cirrostratus"
+        },
+        {
+          "id": "c",
+          "text": "Cumulonimbus"
+        },
+        {
+          "id": "d",
+          "text": "Cirrus"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look for the cloud with great vertical development.",
+      "explanation": "Cumulonimbus clouds are deep convective clouds that produce thunderstorms.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/lmk/cloud_classification",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-pressure-gradient",
+      "level": 4,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "The pressure-gradient force initially pushes air in which direction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From lower pressure toward higher pressure"
+        },
+        {
+          "id": "b",
+          "text": "Only from east to west"
+        },
+        {
+          "id": "c",
+          "text": "Only toward the nearest ocean"
+        },
+        {
+          "id": "d",
+          "text": "From higher pressure toward lower pressure"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Other forces can turn the wind after it starts moving.",
+      "explanation": "A difference in pressure exerts a force from high toward low pressure. Rotation and friction modify the resulting wind.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-dewpoint",
+      "level": 5,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Air cooled at constant pressure without changing its water-vapor content reaches saturation at what temperature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dew point"
+        },
+        {
+          "id": "b",
+          "text": "Freezing point"
+        },
+        {
+          "id": "c",
+          "text": "Boiling point"
+        },
+        {
+          "id": "d",
+          "text": "Wind-chill temperature"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "This threshold depends on the moisture already present.",
+      "explanation": "The dew point is the temperature to which air must cool to become saturated at constant pressure and water-vapor content.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/definitions/dry_wet_bulb_definition/dry_wet_bulb.html",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-warm-front",
+      "level": 6,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Broad layered clouds and steady precipitation ahead of an advancing front are classically associated with which type?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gust front"
+        },
+        {
+          "id": "b",
+          "text": "Warm front"
+        },
+        {
+          "id": "c",
+          "text": "Dryline"
+        },
+        {
+          "id": "d",
+          "text": "Sea-breeze front"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The advancing air rises gently over a cooler air mass.",
+      "explanation": "At a warm front, warm air gradually overruns cooler air, often producing widespread layered cloud and precipitation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/lmk/basic-fronts",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-coriolis",
+      "level": 7,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "In the Northern Hemisphere, the Coriolis effect deflects moving air toward which side of its motion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Straight upward"
+        },
+        {
+          "id": "b",
+          "text": "Straight downward"
+        },
+        {
+          "id": "c",
+          "text": "The right"
+        },
+        {
+          "id": "d",
+          "text": "The left"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "This is a consequence of observing motion on a rotating planet.",
+      "explanation": "In the Northern Hemisphere the apparent horizontal deflection is to the right of the direction of travel.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-inversion",
+      "level": 8,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "How does temperature change with height inside a temperature inversion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It falls at exactly 10 degrees Celsius per kilometer"
+        },
+        {
+          "id": "b",
+          "text": "It is necessarily constant"
+        },
+        {
+          "id": "c",
+          "text": "It falls faster than in the air below"
+        },
+        {
+          "id": "d",
+          "text": "It increases with height"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The name refers to a reversal of the usual lower-atmosphere pattern.",
+      "explanation": "In an inversion, warmer air lies above cooler air. This often suppresses vertical mixing.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/inversion/inversion.html",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-condensation-heat",
+      "level": 9,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "When water vapor condenses inside a rising cloud, what happens to latent heat?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is released to the surrounding air"
+        },
+        {
+          "id": "b",
+          "text": "It is absorbed from the surrounding air"
+        },
+        {
+          "id": "c",
+          "text": "It is converted entirely into wind momentum"
+        },
+        {
+          "id": "d",
+          "text": "It disappears without an energy transfer"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Compare condensation with the energy needed for evaporation.",
+      "explanation": "Condensation releases latent heat, partly offsetting the cooling of a rising air parcel.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/spotterguide/ingredients",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-dry-adiabatic",
+      "level": 10,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "An unsaturated parcel rises without exchanging heat and stays unsaturated. Roughly how much does it cool per kilometer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "20 degrees Celsius"
+        },
+        {
+          "id": "b",
+          "text": "10 degrees Celsius"
+        },
+        {
+          "id": "c",
+          "text": "2 degrees Celsius"
+        },
+        {
+          "id": "d",
+          "text": "6.5 degrees Celsius"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Do not confuse a parcel's rate with an average observed atmospheric profile.",
+      "explanation": "The dry adiabatic lapse rate is about 9.8 degrees Celsius per kilometer, commonly rounded to 10.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/media/zhu/ZHU_Training_Page/Met_Tutorials/Weather_Theory.pdf",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-dryline",
+      "level": 11,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Which contrast chiefly defines a dryline?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A boundary between rain and snow at the ground"
+        },
+        {
+          "id": "b",
+          "text": "A boundary between surface wind and calm air aloft"
+        },
+        {
+          "id": "c",
+          "text": "A sharp change in atmospheric moisture"
+        },
+        {
+          "id": "d",
+          "text": "A sharp change in pressure without a moisture contrast"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Temperature may also differ, but it is not the defining variable.",
+      "explanation": "A dryline separates relatively dry and moist air masses and can be marked by a sharp dew-point gradient.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/ggw/GlossaryD",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-wetbulb",
+      "level": 12,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "Why does a ventilated wet-bulb thermometer usually read below the dry-bulb temperature in unsaturated air?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Condensation supplies energy to the wet bulb"
+        },
+        {
+          "id": "b",
+          "text": "Water increases the local air pressure"
+        },
+        {
+          "id": "c",
+          "text": "The wet covering blocks all infrared radiation"
+        },
+        {
+          "id": "d",
+          "text": "Evaporation takes energy from the wet bulb"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Compare how damp skin feels in still air and in a breeze.",
+      "explanation": "Evaporating water cools the wetted bulb. The difference becomes small as the air approaches saturation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/news/211009-WBGT",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-thickness",
+      "level": 13,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "For two atmospheric layers bounded by the same pressure values, which generally has greater vertical thickness?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The layer with higher mean virtual temperature"
+        },
+        {
+          "id": "b",
+          "text": "The layer with lower mean virtual temperature"
+        },
+        {
+          "id": "c",
+          "text": "The layer with lower wind speed, regardless of temperature"
+        },
+        {
+          "id": "d",
+          "text": "Both must have identical thickness"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Compare the column's density with the vertical distance needed for the same pressure change.",
+      "explanation": "The hypsometric relationship links pressure-layer thickness to mean virtual temperature. A warmer, less dense column is thicker.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/Miscellaneous/Heights_Thicknesses/thickness_temperature.htm",
+        "verificationNotes": "Checked against the cited reference; distractors and hint reviewed for one unambiguous answer. Human review and play-test calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-weather-geostrophic-location",
+      "level": 14,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "A Northern Hemisphere geostrophic wind blows due east along straight isobars. Where is the lower pressure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Directly behind to the west"
+        },
+        {
+          "id": "b",
+          "text": "To its north"
+        },
+        {
+          "id": "c",
+          "text": "To its south"
+        },
+        {
+          "id": "d",
+          "text": "Directly ahead to the east"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Balance the pressure-gradient force against the deflection associated with the wind.",
+      "explanation": "Coriolis acts to the right of the eastward flow, toward the south. The opposing pressure-gradient force points north, so lower pressure is north.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/pressure_winds/Pressure.htm",
+        "verificationNotes": "Verified geometry independently: eastward motion has rightward/southward Coriolis; balance requires northward pressure-gradient force. Straight, geostrophic, Northern Hemisphere assumptions are explicit."
+      }
+    },
+    {
+      "id": "builtin-library-weather-conditional-instability",
+      "level": 15,
+      "category": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "prompt": "The environment cools 8 degrees Celsius per kilometer. A lifted parcel cools 10 if unsaturated, but 5 if saturated. What stability does this imply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Absolute instability"
+        },
+        {
+          "id": "b",
+          "text": "Neutrality for both parcel types"
+        },
+        {
+          "id": "c",
+          "text": "Conditional instability"
+        },
+        {
+          "id": "d",
+          "text": "Absolute stability"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare the parcel with its environment after the same upward displacement.",
+      "explanation": "An unsaturated parcel becomes colder than its surroundings, while a saturated one becomes warmer. Instability therefore depends on saturation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-weather-set"
+        ]
+      },
+      "metadata": {
+        "author": "OpenAI",
+        "language": "en-US",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.weather.gov/media/zhu/ZHU_Training_Page/Met_Tutorials/Weather_Theory.pdf",
+        "verificationNotes": "Verified given-rate comparison after 1 km: initially equal-temperature unsaturated parcel ends 2 C colder; saturated parcel 3 C warmer. No external lapse-rate value is needed for the reasoning."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-weather-set",
+      "title": "Reading the Sky",
+      "description": "Clouds, fronts, and the physics behind a changing forecast.",
+      "theme": "Nature and Earth",
+      "tags": [
+        "weather"
+      ],
+      "folderPath": [
+        "Science & Nature",
+        "Earth & Sky"
+      ],
+      "questionIds": [
+        "builtin-library-weather-thermometer",
+        "builtin-library-weather-fog",
+        "builtin-library-weather-thundercloud",
+        "builtin-library-weather-pressure-gradient",
+        "builtin-library-weather-dewpoint",
+        "builtin-library-weather-warm-front",
+        "builtin-library-weather-coriolis",
+        "builtin-library-weather-inversion",
+        "builtin-library-weather-condensation-heat",
+        "builtin-library-weather-dry-adiabatic",
+        "builtin-library-weather-dryline",
+        "builtin-library-weather-wetbulb",
+        "builtin-library-weather-thickness",
+        "builtin-library-weather-geostrophic-location",
+        "builtin-library-weather-conditional-instability"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds to specialist knowledge and reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Original questions; source-linked assistant review, not human editorial certification."
+  }
+}

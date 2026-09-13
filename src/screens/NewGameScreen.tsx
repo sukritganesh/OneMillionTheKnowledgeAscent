@@ -1,6 +1,7 @@
 import type { AudioPreferences } from '../audio/types';
 import type { NewGameConfig } from '../app/types';
 import type { CuratedSetDefinition, GameRunState } from '../game';
+import { SetBrowser } from '../components/SetBrowser';
 import { BrandMark } from '../components/BrandMark';
 import { formatMoney } from '../utils/format';
 
@@ -55,8 +56,7 @@ export function NewGameScreen(props: NewGameScreenProps) {
           {props.config.mode === 'curated-set' && (
             <div className="set-browser">
               <div className="set-browser__heading"><h2>Choose a question set</h2><span>{props.sets.length} installed</span></div>
-              <div className="set-browser__grid">
-                {props.sets.map((set) => (
+              <SetBrowser sets={props.sets} renderSet={(set) => (
                   <button type="button" className={`set-card ${set.id === props.config.selectedSetId ? 'set-card--active' : ''}`} key={set.id} onClick={() => props.onConfig({ ...props.config, selectedSetId: set.id })}>
                     <span className="set-card__theme">{set.theme || 'Mixed knowledge'}</span>
                     <strong>{set.title}</strong>
@@ -64,8 +64,7 @@ export function NewGameScreen(props: NewGameScreenProps) {
                     <span className="set-card__status">{set.millionaireWon ? 'Millionaire won' : set.attempts ? `${set.attempts} attempt${set.attempts === 1 ? '' : 's'} · best ${formatMoney(set.bestPrize)}` : 'New'} · {set.sourceLabel}</span>
                     {set.id === props.config.selectedSetId && <i>Selected ✓</i>}
                   </button>
-                ))}
-              </div>
+                )} />
             </div>
           )}
           <div className="setup-section-heading"><span>02</span><div><h2>Questions</h2><p>Choose which question packs to use.</p></div></div>

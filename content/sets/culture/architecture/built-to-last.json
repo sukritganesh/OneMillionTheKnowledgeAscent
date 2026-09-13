@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-architecture-pack",
+  "title": "Built to Last",
+  "description": "From familiar landmarks to the ingenious structures that hold them up.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Art and Culture"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-architecture-taj-mahal",
+      "level": 1,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "taj-mahal"
+      ],
+      "prompt": "The Taj Mahal was built in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "India"
+        },
+        {
+          "id": "b",
+          "text": "Nepal"
+        },
+        {
+          "id": "c",
+          "text": "Iran"
+        },
+        {
+          "id": "d",
+          "text": "Pakistan"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think of the Mughal rulers and their monuments.",
+      "explanation": "The Taj Mahal stands in Agra, India. Shah Jahan commissioned it as a mausoleum.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/252",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-opera-house",
+      "level": 2,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "opera-house"
+      ],
+      "prompt": "Which Australian city has a famous waterfront opera house with shell-shaped roofs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Melbourne"
+        },
+        {
+          "id": "b",
+          "text": "Perth"
+        },
+        {
+          "id": "c",
+          "text": "Brisbane"
+        },
+        {
+          "id": "d",
+          "text": "Sydney"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It overlooks a harbour crossed by a famous steel bridge.",
+      "explanation": "The Sydney Opera House occupies Bennelong Point on Sydney Harbour.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/166",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-pyramids",
+      "level": 3,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "pyramids"
+      ],
+      "prompt": "The Great Pyramid at Giza was originally built primarily as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A royal tomb"
+        },
+        {
+          "id": "b",
+          "text": "A public market"
+        },
+        {
+          "id": "c",
+          "text": "A theatre"
+        },
+        {
+          "id": "d",
+          "text": "A fortress"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider ancient Egyptian beliefs about a ruler's afterlife.",
+      "explanation": "The Great Pyramid was built as the tomb of the pharaoh Khufu.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/86",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-gaudi",
+      "level": 4,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "gaudi"
+      ],
+      "prompt": "Which architect is closely associated with Barcelona's Sagrada Família?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oscar Niemeyer"
+        },
+        {
+          "id": "b",
+          "text": "Antoni Gaudí"
+        },
+        {
+          "id": "c",
+          "text": "Frank Gehry"
+        },
+        {
+          "id": "d",
+          "text": "Louis Sullivan"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "His buildings often use forms inspired by nature.",
+      "explanation": "Antoni Gaudí devoted much of his career to the Sagrada Família.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/320",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-marble",
+      "level": 5,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "marble"
+      ],
+      "prompt": "Which stone gives the Taj Mahal's main mausoleum its characteristic white exterior?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Basalt"
+        },
+        {
+          "id": "b",
+          "text": "Slate"
+        },
+        {
+          "id": "c",
+          "text": "Marble"
+        },
+        {
+          "id": "d",
+          "text": "Red sandstone"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its surface can be polished and decorated with fine stone inlay.",
+      "explanation": "White marble faces the main mausoleum. Other buildings in the complex use red sandstone.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/252",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-wright",
+      "level": 6,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "wright"
+      ],
+      "prompt": "Who designed Fallingwater, the Pennsylvania house built over a waterfall?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mies van der Rohe"
+        },
+        {
+          "id": "b",
+          "text": "Walter Gropius"
+        },
+        {
+          "id": "c",
+          "text": "Le Corbusier"
+        },
+        {
+          "id": "d",
+          "text": "Frank Lloyd Wright"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The architect called his approach organic architecture.",
+      "explanation": "Frank Lloyd Wright designed Fallingwater for the Kaufmann family, integrating it with Bear Run.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-djenne",
+      "level": 7,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "djenne"
+      ],
+      "prompt": "The Great Mosque of Djenné is particularly known for construction using which material?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Earth"
+        },
+        {
+          "id": "b",
+          "text": "Cast iron"
+        },
+        {
+          "id": "c",
+          "text": "Granite"
+        },
+        {
+          "id": "d",
+          "text": "Bamboo"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its community renews the exterior coating to protect it from rain.",
+      "explanation": "The mosque uses sun-dried mud bricks and earthen plaster, a hallmark of Djenné's architecture.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/116",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-ionic",
+      "level": 8,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "ionic"
+      ],
+      "prompt": "Which classical column order is recognized by scroll-like volutes on its capitals?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Doric"
+        },
+        {
+          "id": "b",
+          "text": "Ionic"
+        },
+        {
+          "id": "c",
+          "text": "Tuscan"
+        },
+        {
+          "id": "d",
+          "text": "Corinthian"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Focus on the ornament at the top rather than the column shaft.",
+      "explanation": "Ionic capitals have characteristic paired volutes. Corinthian capitals emphasize foliage.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.getty.edu/publications/resources/virtuallibrary/0892365803.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-mihrab",
+      "level": 9,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "mihrab"
+      ],
+      "prompt": "What is the principal architectural purpose of a mihrab in a mosque?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To support the central dome"
+        },
+        {
+          "id": "b",
+          "text": "To house the call to prayer"
+        },
+        {
+          "id": "c",
+          "text": "To mark the direction of prayer"
+        },
+        {
+          "id": "d",
+          "text": "To shelter the ablution fountain"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its position matters to how the congregation arranges itself inside.",
+      "explanation": "A mihrab is a niche in the qibla wall indicating the direction toward Mecca for prayer.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://web.mit.edu/4.614/www/defs/mihrab.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-shibam",
+      "level": 10,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "shibam"
+      ],
+      "prompt": "The historic Yemeni city of Shibam is renowned for which building type?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Floating reed houses"
+        },
+        {
+          "id": "b",
+          "text": "Rock-cut basilicas"
+        },
+        {
+          "id": "c",
+          "text": "Circular timber halls"
+        },
+        {
+          "id": "d",
+          "text": "Mud-brick tower houses"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its dense streets accommodate housing vertically.",
+      "explanation": "Shibam's tall mud-brick houses are an early example of a city organized around vertical construction.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/192",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-iwan",
+      "level": 11,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "iwan"
+      ],
+      "prompt": "In Persian and Islamic architecture, an iwan is typically what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A vaulted hall open on one side"
+        },
+        {
+          "id": "b",
+          "text": "A detached bell tower"
+        },
+        {
+          "id": "c",
+          "text": "A circular stepped platform"
+        },
+        {
+          "id": "d",
+          "text": "A window with stone tracery"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "This feature predates its use in mosques.",
+      "explanation": "An iwan is a vaulted hall or space open on one side, often toward a courtyard.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://resources.metmuseum.org/resources/metpublications/pdf/Islamic_art_in_the_Metropolitan_Museum_the_historical_context.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-muqarnas",
+      "level": 12,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "muqarnas"
+      ],
+      "prompt": "What are muqarnas in Islamic architecture?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Interlocking timber floorboards"
+        },
+        {
+          "id": "b",
+          "text": "Tiered, niche-like vault ornament"
+        },
+        {
+          "id": "c",
+          "text": "Painted panels of calligraphy"
+        },
+        {
+          "id": "d",
+          "text": "Rows of freestanding columns"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "They often enrich transitions around domes and entrances.",
+      "explanation": "Muqarnas are cellular, tiered forms often likened to stalactites, used on vaults, niches, and portals.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/447256",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-composite",
+      "level": 13,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "composite"
+      ],
+      "prompt": "The classical Composite order combines Corinthian foliage with which feature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Doric triglyphs"
+        },
+        {
+          "id": "b",
+          "text": "Tuscan plain capitals"
+        },
+        {
+          "id": "c",
+          "text": "Ionic volutes"
+        },
+        {
+          "id": "d",
+          "text": "Gothic crockets"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The name describes the blending of two earlier decorative vocabularies.",
+      "explanation": "The Composite capital combines Corinthian acanthus leaves with Ionic scroll-like volutes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.getty.edu/publications/resources/virtuallibrary/0892365803.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-dome-piers",
+      "level": 14,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "dome-piers"
+      ],
+      "prompt": "At Hagia Sophia, the central dome's load is carried toward the ground principally through which arrangement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A forest of slender wooden posts"
+        },
+        {
+          "id": "b",
+          "text": "A single solid circular wall"
+        },
+        {
+          "id": "c",
+          "text": "Steel suspension cables"
+        },
+        {
+          "id": "d",
+          "text": "Arches and four major piers"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The plan below the dome is not simply a continuous cylindrical drum.",
+      "explanation": "The central dome rests on a system of pendentives and arches that transfers loads to four main piers.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://projects.mcah.columbia.edu/medieval-architecture/htm/or/ma_or_discuss_hs_dome.htm",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-architecture-pendentive",
+      "level": 15,
+      "category": "Art and Culture",
+      "tags": [
+        "architecture",
+        "pendentive"
+      ],
+      "prompt": "Which description distinguishes a pendentive from a squinch when supporting a dome over a square space?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A curved triangular surface joining the dome to corner supports"
+        },
+        {
+          "id": "b",
+          "text": "A small arch or niche bridging an individual corner"
+        },
+        {
+          "id": "c",
+          "text": "A projecting horizontal slab carrying a balcony"
+        },
+        {
+          "id": "d",
+          "text": "An exterior arch pushing against a tall wall"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Picture the geometry left between a circular dome base and the arches beneath it.",
+      "explanation": "A pendentive is a spherical triangular transition. A squinch instead spans a corner with an arch, niche, or related construction.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-architecture-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://projects.mcah.columbia.edu/medieval-architecture/htm/or/ma_or_discuss_hs_dome.htm",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-architecture-set",
+      "title": "Built to Last",
+      "description": "From familiar landmarks to the ingenious structures that hold them up.",
+      "theme": "Art and Culture",
+      "tags": [
+        "architecture"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Architecture"
+      ],
+      "questionIds": [
+        "builtin-library-architecture-taj-mahal",
+        "builtin-library-architecture-opera-house",
+        "builtin-library-architecture-pyramids",
+        "builtin-library-architecture-gaudi",
+        "builtin-library-architecture-marble",
+        "builtin-library-architecture-wright",
+        "builtin-library-architecture-djenne",
+        "builtin-library-architecture-ionic",
+        "builtin-library-architecture-mihrab",
+        "builtin-library-architecture-shibam",
+        "builtin-library-architecture-iwan",
+        "builtin-library-architecture-muqarnas",
+        "builtin-library-architecture-composite",
+        "builtin-library-architecture-dome-piers",
+        "builtin-library-architecture-pendentive"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

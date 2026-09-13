@@ -92,6 +92,7 @@ export interface RawQuestion {
 }
 
 export interface RawCuratedSet {
+  folderPath?: string[];
   id: string;
   title: string;
   description: string;
@@ -215,6 +216,7 @@ export interface NormalizedQuestion {
 }
 
 export interface NormalizedCuratedSet {
+  folderPath?: string[];
   id: string;
   localId: string;
   title: string;

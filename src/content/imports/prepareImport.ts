@@ -1,4 +1,5 @@
 import { normalizePack } from '../normalize';
+import { folderPathError } from '../folders';
 import type {
   ExistingContentIdentity,
   ImportConflict,
@@ -11,6 +12,7 @@ import type {
 import { parseJsonData, validateContentPack } from '../validators';
 
 export interface PrepareImportOptions {
+  setFolderPath?: string[];
   allowPackUpdate?: boolean;
   enabled?: boolean;
 }
@@ -115,6 +117,10 @@ export function prepareCustomPackImport(
     return rejectedPreview(parsed, validation.errors, validation.warnings);
   }
   const pack: RawContentPack = validation.value;
+  if (options.setFolderPath !== undefined) {
+    const error = folderPathError(options.setFolderPath);
+    if (error) return rejectedPreview(parsed, [issue('error', 'invalid-folder-path', '$.sets.folderPath', error)]);
+  }
   const conflicts: ImportConflict[] = [];
   const conflictErrors: ValidationIssue[] = [];
   const warnings = [...validation.warnings];
@@ -193,6 +199,7 @@ export function prepareCustomPackImport(
     applyBuiltInRepairs: false
   });
   const preview: ImportPreview = {
+    // The optional destination never changes pack, set, or question identities.
     ...previewFromUnknown(pack),
     valid: true,
     conflicts,
@@ -200,6 +207,9 @@ export function prepareCustomPackImport(
     warnings
   };
 
+  if (options.setFolderPath !== undefined) {
+    normalized.sets = normalized.sets.map((set) => ({ ...set, folderPath: [...options.setFolderPath!] }));
+  }
   // This is a complete staging payload: callers either persist every record in one
   // storage transaction or discard it. Invalid imports never expose a partial payload.
   return {

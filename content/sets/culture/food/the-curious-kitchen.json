@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-cooking-pack",
+  "title": "The Curious Kitchen",
+  "description": "Everyday techniques lead into the science of doughs, sauces, and custards.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Food and Drink"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-cooking-whisk",
+      "level": 1,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "whisk"
+      ],
+      "prompt": "Which utensil is designed to beat air into cream or egg whites?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whisk"
+        },
+        {
+          "id": "b",
+          "text": "Colander"
+        },
+        {
+          "id": "c",
+          "text": "Rolling pin"
+        },
+        {
+          "id": "d",
+          "text": "Peeler"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its loops move through the mixture repeatedly.",
+      "explanation": "A whisk beats and aerates mixtures such as cream or egg whites.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.kingarthurbaking.com/blog/2023/02/22/folding-with-whisk",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-simmer",
+      "level": 2,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "simmer"
+      ],
+      "prompt": "Which cooking instruction calls for gentler bubbling than a rolling boil?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sear"
+        },
+        {
+          "id": "b",
+          "text": "Simmer"
+        },
+        {
+          "id": "c",
+          "text": "Broil"
+        },
+        {
+          "id": "d",
+          "text": "Flambé"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look for occasional small bubbles rather than vigorous movement.",
+      "explanation": "Simmering cooks liquid just below a full rolling boil.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/common-terminology-for-healthy-cooking",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-zest",
+      "level": 3,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "zest"
+      ],
+      "prompt": "A recipe asking for lemon zest wants which part of the fruit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The seeds"
+        },
+        {
+          "id": "b",
+          "text": "The juice"
+        },
+        {
+          "id": "c",
+          "text": "The coloured outer peel"
+        },
+        {
+          "id": "d",
+          "text": "The white inner pith"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A fine grater helps release fragrant oils from it.",
+      "explanation": "Zest is the coloured outer layer of citrus peel, rich in aromatic oils.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/common-terminology-for-healthy-cooking",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-fold",
+      "level": 4,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "fold"
+      ],
+      "prompt": "Why does a baker fold whipped egg whites gently into a batter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To make the batter hotter"
+        },
+        {
+          "id": "b",
+          "text": "To dissolve all its starch"
+        },
+        {
+          "id": "c",
+          "text": "To remove every air bubble"
+        },
+        {
+          "id": "d",
+          "text": "To retain much of the trapped air"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The light texture has already been built before mixing.",
+      "explanation": "Gentle folding limits the loss of air held in the whipped whites.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://annex.exploratorium.edu/cooking/icooks/article_5-03.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-reduce",
+      "level": 5,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "reduce"
+      ],
+      "prompt": "What does reducing a sauce usually involve?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evaporating some of its water"
+        },
+        {
+          "id": "b",
+          "text": "Adding ice while stirring"
+        },
+        {
+          "id": "c",
+          "text": "Straining out its spices"
+        },
+        {
+          "id": "d",
+          "text": "Beating air into its surface"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "An uncovered pan lets vapour escape.",
+      "explanation": "Reduction evaporates liquid, concentrating a sauce and often thickening it.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.heart.org/en/healthy-living/healthy-eating/cooking-skills/cooking/common-terminology-for-healthy-cooking",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-bain-marie",
+      "level": 6,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "bain-marie"
+      ],
+      "prompt": "A bain-marie heats a delicate preparation using what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Direct flame"
+        },
+        {
+          "id": "b",
+          "text": "A surrounding water bath"
+        },
+        {
+          "id": "c",
+          "text": "A bed of hot salt"
+        },
+        {
+          "id": "d",
+          "text": "A stream of chilled air"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The surrounding medium moderates heat around a custard dish.",
+      "explanation": "A bain-marie is a water bath used for controlled, gentle heating.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://annex.exploratorium.edu/cooking/eggs/flan-pop.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-lamination",
+      "level": 7,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "lamination"
+      ],
+      "prompt": "What is the purpose of repeatedly folding butter into dough when laminating pastry?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To eliminate its gluten"
+        },
+        {
+          "id": "b",
+          "text": "To dissolve its fat"
+        },
+        {
+          "id": "c",
+          "text": "To build alternating dough and fat layers"
+        },
+        {
+          "id": "d",
+          "text": "To ferment its sugar"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The final baked texture depends on separation between thin sheets.",
+      "explanation": "Lamination forms alternating layers that separate and expand during baking.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://shop.kingarthurbaking.com/classes/laminated-baking/play",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-choux",
+      "level": 8,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "choux"
+      ],
+      "prompt": "What primarily inflates a classic choux pastry shell in the oven?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Baker's yeast"
+        },
+        {
+          "id": "b",
+          "text": "Whipped butter"
+        },
+        {
+          "id": "c",
+          "text": "Carbon dioxide from baking soda"
+        },
+        {
+          "id": "d",
+          "text": "Steam"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The paste contains a substantial amount of water.",
+      "explanation": "Steam expands inside choux pastry while its structure sets.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://files.eric.ed.gov/fulltext/ED140035.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-emulsion",
+      "level": 9,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "emulsion"
+      ],
+      "prompt": "Mayonnaise is an emulsion: what does that mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Droplets of one liquid dispersed in another"
+        },
+        {
+          "id": "b",
+          "text": "Solid sugar dissolved in water"
+        },
+        {
+          "id": "c",
+          "text": "Gas bubbles trapped in a solid"
+        },
+        {
+          "id": "d",
+          "text": "Crystals suspended in a powder"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Oil and water do not normally remain uniformly mixed on their own.",
+      "explanation": "An emulsion disperses one liquid as fine droplets within another; emulsifiers help stabilize it.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://annex.exploratorium.edu/cooking/eggs/hollandaise-pop.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-hydration",
+      "level": 10,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "hydration"
+      ],
+      "prompt": "In baker's percentages, a dough with 500 g flour and 350 g water has what hydration?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "35%"
+        },
+        {
+          "id": "b",
+          "text": "70%"
+        },
+        {
+          "id": "c",
+          "text": "85%"
+        },
+        {
+          "id": "d",
+          "text": "143%"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The flour's weight is the reference value, not the dough's total weight.",
+      "explanation": "Hydration is water weight divided by flour weight: 350 divided by 500 is 70%.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.kingarthurbaking.com/blog/2023/01/11/bread-hydration",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-nixtamalization",
+      "level": 11,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "nixtamalization"
+      ],
+      "prompt": "Traditional nixtamalization treats maize in what kind of solution?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strongly acidic"
+        },
+        {
+          "id": "b",
+          "text": "Highly alcoholic"
+        },
+        {
+          "id": "c",
+          "text": "Alkaline"
+        },
+        {
+          "id": "d",
+          "text": "Oil-based"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The traditional treatment often uses food-grade lime, not citrus juice.",
+      "explanation": "Nixtamalization cooks and steeps maize in an alkaline solution, commonly made with calcium hydroxide.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cimmyt.org/news/what-is-nixtamalization/",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-pectin",
+      "level": 12,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "pectin"
+      ],
+      "prompt": "Which naturally occurring plant substance helps traditional fruit jelly form a gel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Casein"
+        },
+        {
+          "id": "b",
+          "text": "Lecithin"
+        },
+        {
+          "id": "c",
+          "text": "Gluten"
+        },
+        {
+          "id": "d",
+          "text": "Pectin"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Fruit type and ripeness can affect how much is available.",
+      "explanation": "Pectin helps fruit jelly set when the recipe's sugar and acid conditions are appropriate.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://ucanr.edu/sites/default/files/2020-09/335851.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-tangzhong",
+      "level": 13,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "tangzhong"
+      ],
+      "prompt": "What distinguishes the tangzhong method of making soft bread?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cooking part of the flour and liquid into a paste first"
+        },
+        {
+          "id": "b",
+          "text": "Fermenting all the flour in salt water for a week"
+        },
+        {
+          "id": "c",
+          "text": "Replacing the flour entirely with cooked rice"
+        },
+        {
+          "id": "d",
+          "text": "Freezing the dough before adding any liquid"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Preparing some of the starch early changes its ability to hold water.",
+      "explanation": "Tangzhong pre-cooks a portion of flour and liquid, gelatinizing starch and increasing water retention.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.kingarthurbaking.com/blog/2021/02/05/tangzhong-method-soft-pillowy-cinnamon-rolls",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-custard-network",
+      "level": 14,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "custard-network"
+      ],
+      "prompt": "Why can excessive heat turn a smooth egg custard grainy and watery?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its sugar becomes insoluble at high temperature"
+        },
+        {
+          "id": "b",
+          "text": "Egg proteins bond too tightly and expel liquid"
+        },
+        {
+          "id": "c",
+          "text": "Its milk fat converts into starch"
+        },
+        {
+          "id": "d",
+          "text": "Its water turns into additional protein"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Setting and curdling involve the same network taken to different degrees.",
+      "explanation": "Overheating can cause egg proteins to form an overly tight network, squeezing out water.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://annex.exploratorium.edu/cooking/eggs/flan-pop.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-cooking-retrogradation",
+      "level": 15,
+      "category": "Food and Drink",
+      "tags": [
+        "cooking",
+        "retrogradation"
+      ],
+      "prompt": "Why can bread firm up even inside a sealed bag that prevents most moisture loss?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its gluten enzymes convert starch into protein"
+        },
+        {
+          "id": "b",
+          "text": "Its starch irreversibly breaks into simple sugars"
+        },
+        {
+          "id": "c",
+          "text": "Cooked starch molecules reassociate into ordered structures"
+        },
+        {
+          "id": "d",
+          "text": "Its salt forms a continuous crystal network"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Staling involves structural changes, not simply drying out.",
+      "explanation": "Starch retrogradation is the reassociation of gelatinized starch molecules. It contributes to crumb firming even without substantial water loss.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-cooking-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.kingarthurbaking.com/blog/2020/07/08/the-best-way-to-store-yeast-bread",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-cooking-set",
+      "title": "The Curious Kitchen",
+      "description": "Everyday techniques lead into the science of doughs, sauces, and custards.",
+      "theme": "Food and Drink",
+      "tags": [
+        "cooking"
+      ],
+      "folderPath": [
+        "Everyday Life",
+        "Food & Drink"
+      ],
+      "questionIds": [
+        "builtin-library-cooking-whisk",
+        "builtin-library-cooking-simmer",
+        "builtin-library-cooking-zest",
+        "builtin-library-cooking-fold",
+        "builtin-library-cooking-reduce",
+        "builtin-library-cooking-bain-marie",
+        "builtin-library-cooking-lamination",
+        "builtin-library-cooking-choux",
+        "builtin-library-cooking-emulsion",
+        "builtin-library-cooking-hydration",
+        "builtin-library-cooking-nixtamalization",
+        "builtin-library-cooking-pectin",
+        "builtin-library-cooking-tangzhong",
+        "builtin-library-cooking-custard-network",
+        "builtin-library-cooking-retrogradation"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

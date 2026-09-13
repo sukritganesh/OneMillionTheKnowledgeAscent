@@ -1,0 +1,614 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-legacy-physical-geography-01",
+  "title": "Physical Geography: Forces and Features",
+  "description": "Fifteen questions progressing from familiar rivers and mountain ranges to advanced landforms, tectonics, and watersheds.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-set-physical-geography-01-q01",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "rivers",
+        "North America"
+      ],
+      "prompt": "Which river runs through the Grand Canyon?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rio Grande"
+        },
+        {
+          "id": "b",
+          "text": "Colorado River"
+        },
+        {
+          "id": "c",
+          "text": "Columbia River"
+        },
+        {
+          "id": "d",
+          "text": "Missouri River"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The river shares its name with a U.S. state upstream.",
+      "explanation": "The Colorado River carved and continues to flow through the Grand Canyon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q02",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "mountains",
+        "South America"
+      ],
+      "prompt": "The Andes run mainly along which side of South America?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Northern"
+        },
+        {
+          "id": "b",
+          "text": "Eastern"
+        },
+        {
+          "id": "c",
+          "text": "Western"
+        },
+        {
+          "id": "d",
+          "text": "Southern"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The range parallels the continent's Pacific coast.",
+      "explanation": "The Andes extend along the western edge of South America.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q03",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "seas",
+        "Europe",
+        "Africa"
+      ],
+      "prompt": "Which sea lies between southern Europe and northern Africa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mediterranean Sea"
+        },
+        {
+          "id": "b",
+          "text": "Baltic Sea"
+        },
+        {
+          "id": "c",
+          "text": "Caribbean Sea"
+        },
+        {
+          "id": "d",
+          "text": "Arabian Sea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its name can be translated as 'in the middle of the land.'",
+      "explanation": "The Mediterranean Sea separates southern Europe from northern Africa.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q04",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "capitals",
+        "Ecuador",
+        "mountains"
+      ],
+      "prompt": "Quito, the capital of Ecuador, lies in which mountain system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Alps"
+        },
+        {
+          "id": "b",
+          "text": "The Appalachians"
+        },
+        {
+          "id": "c",
+          "text": "The Atlas Mountains"
+        },
+        {
+          "id": "d",
+          "text": "The Andes"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "This range follows western South America.",
+      "explanation": "Quito stands in an Andean valley at high elevation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q05",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "rivers",
+        "Europe"
+      ],
+      "prompt": "The Danube River ultimately empties into which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Sea"
+        },
+        {
+          "id": "b",
+          "text": "Black Sea"
+        },
+        {
+          "id": "c",
+          "text": "Adriatic Sea"
+        },
+        {
+          "id": "d",
+          "text": "Baltic Sea"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Its delta lies mainly in Romania and Ukraine.",
+      "explanation": "The Danube reaches the Black Sea through the Danube Delta.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q06",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "mountains",
+        "Australia"
+      ],
+      "prompt": "The Great Dividing Range extends along the eastern side of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "India"
+        },
+        {
+          "id": "b",
+          "text": "Mexico"
+        },
+        {
+          "id": "c",
+          "text": "Australia"
+        },
+        {
+          "id": "d",
+          "text": "South Africa"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The range divides coastal drainage from inland drainage.",
+      "explanation": "The Great Dividing Range forms an extensive highland system in eastern Australia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q07",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "estuaries",
+        "South America"
+      ],
+      "prompt": "Which two rivers meet to form the Río de la Plata estuary?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amazon and Orinoco"
+        },
+        {
+          "id": "b",
+          "text": "Madeira and Tapajós"
+        },
+        {
+          "id": "c",
+          "text": "Magdalena and Cauca"
+        },
+        {
+          "id": "d",
+          "text": "Paraná and Uruguay"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "One river shares its name with a country on the estuary's northern shore.",
+      "explanation": "The Paraná and Uruguay rivers converge at the head of the Río de la Plata.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q08",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "lakes",
+        "rivers",
+        "Africa"
+      ],
+      "prompt": "Lake Tana is the principal source of which major river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue Nile"
+        },
+        {
+          "id": "b",
+          "text": "Niger"
+        },
+        {
+          "id": "c",
+          "text": "Orange"
+        },
+        {
+          "id": "d",
+          "text": "Zambezi"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The river joins another branch of the Nile at Khartoum.",
+      "explanation": "The Blue Nile flows from Lake Tana in the Ethiopian Highlands.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q09",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "salt flats",
+        "Bolivia"
+      ],
+      "prompt": "Salar de Uyuni, the world's largest salt flat, is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peru"
+        },
+        {
+          "id": "b",
+          "text": "Chile"
+        },
+        {
+          "id": "c",
+          "text": "Bolivia"
+        },
+        {
+          "id": "d",
+          "text": "Argentina"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "It occupies part of the high Altiplano.",
+      "explanation": "Salar de Uyuni lies in southwestern Bolivia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q10",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "oceans",
+        "trenches"
+      ],
+      "prompt": "Challenger Deep, Earth's deepest known seabed point, lies in which trench?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Puerto Rico Trench"
+        },
+        {
+          "id": "b",
+          "text": "Mariana Trench"
+        },
+        {
+          "id": "c",
+          "text": "Java Trench"
+        },
+        {
+          "id": "d",
+          "text": "Peru–Chile Trench"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The trench is in the western Pacific near Guam.",
+      "explanation": "Challenger Deep is the deepest surveyed part of the Mariana Trench.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q11",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "waterfalls",
+        "Venezuela"
+      ],
+      "prompt": "Angel Falls descends from which type of flat-topped landform?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Karst polje"
+        },
+        {
+          "id": "b",
+          "text": "Drumlin"
+        },
+        {
+          "id": "c",
+          "text": "Atoll"
+        },
+        {
+          "id": "d",
+          "text": "Tepui"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The waterfall begins high above Venezuela's Guiana Highlands.",
+      "explanation": "Angel Falls drops from the edge of Auyán-tepui, a table-top mountain in Venezuela.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q12",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "mountains",
+        "Asia"
+      ],
+      "prompt": "Which mountain range separates the Tarim Basin from the Tibetan Plateau?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kunlun Mountains"
+        },
+        {
+          "id": "b",
+          "text": "Ural Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Zagros Mountains"
+        },
+        {
+          "id": "d",
+          "text": "Sayan Mountains"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The range forms much of the plateau's northern rim.",
+      "explanation": "The Kunlun Mountains separate the Tarim Basin to the north from the Tibetan Plateau to the south.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q13",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "drainage",
+        "landforms"
+      ],
+      "prompt": "What term describes a drainage basin with no outlet to the ocean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Orographic"
+        },
+        {
+          "id": "b",
+          "text": "Littoral"
+        },
+        {
+          "id": "c",
+          "text": "Endorheic"
+        },
+        {
+          "id": "d",
+          "text": "Alluvial"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Water in such a basin terminates inland through evaporation or infiltration.",
+      "explanation": "An endorheic basin retains drainage internally rather than discharging to an ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q14",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "tectonics",
+        "Africa"
+      ],
+      "prompt": "At the Afar Triple Junction, the East African Rift meets which two spreading systems?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alpine and Carpathian rifts"
+        },
+        {
+          "id": "b",
+          "text": "Red Sea and Gulf of Aden rifts"
+        },
+        {
+          "id": "c",
+          "text": "Baikal and West Siberian rifts"
+        },
+        {
+          "id": "d",
+          "text": "Rhine and Oslo rifts"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Both systems are associated with waters bordering the Horn of Africa.",
+      "explanation": "The Afar Triple Junction joins the East African, Red Sea, and Gulf of Aden rift systems.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    },
+    {
+      "id": "builtin-set-physical-geography-01-q15",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "watersheds",
+        "North America"
+      ],
+      "prompt": "Water from Triple Divide Peak in Montana can ultimately reach which three bodies of water?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pacific Ocean, Arctic Ocean, and Great Salt Lake"
+        },
+        {
+          "id": "b",
+          "text": "Atlantic Ocean, Lake Superior, and Gulf of California"
+        },
+        {
+          "id": "c",
+          "text": "Hudson Bay, Arctic Ocean, and Gulf of California"
+        },
+        {
+          "id": "d",
+          "text": "Pacific Ocean, Gulf of Mexico, and Hudson Bay"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its three drainage routes use the Columbia, Mississippi–Missouri, and Saskatchewan systems.",
+      "explanation": "Drainage from Triple Divide Peak reaches the Pacific, the Gulf of Mexico, and Hudson Bay.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-set-physical-geography-01"
+        ]
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-set-physical-geography-01",
+      "title": "Physical Geography: Forces and Features",
+      "description": "Fifteen questions progressing from familiar rivers and mountain ranges to advanced landforms, tectonics, and watersheds.",
+      "theme": "Physical Geography",
+      "tags": [
+        "single-category",
+        "physical geography"
+      ],
+      "questionIds": [
+        "builtin-set-physical-geography-01-q01",
+        "builtin-set-physical-geography-01-q02",
+        "builtin-set-physical-geography-01-q03",
+        "builtin-set-physical-geography-01-q04",
+        "builtin-set-physical-geography-01-q05",
+        "builtin-set-physical-geography-01-q06",
+        "builtin-set-physical-geography-01-q07",
+        "builtin-set-physical-geography-01-q08",
+        "builtin-set-physical-geography-01-q09",
+        "builtin-set-physical-geography-01-q10",
+        "builtin-set-physical-geography-01-q11",
+        "builtin-set-physical-geography-01-q12",
+        "builtin-set-physical-geography-01-q13",
+        "builtin-set-physical-geography-01-q14",
+        "builtin-set-physical-geography-01-q15"
+      ],
+      "folderPath": [
+        "Geography",
+        "Physical Geography"
+      ]
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "sourceNotes": "Migrated unchanged from Release 001 pack builtin-curated-release-001-group-007; original immutable evidence retained in content/source/release-001."
+  }
+}

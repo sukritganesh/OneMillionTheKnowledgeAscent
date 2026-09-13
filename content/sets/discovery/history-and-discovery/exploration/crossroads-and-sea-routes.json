@@ -1,0 +1,734 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-trade-routes-pack",
+  "title": "Crossroads and Sea Routes",
+  "description": "Follow caravans, ocean crossings and the people who linked distant markets.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Medieval and Early Modern History",
+    "Ancient History",
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-trade-routes-caravan-animal",
+      "level": 1,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Which animal was widely used to carry goods in desert caravans along the Silk Roads?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Llama"
+        },
+        {
+          "id": "b",
+          "text": "Reindeer"
+        },
+        {
+          "id": "c",
+          "text": "Camel"
+        },
+        {
+          "id": "d",
+          "text": "Yak"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Long stretches between water sources shaped the choice of transport.",
+      "explanation": "Camels were important caravan animals on the arid routes of Eurasia, carrying merchants’ goods between stopping places.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-columbus-ocean",
+      "level": 2,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Which ocean did Columbus cross on his 1492 voyage from Spain to the Caribbean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atlantic Ocean"
+        },
+        {
+          "id": "b",
+          "text": "Indian Ocean"
+        },
+        {
+          "id": "c",
+          "text": "Pacific Ocean"
+        },
+        {
+          "id": "d",
+          "text": "Arctic Ocean"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace a westward route from the Iberian Peninsula.",
+      "explanation": "Columbus crossed the Atlantic from Spain, via the Canary Islands, to islands in the Caribbean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.rmg.co.uk/collections/objects/rmgc-object-153072",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-polo-city",
+      "level": 3,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Which Italian city is most closely associated with the merchant and traveller Marco Polo?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Florence"
+        },
+        {
+          "id": "b",
+          "text": "Venice"
+        },
+        {
+          "id": "c",
+          "text": "Naples"
+        },
+        {
+          "id": "d",
+          "text": "Pisa"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "His home was a maritime trading republic with strong connections to the eastern Mediterranean.",
+      "explanation": "Marco Polo belonged to a Venetian merchant family; his travels helped make distant parts of Asia familiar to European readers.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/394",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-cape-route",
+      "level": 4,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "By rounding the Cape of Good Hope, Portuguese ships could sail around which continent on their way to India?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "South America"
+        },
+        {
+          "id": "b",
+          "text": "Australia"
+        },
+        {
+          "id": "c",
+          "text": "North America"
+        },
+        {
+          "id": "d",
+          "text": "Africa"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Before the Suez Canal, the long sea route avoided an overland crossing near Egypt.",
+      "explanation": "Rounding southern Africa opened a sea route from the Atlantic into the Indian Ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.rmg.co.uk/collections/objects/rmgc-object-63150",
+        "verificationNotes": "Checked Cape of Good Hope location and its role in Portuguese voyages; wording does not call it Africa’s southernmost point."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-caravanserai",
+      "level": 5,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "What service did a caravanserai provide to merchants travelling overland?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Secure lodging and space for their animals"
+        },
+        {
+          "id": "b",
+          "text": "A shipyard for repairing vessels"
+        },
+        {
+          "id": "c",
+          "text": "A mint for issuing every local currency"
+        },
+        {
+          "id": "d",
+          "text": "A court for choosing a new ruler"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trade depended on a chain of stopping places, not just on the endpoints of a journey.",
+      "explanation": "Caravanserais were roadside inns where merchants and animals could rest and obtain supplies.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-da-gama-arrival",
+      "level": 6,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Which Portuguese navigator reached India by sea around Africa in 1498?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bartolomeu Dias"
+        },
+        {
+          "id": "b",
+          "text": "Ferdinand Magellan"
+        },
+        {
+          "id": "c",
+          "text": "Vasco da Gama"
+        },
+        {
+          "id": "d",
+          "text": "Pedro Álvares Cabral"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Distinguish the voyage that rounded Africa from the voyage that continued all the way to India.",
+      "explanation": "Vasco da Gama’s fleet reached Calicut in 1498, linking Portugal to the Indian Ocean’s existing trading networks.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.panteaonacional.gov.pt/homenageados/vasco-da-gama-1",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-zheng-he-dynasty",
+      "level": 7,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Zheng He’s early 15th-century maritime expeditions were sponsored by which Chinese dynasty?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tang"
+        },
+        {
+          "id": "b",
+          "text": "Ming"
+        },
+        {
+          "id": "c",
+          "text": "Song"
+        },
+        {
+          "id": "d",
+          "text": "Qing"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Place his voyages after Mongol rule in China and before the Manchu dynasty.",
+      "explanation": "Zheng He commanded expeditions under the Ming dynasty, projecting imperial influence across the Indian Ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cambridge.org/core/journals/antiquity/article/abs/zheng-hes-voyages-to-hormuz-the-archaeological-evidence/FF4301DFF41A232FCCA7E499A067C69C",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-monsoon-timing",
+      "level": 8,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Why did the monsoon matter so much to premodern sailing trade across the Indian Ocean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It made the ocean fresh enough to drink"
+        },
+        {
+          "id": "b",
+          "text": "It removed the need for coastal charts"
+        },
+        {
+          "id": "c",
+          "text": "It kept sea levels constant all year"
+        },
+        {
+          "id": "d",
+          "text": "Its seasonal wind reversal helped outbound and return voyages"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A useful wind for one direction is not necessarily useful for the journey home.",
+      "explanation": "Seasonally reversing monsoon winds allowed merchants to plan voyages in opposite directions at different times of year.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://fr.unesco.org/silkroad/sites/default/files/knowledge-bank-article/trade_contacts_with_the_indonesian_archipelago.pdf",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-quanzhou-port",
+      "level": 9,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Which Chinese city, also known historically as Zayton, was a major port of the maritime Silk Roads?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quanzhou"
+        },
+        {
+          "id": "b",
+          "text": "Dunhuang"
+        },
+        {
+          "id": "c",
+          "text": "Xi’an"
+        },
+        {
+          "id": "d",
+          "text": "Luoyang"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look for a coastal trading centre rather than an inland caravan hub.",
+      "explanation": "Quanzhou flourished as a port and shipbuilding centre, linking China with merchants from across the seas.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://en.unesco.org/silkroad/content/quanzhou",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-kilwa-coast",
+      "level": 10,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "The medieval trading city of Kilwa Kisiwani flourished on which African coast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Atlantic coast of Morocco"
+        },
+        {
+          "id": "b",
+          "text": "The Red Sea coast of Egypt"
+        },
+        {
+          "id": "c",
+          "text": "The Indian Ocean coast of present-day Tanzania"
+        },
+        {
+          "id": "d",
+          "text": "The Mediterranean coast of Libya"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its merchants linked goods from Africa with markets in Arabia, Persia and Asia.",
+      "explanation": "Kilwa Kisiwani lies off present-day Tanzania. Its merchants traded gold and other goods through the Indian Ocean network.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/144",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-elcano-return",
+      "level": 11,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Who commanded the Victoria when it returned to Spain in 1522, completing the expedition’s first circumnavigation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ferdinand Magellan"
+        },
+        {
+          "id": "b",
+          "text": "Juan Sebastián Elcano"
+        },
+        {
+          "id": "c",
+          "text": "Francis Drake"
+        },
+        {
+          "id": "d",
+          "text": "Álvaro de Mendaña"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The expedition’s original commander did not survive to finish the voyage.",
+      "explanation": "Juan Sebastián Elcano brought the Victoria back to Spain after Magellan’s death in the Philippines.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.cultura.gob.es/en/cultura/areas/archivos/mc/archivos/agi/destacados/expo-elcano.html",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-rihla-traveller",
+      "level": 12,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "Whose 14th-century travels were dictated to Ibn Juzayy and became the account commonly called the Rihla?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ibn Khaldun"
+        },
+        {
+          "id": "b",
+          "text": "Al-Idrisi"
+        },
+        {
+          "id": "c",
+          "text": "Ibn Jubayr"
+        },
+        {
+          "id": "d",
+          "text": "Ibn Battuta"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The account ranges well beyond a single pilgrimage and was put into writing after the traveller returned to Morocco.",
+      "explanation": "Ibn Battuta narrated his journeys to Ibn Juzayy in Fez. Their account is commonly called the Rihla, or Journey.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://orias.berkeley.edu/node/177",
+        "verificationNotes": "Checked Berkeley ORIAS account and primary-text excerpt. Rihla is also a genre, so Ibn Juzayy and the century explicitly identify this particular narrative."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-trade-bypass",
+      "level": 13,
+      "category": "Medieval and Early Modern History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "In 568, the Sogdian envoy Maniakh sought direct silk trade with Byzantium chiefly to bypass the restrictions of which empire?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Sasanian Empire"
+        },
+        {
+          "id": "b",
+          "text": "The Aksumite kingdom"
+        },
+        {
+          "id": "c",
+          "text": "The Hephthalite Empire"
+        },
+        {
+          "id": "d",
+          "text": "The Gupta Empire"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The proposed direct connection would remove a powerful intermediary from the silk trade.",
+      "explanation": "Sasanian restrictions encouraged a Sogdian mission, backed by the Western Turks, to seek direct connections with Byzantium.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://sogdians.si.edu/sidebars/sogdian-metalworking/",
+        "verificationNotes": "Checked Smithsonian treatment of Maniakh’s embassy and Sasanian restrictions. Historical labels and date constrain the event."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-periplus-guide",
+      "level": 14,
+      "category": "Ancient History",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "The first-century Periplus of the Erythraean Sea describes ports and merchandise mainly along which trading network?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Mediterranean and Black Sea"
+        },
+        {
+          "id": "b",
+          "text": "The Red Sea and western Indian Ocean"
+        },
+        {
+          "id": "c",
+          "text": "The Persian Gulf and Caspian Sea"
+        },
+        {
+          "id": "d",
+          "text": "The Nile valley and eastern Mediterranean"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The account combines sailing directions with practical information about what merchants could buy and sell.",
+      "explanation": "The Periplus is a merchant’s guide to routes, ports and goods around the Red Sea and Indian Ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+        "verificationNotes": "Checked the primary text translation and university introduction; avoids disputed identification of individual ancient ports."
+      }
+    },
+    {
+      "id": "builtin-library-trade-routes-westward-calendar",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "trade-routes"
+      ],
+      "prompt": "A crew sails once around Earth westward, counting each local solar day without a date-line adjustment. On returning, how should its calendar compare with one kept at the starting port?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "One day ahead"
+        },
+        {
+          "id": "b",
+          "text": "Exactly the same"
+        },
+        {
+          "id": "c",
+          "text": "One day behind"
+        },
+        {
+          "id": "d",
+          "text": "Two days behind"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think about how following the Sun’s apparent daily motion changes the number of noon-to-noon cycles experienced.",
+      "explanation": "A westward circuit produces one fewer local solar day than staying at the starting longitude. The crew’s unadjusted calendar therefore ends one day behind.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-trade-routes-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://ilbolive.unipd.it/it/eventi/pigafetta-day",
+        "verificationNotes": "University museum recounts Pigafetta’s one-day discrepancy after westward circumnavigation. Independently verified sign: westward360degrees prolongs accumulated local solar days by24hours, giving one fewer counted cycle. Explicit no date-line adjustment avoids modern travel ambiguity."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-trade-routes-set",
+      "title": "Crossroads and Sea Routes",
+      "description": "Follow caravans, ocean crossings and the people who linked distant markets.",
+      "theme": "Trade and Exploration",
+      "tags": [
+        "trade-routes"
+      ],
+      "folderPath": [
+        "History & Discovery",
+        "Exploration"
+      ],
+      "questionIds": [
+        "builtin-library-trade-routes-caravan-animal",
+        "builtin-library-trade-routes-columbus-ocean",
+        "builtin-library-trade-routes-polo-city",
+        "builtin-library-trade-routes-cape-route",
+        "builtin-library-trade-routes-caravanserai",
+        "builtin-library-trade-routes-da-gama-arrival",
+        "builtin-library-trade-routes-zheng-he-dynasty",
+        "builtin-library-trade-routes-monsoon-timing",
+        "builtin-library-trade-routes-quanzhou-port",
+        "builtin-library-trade-routes-kilwa-coast",
+        "builtin-library-trade-routes-elcano-return",
+        "builtin-library-trade-routes-rihla-traveller",
+        "builtin-library-trade-routes-trade-bypass",
+        "builtin-library-trade-routes-periplus-guide",
+        "builtin-library-trade-routes-westward-calendar"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

@@ -156,6 +156,8 @@ Every question requires: a stable lowercase kebab-case id; integer level 1-15; e
 
 For a curated set, provide exactly 15 unique question IDs ordered so position 1 is Level 1 through position 15 at Level 15. Set membership must be reciprocal in each question's usage.setIds. A pack may be "pool", "curated-sets", or "mixed".
 
+Sets may include folderPath, an array of up to six folder labels, each 1-80 characters (for example ["Science & Nature", "Space"]). No slashes or HTML in labels. Omit it for Unfiled. Keep IDs independent of folders. For standalone curated sets, use freshMix false on every question.
+
 Avoid trick wording, ambiguous facts, answer leakage, HTML, current officeholders, rapidly changing facts, and implausible distractors. Keep prompts under ${IMPORT_LIMITS.maxPromptLength} characters, choices under ${IMPORT_LIMITS.maxChoiceLength}, hints under ${IMPORT_LIMITS.maxHintLength}, and explanations under ${IMPORT_LIMITS.maxExplanationLength}. Include metadata.author, metadata.reviewStatus "unreviewed", metadata.humanReviewRecommended true, and accurate questionCount/setCount values. Human factual review is required before publication.`;
 }
 
@@ -175,6 +177,7 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
   const [liveMessage, setLiveMessage] = useState('');
   const [removeTarget, setRemoveTarget] = useState<ManagedContentPack | null>(null);
   const [importText, setImportText] = useState('');
+  const [importFolder, setImportFolder] = useState('');
   const [importName, setImportName] = useState('Pasted JSON');
   const [allowUpdate, setAllowUpdate] = useState(false);
   const [preparedImport, setPreparedImport] = useState<PreparedImportTransaction | null>(null);
@@ -229,7 +232,7 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
       return;
     }
     setPreparedImport(
-      prepareCustomPackImport(text, existingIdentity, { allowPackUpdate: update, enabled: true })
+      prepareCustomPackImport(text, existingIdentity, { allowPackUpdate: update, enabled: true, setFolderPath: importFolder.trim() ? importFolder.split('/').map((part) => part.trim()) : undefined })
     );
   }
 
@@ -241,7 +244,7 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
       const text = await file.text();
       setImportText(text);
       setImportName(file.name);
-      setPreparedImport(prepareCustomPackImport(text, existingIdentity, { allowPackUpdate: allowUpdate }));
+      previewImport(text);
     } catch {
       setLiveMessage('The selected file could not be read.');
     }
@@ -308,6 +311,8 @@ export function ContentManagerScreen(props: ContentManagerScreenProps) {
           )}
           {tab === 'import' && (
             <ImportPanel
+              folder={importFolder}
+              onFolderChange={(value) => { setImportFolder(value); setPreparedImport(null); }}
               importName={importName}
               text={importText}
               allowUpdate={allowUpdate}
@@ -415,6 +420,8 @@ function LibraryPanel(props: {
 }
 
 function ImportPanel(props: {
+  folder: string;
+  onFolderChange: (value: string) => void;
   importName: string;
   text: string;
   allowUpdate: boolean;
@@ -438,6 +445,7 @@ function ImportPanel(props: {
           <label className="content-file-drop"><input type="file" accept="application/json,.json" onChange={(event) => void props.onFileSelected(event)} /><span>Choose JSON file</span><small>Maximum {Math.round(IMPORT_LIMITS.maxBytes / 1024 / 1024)} MB · UTF-8 and BOM supported</small></label>
           <div className="content-import-or"><span>or paste JSON</span></div>
           <label className="field-stack"><span>Question-pack JSON</span><textarea aria-label="Question-pack JSON" value={props.text} onChange={(event) => props.onTextChange(event.target.value)} spellCheck={false} placeholder='{"schemaVersion":"1.0.0", ...}' /></label>
+          <label className="field-stack"><span>Folder for imported sets (optional)</span><input type="text" value={props.folder} onChange={(event) => props.onFolderChange(event.target.value)} placeholder="My sets / Weekend trivia" /><small className="field-help">Applies to 15-question sets only. Leave blank to keep the file's folders, or use Unfiled. Question banks are unchanged.</small></label>
           <label className="content-import-update"><input type="checkbox" checked={props.allowUpdate} onChange={(event) => props.onAllowUpdate(event.target.checked)} /><span>Treat a matching pack ID as an update</span></label>
           <button type="button" className="primary-button" onClick={props.onPreview}>Validate & preview</button>
         </section>
@@ -486,6 +494,7 @@ function ManualPackEditor(props: {
   const [author, setAuthor] = useState('Local author');
   const [questions, setQuestions] = useState<RawQuestion[]>([]);
   const [autoSet, setAutoSet] = useState(false);
+  const [setFolder, setSetFolder] = useState('');
   const [allowUpdate, setAllowUpdate] = useState(false);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [draft, setDraft] = useState<QuestionDraft | null>(null);
@@ -577,6 +586,7 @@ function ManualPackEditor(props: {
           description: 'An automatically assembled Level 1-15 path using the first available question at each level.',
           theme: title.trim() || 'Mixed',
           tags: ['manual', 'complete-ladder'],
+          folderPath: setFolder.trim() ? setFolder.split('/').map((part) => part.trim()) : [],
           questionIds: selectedSetIds
         }]
       : [];
@@ -629,6 +639,7 @@ function ManualPackEditor(props: {
         <div className="manual-pack-editor__level-grid">{levelCounts.map((count, index) => <span className={count > 0 ? 'filled' : ''} key={index}><b>{index + 1}</b><small>{count}</small></span>)}</div>
         <label className={`manual-pack-editor__auto-set ${completeLadder ? '' : 'disabled'}`}><input type="checkbox" checked={autoSet && completeLadder} disabled={!completeLadder} onChange={(event) => setAutoSet(event.target.checked)} /><i /><span><strong>Also create a curated set</strong><small>{completeLadder ? 'Uses the first question at every level' : 'Unlocks when Levels 1-15 are covered'}</small></span></label>
       </div>
+      {autoSet && completeLadder && <label className="field-stack"><span>Set folder</span><input type="text" value={setFolder} onChange={(event) => { setSetFolder(event.target.value); setPrepared(null); }} placeholder="My sets / Science" /><small className="field-help">Use / between folder levels, or leave blank for Unfiled.</small></label>}
 
       <header className="content-manager__subheading"><div><h2>Questions</h2><p>{questions.length} questions · answer choices are shuffled for each game</p></div><button type="button" className="secondary-button" onClick={openNewQuestion}>Add question</button></header>
       {questions.length === 0 ? <div className="content-manager__empty"><span>+</span><strong>No questions yet</strong><p>Start with one question. Your pack can be used alongside the built-in questions.</p></div> : <div className="manual-question-list">{[...questions].sort((left, right) => left.level - right.level).map((question) => { const sourceIndex = questions.indexOf(question); return <article key={question.id}><b>{question.level}</b><div><span>{question.category}</span><strong>{question.prompt}</strong><small>{question.id} · Correct: {question.choices.find((choice) => choice.id === question.correctChoiceId)?.text}</small></div><button type="button" onClick={() => openQuestion(question, sourceIndex)}>Edit</button><button type="button" className="danger" aria-label={`Delete ${question.id}`} onClick={() => { setQuestions((current) => current.filter((_, index) => index !== sourceIndex)); setPrepared(null); }}>Delete</button></article>; })}</div>}

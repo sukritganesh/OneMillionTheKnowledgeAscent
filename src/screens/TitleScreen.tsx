@@ -5,6 +5,8 @@ import { BrandMark } from '../components/BrandMark';
 import { formatMoney, formatRelativeDate } from '../utils/format';
 
 interface TitleScreenProps {
+  questionCount: number;
+  setCount: number;
   profiles: readonly ProfileRecord[];
   savedRun: GameRunState | null;
   saveOwnerName: string | null;
@@ -72,7 +74,7 @@ export function TitleScreen(props: TitleScreenProps) {
           {atLimit && <p className="profile-limit">You have 20 profiles. Remove one to add another, or play as a guest.</p>}
         </section>
       </div>
-      <footer className="title-footer"><span>Progress is saved in this browser.</span><span>525 questions · 15 sets</span></footer>
+      <footer className="title-footer"><span>Progress is saved in this browser.</span><span>{props.questionCount} questions · {props.setCount} sets</span></footer>
     </main>
   );
 }

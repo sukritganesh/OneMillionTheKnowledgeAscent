@@ -75,6 +75,7 @@ export function gameQuestionFromNormalized(question: NormalizedQuestion): Questi
 
 export function gameSetFromNormalized(set: NormalizedCuratedSet): CuratedSetDefinition {
   return {
+    folderPath: set.folderPath ?? [],
     id: set.id,
     title: set.title,
     description: set.description,

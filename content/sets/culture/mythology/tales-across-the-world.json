@@ -1,0 +1,745 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-world-myths-pack",
+  "title": "Tales Across the World",
+  "description": "Heroes, tricksters, and journeys through the world's storytelling traditions.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Mythology and Religion"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-world-myths-unicorn",
+      "level": 1,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "unicorn"
+      ],
+      "prompt": "Which legendary creature is usually depicted as a horse-like animal with one horn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unicorn"
+        },
+        {
+          "id": "b",
+          "text": "Griffin"
+        },
+        {
+          "id": "c",
+          "text": "Phoenix"
+        },
+        {
+          "id": "d",
+          "text": "Basilisk"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Medieval European artworks often show it in gardens or woodland.",
+      "explanation": "The unicorn is traditionally represented as a horse-like animal with a single horn.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/467642",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-pegasus",
+      "level": 2,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "pegasus"
+      ],
+      "prompt": "In Greek mythology, Pegasus is what kind of creature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A winged lion"
+        },
+        {
+          "id": "b",
+          "text": "A winged horse"
+        },
+        {
+          "id": "c",
+          "text": "A many-headed serpent"
+        },
+        {
+          "id": "d",
+          "text": "A bull-headed man"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Bellerophon is the hero associated with riding it.",
+      "explanation": "Pegasus is the winged horse of Greek myth.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/195356",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-poseidon",
+      "level": 3,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "poseidon"
+      ],
+      "prompt": "Which Greek deity is especially associated with the sea and a trident?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Apollo"
+        },
+        {
+          "id": "b",
+          "text": "Hermes"
+        },
+        {
+          "id": "c",
+          "text": "Poseidon"
+        },
+        {
+          "id": "d",
+          "text": "Hephaestus"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "His Roman counterpart is Neptune.",
+      "explanation": "Poseidon is the Greek god of the sea, commonly represented with a trident.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britishmuseum.org/collection/term/BIOG59828",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-prometheus",
+      "level": 4,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "prometheus"
+      ],
+      "prompt": "What did Prometheus famously steal for humanity in Greek myth?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The golden fleece"
+        },
+        {
+          "id": "b",
+          "text": "The moon"
+        },
+        {
+          "id": "c",
+          "text": "A winged helmet"
+        },
+        {
+          "id": "d",
+          "text": "Fire"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The gift transformed human crafts and daily life.",
+      "explanation": "Prometheus stole fire for humans and was punished by Zeus.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/ebooks/348",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-hanuman",
+      "level": 5,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "hanuman"
+      ],
+      "prompt": "In the Ramayana, Hanuman is a devoted ally of which hero?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rama"
+        },
+        {
+          "id": "b",
+          "text": "Arjuna"
+        },
+        {
+          "id": "c",
+          "text": "Bhima"
+        },
+        {
+          "id": "d",
+          "text": "Karna"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The story centres on the rescue of Sita.",
+      "explanation": "Hanuman serves Rama and helps in the search for and rescue of Sita.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.metmuseum.org/art/collection/search/38945",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-anansi",
+      "level": 6,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "anansi"
+      ],
+      "prompt": "Anansi, a trickster in Akan and African-diaspora storytelling, is commonly associated with which animal?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hare"
+        },
+        {
+          "id": "b",
+          "text": "Spider"
+        },
+        {
+          "id": "c",
+          "text": "Jackal"
+        },
+        {
+          "id": "d",
+          "text": "Raven"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Many tales celebrate wit overcoming greater physical power.",
+      "explanation": "Anansi is the spider trickster whose stories travelled from West Africa into the diaspora.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.nhm.ac.uk/discover/ananse.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-amaterasu",
+      "level": 7,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "amaterasu"
+      ],
+      "prompt": "In Japanese tradition, Amaterasu is principally associated with what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The ocean"
+        },
+        {
+          "id": "b",
+          "text": "Thunder"
+        },
+        {
+          "id": "c",
+          "text": "The sun"
+        },
+        {
+          "id": "d",
+          "text": "The moon"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Her retreat into a cave plunges the world into darkness in a famous story.",
+      "explanation": "Amaterasu is the sun deity; her emergence from the cave restores light.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britishmuseum.org/collection/object/A_1881-1210-0-2352",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-quetzalcoatl",
+      "level": 8,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "quetzalcoatl"
+      ],
+      "prompt": "The name Quetzalcoatl is conventionally translated as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smoking Mirror"
+        },
+        {
+          "id": "b",
+          "text": "Hummingbird of the South"
+        },
+        {
+          "id": "c",
+          "text": "Flayed Lord"
+        },
+        {
+          "id": "d",
+          "text": "Feathered Serpent"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It combines imagery from an airborne animal and a ground-dwelling one.",
+      "explanation": "Quetzalcoatl means feathered serpent, combining Nahuatl words for quetzal feather and snake.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.britishmuseum.org/collection/object/E_Am1825-1210-11",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-maui",
+      "level": 9,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "maui"
+      ],
+      "prompt": "In a Māori account, why do Māui and his brothers restrain the sun?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To lengthen the time available during the day"
+        },
+        {
+          "id": "b",
+          "text": "To make the winter nights longer"
+        },
+        {
+          "id": "c",
+          "text": "To move the moon into the sky"
+        },
+        {
+          "id": "d",
+          "text": "To bring an end to the seasons"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "People have too little time to complete their work.",
+      "explanation": "Māui slows the sun's journey so daylight lasts longer.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.tepapa.govt.nz/about/our-buildings/rongomaraeroa-our-marae/wharenui-te-hono-ki-hawaiki",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-sleipnir",
+      "level": 10,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "sleipnir"
+      ],
+      "prompt": "What is unusual about Odin's horse Sleipnir in the Prose Edda?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It has two heads"
+        },
+        {
+          "id": "b",
+          "text": "It has eight legs"
+        },
+        {
+          "id": "c",
+          "text": "It has bronze wings"
+        },
+        {
+          "id": "d",
+          "text": "It has no shadow"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Its anatomy marks it as a supernatural mount.",
+      "explanation": "Sleipnir is Odin's eight-legged horse.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gutenberg.org/cache/epub/18947/pg18947-images.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-hero-twins",
+      "level": 11,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "hero-twins"
+      ],
+      "prompt": "Hunahpú and Xbalanqué are the Hero Twins of which work?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Kalevala"
+        },
+        {
+          "id": "b",
+          "text": "The Shahnameh"
+        },
+        {
+          "id": "c",
+          "text": "The Popol Vuh"
+        },
+        {
+          "id": "d",
+          "text": "The Kojiki"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The work preserves K'iche' Maya narratives.",
+      "explanation": "The Popol Vuh tells the adventures of the Maya Hero Twins, Hunahpú and Xbalanqué.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://maya.nmai.si.edu/the-maya/creation-story-maya; https://artmuseum.princeton.edu/files/_attachments_pages/artful_adventures_mesoamerica.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-nuwa",
+      "level": 12,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "nuwa"
+      ],
+      "prompt": "In a Chinese account of repairing the heavens, Nüwa uses what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Golden feathers"
+        },
+        {
+          "id": "b",
+          "text": "Woven reeds"
+        },
+        {
+          "id": "c",
+          "text": "Jade fish scales"
+        },
+        {
+          "id": "d",
+          "text": "Melted multicoloured stones"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The story presents skilled craft as a way of restoring cosmic order.",
+      "explanation": "Nüwa melts coloured stones to mend the damaged heavens in this creation tradition.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.ngv.vic.gov.au/wp-content/uploads/2018/12/Labels_TerracottaWarriors_Cai-Guo-Qiang-ordered.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-simurgh",
+      "level": 13,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "simurgh"
+      ],
+      "prompt": "In the Shahnameh, who raises the abandoned infant Zāl?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Simurgh"
+        },
+        {
+          "id": "b",
+          "text": "The div Akvan"
+        },
+        {
+          "id": "c",
+          "text": "The dragon Azhdaha"
+        },
+        {
+          "id": "d",
+          "text": "The king Jamshid"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A supernatural creature provides care where his human family initially fails him.",
+      "explanation": "The great bird Simurgh raises Zāl in her nest before returning him to his father.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://shahnameh.fitzmuseum.cam.ac.uk/explore/objects/no-45-the-simorgh-restores-zal-to-sam; https://resources.metmuseum.org/resources/metpublications/pdf/Islamic_Art_The_Metropolitan_Museum_of_Art_Bulletin_v_36_no_2_Fall_1978.pdf",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-isis-name",
+      "level": 14,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "isis-name"
+      ],
+      "prompt": "In the Egyptian story of Isis and Ra, what knowledge does Isis obtain in exchange for healing Ra?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The location of the western horizon"
+        },
+        {
+          "id": "b",
+          "text": "His secret name"
+        },
+        {
+          "id": "c",
+          "text": "The number of stars"
+        },
+        {
+          "id": "d",
+          "text": "The path through the desert"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "In this story, knowing something intimate about a deity confers power.",
+      "explanation": "Isis obtains Ra's secret name after creating the circumstances that make him need her healing.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/isisandra.html",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    },
+    {
+      "id": "builtin-library-world-myths-inanna-substitute",
+      "level": 15,
+      "category": "Mythology and Religion",
+      "tags": [
+        "world-myths",
+        "inanna-substitute"
+      ],
+      "prompt": "In the Sumerian Inana's Descent, what condition follows Inana's revival and departure from the underworld?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must remain silent until reaching daylight"
+        },
+        {
+          "id": "b",
+          "text": "She must abandon her divine insignia forever"
+        },
+        {
+          "id": "c",
+          "text": "She must provide someone to take her place"
+        },
+        {
+          "id": "d",
+          "text": "She must return for one night each year"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Revival does not automatically cancel the underworld's claim.",
+      "explanation": "The underworld requires a substitute for Inana. The accompanying demons seek someone to take her place, and Dumuzi is seized.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-world-myths-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://etcsl.orinst.ox.ac.uk/section1/tr141.htm",
+        "verificationNotes": "Assistant-reviewed draft. Stable fact; source supplied for editorial follow-up. Human factual review and player-based difficulty calibration remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-world-myths-set",
+      "title": "Tales Across the World",
+      "description": "Heroes, tricksters, and journeys through the world's storytelling traditions.",
+      "theme": "Mythology and Religion",
+      "tags": [
+        "world-myths"
+      ],
+      "folderPath": [
+        "Arts & Culture",
+        "Mythology"
+      ],
+      "questionIds": [
+        "builtin-library-world-myths-unicorn",
+        "builtin-library-world-myths-pegasus",
+        "builtin-library-world-myths-poseidon",
+        "builtin-library-world-myths-prometheus",
+        "builtin-library-world-myths-hanuman",
+        "builtin-library-world-myths-anansi",
+        "builtin-library-world-myths-amaterasu",
+        "builtin-library-world-myths-quetzalcoatl",
+        "builtin-library-world-myths-maui",
+        "builtin-library-world-myths-sleipnir",
+        "builtin-library-world-myths-hero-twins",
+        "builtin-library-world-myths-nuwa",
+        "builtin-library-world-myths-simurgh",
+        "builtin-library-world-myths-isis-name",
+        "builtin-library-world-myths-inanna-substitute"
+      ],
+      "difficultyNote": "Fifteen questions, from familiar foundations to specialist concepts. Difficulty is provisional pending playtesting."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "version": "2.0.0",
+  "validatedAt": "2026-09-13T00:00:00Z",
+  "files": [
+    {
+      "path": "culture/architecture/built-to-last.json",
+      "packId": "builtin-library-architecture-pack",
+      "sha256": "fc07f4fbb608a471cbd87410c6a0265136d0ae1826783b4367a447b494cb49db"
+    },
+    {
+      "path": "culture/arts/arts-and-culture.json",
+      "packId": "builtin-library-legacy-arts-and-culture-01",
+      "sha256": "99e4292b04c051aa57975536cdc95ca39e9557ae402284019e057ff0547d9762"
+    },
+    {
+      "path": "culture/books/between-the-lines.json",
+      "packId": "builtin-library-storytelling-pack",
+      "sha256": "f43c35a1bfc22c6a2a7961f9bd4f8a3f6eaa8b88e907434685b650bdd5ddb465"
+    },
+    {
+      "path": "culture/cinema/behind-the-screen.json",
+      "packId": "builtin-library-cinema-craft-pack",
+      "sha256": "ec1a59596b1c106763e1d6486c3061ccdf32699c02376cb9d992b188532c0075"
+    },
+    {
+      "path": "culture/food/the-curious-kitchen.json",
+      "packId": "builtin-library-cooking-pack",
+      "sha256": "bc05638b969dd99d257283ba49e030da2b9d109d4799efe21e9f6568d1325347"
+    },
+    {
+      "path": "culture/language/signs-sounds-and-scripts.json",
+      "packId": "builtin-library-writing-systems-pack",
+      "sha256": "d63c919c2e391315caaf711fe2e9de2e27a67bb707c2795349fbefc74fb18b64"
+    },
+    {
+      "path": "culture/language/words-worth-knowing.json",
+      "packId": "builtin-library-legacy-vocabulary-01",
+      "sha256": "33e5500f6c98be5fd360b69e04b4fae89631ee80e7e3c563842bb24d9d5ec3f4"
+    },
+    {
+      "path": "culture/music/how-music-works.json",
+      "packId": "builtin-library-music-making-pack",
+      "sha256": "b61d744e6c454dea155997a5a527f7fbf7340ae590cc129119ccd2eb7110ac28"
+    },
+    {
+      "path": "culture/mythology/tales-across-the-world.json",
+      "packId": "builtin-library-world-myths-pack",
+      "sha256": "adc45bf875ccc33ededcb59d653af9008abcc718ad9ccb6c54587b9eb9d7ebe2"
+    },
+    {
+      "path": "discovery/history-and-discovery/archaeology/clues-beneath-our-feet.json",
+      "packId": "builtin-library-archaeology-pack",
+      "sha256": "b6e790f7a3938048ea74f314d7bdfd679f501a00dbbe93aa419d76142d3d2c5a"
+    },
+    {
+      "path": "discovery/history-and-discovery/exploration/crossroads-and-sea-routes.json",
+      "packId": "builtin-library-trade-routes-pack",
+      "sha256": "4b45e6510f234ac157d81fc33e2cfe4b439bdbbbbc56bdb099552127a4d1b510"
+    },
+    {
+      "path": "discovery/history/empires-and-ideas.json",
+      "packId": "builtin-library-legacy-ancient-history-01",
+      "sha256": "e0d70396a16a7d8753e08b6a04c2ebf0a2912d14f45651f2799f2c19d86ba843"
+    },
+    {
+      "path": "discovery/history/world-and-civilizations.json",
+      "packId": "builtin-library-legacy-world-civilizations-01",
+      "sha256": "8269e4d30c03b0f5c3f9034c1931ac827ed3f825008f169d1452bfd61cb8386a"
+    },
+    {
+      "path": "discovery/puzzles-and-games/board-games/across-the-table.json",
+      "packId": "builtin-library-tabletop-games-pack",
+      "sha256": "94171f56341943e6b32eaa07a3ce62bb189ac9b012083145ecd0d273a9fe9f6f"
+    },
+    {
+      "path": "discovery/puzzles-and-games/numbers/small-numbers-big-ideas.json",
+      "packId": "builtin-library-mental-maths-pack",
+      "sha256": "a7e52e4242e96443254ed3118753d70733f8a51559980b191ecc1a2ca114e88d"
+    },
+    {
+      "path": "discovery/puzzles/mental-gymnastics.json",
+      "packId": "builtin-library-legacy-computation-01",
+      "sha256": "5c1793d66cdfd625a0cb6602bc2b9bc120fed4842748f86005d347cacb2ba9e6"
+    },
+    {
+      "path": "discovery/science-and-technology/communication/messages-in-disguise.json",
+      "packId": "builtin-library-codes-pack",
+      "sha256": "39c548a302e22ff0cf6d19f9de72dfdd264d7781bb3df226574e95f03cd3fe99"
+    },
+    {
+      "path": "discovery/science-and-technology/engineering/built-to-stand.json",
+      "packId": "builtin-library-engineering-pack",
+      "sha256": "67c282a10abd0412102af781f4a9b617bd3b7d5ab79f6fe59690f87c2c32fac5"
+    },
+    {
+      "path": "everyday/everyday-expert.json",
+      "packId": "builtin-library-legacy-everyday-expert-01",
+      "sha256": "16127537115392849b1492837cfdf514c7649e6e7c12fd6a799ea03ba9064a88"
+    },
+    {
+      "path": "general/the-opening-round.json",
+      "packId": "builtin-library-legacy-general-knowledge-01",
+      "sha256": "1b2d8ee7f67cd4257de804bf66a83d32e3dbbc99cb33ba78f1540e955cf9fb5f"
+    },
+    {
+      "path": "general/wider-horizons.json",
+      "packId": "builtin-library-legacy-general-knowledge-02",
+      "sha256": "2770ea1745f2e9b0dd5839678820b8cf1900ee41d299403e3184143299a60023"
+    },
+    {
+      "path": "geography/physical/forces-and-features.json",
+      "packId": "builtin-library-legacy-physical-geography-01",
+      "sha256": "e445e4dd3000de4a0fd38a4e583edf77cd02180f268cb35cdf73a44d08f0ed8d"
+    },
+    {
+      "path": "geography/physical/islands-and-seas.json",
+      "packId": "builtin-library-legacy-islands-and-seas-01",
+      "sha256": "72973e856b13751e73f81fe8064449a702b1274c1361567183202fb826d9c59a"
+    },
+    {
+      "path": "geography/world/around-the-world.json",
+      "packId": "builtin-library-legacy-geography-01",
+      "sha256": "6b71e74583028991fc9b5c78209d59323f4cf1a7eb320e1f306398ae7f471aec"
+    },
+    {
+      "path": "geography/world/borders-and-people.json",
+      "packId": "builtin-library-legacy-borders-geography-01",
+      "sha256": "32124a63656e93fd3b2ae790ddadf979aee9cd8cd2ea42f60d5bfc9dd3c7a403"
+    },
+    {
+      "path": "science/earth-sky/reading-the-sky.json",
+      "packId": "builtin-library-weather-pack",
+      "sha256": "e99fbfd74aa0cf8966229a0e4e2c721fae38013e256eb48953495a2507cc900c"
+    },
+    {
+      "path": "science/earth-sky/written-in-stone.json",
+      "packId": "builtin-library-rocks-minerals-pack",
+      "sha256": "a4bc215564a39f857f1db1c0f3fbf34bf28c9879e6f6481c9df526e708b77502"
+    },
+    {
+      "path": "science/foundations/principles-and-discoveries.json",
+      "packId": "builtin-library-legacy-science-01",
+      "sha256": "d1117347c4d09823909dfe2a15cc8db210195cc2c1905b86ff71df24ce9bed94"
+    },
+    {
+      "path": "science/foundations/stem-challenge.json",
+      "packId": "builtin-library-legacy-stem-01",
+      "sha256": "8175d9f6115fb6123da6ba7765f2533e311c33e956d4b9e0f182a9e5db5a8367"
+    },
+    {
+      "path": "science/how-things-work/chemistry-close-to-home.json",
+      "packId": "builtin-library-everyday-chemistry-pack",
+      "sha256": "7e58649056a078c87df7c035cb5ae261ff2751a975fd26427f0a79288e698394"
+    },
+    {
+      "path": "science/how-things-work/light-and-sound.json",
+      "packId": "builtin-library-light-sound-pack",
+      "sha256": "9bb046c4aad727948a5888550929c8c0fcc09cfdc8242c0dbd7359a09f76f2ba"
+    },
+    {
+      "path": "science/living-world/built-to-survive.json",
+      "packId": "builtin-library-animal-adaptations-pack",
+      "sha256": "4b29b781804bc4029243578867b91d9d96ae78c86d54cde53bd24b57e4d3bf50"
+    },
+    {
+      "path": "science/living-world/secret-life-of-plants.json",
+      "packId": "builtin-library-plant-life-pack",
+      "sha256": "b1ec1aa2943386d7bb7651f5c62fd3bbc7f7db266d4a3763af28db84cadd2a78"
+    },
+    {
+      "path": "science/space/first-light.json",
+      "packId": "builtin-library-legacy-astronomy-01",
+      "sha256": "44c575d1d2c2dc97d206385de4a35fa9aff15378823c0a0971a010f68cd1edd7"
+    },
+    {
+      "path": "science/spaceflight/leaving-earth.json",
+      "packId": "builtin-library-space-exploration-pack",
+      "sha256": "3d4a1c763d8127eff18449d96a6cac3683c506d4a743c1fdc9c4e03fa043b090"
+    }
+  ]
+}

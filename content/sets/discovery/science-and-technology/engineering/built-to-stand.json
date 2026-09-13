@@ -1,0 +1,732 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-library-engineering-pack",
+  "title": "Built to Stand",
+  "description": "Bridges, machines and the ideas that keep ambitious structures working.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Technology"
+  ],
+  "questions": [
+    {
+      "id": "builtin-library-engineering-compression",
+      "level": 1,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "What do engineers call a force that squeezes a structural member along its length?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Compression"
+        },
+        {
+          "id": "b",
+          "text": "Tension"
+        },
+        {
+          "id": "c",
+          "text": "Torsion"
+        },
+        {
+          "id": "d",
+          "text": "Shear"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think about the difference between pushing a spring together and pulling it apart.",
+      "explanation": "Compression squeezes a member; tension pulls it apart. Torsion twists and shear tends to slide adjacent parts past each other.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/university-physics-volume-1/pages/12-3-stress-strain-and-elastic-modulus",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-triangles",
+      "level": 2,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "Why do many truss bridges use triangles in their framework?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They keep every structural member horizontal"
+        },
+        {
+          "id": "b",
+          "text": "They ensure that no member carries tension"
+        },
+        {
+          "id": "c",
+          "text": "A triangle with fixed side lengths keeps its shape"
+        },
+        {
+          "id": "d",
+          "text": "They remove the need for end supports"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare a hinged triangle with a hinged rectangle made from rigid bars.",
+      "explanation": "A triangle cannot change shape without changing a side length. An unbraced four-sided frame can distort at its joints.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Structural_Analysis_(Udoeyo)/01:_Chapters/1.03:_Equilibrium_Structures_Support_Reactions_Determinacy_and_Stability_of_Beams_and_Frames",
+        "verificationNotes": "Verified geometrically by side-side-side rigidity, assuming rigid members joined at their ends; does not claim a real triangle has infinite strength."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-hydro-turbine",
+      "level": 3,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "In a hydroelectric dam, flowing water first turns which machine to drive a generator?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A compressor"
+        },
+        {
+          "id": "b",
+          "text": "A turbine"
+        },
+        {
+          "id": "c",
+          "text": "A transformer"
+        },
+        {
+          "id": "d",
+          "text": "A condenser"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Follow the transfer from moving water to a rotating shaft.",
+      "explanation": "Water turns a turbine connected to a generator, which converts the shaft’s mechanical energy into electricity.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.energy.gov/cmei/water/how-hydropower-works",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-expansion-joints",
+      "level": 4,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "Why are expansion joints included in many bridges?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To make vehicles slow down"
+        },
+        {
+          "id": "b",
+          "text": "To increase the span after each crossing"
+        },
+        {
+          "id": "c",
+          "text": "To prevent corrosion of every steel part"
+        },
+        {
+          "id": "d",
+          "text": "To allow movement as temperature changes"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A structure’s dimensions are not quite the same on a hot day and a cold day.",
+      "explanation": "Bridge materials expand and contract with temperature. Joints accommodate movement that would otherwise create damaging stresses.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-suspension-cables",
+      "level": 5,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "The main cables of a conventional suspension bridge carry their load primarily through what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tension"
+        },
+        {
+          "id": "b",
+          "text": "Compression"
+        },
+        {
+          "id": "c",
+          "text": "Torsion"
+        },
+        {
+          "id": "d",
+          "text": "Bending"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A flexible cable behaves differently when you pull its ends apart than when you push them together.",
+      "explanation": "The cables are pulled taut, carrying tensile forces that transfer the deck load toward towers and anchorages.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://arxiv.org/abs/1411.7966",
+        "verificationNotes": "Checked cable/tension distinction in structural bridge research; question concerns flexible main cables, not towers or deck."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-cantilever",
+      "level": 6,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "What distinguishes a simple cantilever beam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It must curve into an arch"
+        },
+        {
+          "id": "b",
+          "text": "It is fixed at one end and free at the other"
+        },
+        {
+          "id": "c",
+          "text": "It hangs from cables at both ends"
+        },
+        {
+          "id": "d",
+          "text": "It rests only on a central roller"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "A projecting balcony provides a familiar example of this support arrangement.",
+      "explanation": "A cantilever projects from a fixed support, which resists both force and turning effect at that end.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Structural_Analysis_(Udoeyo)/01:_Chapters/1.03:_Equilibrium_Structures_Support_Reactions_Determinacy_and_Stability_of_Beams_and_Frames",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-elevator-counterweight",
+      "level": 7,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "What is the main purpose of the counterweight in a traction elevator?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To increase friction between the cabin and its guides"
+        },
+        {
+          "id": "b",
+          "text": "To set the cabin’s stopping point at each floor"
+        },
+        {
+          "id": "c",
+          "text": "To reduce the load imbalance the motor must move"
+        },
+        {
+          "id": "d",
+          "text": "To absorb impacts when the cabin reaches the bottom"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Consider the effort needed to raise one side of a nearly balanced system.",
+      "explanation": "The counterweight balances much of the cabin and load, reducing the effort and energy required from the drive.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://blog.otis.com/br/principais-componentes-do-elevador?hs_amp=true",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-hydraulic-pistons",
+      "level": 8,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "An ideal hydraulic press has an output piston with four times the input piston’s area. How does its output force compare with the input force?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is one quarter as large"
+        },
+        {
+          "id": "b",
+          "text": "It is half as large"
+        },
+        {
+          "id": "c",
+          "text": "It is the same"
+        },
+        {
+          "id": "d",
+          "text": "It is four times as large"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Pressure is force divided by area; the liquid transmits the pressure change.",
+      "explanation": "Equal pressure acting over four times the area gives four times the force. The larger piston moves a correspondingly shorter distance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics",
+        "verificationNotes": "Verified Fout/Aout=Fin/Ain, Aout=4Ain ->Fout=4Fin. Ideal system stated; pressure difference and energy conservation both respected."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-reinforced-concrete",
+      "level": 9,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "Why is steel reinforcement useful on the tension side of a concrete beam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Concrete is relatively weak in tension"
+        },
+        {
+          "id": "b",
+          "text": "Steel prevents the beam from having any weight"
+        },
+        {
+          "id": "c",
+          "text": "Concrete cannot resist compression"
+        },
+        {
+          "id": "d",
+          "text": "Steel prevents every possible crack"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Different materials can complement one another rather than perform identical jobs.",
+      "explanation": "Concrete carries compression well but is weak in tension. Steel reinforcement can carry tensile forces where bending stretches the beam.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.concrete.org/portals/0/files/pdf/fe2-00.pdf",
+        "verificationNotes": "Checked ACI Education Bulletin E2-00 section 2.2.1 on concrete's low tensile strength and steel reinforcement resisting beam-action tension; qualified wording avoids saying reinforcement prevents all cracking."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-column-buckling",
+      "level": 10,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "A long, slender column suddenly bows sideways under a compressive load. What instability is this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fatigue"
+        },
+        {
+          "id": "b",
+          "text": "Buckling"
+        },
+        {
+          "id": "c",
+          "text": "Cavitation"
+        },
+        {
+          "id": "d",
+          "text": "Creep"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Failure need not begin with the material being crushed; geometry also matters.",
+      "explanation": "Buckling is a loss of stability under compression. A slender column can bend sideways before its material reaches its crushing strength.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://nvlpubs.nist.gov/nistpubs/gcr/2011/NIST.GCR.11-917-13.pdf",
+        "verificationNotes": "Checked flexural buckling and Euler-load discussion; gradual creep and cyclic fatigue are deliberately distinct distractors."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-prestressing",
+      "level": 11,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "What does prestressing deliberately introduce into a concrete member before its full service load acts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Permanent thermal insulation"
+        },
+        {
+          "id": "b",
+          "text": "Electrical conductivity"
+        },
+        {
+          "id": "c",
+          "text": "An initial compressive stress"
+        },
+        {
+          "id": "d",
+          "text": "A uniform tensile stress throughout"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The aim is to offset the kind of stress that would otherwise open cracks.",
+      "explanation": "Tensioned steel tendons apply compression to the concrete. Later load-induced tension must first overcome that initial compression.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/05056/chapt3c.cfm",
+        "verificationNotes": "Assistant checked the cited reference for the central fact; difficulty and hint quality still need human play-testing."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-tuned-mass-damper",
+      "level": 12,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "The large suspended mass inside Taipei 101 is designed chiefly to do what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lift water to the top floors"
+        },
+        {
+          "id": "b",
+          "text": "Keep all floors perfectly motionless"
+        },
+        {
+          "id": "c",
+          "text": "Measure the building’s total weight"
+        },
+        {
+          "id": "d",
+          "text": "Reduce the building’s oscillation"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A secondary moving system can exchange energy with a swaying structure.",
+      "explanation": "The tuned mass damper moves relative to the building and works with damping devices to reduce its vibration.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.taipei-101.com.tw/tw/observatory/feature/null",
+        "verificationNotes": "Checked building operator’s TMD description; avoids claims that it prevents all sway or earthquake damage."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-beam-span-scaling",
+      "level": 13,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "A simply supported beam’s span doubles while its uniform load per metre stays unchanged. How does the maximum bending moment change?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It doubles"
+        },
+        {
+          "id": "b",
+          "text": "It triples"
+        },
+        {
+          "id": "c",
+          "text": "It becomes four times as large"
+        },
+        {
+          "id": "d",
+          "text": "It becomes eight times as large"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Consider both the increase in total load and the increase in the distances over which forces act.",
+      "explanation": "The peak bending moment is wL²/8 for uniform load w and span L. Doubling L therefore multiplies it by four.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium",
+        "verificationNotes": "Independent statics derivation: each reaction=wL/2; at centre M=(wL/2)(L/2)-(wL/2)(L/4)=wL²/8. Substitution2L gives factor4. This is a specialist load-scaling question, not just a formula-substitution exercise."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-cable-curve",
+      "level": 14,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "An ideal flexible cable carries a vertical load uniform per metre of horizontal span, with its own weight neglected. What curve does it form between its supports?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A parabola"
+        },
+        {
+          "id": "b",
+          "text": "A circular arc"
+        },
+        {
+          "id": "c",
+          "text": "A catenary"
+        },
+        {
+          "id": "d",
+          "text": "An ellipse"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Distinguish a load distributed along the horizontal span from the cable’s own weight distributed along its length.",
+      "explanation": "A uniform load per horizontal distance gives a parabolic cable. A uniform cable hanging under only its own weight instead forms a catenary.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Structural_Analysis_(Udoeyo)/01:_Chapters/1.06:_Arches_and_Cables",
+        "verificationNotes": "Checked exact load assumption; catenary and parabola are not treated as interchangeable."
+      }
+    },
+    {
+      "id": "builtin-library-engineering-indeterminate-beam",
+      "level": 15,
+      "category": "Technology",
+      "tags": [
+        "engineering"
+      ],
+      "prompt": "A beam is fixed at one end and propped by a roller at the other. For its small elastic deflection under load, what is needed in addition to force and moment equilibrium to find all support reactions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the total mass of the beam"
+        },
+        {
+          "id": "b",
+          "text": "A condition that deflection at the prop is zero"
+        },
+        {
+          "id": "c",
+          "text": "A rule that both vertical reactions are equal"
+        },
+        {
+          "id": "d",
+          "text": "A condition that the fixed-end moment is zero"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The extra support constrains a displacement as well as supplying a force.",
+      "explanation": "The propped cantilever is statically indeterminate. Its zero deflection at the prop supplies a compatibility condition, used with the beam’s elastic behaviour.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-library-engineering-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eng.libretexts.org/Bookshelves/Civil_Engineering/Structural_Analysis_(Udoeyo)/01:_Chapters/1.03:_Equilibrium_Structures_Support_Reactions_Determinacy_and_Stability_of_Beams_and_Frames",
+        "verificationNotes": "Checked propped cantilever indeterminacy; equilibrium has fewer independent equations than reaction unknowns. Linear-elastic small-deflection context stated; the fixed support can resist a nonzero moment."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-library-engineering-set",
+      "title": "Built to Stand",
+      "description": "Bridges, machines and the ideas that keep ambitious structures working.",
+      "theme": "Engineering",
+      "tags": [
+        "engineering"
+      ],
+      "folderPath": [
+        "Science & Technology",
+        "Engineering"
+      ],
+      "questionIds": [
+        "builtin-library-engineering-compression",
+        "builtin-library-engineering-triangles",
+        "builtin-library-engineering-hydro-turbine",
+        "builtin-library-engineering-expansion-joints",
+        "builtin-library-engineering-suspension-cables",
+        "builtin-library-engineering-cantilever",
+        "builtin-library-engineering-elevator-counterweight",
+        "builtin-library-engineering-hydraulic-pistons",
+        "builtin-library-engineering-reinforced-concrete",
+        "builtin-library-engineering-column-buckling",
+        "builtin-library-engineering-prestressing",
+        "builtin-library-engineering-tuned-mass-damper",
+        "builtin-library-engineering-beam-span-scaling",
+        "builtin-library-engineering-cable-curve",
+        "builtin-library-engineering-indeterminate-beam"
+      ],
+      "difficultyNote": "Starts with familiar ideas and builds toward specialist knowledge or multi-step reasoning."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Per-question source and verification notes are retained. Assistant-reviewed draft; human editorial review and play-testing recommended."
+  }
+}

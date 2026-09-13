@@ -101,6 +101,7 @@ export type FifteenQuestionRun = readonly [
 ];
 
 export interface CuratedSetDefinition {
+  readonly folderPath?: readonly string[];
   readonly id: string;
   readonly title: string;
   readonly description?: string;
