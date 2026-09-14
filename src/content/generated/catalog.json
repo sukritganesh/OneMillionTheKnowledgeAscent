@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.1.0",
+  "releaseVersion": "2.2.0",
   "questions": [
     {
       "id": "builtin-pool-ancient-history-01",
@@ -30147,6 +30147,3426 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+      "localId": "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Music",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I have keys, felt-covered hammers and strings, but I open no doors. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An accordion"
+        },
+        {
+          "id": "b",
+          "text": "A piano"
+        },
+        {
+          "id": "c",
+          "text": "A violin"
+        },
+        {
+          "id": "d",
+          "text": "A pipe organ"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Here, a key is something you press rather than turn.",
+      "explanation": "A piano's keys operate hammers that strike strings. The other instruments do not combine all three features.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A piano's keys operate hammers that strike strings. The other instruments do not combine all three features. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Piano Technicians Guild, Do You Know Your Piano Parts? https://higherlogicdownload.s3.amazonaws.com/PTG/4712341a-15b0-41ac-8808-2332a49e0e5c/UploadedImages/teacher/Piano_Word_Search-2023.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+      "localId": "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Society and Everyday Life",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I can cross a country on an envelope without leaving its corner. My job is to show that postage has been paid. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A postage stamp"
+        },
+        {
+          "id": "b",
+          "text": "A return address"
+        },
+        {
+          "id": "c",
+          "text": "A postmark"
+        },
+        {
+          "id": "d",
+          "text": "An envelope flap"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Distinguish paying for a journey from recording when it began.",
+      "explanation": "The stamp travels with the envelope and represents paid postage. A postmark records postal handling rather than serving as the payment itself.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The stamp travels with the envelope and represents paid postage. A postmark records postal handling rather than serving as the payment itself. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+      "localId": "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Society and Everyday Life",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "My teeth line up in a row, and I pass through hair without taking a bite. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hair clip"
+        },
+        {
+          "id": "b",
+          "text": "A razor"
+        },
+        {
+          "id": "c",
+          "text": "A sewing needle"
+        },
+        {
+          "id": "d",
+          "text": "A comb"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The useful part has gaps between its points.",
+      "explanation": "A comb's row of teeth separates and arranges hair. The other objects do not do this with a row of teeth.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A comb's row of teeth separates and arranges hair. The other objects do not do this with a row of teeth. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+      "localId": "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Science",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "On a sunlit wall I copy your outline, but I have no material body. Move between the sunlight and the wall, and I move too. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A reflection in glass"
+        },
+        {
+          "id": "b",
+          "text": "A painted silhouette"
+        },
+        {
+          "id": "c",
+          "text": "A shadow"
+        },
+        {
+          "id": "d",
+          "text": "A photograph"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think about what happens when light's path is blocked.",
+      "explanation": "A shadow is the region where your body blocks direct sunlight. Unlike paint or a photograph, it changes with your position.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A shadow is the region where your body blocks direct sunlight. Unlike paint or a photograph, it changes with your position. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+      "localId": "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Science",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "You shout toward a distant cliff. I return the same words a moment later, though nobody on the cliff speaks. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gust of wind"
+        },
+        {
+          "id": "b",
+          "text": "An echo"
+        },
+        {
+          "id": "c",
+          "text": "A radio broadcast"
+        },
+        {
+          "id": "d",
+          "text": "A new shout"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The sound takes a journey before you hear it again.",
+      "explanation": "An echo is delayed reflected sound: your shout travels to the cliff and back.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "An echo is delayed reflected sound: your shout travels to the cliff and back. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.collinsdictionary.com/us/dictionary/english/echo",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+      "localId": "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I am a five-letter English word for a small piece of rock. Remove my first letter and I can mean a musical sound; remove the new first letter and I become a number. Which word am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "STONE"
+        },
+        {
+          "id": "b",
+          "text": "SLATE"
+        },
+        {
+          "id": "c",
+          "text": "SHALE"
+        },
+        {
+          "id": "d",
+          "text": "FLINT"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Apply the deletions in order, without rearranging anything.",
+      "explanation": "STONE becomes TONE, then ONE. The other choices do not make both required words.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "STONE becomes TONE, then ONE. The other choices do not make both required words. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+      "localId": "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word can follow SEA and come before TIME to make two familiar English compound words?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SHORE"
+        },
+        {
+          "id": "b",
+          "text": "SHELL"
+        },
+        {
+          "id": "c",
+          "text": "FLOOR"
+        },
+        {
+          "id": "d",
+          "text": "BED"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The two compounds need not belong to the same subject.",
+      "explanation": "SEA + BED makes SEABED, and BED + TIME makes BEDTIME. The other choices do not form both ordinary compounds.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "SEA + BED makes SEABED, and BED + TIME makes BEDTIME. The other choices do not form both ordinary compounds. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://scrabble.merriam.com/finder/seabed ; common English compound BEDTIME; letter joins checked directly.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+      "localId": "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Use every letter of LISTEN exactly once. Which resulting word means 'making no sound'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "TINSEL"
+        },
+        {
+          "id": "b",
+          "text": "ENLIST"
+        },
+        {
+          "id": "c",
+          "text": "SILENT"
+        },
+        {
+          "id": "d",
+          "text": "INLETS"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Check the meaning as well as the letters; more than one rearrangement is a word.",
+      "explanation": "All four choices rearrange LISTEN, but only SILENT means making no sound.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "All four choices rearrange LISTEN, but only SILENT means making no sound. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+      "localId": "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Read STRESSED from right to left without changing any letters. What does the resulting English word name?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "People waiting for a meal"
+        },
+        {
+          "id": "b",
+          "text": "Sweet courses after a meal"
+        },
+        {
+          "id": "c",
+          "text": "Places where food is stored"
+        },
+        {
+          "id": "d",
+          "text": "Utensils used to serve food"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Start at the final letter and keep the order strictly reversed.",
+      "explanation": "STRESSED reversed is DESSERTS, the sweet courses often eaten after a meal.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "STRESSED reversed is DESSERTS, the sweet courses often eaten after a meal. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+      "localId": "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word contains three different doubled letters in immediate succession, with no letter between the pairs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "BOOKKEEPER"
+        },
+        {
+          "id": "b",
+          "text": "BOOKSELLER"
+        },
+        {
+          "id": "c",
+          "text": "HOUSEKEEPER"
+        },
+        {
+          "id": "d",
+          "text": "GROUNDSKEEPER"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Mark adjacent identical letters, then check whether the marked pairs touch.",
+      "explanation": "BOOKKEEPER contains OO, KK and EE consecutively. The other words do not contain that run of three doubled pairs.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "BOOKKEEPER contains OO, KK and EE consecutively. The other words do not contain that run of three doubled pairs. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.oxfordlearnersdictionaries.com/us/definition/english/bookkeeper ; spelling checked character by character.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+      "localId": "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word's letters run in strictly increasing English alphabetical order from first to last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ALMOND"
+        },
+        {
+          "id": "b",
+          "text": "ALWAYS"
+        },
+        {
+          "id": "c",
+          "text": "ALPINE"
+        },
+        {
+          "id": "d",
+          "text": "ALMOST"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Compare neighbouring letters; one backward step rules a word out.",
+      "explanation": "A, L, M, O, S, T rise throughout the alphabet. Each other choice has at least one backward step.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A, L, M, O, S, T rise throughout the alphabet. Each other choice has at least one backward step. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+      "localId": "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Take BANANA, remove exactly one letter and insert it elsewhere. All other letters keep their order. Which string CANNOT result from that single move?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ANANAB"
+        },
+        {
+          "id": "b",
+          "text": "BNAANA"
+        },
+        {
+          "id": "c",
+          "text": "AANNAB"
+        },
+        {
+          "id": "d",
+          "text": "BAANAN"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "If the unique first letter finishes last, it must be the letter that moved.",
+      "explanation": "Moving B to the end produces ANANAB, not AANNAB. BNAANA and BAANAN are possible by moving one A and one N respectively; no single move produces AANNAB.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Moving B to the end produces ANANAB, not AANNAB. BNAANA and BAANAN are possible by moving one A and one N respectively; no single move produces AANNAB. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+      "localId": "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "A word lock accepts exactly six letters, exactly four distinct letters, and exactly two vowels counted with repetitions. Vowels here are A, E, I, O and U. Which word opens it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PEPPER"
+        },
+        {
+          "id": "b",
+          "text": "LETTER"
+        },
+        {
+          "id": "c",
+          "text": "BANANA"
+        },
+        {
+          "id": "d",
+          "text": "STREAM"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Keep the count of different letters separate from the total number of letters.",
+      "explanation": "LETTER has six letters, four distinct ones (L, E, T, R), and two vowels. PEPPER has three distinct letters, BANANA has three vowels, and STREAM has six distinct letters.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "LETTER has six letters, four distinct ones (L, E, T, R), and two vowels. PEPPER has three distinct letters, BANANA has three vowels, and STREAM has six distinct letters. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+      "localId": "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Give letters their alphabet positions: A is 1 through Z at 26. A four-letter word balances when its first and last letters sum to the same total as its two middle letters. Which word balances?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "MATH"
+        },
+        {
+          "id": "b",
+          "text": "ROAD"
+        },
+        {
+          "id": "c",
+          "text": "NOTE"
+        },
+        {
+          "id": "d",
+          "text": "LAMP"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Compare the outside pair with the inside pair, not the first half with the second.",
+      "explanation": "For MATH, M + H is 13 + 8 = 21 and A + T is 1 + 20 = 21. The other three words have unequal pair sums.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "For MATH, M + H is 13 + 8 = 21 and A + T is 1 + 20 = 21. The other three words have unequal pair sums. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+      "localId": "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "A four-digit code uses only 0, 1, 2 and 3. Its digits count, in order, how many zeros, ones, twos and threes occur in the entire code. Its second digit is 2. What is the code?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1220"
+        },
+        {
+          "id": "b",
+          "text": "0211"
+        },
+        {
+          "id": "c",
+          "text": "2210"
+        },
+        {
+          "id": "d",
+          "text": "1210"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Every digit is both a symbol to count and a claim about the counts.",
+      "explanation": "1210 contains one zero, two ones, one two and no threes, exactly matching its digits. Testing the allowed digit counts with the second digit fixed at 2 leaves only this code.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "1210 contains one zero, two ones, one two and no threes, exactly matching its digits. Testing the allowed digit counts with the second digit fixed at 2 leaves only this code. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-envelopes",
+      "localId": "builtin-riddles-the-midnight-detective-four-envelopes",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A jewel is in one of four sealed envelopes: red, blue, green or white. The red and blue envelopes are empty, and the white one holds only a note. Where is the jewel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The red envelope"
+        },
+        {
+          "id": "b",
+          "text": "The green envelope"
+        },
+        {
+          "id": "c",
+          "text": "The blue envelope"
+        },
+        {
+          "id": "d",
+          "text": "The white envelope"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Cross off an envelope only when a clue rules it out.",
+      "explanation": "Three envelopes are explicitly ruled out, leaving the green one.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Three envelopes are explicitly ruled out, leaving the green one. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-delivery-window",
+      "localId": "builtin-riddles-the-midnight-detective-delivery-window",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "The courier arrived at exactly 8, 9, 10 or 11 p.m. The log says it was later than 9 p.m. but earlier than 11 p.m. Which arrival time fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 p.m."
+        },
+        {
+          "id": "b",
+          "text": "8 p.m."
+        },
+        {
+          "id": "c",
+          "text": "9 p.m."
+        },
+        {
+          "id": "d",
+          "text": "11 p.m."
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Neither endpoint belongs inside a strictly stated interval.",
+      "explanation": "Only 10 p.m. is both later than 9 and earlier than 11.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Only 10 p.m. is both later than 9 and earlier than 11. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-arrival-chain",
+      "localId": "builtin-riddles-the-midnight-detective-arrival-chain",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada arrived before Ben, Ben before Cy, and Cy before Dee. None arrived together. Who arrived first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ben"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Dee"
+        },
+        {
+          "id": "d",
+          "text": "Ada"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Join the three comparisons into a single ordering.",
+      "explanation": "The clues form Ada, Ben, Cy, Dee, so Ada arrived first.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The clues form Ada, Ben, Cy, Dee, so Ada arrived first. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-middle-locker",
+      "localId": "builtin-riddles-the-midnight-detective-middle-locker",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Four lockers are numbered 1 to 4 from left to right. A key is not in either end locker and is to the left of locker 3. Which locker holds it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Locker 1"
+        },
+        {
+          "id": "b",
+          "text": "Locker 3"
+        },
+        {
+          "id": "c",
+          "text": "Locker 2"
+        },
+        {
+          "id": "d",
+          "text": "Locker 4"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Apply both clues to the same possible location.",
+      "explanation": "Excluding the ends leaves lockers 2 and 3. Only locker 2 is left of locker 3.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Excluding the ends leaves lockers 2 and 3. Only locker 2 is left of locker 3. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-pet-sitters",
+      "localId": "builtin-riddles-the-midnight-detective-pet-sitters",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Mina, Omar and Pia each looked after a different pet: a cat, a dog or an owl. Mina had neither the cat nor the dog. Omar did not have the dog. Who looked after the dog?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mina"
+        },
+        {
+          "id": "b",
+          "text": "Pia"
+        },
+        {
+          "id": "c",
+          "text": "Omar"
+        },
+        {
+          "id": "d",
+          "text": "It cannot be determined"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Assign the most tightly constrained pet first.",
+      "explanation": "Mina must have the owl. Omar then has the cat, leaving the dog for Pia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Mina must have the owl. Omar then has the cat, leaving the dog for Pia. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-missing-badge",
+      "localId": "builtin-riddles-the-midnight-detective-missing-badge",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Every visitor in the east wing wears a badge, and this rule has no exceptions. Noor is a visitor without a badge. What must be true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noor is not in the east wing"
+        },
+        {
+          "id": "b",
+          "text": "Noor is in the west wing"
+        },
+        {
+          "id": "c",
+          "text": "Noor has left the museum"
+        },
+        {
+          "id": "d",
+          "text": "Noor has never worn a badge"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A necessary condition can rule a place out without identifying another place.",
+      "explanation": "Noor cannot be in the east wing without a badge. Nothing in the rule establishes Noor's other location or past behaviour.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Noor cannot be in the east wing without a badge. Nothing in the rule establishes Noor's other location or past behaviour. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-one-true-label",
+      "localId": "builtin-riddles-the-midnight-detective-one-true-label",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A ring is in exactly one box, A, B, C or D. Labels say: A: 'It is in A.' B: 'It is in A.' C: 'It is not in D.' D: 'It is in B.' Exactly one label is true. Where is the ring?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Box A"
+        },
+        {
+          "id": "b",
+          "text": "Box B"
+        },
+        {
+          "id": "c",
+          "text": "Box D"
+        },
+        {
+          "id": "d",
+          "text": "Box C"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Try a location and count all true labels, including repeated claims.",
+      "explanation": "Locations A, B, C and D make three, two, one and zero labels true respectively. Only C fits.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Locations A, B, C and D make three, two, one and zero labels true respectively. Only C fits. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-one-false-witness",
+      "localId": "builtin-riddles-the-midnight-detective-one-false-witness",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Exactly one of Ada, Ben, Cy and Dee took a coin. Ada says 'Ben took it.' Ben says 'Cy took it.' Cy says 'I did not take it.' Dee says 'Ben's statement is false.' Exactly one statement is false. Who took the coin?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Ben"
+        },
+        {
+          "id": "d",
+          "text": "Dee"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "One statement and its direct denial already account for one false statement.",
+      "explanation": "Ben's and Dee's statements are opposites, so the other two statements must both be true. Ada's true statement identifies Ben.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Ben's and Dee's statements are opposites, so the other two statements must both be true. Ada's true statement identifies Ben. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-gallery-queue",
+      "localId": "builtin-riddles-the-midnight-detective-gallery-queue",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Dara, Eli, Faye and Gus stand in a line. Eli is immediately before Gus; Faye is somewhere before Eli; Dara is at neither end. Who is second?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eli"
+        },
+        {
+          "id": "b",
+          "text": "Dara"
+        },
+        {
+          "id": "c",
+          "text": "Faye"
+        },
+        {
+          "id": "d",
+          "text": "Gus"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Treat the adjacent pair as one block, then test where the remaining people can go.",
+      "explanation": "The only order is Faye, Dara, Eli, Gus. Moving Dara into either other available position would put Dara at an end.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The only order is Faye, Dara, Eli, Gus. Moving Dara into either other available position would put Dara at an end. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-silent-alarm",
+      "localId": "builtin-riddles-the-midnight-detective-silent-alarm",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "An alarm sounds exactly when the window is open or the door is unlocked. A lamp lights exactly when the alarm sounds and the guard is absent. The guard is absent, the window is closed and the lamp is off. What follows?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The door is locked"
+        },
+        {
+          "id": "b",
+          "text": "The door is unlocked"
+        },
+        {
+          "id": "c",
+          "text": "The alarm is sounding"
+        },
+        {
+          "id": "d",
+          "text": "The window must be open"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Work backwards from the unlit lamp using the known state of the guard.",
+      "explanation": "With the guard absent, an alarm would light the lamp. So the alarm is off, which means both an unopened window and a locked door.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "With the guard absent, an alarm would light the lamp. So the alarm is off, which means both an unopened window and a locked door. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-keyholders",
+      "localId": "builtin-riddles-the-midnight-detective-four-keyholders",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada, Ben, Cy and Dee each hold a different key: brass, copper, iron or silver. Ada's is iron or silver; Ben's is copper or silver; Cy holds iron. Who holds brass?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Ben"
+        },
+        {
+          "id": "c",
+          "text": "Cy"
+        },
+        {
+          "id": "d",
+          "text": "Dee"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A fixed assignment can simplify the two either-or clues.",
+      "explanation": "Cy has iron, so Ada has silver and Ben has copper. Brass is left for Dee.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Cy has iron, so Ada has silver and Ben has copper. Brass is left for Dee. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-three-digit-safe",
+      "localId": "builtin-riddles-the-midnight-detective-three-digit-safe",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A safe uses three different digits; an initial zero is allowed. These clue counts are exact: 143 has no correct digits; 590 has two correct, one in place; 026 has one correct, out of place; 907 has two correct, both in place. What is the code?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "508"
+        },
+        {
+          "id": "b",
+          "text": "850"
+        },
+        {
+          "id": "c",
+          "text": "507"
+        },
+        {
+          "id": "d",
+          "text": "970"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Distinguish belonging to the code from occupying the correct position.",
+      "explanation": "507 gives the stated counts for all four clues: none; 5 and 0 with only 5 placed; 0 misplaced; then 0 and 7 both placed. Exhaustive checking leaves no other code.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "507 gives the stated counts for all four clues: none; 5 and 0 with only 5 placed; 0 misplaced; then 0 and 7 both placed. Exhaustive checking leaves no other code. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+      "localId": "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Three bags contain only stars, only moons, or a mixture of both. Their labels 'Stars', 'Moons' and 'Mixed' are ALL wrong. You draw a star from the bag labelled 'Mixed'. What do the bags labelled 'Stars' and 'Moons' contain, respectively?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mixture; stars only"
+        },
+        {
+          "id": "b",
+          "text": "Moons only; a mixture"
+        },
+        {
+          "id": "c",
+          "text": "Moons only; stars only"
+        },
+        {
+          "id": "d",
+          "text": "A mixture; moons only"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The bag you sampled cannot contain a mixture, because its label is wrong.",
+      "explanation": "The Mixed-labelled bag must be stars only. The Moons-labelled bag cannot be moons or the already assigned stars, so it is mixed; the Stars-labelled bag is moons only.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The Mixed-labelled bag must be stars only. The Moons-labelled bag cannot be moons or the already assigned stars, so it is mixed; the Stars-labelled bag is moons only. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-hats-in-a-line",
+      "localId": "builtin-riddles-the-midnight-detective-hats-in-a-line",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Three perfect logicians wear hats selected from two red and three blue hats. Rear sees both ahead; Middle sees only Front; Front sees no hats. All know this. Rear says 'I cannot deduce my colour.' Middle then says the same. What colour can Front deduce their hat is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue"
+        },
+        {
+          "id": "b",
+          "text": "Red"
+        },
+        {
+          "id": "c",
+          "text": "Either colour remains possible"
+        },
+        {
+          "id": "d",
+          "text": "The statements are inconsistent"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The second person can use both the first statement and the hat they see.",
+      "explanation": "Rear's uncertainty rules out two red hats ahead. If Front were red, Middle would therefore know their own hat was blue; Middle's uncertainty tells Front that Front is blue.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Rear's uncertainty rules out two red hats ahead. If Front were red, Middle would therefore know their own hat was blue; Middle's uncertainty tells Front that Front is blue. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-witness-types",
+      "localId": "builtin-riddles-the-midnight-detective-four-witness-types",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada, Ben, Cy and Dee each always tell the truth or always lie. Ada: 'Ben and Cy are the same type.' Ben: 'Dee is a liar.' Cy: 'Ada and Dee are different types.' Dee: 'Ada and Ben are both truthful.' Who is the only truth-teller?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Dee"
+        },
+        {
+          "id": "d",
+          "text": "Ben"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "First test whether the last speaker could be truthful; then follow the consequences.",
+      "explanation": "Dee cannot be truthful: that would make Ben truthful while Ben calls Dee a liar. Thus Ben is truthful; Dee's false claim then makes Ada a liar, and Cy's claim makes Cy a liar too.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Dee cannot be truthful: that would make Ben truthful while Ben calls Dee a liar. Thus Ben is truthful; Dee's false claim then makes Ada a liar, and Cy's claim makes Cy a liar too. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-missing-coins",
+      "localId": "builtin-riddles-the-number-vault-missing-coins",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Three little chests held four coins each. A magpie carried off two coins in total. How many coins are still in the chests?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Find the combined starting amount before accounting for what left.",
+      "explanation": "The chests held 3 × 4 = 12 coins. Removing two leaves 10.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The chests held 3 × 4 = 12 coins. Removing two leaves 10. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-double-and-three",
+      "localId": "builtin-riddles-the-number-vault-double-and-three",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "I am a whole number. Double me and then add three, and you get seventeen. What number am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Undo the operations in the opposite order.",
+      "explanation": "Subtracting 3 from 17 gives 14; halving 14 gives 7.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Subtracting 3 from 17 gives 14; halving 14 gives 7. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-sibling-ages",
+      "localId": "builtin-riddles-the-number-vault-sibling-ages",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Two siblings' ages add to 21 years. The older is exactly three years older than the younger. How old is the younger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Set aside the age gap before sharing what remains equally.",
+      "explanation": "Removing the three-year gap leaves 18 years to split equally, so the younger is 9 and the older is 12.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Removing the three-year gap leaves 18 years to split equally, so the younger is 9 and the older is 12. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-climbing-snail",
+      "localId": "builtin-riddles-the-number-vault-climbing-snail",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A snail starts at the bottom of a 10-metre pole. Each day it climbs 3 metres; each night it slips 2. It stops as soon as it reaches the top. On which day does it reach the top?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Day 7"
+        },
+        {
+          "id": "b",
+          "text": "Day 9"
+        },
+        {
+          "id": "c",
+          "text": "Day 8"
+        },
+        {
+          "id": "d",
+          "text": "Day 10"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The final climb does not need to be followed by a slide.",
+      "explanation": "After seven nights it is 7 metres up. Its climb on day 8 takes it straight to the top.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "After seven nights it is 7 metres up. Its climb on day 8 takes it straight to the top. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-facing-pages",
+      "localId": "builtin-riddles-the-number-vault-facing-pages",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A bookmark lies between two facing pages whose consecutive page numbers add to 49. What is the smaller page number?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "26"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Consecutive whole numbers sit equally either side of a half-integer average.",
+      "explanation": "The numbers are 24 and 25: consecutive, with sum 49.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The numbers are 24 and 25: consecutive, with sum 49. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-reversed-digits",
+      "localId": "builtin-riddles-the-number-vault-reversed-digits",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "I am a two-digit number. My digits add to 9. Reverse them and the number decreases by 27. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "63"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "54"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Reversing two digits changes the value by nine times their difference.",
+      "explanation": "The digits sum to 9 and differ by 3, so they are 6 and 3. Since reversal makes the number smaller, the original is 63.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The digits sum to 9 and differ by 3, so they are 6 and 3. Since reversal makes the number smaller, the original is 63. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-gold-and-silver",
+      "localId": "builtin-riddles-the-number-vault-gold-and-silver",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A pouch holds 12 tokens, each gold or silver. Gold tokens are worth 3 points and silver tokens 1 point. The pouch is worth 32 points. How many gold tokens are there?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Start by imagining that every token has the lower value.",
+      "explanation": "Twelve silver tokens would be worth 12 points. Each replacement by gold adds 2 points, so the extra 20 points require ten gold tokens.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Twelve silver tokens would be worth 12 points. Each replacement by gold adds 2 points, so the extra 20 points require ten gold tokens. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-secret-handshakes",
+      "localId": "builtin-riddles-the-number-vault-secret-handshakes",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Five members meet in a vault. Each shakes hands with every other member exactly once. How many handshakes happen?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Counting each person's partners counts each handshake twice.",
+      "explanation": "There are 5 × 4 = 20 person-to-partner counts, but every handshake appears twice. The total is 10.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "There are 5 × 4 = 20 person-to-partner counts, but every handshake appears twice. The total is 10. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-bells",
+      "localId": "builtin-riddles-the-number-vault-three-bells",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Three bells ring together now, then repeat every 4, 6 and 9 minutes respectively. After how many minutes will all three next ring together?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "24"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look for the first time that is a whole multiple of all three intervals.",
+      "explanation": "The least common multiple of 4, 6 and 9 is 36. At 18 the four-minute bell does not ring; at 24 the nine-minute bell does not ring.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The least common multiple of 4, 6 and 9 is 36. At 18 the four-minute bell does not ring; at 24 the nine-minute bell does not ring. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-counting-ones",
+      "localId": "builtin-riddles-the-number-vault-counting-ones",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A clerk numbers twenty boxes from 1 through 20. How many times does the digit 1 appear in those labels, counting both digits of 11 separately?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Count appearances in the tens position separately from appearances in the units position.",
+      "explanation": "The labels 10 through 19 contribute ten tens-position ones. Labels 1 and 11 contribute two units-position ones, making 12.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The labels 10 through 19 contribute ten tens-position ones. Labels 1 and 11 contribute two units-position ones, making 12. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-one-short-every-time",
+      "localId": "builtin-riddles-the-number-vault-one-short-every-time",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A basket holds more than 10 counters. Grouping them in twos leaves 1 over, in threes leaves 2 over, and in fives leaves 4 over. What is the smallest possible number of counters?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "19"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "29"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Add one counter mentally and see what happens to every remainder.",
+      "explanation": "One extra counter would make the total divisible by 2, 3 and 5. Their least common multiple is 30, so the smallest original total is 29.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "One extra counter would make the total divisible by 2, 3 and 5. Their least common multiple is 30, so the smallest original total is 29. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-tollkeepers",
+      "localId": "builtin-riddles-the-number-vault-three-tollkeepers",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "At each of three gates, a traveller gives the keeper half the coins currently held, plus one more coin. After the third gate, one coin remains. All payments use whole coins. How many coins did the traveller start with?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Work backwards one gate at a time; reverse the extra coin before reversing the halving.",
+      "explanation": "Before each payment the traveller held twice the amount left plus two. Working backwards from 1 gives 4, then 10, then 22 coins.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Before each payment the traveller held twice the amount left plus two. Working backwards from 1 gives 4, then 10, then 22 coins. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-remainders",
+      "localId": "builtin-riddles-the-number-vault-three-remainders",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A lock's number is positive and smaller than 50. Division by 3 leaves remainder 2; division by 4 leaves remainder 3; division by 5 leaves remainder 1. What is the number?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "47"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The first two conditions both describe a number one short of a multiple.",
+      "explanation": "The first two clues leave 11, 23, 35 and 47 below 50. Only 11 leaves remainder 1 on division by 5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The first two clues leave 11, 23, 35 and 47 below 50. Only 11 leaves remainder 1 on division by 5. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-helpful-keeper",
+      "localId": "builtin-riddles-the-number-vault-helpful-keeper",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "One of three chests hides a jewel, equally likely in each. You choose one. A keeper who knows its location ALWAYS opens a different, empty chest and offers a switch to the other unopened chest. What is the chance of winning if you always switch?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2/3"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "1/2"
+        },
+        {
+          "id": "d",
+          "text": "3/4"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The keeper's action is guaranteed, not a lucky discovery of an empty chest.",
+      "explanation": "Switching wins exactly when the original choice was wrong. That happens in two of the three equally likely jewel locations.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Switching wins exactly when the original choice was wrong. That happens in two of the three equally likely jewel locations. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-hundred-locks",
+      "localId": "builtin-riddles-the-number-vault-hundred-locks",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "There are 100 closed locks numbered 1 to 100. On pass 1 you toggle every lock, on pass 2 every multiple of 2, and so on through pass 100. Toggling changes open to closed or closed to open. How many locks finish open?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "50"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Pair each divisor of a lock's number with the divisor it multiplies by.",
+      "explanation": "A lock stays open only if toggled an odd number of times. Divisors pair up except at perfect squares, and there are ten squares from 1 through 100.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A lock stays open only if toggled an odd number of times. Divisors pair up except at perfect squares, and there are ten squares from 1 through 100. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-robot-turns",
+      "localId": "builtin-riddles-the-rules-of-this-place-robot-turns",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A toy robot faces north. It turns a quarter-turn right, then another quarter-turn right, without turning again. Which way does it face?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North"
+        },
+        {
+          "id": "b",
+          "text": "South"
+        },
+        {
+          "id": "c",
+          "text": "East"
+        },
+        {
+          "id": "d",
+          "text": "West"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Follow the turns in sequence rather than treating them as alternatives.",
+      "explanation": "The first turn faces east; the second faces south.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The first turn faces east; the second faces south. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-lamp-button",
+      "localId": "builtin-riddles-the-rules-of-this-place-lamp-button",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A lamp starts off. Each press of its only button changes off to on or on to off. You press the button five times. What is the final state?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On"
+        },
+        {
+          "id": "b",
+          "text": "Off"
+        },
+        {
+          "id": "c",
+          "text": "Flashing"
+        },
+        {
+          "id": "d",
+          "text": "It depends how quickly you press"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Two presses together undo each other.",
+      "explanation": "Four presses make two cancelling pairs. The remaining press leaves the lamp on.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Four presses make two cancelling pairs. The remaining press leaves the lamp on. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-dark-drawer",
+      "localId": "builtin-riddles-the-rules-of-this-place-dark-drawer",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A drawer has plenty of red, blue and green socks, indistinguishable by touch. How many must you take without looking to GUARANTEE two socks of the same colour?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider the most unhelpful possible first few picks.",
+      "explanation": "The first three could be one of each colour. The fourth must match a colour already taken.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The first three could be one of each colour. The fourth must match a colour already taken. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-five-stones",
+      "localId": "builtin-riddles-the-rules-of-this-place-five-stones",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Two players take turns removing either one or two stones from a pile of five. Whoever takes the last stone wins. You move first. How many should you take to guarantee a win?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "Either 1 or 2"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "Neither choice guarantees a win"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Leave a pile from which either reply can be answered by taking the rest.",
+      "explanation": "Taking two leaves three. If the opponent takes one you take two; if they take two you take one.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Taking two leaves three. If the opponent takes one you take two; if they take two you take one. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-two-cups",
+      "localId": "builtin-riddles-the-rules-of-this-place-two-cups",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "One cup starts with 100 mL of milk, another with 100 mL of coffee. Move 10 mL of milk into the coffee and mix, then return 10 mL of that mixture to the first cup. With no losses and additive volumes, which comparison is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More milk is in the coffee"
+        },
+        {
+          "id": "b",
+          "text": "Milk in the coffee equals coffee in the milk"
+        },
+        {
+          "id": "c",
+          "text": "More coffee is in the milk"
+        },
+        {
+          "id": "d",
+          "text": "The answer depends on the stirring speed"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Both cups finish with their original total volume.",
+      "explanation": "Each millilitre of coffee now in the first cup displaces one millilitre of its original milk. That missing milk must be in the second cup, so the exchanged amounts are equal.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Each millilitre of coffee now in the first cup displaces one millilitre of its original milk. That missing milk must be in the second cup, so the exchanged amounts are equal. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-two-jugs",
+      "localId": "builtin-riddles-the-rules-of-this-place-two-jugs",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "You have empty 3-litre and 5-litre jugs, a tap and a drain. One move fills a jug, empties it, or pours one into the other until the source is empty or the destination full. What is the fewest moves needed to leave exactly 4 litres in the 5-litre jug?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A partially filled smaller jug can make the larger jug give up just the amount you need.",
+      "explanation": "Fill 5, pour into 3, empty 3, pour the remaining 2 into 3, refill 5, then top up 3. That leaves 4 litres in the large jug after six moves; no shorter allowed sequence does.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Fill 5, pour into 3, empty 3, pour the remaining 2 into 3, refill 5, then top up 3. That leaves 4 litres in the large jug after six moves; no shorter allowed sequence does. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-river-crossing",
+      "localId": "builtin-riddles-the-rules-of-this-place-river-crossing",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A keeper must ferry a fox, a goose and beans across a river. The boat carries the keeper and at most one item. Without the keeper, fox cannot share a bank with goose, nor goose with beans. All start together. What is the fewest one-way crossings needed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Sometimes moving something back is necessary to make progress.",
+      "explanation": "Take goose across, return alone, take fox across, bring goose back, take beans across, return alone, then take goose across. These seven crossings are minimal under the stated rules.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Take goose across, return alone, take fox across, bring goose back, take beans across, return alone, then take goose across. These seven crossings are minimal under the stated rules. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-heavy-counter",
+      "localId": "builtin-riddles-the-rules-of-this-place-heavy-counter",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Nine counters look identical. Exactly one is heavier, and the other eight weigh the same. Using a balance with outcomes left heavier, right heavier or balanced, what is the fewest weighings that always finds the heavy counter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Aim for a first weighing that divides the possibilities into equal-sized groups.",
+      "explanation": "Weigh three against three. The result identifies a group of three; weighing one of those against another identifies the heavy counter. One weighing has only three outcomes, not enough for nine possibilities.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Weigh three against three. The result identifies a group of three; weighing one of those against another identifies the heavy counter. One weighing has only three outcomes, not enough for nine possibilities. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-night-bridge",
+      "localId": "builtin-riddles-the-rules-of-this-place-night-bridge",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Four walkers take 1, 2, 7 and 10 minutes to cross a bridge. At most two cross at once, always carrying the single lamp. A pair takes the slower walker's time; return trips also need the lamp. All start together. What is the minimum time to get everyone across?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "19 minutes"
+        },
+        {
+          "id": "b",
+          "text": "17 minutes"
+        },
+        {
+          "id": "c",
+          "text": "20 minutes"
+        },
+        {
+          "id": "d",
+          "text": "21 minutes"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Compare using one fast escort repeatedly with letting the two slowest travel together.",
+      "explanation": "Send 1 and 2 across, return 1, send 7 and 10, return 2, then send 1 and 2. The total is 2 + 1 + 10 + 2 + 2 = 17 minutes, the optimal schedule.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Send 1 and 2 across, return 1, send 7 and 10, return 2, then send 1 and 2. The total is 2 + 1 + 10 + 2 + 2 = 17 minutes, the optimal schedule. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+      "localId": "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Two identical test orbs break when dropped above an unknown highest safe floor, which is an integer from 0 to 10. An unbroken orb is reusable; a broken one is lost. What is the fewest drops that can ALWAYS determine the highest safe floor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "After a break, only one orb remains, so lower untested floors may need checking one by one.",
+      "explanation": "With four drops and two orbs, test floors 4, 7, 9 and 10 if nothing breaks, checking intervening floors after a break. Three drops can distinguish at most seven possible thresholds, fewer than the eleven needed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "With four drops and two orbs, test floors 4, 7, 9 and 10 if nothing breaks, checking intervening floors after a break. Three drops can distinguish at most seven possible thresholds, fewer than the eleven needed. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-three-coins",
+      "localId": "builtin-riddles-the-rules-of-this-place-three-coins",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Three coins start tails-up. Each move flips exactly two different coins. Can all three ever finish heads-up?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, after two moves"
+        },
+        {
+          "id": "b",
+          "text": "Yes, after three moves"
+        },
+        {
+          "id": "c",
+          "text": "Yes, after four moves"
+        },
+        {
+          "id": "d",
+          "text": "No; the number of tails stays odd"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A move changes the number of tails by either zero or two.",
+      "explanation": "Starting with three tails, flipping two coins preserves whether the tail count is odd or even. Zero tails is even, so it is unreachable.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Starting with three tails, flipping two coins preserves whether the tail count is odd or even. Zero tails is even, so it is unreachable. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-missing-corners",
+      "localId": "builtin-riddles-the-rules-of-this-place-missing-corners",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Remove two diagonally opposite corner squares from an 8-by-8 checkerboard. A domino covers two edge-adjacent remaining squares. What is the MAXIMUM number of dominoes that can be placed without overlap?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "28"
+        },
+        {
+          "id": "b",
+          "text": "29"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "31"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A domino always covers one square of each colour.",
+      "explanation": "The removed corners have the same colour, leaving colour counts 30 and 32, so at most 30 dominoes fit. Leaving one further square beside each removed corner allows all other squares to be tiled, achieving 30.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "The removed corners have the same colour, leaving colour counts 30 and 32, so at most 30 dominoes fit. Leaving one further square beside each removed corner allows all other squares to be tiled, achieving 30. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-three-piles",
+      "localId": "builtin-riddles-the-rules-of-this-place-three-piles",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "There are three piles of 2, 4 and 7 stones. Players alternate taking any positive number from ONE pile; whoever takes the last stone wins. Both play perfectly. Which opening move guarantees the first player a win?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Take 1 from the pile of 2"
+        },
+        {
+          "id": "b",
+          "text": "Take 1 from the pile of 7"
+        },
+        {
+          "id": "c",
+          "text": "Take 1 from the pile of 4"
+        },
+        {
+          "id": "d",
+          "text": "Take 2 from the pile of 7"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of pile sizes as groups of ones, twos and fours that can balance across piles.",
+      "explanation": "Leaving 2, 4 and 6 balances every binary place: each occurs in an even number of piles. Any opponent move breaks that balance, and you can restore it; this maintains a winning reply until the last stone.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Leaving 2, 4 and 6 balances every binary place: each occurs in an even number of piles. Any opponent move breaks that balance, and you can restore it; this maintains a winning reply until the last stone. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+      "localId": "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A corridor has rooms 1 through 12. From any room you may move exactly three rooms forward or two rooms back, but never leave the corridor. Starting in room 1, what is the fewest moves to reach room 12?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "For a fixed number of moves, replacing a forward move with a backward move changes the total progress by five.",
+      "explanation": "A route is 1, 4, 7, 10, 8, 11, 9, 12. With n moves and b backwards, progress is 3n − 5b; reaching 11 rooms ahead first permits nonnegative whole counts at n = 7.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "A route is 1, 4, 7, 10, 8, 11, 9, 12. With n moves and b backwards, progress is 3n − 5b; reaching 11 rooms ahead first permits nonnegative whole counts at n = 7. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-glowing-vial",
+      "localId": "builtin-riddles-the-rules-of-this-place-glowing-vial",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Exactly one of 16 vials contains a dye. A test strip turns blue if and only if its sample contains any dye. You may mix samples from any vials on a strip, and test all strips in ONE batch. What is the fewest strips that always identifies the dyed vial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Each strip adds a yes-or-no result; a pattern of results can identify a vial.",
+      "explanation": "Three strips give only eight result patterns, fewer than sixteen. Four give sixteen: assign each vial a different four-bit label and include its sample on precisely the strips marked 1; even all-negative results identify one vial.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Three strips give only eight result patterns, fewer than sixteen. Four give sixteen: assign each vial a different four-bit label and include its sample on precisely the strips marked 1; even all-negative results identify one vial. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended.",
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-set-computation-01-q01",
       "localId": "builtin-set-computation-01-q01",
       "level": 1,
@@ -49531,6 +52951,162 @@
     {
       "folderPath": [
         "Puzzles & Games",
+        "Riddles"
+      ],
+      "id": "builtin-riddles-hidden-in-plain-sight-set",
+      "localId": "builtin-riddles-hidden-in-plain-sight-set",
+      "title": "Hidden in Plain Sight",
+      "description": "Familiar objects speak in clues, then words and patterns start hiding their own answers.",
+      "theme": "Word and pattern riddles",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "questionIds": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself"
+      ],
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules.",
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "id": "builtin-riddles-the-midnight-detective-set",
+      "localId": "builtin-riddles-the-midnight-detective-set",
+      "title": "The Midnight Detective",
+      "description": "Missing jewels, unreliable labels and witnesses whose stories must fit. Every clue you need is in the question.",
+      "theme": "Deduction riddles",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types"
+      ],
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules.",
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-midnight-detective-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "id": "builtin-riddles-the-number-vault-set",
+      "localId": "builtin-riddles-the-number-vault-set",
+      "title": "The Number Vault",
+      "description": "A vault full of number riddles: disguised amounts, reversed digits, patient snails and a final wall of toggling locks.",
+      "theme": "Number riddles",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks"
+      ],
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules.",
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-number-vault-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "id": "builtin-riddles-the-rules-of-this-place-set",
+      "localId": "builtin-riddles-the-rules-of-this-place-set",
+      "title": "The Rules of This Place",
+      "description": "Fifteen small worlds with exact rules. Find the route, the winning move, or the reason a tempting plan cannot work.",
+      "theme": "Strategy and reasoning riddles",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
+      ],
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules.",
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Puzzles & Games",
         "Numbers"
       ],
       "id": "builtin-set-computation-01",
@@ -50926,6 +54502,114 @@
       "sourceSha256": "a7e52e4242e96443254ed3118753d70733f8a51559980b191ecc1a2ca114e88d"
     },
     {
+      "id": "builtin-riddles-hidden-in-plain-sight-pack",
+      "title": "Hidden in Plain Sight",
+      "description": "Familiar objects speak in clues, then words and patterns start hiding their own answers.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Music",
+        "Society and Everyday Life",
+        "Science",
+        "Vocabulary",
+        "Sports and Games"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content.",
+        "generatedBy": "OpenAI"
+      },
+      "sourceSha256": "0d5739a902f2c5d573034f6f3cd44a69de5749b71706273bd673f5f09bebf4b3"
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-pack",
+      "title": "The Midnight Detective",
+      "description": "Missing jewels, unreliable labels and witnesses whose stories must fit. Every clue you need is in the question.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Sports and Games"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content.",
+        "generatedBy": "OpenAI"
+      },
+      "sourceSha256": "6ce1ec589dbc18cdacbaf2e5d2a8042ecdcf6a85528250a38b138f12dfe874a3"
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-pack",
+      "title": "The Number Vault",
+      "description": "A vault full of number riddles: disguised amounts, reversed digits, patient snails and a final wall of toggling locks.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Computation"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content.",
+        "generatedBy": "OpenAI"
+      },
+      "sourceSha256": "9e606a29d025396dd2c94a99dbf99ad7d1e915ce20b9413b5ec0cca40bd825a3"
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-pack",
+      "title": "The Rules of This Place",
+      "description": "Fifteen small worlds with exact rules. Find the route, the winning move, or the reason a tempting plan cannot work.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Sports and Games"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content.",
+        "generatedBy": "OpenAI"
+      },
+      "sourceSha256": "f2846d68b5332a89674b3ccb715e58e9bd19cf23662ba7b2c55248e5b4efcac6"
+    },
+    {
       "id": "builtin-library-legacy-computation-01",
       "title": "Computation Challenge: Mental Gymnastics",
       "description": "Fifteen mental-computation questions designed to reward clean arithmetic, pattern recognition, and algebraic insight.",
@@ -51567,6 +55251,10 @@
         "builtin-set-world-civilizations-01-q01",
         "builtin-library-tabletop-games-chess-board",
         "builtin-library-mental-maths-halving",
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
         "builtin-set-computation-01-q01",
         "builtin-library-codes-morse-elements",
         "builtin-library-engineering-compression",
@@ -51627,6 +55315,10 @@
         "builtin-set-world-civilizations-01-q02",
         "builtin-library-tabletop-games-go-intersections",
         "builtin-library-mental-maths-equal-bags",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
         "builtin-set-computation-01-q02",
         "builtin-library-codes-ascii-purpose",
         "builtin-library-engineering-triangles",
@@ -51687,6 +55379,10 @@
         "builtin-set-world-civilizations-01-q03",
         "builtin-library-tabletop-games-scrabble-blank",
         "builtin-library-mental-maths-percent-fifths",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
         "builtin-set-computation-01-q03",
         "builtin-library-codes-braille-cell",
         "builtin-library-engineering-hydro-turbine",
@@ -51747,6 +55443,10 @@
         "builtin-set-world-civilizations-01-q04",
         "builtin-library-tabletop-games-othello-flip",
         "builtin-library-mental-maths-die-threshold",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
         "builtin-set-computation-01-q04",
         "builtin-library-codes-semaphore-flags",
         "builtin-library-engineering-expansion-joints",
@@ -51807,6 +55507,10 @@
         "builtin-set-world-civilizations-01-q05",
         "builtin-library-tabletop-games-monopoly-hotels",
         "builtin-library-mental-maths-ratio-share",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
         "builtin-set-computation-01-q05",
         "builtin-library-codes-five-bit-alphabet",
         "builtin-library-engineering-suspension-cables",
@@ -51867,6 +55571,10 @@
         "builtin-set-world-civilizations-01-q06",
         "builtin-library-tabletop-games-catan-city",
         "builtin-library-mental-maths-successive-percentages",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
         "builtin-set-computation-01-q06",
         "builtin-library-codes-atlantic-cable",
         "builtin-library-engineering-cantilever",
@@ -51927,6 +55635,10 @@
         "builtin-set-world-civilizations-01-q07",
         "builtin-library-tabletop-games-scrabble-bingo",
         "builtin-library-mental-maths-equal-distance-speed",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
         "builtin-set-computation-01-q07",
         "builtin-library-codes-checksum-job",
         "builtin-library-engineering-elevator-counterweight",
@@ -51987,6 +55699,10 @@
         "builtin-set-world-civilizations-01-q08",
         "builtin-library-tabletop-games-monopoly-auction",
         "builtin-library-mental-maths-matching-marbles",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
         "builtin-set-computation-01-q08",
         "builtin-library-codes-frequency-substitution",
         "builtin-library-engineering-hydraulic-pistons",
@@ -52047,6 +55763,10 @@
         "builtin-set-world-civilizations-01-q09",
         "builtin-library-tabletop-games-chess-stalemate",
         "builtin-library-mental-maths-difference-squares",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
         "builtin-set-computation-01-q09",
         "builtin-library-codes-hamming-count",
         "builtin-library-engineering-reinforced-concrete",
@@ -52107,6 +55827,10 @@
         "builtin-set-world-civilizations-01-q10",
         "builtin-library-tabletop-games-catan-discard",
         "builtin-library-mental-maths-track-lap",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
         "builtin-set-computation-01-q10",
         "builtin-library-codes-parity-limit",
         "builtin-library-engineering-column-buckling",
@@ -52167,6 +55891,10 @@
         "builtin-set-world-civilizations-01-q11",
         "builtin-library-tabletop-games-pandemic-outbreak",
         "builtin-library-mental-maths-at-least-one-six",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
         "builtin-set-computation-01-q11",
         "builtin-library-codes-huffman-lengths",
         "builtin-library-engineering-prestressing",
@@ -52227,6 +55955,10 @@
         "builtin-set-world-civilizations-01-q12",
         "builtin-library-tabletop-games-backgammon-gammon",
         "builtin-library-mental-maths-even-product",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
         "builtin-set-computation-01-q12",
         "builtin-library-codes-prefix-free",
         "builtin-library-engineering-tuned-mass-damper",
@@ -52287,6 +56019,10 @@
         "builtin-set-world-civilizations-01-q13",
         "builtin-library-tabletop-games-go-ko",
         "builtin-library-mental-maths-bag-after-red",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
         "builtin-set-computation-01-q13",
         "builtin-library-codes-compression-counting",
         "builtin-library-engineering-beam-span-scaling",
@@ -52347,6 +56083,10 @@
         "builtin-set-world-civilizations-01-q14",
         "builtin-library-tabletop-games-backgammon-higher-die",
         "builtin-library-mental-maths-four-misplaced",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
         "builtin-set-computation-01-q14",
         "builtin-library-codes-distance-correction",
         "builtin-library-engineering-cable-curve",
@@ -52407,6 +56147,10 @@
         "builtin-set-world-civilizations-01-q15",
         "builtin-library-tabletop-games-chess-time-draw",
         "builtin-library-mental-maths-waiting-two-heads",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+        "builtin-riddles-the-midnight-detective-four-witness-types",
+        "builtin-riddles-the-number-vault-hundred-locks",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial",
         "builtin-set-computation-01-q15",
         "builtin-library-codes-reused-pad",
         "builtin-library-engineering-indeterminate-beam",
@@ -52701,6 +56445,8 @@
         "builtin-library-archaeology-luminescence-reset",
         "builtin-library-archaeology-archaeomagnetic-clock",
         "builtin-library-archaeology-marine-reservoir",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
         "builtin-set-everyday-expert-01-q06",
         "builtin-set-everyday-expert-01-q13",
         "builtin-set-general-knowledge-01-q14",
@@ -52934,6 +56680,21 @@
         "builtin-library-mental-maths-bag-after-red",
         "builtin-library-mental-maths-four-misplaced",
         "builtin-library-mental-maths-waiting-two-heads",
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks",
         "builtin-set-computation-01-q01",
         "builtin-set-computation-01-q02",
         "builtin-set-computation-01-q03",
@@ -52985,6 +56746,11 @@
         "builtin-set-vocabulary-01-q13",
         "builtin-set-vocabulary-01-q14",
         "builtin-set-vocabulary-01-q15",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
         "builtin-set-everyday-expert-01-q11",
         "builtin-set-general-knowledge-01-q15"
       ],
@@ -53169,6 +56935,7 @@
         "builtin-library-music-making-sheng",
         "builtin-library-music-making-sympathetic-strings",
         "builtin-library-music-making-touch-third",
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
         "builtin-set-general-knowledge-01-q05",
         "builtin-set-general-knowledge-02-q04"
       ],
@@ -53203,6 +56970,41 @@
         "builtin-library-tabletop-games-go-ko",
         "builtin-library-tabletop-games-backgammon-higher-die",
         "builtin-library-tabletop-games-chess-time-draw",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types",
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial",
         "builtin-set-general-knowledge-01-q07"
       ],
       "Society and Everyday Life": [
@@ -53221,6 +57023,8 @@
         "builtin-pool-society-and-everyday-life-13",
         "builtin-pool-society-and-everyday-life-14",
         "builtin-pool-society-and-everyday-life-15",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
         "builtin-set-everyday-expert-01-q01",
         "builtin-set-everyday-expert-01-q02",
         "builtin-set-general-knowledge-02-q01"
@@ -54449,6 +58253,23 @@
       "hero-twins": [
         "builtin-library-world-myths-hero-twins"
       ],
+      "hidden-in-plain-sight": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself"
+      ],
       "Hinduism": [
         "builtin-pool-mythology-and-religion-03"
       ],
@@ -55299,6 +59120,68 @@
         "builtin-pool-music-12",
         "builtin-pool-music-15"
       ],
+      "riddles": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types",
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks",
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
+      ],
       "rights": [
         "builtin-set-general-knowledge-01-q13"
       ],
@@ -55678,6 +59561,57 @@
       ],
       "terza-rima": [
         "builtin-library-storytelling-terza-rima"
+      ],
+      "the-midnight-detective": [
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types"
+      ],
+      "the-number-vault": [
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks"
+      ],
+      "the-rules-of-this-place": [
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
       ],
       "theory": [
         "builtin-pool-music-05",
@@ -56874,6 +60808,74 @@
         "builtin-pool-business-and-economics-13",
         "builtin-pool-business-and-economics-14",
         "builtin-pool-business-and-economics-15"
+      ],
+      "builtin-riddles-hidden-in-plain-sight-pack": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself"
+      ],
+      "builtin-riddles-the-midnight-detective-pack": [
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types"
+      ],
+      "builtin-riddles-the-number-vault-pack": [
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks"
+      ],
+      "builtin-riddles-the-rules-of-this-place-pack": [
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
       ]
     },
     "bySet": {
@@ -57216,6 +61218,74 @@
         "builtin-library-writing-systems-virama",
         "builtin-library-writing-systems-hangul-blocks",
         "builtin-library-writing-systems-semantic-phonetic"
+      ],
+      "builtin-riddles-hidden-in-plain-sight-set": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself"
+      ],
+      "builtin-riddles-the-midnight-detective-set": [
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types"
+      ],
+      "builtin-riddles-the-number-vault-set": [
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks"
+      ],
+      "builtin-riddles-the-rules-of-this-place-set": [
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
       ],
       "builtin-set-ancient-history-01": [
         "builtin-set-ancient-history-01-q01",
@@ -58130,43 +62200,43 @@
     ]
   },
   "summary": {
-    "questionCount": 870,
+    "questionCount": 930,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 570,
-    "curatedSetCount": 38,
-    "sourceCount": 43,
+    "curatedQuestionCount": 630,
+    "curatedSetCount": 42,
+    "sourceCount": 47,
     "categoryCount": 20,
     "byLevel": {
-      "1": 58,
-      "2": 58,
-      "3": 58,
-      "4": 58,
-      "5": 58,
-      "6": 58,
-      "7": 58,
-      "8": 58,
-      "9": 58,
-      "10": 58,
-      "11": 58,
-      "12": 58,
-      "13": 58,
-      "14": 58,
-      "15": 58
+      "1": 62,
+      "2": 62,
+      "3": 62,
+      "4": 62,
+      "5": 62,
+      "6": 62,
+      "7": 62,
+      "8": 62,
+      "9": 62,
+      "10": 62,
+      "11": 62,
+      "12": 62,
+      "13": 62,
+      "14": 62,
+      "15": 62
     },
     "byDisplayDifficulty": {
-      "Easy": 290,
-      "Moderate": 290,
-      "Difficult": 232,
-      "Millionaire": 58
+      "Easy": 310,
+      "Moderate": 310,
+      "Difficult": 248,
+      "Millionaire": 62
     },
     "byInternalTier": {
-      "Foundation": 174,
-      "Accessible": 116,
-      "Intermediate": 174,
-      "Advanced": 116,
-      "Expert": 116,
-      "Elite": 116,
-      "Millionaire": 58
+      "Foundation": 186,
+      "Accessible": 124,
+      "Intermediate": 186,
+      "Advanced": 124,
+      "Expert": 124,
+      "Elite": 124,
+      "Millionaire": 62
     },
     "byCategory": {
       "Ancient History": 42,
@@ -58174,17 +62244,17 @@
       "Modern History": 19,
       "Geography": 81,
       "Astronomy and Space": 64,
-      "Science": 76,
+      "Science": 78,
       "Nature and Earth": 92,
       "Technology": 51,
-      "Computation": 49,
-      "Vocabulary": 32,
+      "Computation": 64,
+      "Vocabulary": 37,
       "Literature and Language": 52,
       "Art and Culture": 53,
       "Film and Television": 35,
-      "Music": 36,
-      "Sports and Games": 31,
-      "Society and Everyday Life": 18,
+      "Music": 37,
+      "Sports and Games": 66,
+      "Society and Everyday Life": 20,
       "Food and Drink": 34,
       "Politics and World Affairs": 19,
       "Mythology and Religion": 33,
@@ -58233,10 +62303,14 @@
       "builtin-pool-release-001-group-002": 60,
       "builtin-pool-release-001-group-003": 60,
       "builtin-pool-release-001-group-004": 60,
-      "builtin-pool-release-001-group-005": 60
+      "builtin-pool-release-001-group-005": 60,
+      "builtin-riddles-hidden-in-plain-sight-pack": 15,
+      "builtin-riddles-the-midnight-detective-pack": 15,
+      "builtin-riddles-the-number-vault-pack": 15,
+      "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 870
+      "assistant-reviewed-draft": 930
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []

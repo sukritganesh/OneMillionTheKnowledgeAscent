@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "validatedAt": "2026-09-13T00:00:00Z",
   "files": [
     {
@@ -82,6 +82,26 @@
       "path": "discovery/puzzles-and-games/numbers/small-numbers-big-ideas.json",
       "packId": "builtin-library-mental-maths-pack",
       "sha256": "a7e52e4242e96443254ed3118753d70733f8a51559980b191ecc1a2ca114e88d"
+    },
+    {
+      "path": "discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+      "packId": "builtin-riddles-hidden-in-plain-sight-pack",
+      "sha256": "0d5739a902f2c5d573034f6f3cd44a69de5749b71706273bd673f5f09bebf4b3"
+    },
+    {
+      "path": "discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+      "packId": "builtin-riddles-the-midnight-detective-pack",
+      "sha256": "6ce1ec589dbc18cdacbaf2e5d2a8042ecdcf6a85528250a38b138f12dfe874a3"
+    },
+    {
+      "path": "discovery/puzzles-and-games/riddles/the-number-vault.json",
+      "packId": "builtin-riddles-the-number-vault-pack",
+      "sha256": "9e606a29d025396dd2c94a99dbf99ad7d1e915ce20b9413b5ec0cca40bd825a3"
+    },
+    {
+      "path": "discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+      "packId": "builtin-riddles-the-rules-of-this-place-pack",
+      "sha256": "f2846d68b5332a89674b3ccb715e58e9bd19cf23662ba7b2c55248e5b4efcac6"
     },
     {
       "path": "discovery/puzzles/mental-gymnastics.json",

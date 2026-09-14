@@ -1,0 +1,764 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-riddles-the-midnight-detective-pack",
+  "title": "The Midnight Detective",
+  "description": "Missing jewels, unreliable labels and witnesses whose stories must fit. Every clue you need is in the question.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Sports and Games"
+  ],
+  "questions": [
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-envelopes",
+      "level": 1,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A jewel is in one of four sealed envelopes: red, blue, green or white. The red and blue envelopes are empty, and the white one holds only a note. Where is the jewel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The red envelope"
+        },
+        {
+          "id": "b",
+          "text": "The green envelope"
+        },
+        {
+          "id": "c",
+          "text": "The blue envelope"
+        },
+        {
+          "id": "d",
+          "text": "The white envelope"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Cross off an envelope only when a clue rules it out.",
+      "explanation": "Three envelopes are explicitly ruled out, leaving the green one.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Three envelopes are explicitly ruled out, leaving the green one. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-delivery-window",
+      "level": 2,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "The courier arrived at exactly 8, 9, 10 or 11 p.m. The log says it was later than 9 p.m. but earlier than 11 p.m. Which arrival time fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10 p.m."
+        },
+        {
+          "id": "b",
+          "text": "8 p.m."
+        },
+        {
+          "id": "c",
+          "text": "9 p.m."
+        },
+        {
+          "id": "d",
+          "text": "11 p.m."
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Neither endpoint belongs inside a strictly stated interval.",
+      "explanation": "Only 10 p.m. is both later than 9 and earlier than 11.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Only 10 p.m. is both later than 9 and earlier than 11. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-arrival-chain",
+      "level": 3,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada arrived before Ben, Ben before Cy, and Cy before Dee. None arrived together. Who arrived first?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ben"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Dee"
+        },
+        {
+          "id": "d",
+          "text": "Ada"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Join the three comparisons into a single ordering.",
+      "explanation": "The clues form Ada, Ben, Cy, Dee, so Ada arrived first.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The clues form Ada, Ben, Cy, Dee, so Ada arrived first. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-middle-locker",
+      "level": 4,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Four lockers are numbered 1 to 4 from left to right. A key is not in either end locker and is to the left of locker 3. Which locker holds it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Locker 1"
+        },
+        {
+          "id": "b",
+          "text": "Locker 3"
+        },
+        {
+          "id": "c",
+          "text": "Locker 2"
+        },
+        {
+          "id": "d",
+          "text": "Locker 4"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Apply both clues to the same possible location.",
+      "explanation": "Excluding the ends leaves lockers 2 and 3. Only locker 2 is left of locker 3.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Excluding the ends leaves lockers 2 and 3. Only locker 2 is left of locker 3. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-pet-sitters",
+      "level": 5,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Mina, Omar and Pia each looked after a different pet: a cat, a dog or an owl. Mina had neither the cat nor the dog. Omar did not have the dog. Who looked after the dog?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mina"
+        },
+        {
+          "id": "b",
+          "text": "Pia"
+        },
+        {
+          "id": "c",
+          "text": "Omar"
+        },
+        {
+          "id": "d",
+          "text": "It cannot be determined"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Assign the most tightly constrained pet first.",
+      "explanation": "Mina must have the owl. Omar then has the cat, leaving the dog for Pia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Mina must have the owl. Omar then has the cat, leaving the dog for Pia. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-missing-badge",
+      "level": 6,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Every visitor in the east wing wears a badge, and this rule has no exceptions. Noor is a visitor without a badge. What must be true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noor is not in the east wing"
+        },
+        {
+          "id": "b",
+          "text": "Noor is in the west wing"
+        },
+        {
+          "id": "c",
+          "text": "Noor has left the museum"
+        },
+        {
+          "id": "d",
+          "text": "Noor has never worn a badge"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A necessary condition can rule a place out without identifying another place.",
+      "explanation": "Noor cannot be in the east wing without a badge. Nothing in the rule establishes Noor's other location or past behaviour.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Noor cannot be in the east wing without a badge. Nothing in the rule establishes Noor's other location or past behaviour. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-one-true-label",
+      "level": 7,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A ring is in exactly one box, A, B, C or D. Labels say: A: 'It is in A.' B: 'It is in A.' C: 'It is not in D.' D: 'It is in B.' Exactly one label is true. Where is the ring?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Box A"
+        },
+        {
+          "id": "b",
+          "text": "Box B"
+        },
+        {
+          "id": "c",
+          "text": "Box D"
+        },
+        {
+          "id": "d",
+          "text": "Box C"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Try a location and count all true labels, including repeated claims.",
+      "explanation": "Locations A, B, C and D make three, two, one and zero labels true respectively. Only C fits.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Locations A, B, C and D make three, two, one and zero labels true respectively. Only C fits. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-one-false-witness",
+      "level": 8,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Exactly one of Ada, Ben, Cy and Dee took a coin. Ada says 'Ben took it.' Ben says 'Cy took it.' Cy says 'I did not take it.' Dee says 'Ben's statement is false.' Exactly one statement is false. Who took the coin?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Ben"
+        },
+        {
+          "id": "d",
+          "text": "Dee"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "One statement and its direct denial already account for one false statement.",
+      "explanation": "Ben's and Dee's statements are opposites, so the other two statements must both be true. Ada's true statement identifies Ben.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Ben's and Dee's statements are opposites, so the other two statements must both be true. Ada's true statement identifies Ben. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-gallery-queue",
+      "level": 9,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Dara, Eli, Faye and Gus stand in a line. Eli is immediately before Gus; Faye is somewhere before Eli; Dara is at neither end. Who is second?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eli"
+        },
+        {
+          "id": "b",
+          "text": "Dara"
+        },
+        {
+          "id": "c",
+          "text": "Faye"
+        },
+        {
+          "id": "d",
+          "text": "Gus"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Treat the adjacent pair as one block, then test where the remaining people can go.",
+      "explanation": "The only order is Faye, Dara, Eli, Gus. Moving Dara into either other available position would put Dara at an end.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The only order is Faye, Dara, Eli, Gus. Moving Dara into either other available position would put Dara at an end. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-silent-alarm",
+      "level": 10,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "An alarm sounds exactly when the window is open or the door is unlocked. A lamp lights exactly when the alarm sounds and the guard is absent. The guard is absent, the window is closed and the lamp is off. What follows?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The door is locked"
+        },
+        {
+          "id": "b",
+          "text": "The door is unlocked"
+        },
+        {
+          "id": "c",
+          "text": "The alarm is sounding"
+        },
+        {
+          "id": "d",
+          "text": "The window must be open"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Work backwards from the unlit lamp using the known state of the guard.",
+      "explanation": "With the guard absent, an alarm would light the lamp. So the alarm is off, which means both an unopened window and a locked door.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "With the guard absent, an alarm would light the lamp. So the alarm is off, which means both an unopened window and a locked door. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-keyholders",
+      "level": 11,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada, Ben, Cy and Dee each hold a different key: brass, copper, iron or silver. Ada's is iron or silver; Ben's is copper or silver; Cy holds iron. Who holds brass?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Ben"
+        },
+        {
+          "id": "c",
+          "text": "Cy"
+        },
+        {
+          "id": "d",
+          "text": "Dee"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A fixed assignment can simplify the two either-or clues.",
+      "explanation": "Cy has iron, so Ada has silver and Ben has copper. Brass is left for Dee.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Cy has iron, so Ada has silver and Ben has copper. Brass is left for Dee. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-three-digit-safe",
+      "level": 12,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "A safe uses three different digits; an initial zero is allowed. These clue counts are exact: 143 has no correct digits; 590 has two correct, one in place; 026 has one correct, out of place; 907 has two correct, both in place. What is the code?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "508"
+        },
+        {
+          "id": "b",
+          "text": "850"
+        },
+        {
+          "id": "c",
+          "text": "507"
+        },
+        {
+          "id": "d",
+          "text": "970"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Distinguish belonging to the code from occupying the correct position.",
+      "explanation": "507 gives the stated counts for all four clues: none; 5 and 0 with only 5 placed; 0 misplaced; then 0 and 7 both placed. Exhaustive checking leaves no other code.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "507 gives the stated counts for all four clues: none; 5 and 0 with only 5 placed; 0 misplaced; then 0 and 7 both placed. Exhaustive checking leaves no other code. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+      "level": 13,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Three bags contain only stars, only moons, or a mixture of both. Their labels 'Stars', 'Moons' and 'Mixed' are ALL wrong. You draw a star from the bag labelled 'Mixed'. What do the bags labelled 'Stars' and 'Moons' contain, respectively?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mixture; stars only"
+        },
+        {
+          "id": "b",
+          "text": "Moons only; a mixture"
+        },
+        {
+          "id": "c",
+          "text": "Moons only; stars only"
+        },
+        {
+          "id": "d",
+          "text": "A mixture; moons only"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The bag you sampled cannot contain a mixture, because its label is wrong.",
+      "explanation": "The Mixed-labelled bag must be stars only. The Moons-labelled bag cannot be moons or the already assigned stars, so it is mixed; the Stars-labelled bag is moons only.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The Mixed-labelled bag must be stars only. The Moons-labelled bag cannot be moons or the already assigned stars, so it is mixed; the Stars-labelled bag is moons only. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-hats-in-a-line",
+      "level": 14,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Three perfect logicians wear hats selected from two red and three blue hats. Rear sees both ahead; Middle sees only Front; Front sees no hats. All know this. Rear says 'I cannot deduce my colour.' Middle then says the same. What colour can Front deduce their hat is?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blue"
+        },
+        {
+          "id": "b",
+          "text": "Red"
+        },
+        {
+          "id": "c",
+          "text": "Either colour remains possible"
+        },
+        {
+          "id": "d",
+          "text": "The statements are inconsistent"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The second person can use both the first statement and the hat they see.",
+      "explanation": "Rear's uncertainty rules out two red hats ahead. If Front were red, Middle would therefore know their own hat was blue; Middle's uncertainty tells Front that Front is blue.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Rear's uncertainty rules out two red hats ahead. If Front were red, Middle would therefore know their own hat was blue; Middle's uncertainty tells Front that Front is blue. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-midnight-detective-four-witness-types",
+      "level": 15,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "prompt": "Ada, Ben, Cy and Dee each always tell the truth or always lie. Ada: 'Ben and Cy are the same type.' Ben: 'Dee is a liar.' Cy: 'Ada and Dee are different types.' Dee: 'Ada and Ben are both truthful.' Who is the only truth-teller?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ada"
+        },
+        {
+          "id": "b",
+          "text": "Cy"
+        },
+        {
+          "id": "c",
+          "text": "Dee"
+        },
+        {
+          "id": "d",
+          "text": "Ben"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "First test whether the last speaker could be truthful; then follow the consequences.",
+      "explanation": "Dee cannot be truthful: that would make Ben truthful while Ben calls Dee a liar. Thus Ben is truthful; Dee's false claim then makes Ada a liar, and Cy's claim makes Cy a liar too.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-midnight-detective-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Dee cannot be truthful: that would make Ben truthful while Ben calls Dee a liar. Thus Ben is truthful; Dee's false claim then makes Ada a liar, and Cy's claim makes Cy a liar too. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-riddles-the-midnight-detective-set",
+      "title": "The Midnight Detective",
+      "description": "Missing jewels, unreliable labels and witnesses whose stories must fit. Every clue you need is in the question.",
+      "theme": "Deduction riddles",
+      "tags": [
+        "riddles",
+        "the-midnight-detective"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-midnight-detective-four-envelopes",
+        "builtin-riddles-the-midnight-detective-delivery-window",
+        "builtin-riddles-the-midnight-detective-arrival-chain",
+        "builtin-riddles-the-midnight-detective-middle-locker",
+        "builtin-riddles-the-midnight-detective-pet-sitters",
+        "builtin-riddles-the-midnight-detective-missing-badge",
+        "builtin-riddles-the-midnight-detective-one-true-label",
+        "builtin-riddles-the-midnight-detective-one-false-witness",
+        "builtin-riddles-the-midnight-detective-gallery-queue",
+        "builtin-riddles-the-midnight-detective-silent-alarm",
+        "builtin-riddles-the-midnight-detective-four-keyholders",
+        "builtin-riddles-the-midnight-detective-three-digit-safe",
+        "builtin-riddles-the-midnight-detective-wrong-bag-labels",
+        "builtin-riddles-the-midnight-detective-hats-in-a-line",
+        "builtin-riddles-the-midnight-detective-four-witness-types"
+      ],
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content."
+  }
+}
