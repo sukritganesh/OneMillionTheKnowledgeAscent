@@ -2,7 +2,7 @@
 
 This directory contains the active individual-set library, the hash-protected source archive, and generated runtime forms. Gameplay reads the generated catalog; it does not open source packs or scan content directories while creating a run.
 
-The active catalog has 38 sets (570 curated questions) plus the unchanged 300-question Fresh Mix bank: 870 questions total. Add and organize sets using [the set-library guide](../docs/SET_LIBRARY.md). For images and videos, see [question media](../docs/QUESTION_MEDIA.md) and [asset provenance](media-sources.json). The Release 001 inventory below is historical, not the active count.
+The active catalog has 42 sets (630 curated questions) plus the unchanged 300-question Fresh Mix bank: 930 questions total. Add and organize sets using [the set-library guide](../docs/SET_LIBRARY.md). See [riddle notes](../docs/SET_NOTES_RIDDLES.md) for the four puzzle sets; for images and videos, see [question media](../docs/QUESTION_MEDIA.md) and [asset provenance](media-sources.json). The Release 001 inventory below is historical, not the active count.
 
 For validator behavior, schemas, custom imports, and extension instructions, see [the content pipeline guide](../docs/CONTENT_PIPELINE.md).
 
@@ -120,5 +120,5 @@ npx vitest run src/content/content.test.ts
 Successful validation currently reports:
 
 ```text
-870 questions (300 pool + 570 curated), 38 sets, 43 source files, 5 repairs
+930 questions (300 pool + 630 curated), 42 sets, 47 source files, 5 repairs
 ```
