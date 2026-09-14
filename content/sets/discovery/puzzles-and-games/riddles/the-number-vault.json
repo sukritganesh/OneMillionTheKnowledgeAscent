@@ -1,0 +1,764 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-riddles-the-number-vault-pack",
+  "title": "The Number Vault",
+  "description": "A vault full of number riddles: disguised amounts, reversed digits, patient snails and a final wall of toggling locks.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Computation"
+  ],
+  "questions": [
+    {
+      "id": "builtin-riddles-the-number-vault-missing-coins",
+      "level": 1,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Three little chests held four coins each. A magpie carried off two coins in total. How many coins are still in the chests?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "14"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Find the combined starting amount before accounting for what left.",
+      "explanation": "The chests held 3 × 4 = 12 coins. Removing two leaves 10.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The chests held 3 × 4 = 12 coins. Removing two leaves 10. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-double-and-three",
+      "level": 2,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "I am a whole number. Double me and then add three, and you get seventeen. What number am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Undo the operations in the opposite order.",
+      "explanation": "Subtracting 3 from 17 gives 14; halving 14 gives 7.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Subtracting 3 from 17 gives 14; halving 14 gives 7. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-sibling-ages",
+      "level": 3,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Two siblings' ages add to 21 years. The older is exactly three years older than the younger. How old is the younger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Set aside the age gap before sharing what remains equally.",
+      "explanation": "Removing the three-year gap leaves 18 years to split equally, so the younger is 9 and the older is 12.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Removing the three-year gap leaves 18 years to split equally, so the younger is 9 and the older is 12. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-climbing-snail",
+      "level": 4,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A snail starts at the bottom of a 10-metre pole. Each day it climbs 3 metres; each night it slips 2. It stops as soon as it reaches the top. On which day does it reach the top?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Day 7"
+        },
+        {
+          "id": "b",
+          "text": "Day 9"
+        },
+        {
+          "id": "c",
+          "text": "Day 8"
+        },
+        {
+          "id": "d",
+          "text": "Day 10"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The final climb does not need to be followed by a slide.",
+      "explanation": "After seven nights it is 7 metres up. Its climb on day 8 takes it straight to the top.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "After seven nights it is 7 metres up. Its climb on day 8 takes it straight to the top. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-facing-pages",
+      "level": 5,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A bookmark lies between two facing pages whose consecutive page numbers add to 49. What is the smaller page number?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "25"
+        },
+        {
+          "id": "d",
+          "text": "26"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Consecutive whole numbers sit equally either side of a half-integer average.",
+      "explanation": "The numbers are 24 and 25: consecutive, with sum 49.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The numbers are 24 and 25: consecutive, with sum 49. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-reversed-digits",
+      "level": 6,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "I am a two-digit number. My digits add to 9. Reverse them and the number decreases by 27. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "63"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "54"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Reversing two digits changes the value by nine times their difference.",
+      "explanation": "The digits sum to 9 and differ by 3, so they are 6 and 3. Since reversal makes the number smaller, the original is 63.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The digits sum to 9 and differ by 3, so they are 6 and 3. Since reversal makes the number smaller, the original is 63. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-gold-and-silver",
+      "level": 7,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A pouch holds 12 tokens, each gold or silver. Gold tokens are worth 3 points and silver tokens 1 point. The pouch is worth 32 points. How many gold tokens are there?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Start by imagining that every token has the lower value.",
+      "explanation": "Twelve silver tokens would be worth 12 points. Each replacement by gold adds 2 points, so the extra 20 points require ten gold tokens.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Twelve silver tokens would be worth 12 points. Each replacement by gold adds 2 points, so the extra 20 points require ten gold tokens. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-secret-handshakes",
+      "level": 8,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Five members meet in a vault. Each shakes hands with every other member exactly once. How many handshakes happen?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Counting each person's partners counts each handshake twice.",
+      "explanation": "There are 5 × 4 = 20 person-to-partner counts, but every handshake appears twice. The total is 10.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "There are 5 × 4 = 20 person-to-partner counts, but every handshake appears twice. The total is 10. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-bells",
+      "level": 9,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "Three bells ring together now, then repeat every 4, 6 and 9 minutes respectively. After how many minutes will all three next ring together?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "36"
+        },
+        {
+          "id": "c",
+          "text": "24"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look for the first time that is a whole multiple of all three intervals.",
+      "explanation": "The least common multiple of 4, 6 and 9 is 36. At 18 the four-minute bell does not ring; at 24 the nine-minute bell does not ring.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The least common multiple of 4, 6 and 9 is 36. At 18 the four-minute bell does not ring; at 24 the nine-minute bell does not ring. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-counting-ones",
+      "level": 10,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A clerk numbers twenty boxes from 1 through 20. How many times does the digit 1 appear in those labels, counting both digits of 11 separately?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Count appearances in the tens position separately from appearances in the units position.",
+      "explanation": "The labels 10 through 19 contribute ten tens-position ones. Labels 1 and 11 contribute two units-position ones, making 12.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The labels 10 through 19 contribute ten tens-position ones. Labels 1 and 11 contribute two units-position ones, making 12. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-one-short-every-time",
+      "level": 11,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A basket holds more than 10 counters. Grouping them in twos leaves 1 over, in threes leaves 2 over, and in fives leaves 4 over. What is the smallest possible number of counters?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "19"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "29"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Add one counter mentally and see what happens to every remainder.",
+      "explanation": "One extra counter would make the total divisible by 2, 3 and 5. Their least common multiple is 30, so the smallest original total is 29.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "One extra counter would make the total divisible by 2, 3 and 5. Their least common multiple is 30, so the smallest original total is 29. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-tollkeepers",
+      "level": 12,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "At each of three gates, a traveller gives the keeper half the coins currently held, plus one more coin. After the third gate, one coin remains. All payments use whole coins. How many coins did the traveller start with?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "14"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Work backwards one gate at a time; reverse the extra coin before reversing the halving.",
+      "explanation": "Before each payment the traveller held twice the amount left plus two. Working backwards from 1 gives 4, then 10, then 22 coins.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Before each payment the traveller held twice the amount left plus two. Working backwards from 1 gives 4, then 10, then 22 coins. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-three-remainders",
+      "level": 13,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "A lock's number is positive and smaller than 50. Division by 3 leaves remainder 2; division by 4 leaves remainder 3; division by 5 leaves remainder 1. What is the number?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "23"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "47"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The first two conditions both describe a number one short of a multiple.",
+      "explanation": "The first two clues leave 11, 23, 35 and 47 below 50. Only 11 leaves remainder 1 on division by 5.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The first two clues leave 11, 23, 35 and 47 below 50. Only 11 leaves remainder 1 on division by 5. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-helpful-keeper",
+      "level": 14,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "One of three chests hides a jewel, equally likely in each. You choose one. A keeper who knows its location ALWAYS opens a different, empty chest and offers a switch to the other unopened chest. What is the chance of winning if you always switch?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2/3"
+        },
+        {
+          "id": "b",
+          "text": "1/3"
+        },
+        {
+          "id": "c",
+          "text": "1/2"
+        },
+        {
+          "id": "d",
+          "text": "3/4"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The keeper's action is guaranteed, not a lucky discovery of an empty chest.",
+      "explanation": "Switching wins exactly when the original choice was wrong. That happens in two of the three equally likely jewel locations.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Switching wins exactly when the original choice was wrong. That happens in two of the three equally likely jewel locations. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-number-vault-hundred-locks",
+      "level": 15,
+      "category": "Computation",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "prompt": "There are 100 closed locks numbered 1 to 100. On pass 1 you toggle every lock, on pass 2 every multiple of 2, and so on through pass 100. Toggling changes open to closed or closed to open. How many locks finish open?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "50"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Pair each divisor of a lock's number with the divisor it multiplies by.",
+      "explanation": "A lock stays open only if toggled an odd number of times. Divisors pair up except at perfect squares, and there are ten squares from 1 through 100.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-number-vault-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "A lock stays open only if toggled an odd number of times. Divisors pair up except at perfect squares, and there are ten squares from 1 through 100. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-riddles-the-number-vault-set",
+      "title": "The Number Vault",
+      "description": "A vault full of number riddles: disguised amounts, reversed digits, patient snails and a final wall of toggling locks.",
+      "theme": "Number riddles",
+      "tags": [
+        "riddles",
+        "the-number-vault"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-number-vault-missing-coins",
+        "builtin-riddles-the-number-vault-double-and-three",
+        "builtin-riddles-the-number-vault-sibling-ages",
+        "builtin-riddles-the-number-vault-climbing-snail",
+        "builtin-riddles-the-number-vault-facing-pages",
+        "builtin-riddles-the-number-vault-reversed-digits",
+        "builtin-riddles-the-number-vault-gold-and-silver",
+        "builtin-riddles-the-number-vault-secret-handshakes",
+        "builtin-riddles-the-number-vault-three-bells",
+        "builtin-riddles-the-number-vault-counting-ones",
+        "builtin-riddles-the-number-vault-one-short-every-time",
+        "builtin-riddles-the-number-vault-three-tollkeepers",
+        "builtin-riddles-the-number-vault-three-remainders",
+        "builtin-riddles-the-number-vault-helpful-keeper",
+        "builtin-riddles-the-number-vault-hundred-locks"
+      ],
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content."
+  }
+}

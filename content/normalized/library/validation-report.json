@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.1.0",
+  "releaseVersion": "2.2.0",
   "validatedAt": "2026-09-13T00:00:00Z",
   "valid": true,
   "sourceIntegrity": {
@@ -372,6 +372,74 @@
         "setCount": 1,
         "categories": [
           "Computation"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+        "repositoryPath": "content/sets/discovery/puzzles-and-games/riddles/hidden-in-plain-sight.json",
+        "packId": "builtin-riddles-hidden-in-plain-sight-pack",
+        "kind": "set",
+        "byteLength": 29063,
+        "utf8Bom": false,
+        "sourceSha256": "0d5739a902f2c5d573034f6f3cd44a69de5749b71706273bd673f5f09bebf4b3",
+        "expectedSha256": "0d5739a902f2c5d573034f6f3cd44a69de5749b71706273bd673f5f09bebf4b3",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Music",
+          "Society and Everyday Life",
+          "Science",
+          "Vocabulary",
+          "Sports and Games"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+        "repositoryPath": "content/sets/discovery/puzzles-and-games/riddles/the-midnight-detective.json",
+        "packId": "builtin-riddles-the-midnight-detective-pack",
+        "kind": "set",
+        "byteLength": 30274,
+        "utf8Bom": false,
+        "sourceSha256": "6ce1ec589dbc18cdacbaf2e5d2a8042ecdcf6a85528250a38b138f12dfe874a3",
+        "expectedSha256": "6ce1ec589dbc18cdacbaf2e5d2a8042ecdcf6a85528250a38b138f12dfe874a3",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Sports and Games"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+        "repositoryPath": "content/sets/discovery/puzzles-and-games/riddles/the-number-vault.json",
+        "packId": "builtin-riddles-the-number-vault-pack",
+        "kind": "set",
+        "byteLength": 28836,
+        "utf8Bom": false,
+        "sourceSha256": "9e606a29d025396dd2c94a99dbf99ad7d1e915ce20b9413b5ec0cca40bd825a3",
+        "expectedSha256": "9e606a29d025396dd2c94a99dbf99ad7d1e915ce20b9413b5ec0cca40bd825a3",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Computation"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+        "repositoryPath": "content/sets/discovery/puzzles-and-games/riddles/the-rules-of-this-place.json",
+        "packId": "builtin-riddles-the-rules-of-this-place-pack",
+        "kind": "set",
+        "byteLength": 31984,
+        "utf8Bom": false,
+        "sourceSha256": "f2846d68b5332a89674b3ccb715e58e9bd19cf23662ba7b2c55248e5b4efcac6",
+        "expectedSha256": "f2846d68b5332a89674b3ccb715e58e9bd19cf23662ba7b2c55248e5b4efcac6",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Sports and Games"
         ]
       },
       {
@@ -768,54 +836,54 @@
     ]
   },
   "totals": {
-    "sourceFiles": 43,
+    "sourceFiles": 47,
     "poolFiles": 5,
-    "curatedSetFiles": 38,
-    "questions": 870,
+    "curatedSetFiles": 42,
+    "questions": 930,
     "poolQuestions": 300,
-    "curatedQuestions": 570,
-    "curatedSets": 38,
+    "curatedQuestions": 630,
+    "curatedSets": 42,
     "categories": 20,
     "normalizationRepairs": 5
   },
   "coverage": {
-    "questionCount": 870,
+    "questionCount": 930,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 570,
-    "curatedSetCount": 38,
-    "sourceCount": 43,
+    "curatedQuestionCount": 630,
+    "curatedSetCount": 42,
+    "sourceCount": 47,
     "categoryCount": 20,
     "byLevel": {
-      "1": 58,
-      "2": 58,
-      "3": 58,
-      "4": 58,
-      "5": 58,
-      "6": 58,
-      "7": 58,
-      "8": 58,
-      "9": 58,
-      "10": 58,
-      "11": 58,
-      "12": 58,
-      "13": 58,
-      "14": 58,
-      "15": 58
+      "1": 62,
+      "2": 62,
+      "3": 62,
+      "4": 62,
+      "5": 62,
+      "6": 62,
+      "7": 62,
+      "8": 62,
+      "9": 62,
+      "10": 62,
+      "11": 62,
+      "12": 62,
+      "13": 62,
+      "14": 62,
+      "15": 62
     },
     "byDisplayDifficulty": {
-      "Easy": 290,
-      "Moderate": 290,
-      "Difficult": 232,
-      "Millionaire": 58
+      "Easy": 310,
+      "Moderate": 310,
+      "Difficult": 248,
+      "Millionaire": 62
     },
     "byInternalTier": {
-      "Foundation": 174,
-      "Accessible": 116,
-      "Intermediate": 174,
-      "Advanced": 116,
-      "Expert": 116,
-      "Elite": 116,
-      "Millionaire": 58
+      "Foundation": 186,
+      "Accessible": 124,
+      "Intermediate": 186,
+      "Advanced": 124,
+      "Expert": 124,
+      "Elite": 124,
+      "Millionaire": 62
     },
     "byCategory": {
       "Ancient History": 42,
@@ -823,17 +891,17 @@
       "Modern History": 19,
       "Geography": 81,
       "Astronomy and Space": 64,
-      "Science": 76,
+      "Science": 78,
       "Nature and Earth": 92,
       "Technology": 51,
-      "Computation": 49,
-      "Vocabulary": 32,
+      "Computation": 64,
+      "Vocabulary": 37,
       "Literature and Language": 52,
       "Art and Culture": 53,
       "Film and Television": 35,
-      "Music": 36,
-      "Sports and Games": 31,
-      "Society and Everyday Life": 18,
+      "Music": 37,
+      "Sports and Games": 66,
+      "Society and Everyday Life": 20,
       "Food and Drink": 34,
       "Politics and World Affairs": 19,
       "Mythology and Religion": 33,
@@ -882,10 +950,14 @@
       "builtin-pool-release-001-group-002": 60,
       "builtin-pool-release-001-group-003": 60,
       "builtin-pool-release-001-group-004": 60,
-      "builtin-pool-release-001-group-005": 60
+      "builtin-pool-release-001-group-005": 60,
+      "builtin-riddles-hidden-in-plain-sight-pack": 15,
+      "builtin-riddles-the-midnight-detective-pack": 15,
+      "builtin-riddles-the-number-vault-pack": 15,
+      "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 870
+      "assistant-reviewed-draft": 930
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []
@@ -936,41 +1008,41 @@
       "Modern History": 4,
       "Geography": 66,
       "Astronomy and Space": 49,
-      "Science": 61,
+      "Science": 63,
       "Nature and Earth": 77,
       "Technology": 36,
-      "Computation": 34,
-      "Vocabulary": 17,
+      "Computation": 49,
+      "Vocabulary": 22,
       "Literature and Language": 37,
       "Art and Culture": 38,
       "Film and Television": 20,
-      "Music": 21,
-      "Sports and Games": 16,
-      "Society and Everyday Life": 3,
+      "Music": 22,
+      "Sports and Games": 51,
+      "Society and Everyday Life": 5,
       "Food and Drink": 19,
       "Politics and World Affairs": 4,
       "Mythology and Religion": 18,
       "Business and Economics": 8
     },
     "allQuestionsPerLevel": {
-      "1": 58,
-      "2": 58,
-      "3": 58,
-      "4": 58,
-      "5": 58,
-      "6": 58,
-      "7": 58,
-      "8": 58,
-      "9": 58,
-      "10": 58,
-      "11": 58,
-      "12": 58,
-      "13": 58,
-      "14": 58,
-      "15": 58
+      "1": 62,
+      "2": 62,
+      "3": 62,
+      "4": 62,
+      "5": 62,
+      "6": 62,
+      "7": 62,
+      "8": 62,
+      "9": 62,
+      "10": 62,
+      "11": 62,
+      "12": 62,
+      "13": 62,
+      "14": 62,
+      "15": 62
     },
-    "singleCategorySets": 29,
-    "mixedCategorySets": 9
+    "singleCategorySets": 32,
+    "mixedCategorySets": 10
   },
   "schemaSignatures": {
     "pack": [
@@ -988,7 +1060,7 @@
           "sets",
           "metadata"
         ],
-        "count": 43
+        "count": 47
       }
     ],
     "question": [
@@ -1021,7 +1093,7 @@
           "usage",
           "metadata"
         ],
-        "count": 325
+        "count": 385
       },
       {
         "keys": [
@@ -1047,7 +1119,7 @@
           "id",
           "text"
         ],
-        "count": 3480
+        "count": 3720
       }
     ],
     "usage": [
@@ -1056,7 +1128,7 @@
           "freshMix",
           "setIds"
         ],
-        "count": 870
+        "count": 930
       }
     ],
     "packMetadata": [
@@ -1119,7 +1191,7 @@
           "generatedBy",
           "verificationNotes"
         ],
-        "count": 13
+        "count": 17
       }
     ],
     "curatedSet": [
@@ -1174,7 +1246,7 @@
           "difficultyNote",
           "audience"
         ],
-        "count": 1
+        "count": 5
       }
     ]
   },

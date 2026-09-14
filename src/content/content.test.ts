@@ -70,14 +70,14 @@ describe('built-in content catalog', () => {
 
   it('loads all source content into indexed normalized records', () => {
     const catalog = loadBuiltInCatalog();
-    expect(catalog.summary.questionCount).toBe(870);
+    expect(catalog.summary.questionCount).toBe(930);
     expect(catalog.summary.freshMixQuestionCount).toBe(300);
-    expect(catalog.summary.curatedQuestionCount).toBe(570);
-    expect(catalog.summary.curatedSetCount).toBe(38);
-    expect(catalog.summary.sourceCount).toBe(43);
-    expect(catalog.questionById.size).toBe(870);
-    expect(catalog.setById.size).toBe(38);
-    expect(catalog.sourceById.size).toBe(43);
+    expect(catalog.summary.curatedQuestionCount).toBe(630);
+    expect(catalog.summary.curatedSetCount).toBe(42);
+    expect(catalog.summary.sourceCount).toBe(47);
+    expect(catalog.questionById.size).toBe(930);
+    expect(catalog.setById.size).toBe(42);
+    expect(catalog.sourceById.size).toBe(47);
     expect(catalog.summary.missingFreshMixLevels).toEqual([]);
     expect(catalog.summary.missingCategoryLevelCells).toEqual([]);
   });
@@ -85,7 +85,7 @@ describe('built-in content catalog', () => {
   it('has exact full-release and Fresh Mix ladder coverage', () => {
     const catalog = loadBuiltInCatalog();
     for (let level = 1; level <= 15; level += 1) {
-      expect(catalog.indexes.byLevel[String(level)]).toHaveLength(58);
+      expect(catalog.indexes.byLevel[String(level)]).toHaveLength(62);
       expect(
         catalog.questions.filter((question) => question.usage.freshMix && question.level === level)
       ).toHaveLength(20);

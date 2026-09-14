@@ -1,6 +1,6 @@
 # The 15-question set library
 
-The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 38 sets: the original 15, 20 themed additions and three image/video sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachment authoring, sources and offline behaviour.
+The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 42 sets: the original 15, 20 themed additions, three image/video sets and four riddle sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachments and [Riddle notes](SET_NOTES_RIDDLES.md) for puzzle verification.
 
 ## Playing and organizing
 
@@ -47,3 +47,7 @@ Generated outputs live under `content/normalized/library/` and `src/content/gene
 - History, technology & games: Crossroads and Sea Routes; Clues Beneath Our Feet; Built to Stand; Messages in Disguise; Across the Table; Small Numbers, Big Ideas.
 
 Source trails, scoped rules and editorial caveats are in [Science notes](SET_NOTES_SCIENCE.md), [Culture notes](SET_NOTES_CULTURE.md) and [Discovery notes](SET_NOTES_DISCOVERY.md). Peer review tightened answer-leaking hints and overlapping questions. Human factual review and difficulty play-testing are still recommended.
+
+## Riddle sets
+
+Under **Puzzles & Games / Riddles**, choose Hidden in Plain Sight, The Midnight Detective, The Number Vault, or The Rules of This Place. Each is an independent 15-question game. The folder uses the existing primary categories; it does not expand the controlled taxonomy. See [Riddle notes](SET_NOTES_RIDDLES.md) for sources, exact-rule caveats and executable solution checks.

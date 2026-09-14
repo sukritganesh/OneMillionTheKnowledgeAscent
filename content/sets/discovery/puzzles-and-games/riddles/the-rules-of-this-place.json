@@ -1,0 +1,764 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-riddles-the-rules-of-this-place-pack",
+  "title": "The Rules of This Place",
+  "description": "Fifteen small worlds with exact rules. Find the route, the winning move, or the reason a tempting plan cannot work.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Sports and Games"
+  ],
+  "questions": [
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-robot-turns",
+      "level": 1,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A toy robot faces north. It turns a quarter-turn right, then another quarter-turn right, without turning again. Which way does it face?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North"
+        },
+        {
+          "id": "b",
+          "text": "South"
+        },
+        {
+          "id": "c",
+          "text": "East"
+        },
+        {
+          "id": "d",
+          "text": "West"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Follow the turns in sequence rather than treating them as alternatives.",
+      "explanation": "The first turn faces east; the second faces south.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The first turn faces east; the second faces south. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-lamp-button",
+      "level": 2,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A lamp starts off. Each press of its only button changes off to on or on to off. You press the button five times. What is the final state?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "On"
+        },
+        {
+          "id": "b",
+          "text": "Off"
+        },
+        {
+          "id": "c",
+          "text": "Flashing"
+        },
+        {
+          "id": "d",
+          "text": "It depends how quickly you press"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Two presses together undo each other.",
+      "explanation": "Four presses make two cancelling pairs. The remaining press leaves the lamp on.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Four presses make two cancelling pairs. The remaining press leaves the lamp on. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-dark-drawer",
+      "level": 3,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A drawer has plenty of red, blue and green socks, indistinguishable by touch. How many must you take without looking to GUARANTEE two socks of the same colour?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider the most unhelpful possible first few picks.",
+      "explanation": "The first three could be one of each colour. The fourth must match a colour already taken.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The first three could be one of each colour. The fourth must match a colour already taken. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-five-stones",
+      "level": 4,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Two players take turns removing either one or two stones from a pile of five. Whoever takes the last stone wins. You move first. How many should you take to guarantee a win?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "Either 1 or 2"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "Neither choice guarantees a win"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Leave a pile from which either reply can be answered by taking the rest.",
+      "explanation": "Taking two leaves three. If the opponent takes one you take two; if they take two you take one.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Taking two leaves three. If the opponent takes one you take two; if they take two you take one. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-two-cups",
+      "level": 5,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "One cup starts with 100 mL of milk, another with 100 mL of coffee. Move 10 mL of milk into the coffee and mix, then return 10 mL of that mixture to the first cup. With no losses and additive volumes, which comparison is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "More milk is in the coffee"
+        },
+        {
+          "id": "b",
+          "text": "Milk in the coffee equals coffee in the milk"
+        },
+        {
+          "id": "c",
+          "text": "More coffee is in the milk"
+        },
+        {
+          "id": "d",
+          "text": "The answer depends on the stirring speed"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Both cups finish with their original total volume.",
+      "explanation": "Each millilitre of coffee now in the first cup displaces one millilitre of its original milk. That missing milk must be in the second cup, so the exchanged amounts are equal.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Each millilitre of coffee now in the first cup displaces one millilitre of its original milk. That missing milk must be in the second cup, so the exchanged amounts are equal. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-two-jugs",
+      "level": 6,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "You have empty 3-litre and 5-litre jugs, a tap and a drain. One move fills a jug, empties it, or pours one into the other until the source is empty or the destination full. What is the fewest moves needed to leave exactly 4 litres in the 5-litre jug?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "A partially filled smaller jug can make the larger jug give up just the amount you need.",
+      "explanation": "Fill 5, pour into 3, empty 3, pour the remaining 2 into 3, refill 5, then top up 3. That leaves 4 litres in the large jug after six moves; no shorter allowed sequence does.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Fill 5, pour into 3, empty 3, pour the remaining 2 into 3, refill 5, then top up 3. That leaves 4 litres in the large jug after six moves; no shorter allowed sequence does. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-river-crossing",
+      "level": 7,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A keeper must ferry a fox, a goose and beans across a river. The boat carries the keeper and at most one item. Without the keeper, fox cannot share a bank with goose, nor goose with beans. All start together. What is the fewest one-way crossings needed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Sometimes moving something back is necessary to make progress.",
+      "explanation": "Take goose across, return alone, take fox across, bring goose back, take beans across, return alone, then take goose across. These seven crossings are minimal under the stated rules.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Take goose across, return alone, take fox across, bring goose back, take beans across, return alone, then take goose across. These seven crossings are minimal under the stated rules. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-heavy-counter",
+      "level": 8,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Nine counters look identical. Exactly one is heavier, and the other eight weigh the same. Using a balance with outcomes left heavier, right heavier or balanced, what is the fewest weighings that always finds the heavy counter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Aim for a first weighing that divides the possibilities into equal-sized groups.",
+      "explanation": "Weigh three against three. The result identifies a group of three; weighing one of those against another identifies the heavy counter. One weighing has only three outcomes, not enough for nine possibilities.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Weigh three against three. The result identifies a group of three; weighing one of those against another identifies the heavy counter. One weighing has only three outcomes, not enough for nine possibilities. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-night-bridge",
+      "level": 9,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Four walkers take 1, 2, 7 and 10 minutes to cross a bridge. At most two cross at once, always carrying the single lamp. A pair takes the slower walker's time; return trips also need the lamp. All start together. What is the minimum time to get everyone across?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "19 minutes"
+        },
+        {
+          "id": "b",
+          "text": "17 minutes"
+        },
+        {
+          "id": "c",
+          "text": "20 minutes"
+        },
+        {
+          "id": "d",
+          "text": "21 minutes"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Compare using one fast escort repeatedly with letting the two slowest travel together.",
+      "explanation": "Send 1 and 2 across, return 1, send 7 and 10, return 2, then send 1 and 2. The total is 2 + 1 + 10 + 2 + 2 = 17 minutes, the optimal schedule.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Send 1 and 2 across, return 1, send 7 and 10, return 2, then send 1 and 2. The total is 2 + 1 + 10 + 2 + 2 = 17 minutes, the optimal schedule. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+      "level": 10,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Two identical test orbs break when dropped above an unknown highest safe floor, which is an integer from 0 to 10. An unbroken orb is reusable; a broken one is lost. What is the fewest drops that can ALWAYS determine the highest safe floor?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "After a break, only one orb remains, so lower untested floors may need checking one by one.",
+      "explanation": "With four drops and two orbs, test floors 4, 7, 9 and 10 if nothing breaks, checking intervening floors after a break. Three drops can distinguish at most seven possible thresholds, fewer than the eleven needed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "With four drops and two orbs, test floors 4, 7, 9 and 10 if nothing breaks, checking intervening floors after a break. Three drops can distinguish at most seven possible thresholds, fewer than the eleven needed. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-three-coins",
+      "level": 11,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Three coins start tails-up. Each move flips exactly two different coins. Can all three ever finish heads-up?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, after two moves"
+        },
+        {
+          "id": "b",
+          "text": "Yes, after three moves"
+        },
+        {
+          "id": "c",
+          "text": "Yes, after four moves"
+        },
+        {
+          "id": "d",
+          "text": "No; the number of tails stays odd"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "A move changes the number of tails by either zero or two.",
+      "explanation": "Starting with three tails, flipping two coins preserves whether the tail count is odd or even. Zero tails is even, so it is unreachable.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Starting with three tails, flipping two coins preserves whether the tail count is odd or even. Zero tails is even, so it is unreachable. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-missing-corners",
+      "level": 12,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Remove two diagonally opposite corner squares from an 8-by-8 checkerboard. A domino covers two edge-adjacent remaining squares. What is the MAXIMUM number of dominoes that can be placed without overlap?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "28"
+        },
+        {
+          "id": "b",
+          "text": "29"
+        },
+        {
+          "id": "c",
+          "text": "30"
+        },
+        {
+          "id": "d",
+          "text": "31"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "A domino always covers one square of each colour.",
+      "explanation": "The removed corners have the same colour, leaving colour counts 30 and 32, so at most 30 dominoes fit. Leaving one further square beside each removed corner allows all other squares to be tiled, achieving 30.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The removed corners have the same colour, leaving colour counts 30 and 32, so at most 30 dominoes fit. Leaving one further square beside each removed corner allows all other squares to be tiled, achieving 30. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-three-piles",
+      "level": 13,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "There are three piles of 2, 4 and 7 stones. Players alternate taking any positive number from ONE pile; whoever takes the last stone wins. Both play perfectly. Which opening move guarantees the first player a win?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Take 1 from the pile of 2"
+        },
+        {
+          "id": "b",
+          "text": "Take 1 from the pile of 7"
+        },
+        {
+          "id": "c",
+          "text": "Take 1 from the pile of 4"
+        },
+        {
+          "id": "d",
+          "text": "Take 2 from the pile of 7"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of pile sizes as groups of ones, twos and fours that can balance across piles.",
+      "explanation": "Leaving 2, 4 and 6 balances every binary place: each occurs in an even number of piles. Any opponent move breaks that balance, and you can restore it; this maintains a winning reply until the last stone.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Leaving 2, 4 and 6 balances every binary place: each occurs in an even number of piles. Any opponent move breaks that balance, and you can restore it; this maintains a winning reply until the last stone. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+      "level": 14,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "A corridor has rooms 1 through 12. From any room you may move exactly three rooms forward or two rooms back, but never leave the corridor. Starting in room 1, what is the fewest moves to reach room 12?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "For a fixed number of moves, replacing a forward move with a backward move changes the total progress by five.",
+      "explanation": "A route is 1, 4, 7, 10, 8, 11, 9, 12. With n moves and b backwards, progress is 3n − 5b; reaching 11 rooms ahead first permits nonnegative whole counts at n = 7.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "A route is 1, 4, 7, 10, 8, 11, 9, 12. With n moves and b backwards, progress is 3n − 5b; reaching 11 rooms ahead first permits nonnegative whole counts at n = 7. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-glowing-vial",
+      "level": 15,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "prompt": "Exactly one of 16 vials contains a dye. A test strip turns blue if and only if its sample contains any dye. You may mix samples from any vials on a strip, and test all strips in ONE batch. What is the fewest strips that always identifies the dyed vial?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Each strip adds a yes-or-no result; a pattern of results can identify a vial.",
+      "explanation": "Three strips give only eight result patterns, fewer than sixteen. Four give sixteen: assign each vial a different four-bit label and include its sample on precisely the strips marked 1; even all-negative results identify one vial.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-the-rules-of-this-place-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Three strips give only eight result patterns, fewer than sixteen. Four give sixteen: assign each vial a different four-bit label and include its sample on precisely the strips marked 1; even all-negative results identify one vial. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-riddles-the-rules-of-this-place-set",
+      "title": "The Rules of This Place",
+      "description": "Fifteen small worlds with exact rules. Find the route, the winning move, or the reason a tempting plan cannot work.",
+      "theme": "Strategy and reasoning riddles",
+      "tags": [
+        "riddles",
+        "the-rules-of-this-place"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "questionIds": [
+        "builtin-riddles-the-rules-of-this-place-robot-turns",
+        "builtin-riddles-the-rules-of-this-place-lamp-button",
+        "builtin-riddles-the-rules-of-this-place-dark-drawer",
+        "builtin-riddles-the-rules-of-this-place-five-stones",
+        "builtin-riddles-the-rules-of-this-place-two-cups",
+        "builtin-riddles-the-rules-of-this-place-two-jugs",
+        "builtin-riddles-the-rules-of-this-place-river-crossing",
+        "builtin-riddles-the-rules-of-this-place-heavy-counter",
+        "builtin-riddles-the-rules-of-this-place-night-bridge",
+        "builtin-riddles-the-rules-of-this-place-fragile-orbs",
+        "builtin-riddles-the-rules-of-this-place-three-coins",
+        "builtin-riddles-the-rules-of-this-place-missing-corners",
+        "builtin-riddles-the-rules-of-this-place-three-piles",
+        "builtin-riddles-the-rules-of-this-place-numbered-rooms",
+        "builtin-riddles-the-rules-of-this-place-glowing-vial"
+      ],
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content."
+  }
+}

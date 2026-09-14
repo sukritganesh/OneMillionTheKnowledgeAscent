@@ -15,9 +15,9 @@ The boundaries are intentional:
 
 Fresh Mix, set browsing, and selection services should consume the normalized catalog. They must not select a source file first, read raw JSON during a run, or depend on source-file grouping.
 
-## Active set library (v2.1.0)
+## Active set library (v2.2.0)
 
-The game combines the unchanged 300-question Release 001 pool with 38 individual curated-set files under `content/sets/`: 570 curated questions and 870 total. Each file contains exactly one 15-question set. The original 15 sets retain their IDs, ordering and gameplay content; 20 themed additions and three media sets add 345 questions. There are 58 questions at each exact level. Question banks are not reorganized. Optional [question media](QUESTION_MEDIA.md) is validated, copied into snapshots, and checked against hashed local files during the built-in set build.
+The game combines the unchanged 300-question Release 001 pool with 42 individual curated-set files under `content/sets/`: 630 curated questions and 930 total. Each file contains exactly one 15-question set. The original 15 sets retain their IDs, ordering and gameplay content; 20 themed additions, three media sets and four riddle sets add 405 questions. There are 62 questions at each exact level. Question banks are not reorganized. Optional [question media](QUESTION_MEDIA.md) is validated, copied into snapshots, and checked against hashed local files during the built-in set build. [Riddle notes](SET_NOTES_RIDDLES.md) describe the puzzle solution checks.
 
 `content/sets/manifest.json` explicitly pins each set's path, pack ID and SHA-256. The build rejects unregistered files and changed hashes, validates the entire frozen archive first, and checks the original set migration contract. It then writes the active artifacts to `content/normalized/library/` and `src/content/generated/`. The archived normalized Release 001 files remain historical evidence.
 

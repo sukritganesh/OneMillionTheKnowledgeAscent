@@ -1,0 +1,768 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-riddles-hidden-in-plain-sight-pack",
+  "title": "Hidden in Plain Sight",
+  "description": "Familiar objects speak in clues, then words and patterns start hiding their own answers.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Music",
+    "Society and Everyday Life",
+    "Science",
+    "Vocabulary",
+    "Sports and Games"
+  ],
+  "questions": [
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+      "level": 1,
+      "category": "Music",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I have keys, felt-covered hammers and strings, but I open no doors. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An accordion"
+        },
+        {
+          "id": "b",
+          "text": "A piano"
+        },
+        {
+          "id": "c",
+          "text": "A violin"
+        },
+        {
+          "id": "d",
+          "text": "A pipe organ"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Here, a key is something you press rather than turn.",
+      "explanation": "A piano's keys operate hammers that strike strings. The other instruments do not combine all three features.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Piano Technicians Guild, Do You Know Your Piano Parts? https://higherlogicdownload.s3.amazonaws.com/PTG/4712341a-15b0-41ac-8808-2332a49e0e5c/UploadedImages/teacher/Piano_Word_Search-2023.pdf",
+        "verificationNotes": "A piano's keys operate hammers that strike strings. The other instruments do not combine all three features. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+      "level": 2,
+      "category": "Society and Everyday Life",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I can cross a country on an envelope without leaving its corner. My job is to show that postage has been paid. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A postage stamp"
+        },
+        {
+          "id": "b",
+          "text": "A return address"
+        },
+        {
+          "id": "c",
+          "text": "A postmark"
+        },
+        {
+          "id": "d",
+          "text": "An envelope flap"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Distinguish paying for a journey from recording when it began.",
+      "explanation": "The stamp travels with the envelope and represents paid postage. A postmark records postal handling rather than serving as the payment itself.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "The stamp travels with the envelope and represents paid postage. A postmark records postal handling rather than serving as the payment itself. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+      "level": 3,
+      "category": "Society and Everyday Life",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "My teeth line up in a row, and I pass through hair without taking a bite. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hair clip"
+        },
+        {
+          "id": "b",
+          "text": "A razor"
+        },
+        {
+          "id": "c",
+          "text": "A sewing needle"
+        },
+        {
+          "id": "d",
+          "text": "A comb"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The useful part has gaps between its points.",
+      "explanation": "A comb's row of teeth separates and arranges hair. The other objects do not do this with a row of teeth.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "A comb's row of teeth separates and arranges hair. The other objects do not do this with a row of teeth. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+      "level": 4,
+      "category": "Science",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "On a sunlit wall I copy your outline, but I have no material body. Move between the sunlight and the wall, and I move too. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A reflection in glass"
+        },
+        {
+          "id": "b",
+          "text": "A painted silhouette"
+        },
+        {
+          "id": "c",
+          "text": "A shadow"
+        },
+        {
+          "id": "d",
+          "text": "A photograph"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think about what happens when light's path is blocked.",
+      "explanation": "A shadow is the region where your body blocks direct sunlight. Unlike paint or a photograph, it changes with your position.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "A shadow is the region where your body blocks direct sunlight. Unlike paint or a photograph, it changes with your position. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+      "level": 5,
+      "category": "Science",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "You shout toward a distant cliff. I return the same words a moment later, though nobody on the cliff speaks. What am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gust of wind"
+        },
+        {
+          "id": "b",
+          "text": "An echo"
+        },
+        {
+          "id": "c",
+          "text": "A radio broadcast"
+        },
+        {
+          "id": "d",
+          "text": "A new shout"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The sound takes a journey before you hear it again.",
+      "explanation": "An echo is delayed reflected sound: your shout travels to the cliff and back.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.collinsdictionary.com/us/dictionary/english/echo",
+        "verificationNotes": "An echo is delayed reflected sound: your shout travels to the cliff and back. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+      "level": 6,
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "I am a five-letter English word for a small piece of rock. Remove my first letter and I can mean a musical sound; remove the new first letter and I become a number. Which word am I?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "STONE"
+        },
+        {
+          "id": "b",
+          "text": "SLATE"
+        },
+        {
+          "id": "c",
+          "text": "SHALE"
+        },
+        {
+          "id": "d",
+          "text": "FLINT"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Apply the deletions in order, without rearranging anything.",
+      "explanation": "STONE becomes TONE, then ONE. The other choices do not make both required words.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "STONE becomes TONE, then ONE. The other choices do not make both required words. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+      "level": 7,
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word can follow SEA and come before TIME to make two familiar English compound words?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SHORE"
+        },
+        {
+          "id": "b",
+          "text": "SHELL"
+        },
+        {
+          "id": "c",
+          "text": "FLOOR"
+        },
+        {
+          "id": "d",
+          "text": "BED"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The two compounds need not belong to the same subject.",
+      "explanation": "SEA + BED makes SEABED, and BED + TIME makes BEDTIME. The other choices do not form both ordinary compounds.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://scrabble.merriam.com/finder/seabed ; common English compound BEDTIME; letter joins checked directly.",
+        "verificationNotes": "SEA + BED makes SEABED, and BED + TIME makes BEDTIME. The other choices do not form both ordinary compounds. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+      "level": 8,
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Use every letter of LISTEN exactly once. Which resulting word means 'making no sound'?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "TINSEL"
+        },
+        {
+          "id": "b",
+          "text": "ENLIST"
+        },
+        {
+          "id": "c",
+          "text": "SILENT"
+        },
+        {
+          "id": "d",
+          "text": "INLETS"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Check the meaning as well as the letters; more than one rearrangement is a word.",
+      "explanation": "All four choices rearrange LISTEN, but only SILENT means making no sound.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "All four choices rearrange LISTEN, but only SILENT means making no sound. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+      "level": 9,
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Read STRESSED from right to left without changing any letters. What does the resulting English word name?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "People waiting for a meal"
+        },
+        {
+          "id": "b",
+          "text": "Sweet courses after a meal"
+        },
+        {
+          "id": "c",
+          "text": "Places where food is stored"
+        },
+        {
+          "id": "d",
+          "text": "Utensils used to serve food"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Start at the final letter and keep the order strictly reversed.",
+      "explanation": "STRESSED reversed is DESSERTS, the sweet courses often eaten after a meal.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "STRESSED reversed is DESSERTS, the sweet courses often eaten after a meal. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+      "level": 10,
+      "category": "Vocabulary",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word contains three different doubled letters in immediate succession, with no letter between the pairs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "BOOKKEEPER"
+        },
+        {
+          "id": "b",
+          "text": "BOOKSELLER"
+        },
+        {
+          "id": "c",
+          "text": "HOUSEKEEPER"
+        },
+        {
+          "id": "d",
+          "text": "GROUNDSKEEPER"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Mark adjacent identical letters, then check whether the marked pairs touch.",
+      "explanation": "BOOKKEEPER contains OO, KK and EE consecutively. The other words do not contain that run of three doubled pairs.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.oxfordlearnersdictionaries.com/us/definition/english/bookkeeper ; spelling checked character by character.",
+        "verificationNotes": "BOOKKEEPER contains OO, KK and EE consecutively. The other words do not contain that run of three doubled pairs. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+      "level": 11,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Which word's letters run in strictly increasing English alphabetical order from first to last?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ALMOND"
+        },
+        {
+          "id": "b",
+          "text": "ALWAYS"
+        },
+        {
+          "id": "c",
+          "text": "ALPINE"
+        },
+        {
+          "id": "d",
+          "text": "ALMOST"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Compare neighbouring letters; one backward step rules a word out.",
+      "explanation": "A, L, M, O, S, T rise throughout the alphabet. Each other choice has at least one backward step.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "A, L, M, O, S, T rise throughout the alphabet. Each other choice has at least one backward step. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+      "level": 12,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Take BANANA, remove exactly one letter and insert it elsewhere. All other letters keep their order. Which string CANNOT result from that single move?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ANANAB"
+        },
+        {
+          "id": "b",
+          "text": "BNAANA"
+        },
+        {
+          "id": "c",
+          "text": "AANNAB"
+        },
+        {
+          "id": "d",
+          "text": "BAANAN"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "If the unique first letter finishes last, it must be the letter that moved.",
+      "explanation": "Moving B to the end produces ANANAB, not AANNAB. BNAANA and BAANAN are possible by moving one A and one N respectively; no single move produces AANNAB.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "Moving B to the end produces ANANAB, not AANNAB. BNAANA and BAANAN are possible by moving one A and one N respectively; no single move produces AANNAB. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+      "level": 13,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "A word lock accepts exactly six letters, exactly four distinct letters, and exactly two vowels counted with repetitions. Vowels here are A, E, I, O and U. Which word opens it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "PEPPER"
+        },
+        {
+          "id": "b",
+          "text": "LETTER"
+        },
+        {
+          "id": "c",
+          "text": "BANANA"
+        },
+        {
+          "id": "d",
+          "text": "STREAM"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Keep the count of different letters separate from the total number of letters.",
+      "explanation": "LETTER has six letters, four distinct ones (L, E, T, R), and two vowels. PEPPER has three distinct letters, BANANA has three vowels, and STREAM has six distinct letters.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "LETTER has six letters, four distinct ones (L, E, T, R), and two vowels. PEPPER has three distinct letters, BANANA has three vowels, and STREAM has six distinct letters. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+      "level": 14,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "Give letters their alphabet positions: A is 1 through Z at 26. A four-letter word balances when its first and last letters sum to the same total as its two middle letters. Which word balances?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "MATH"
+        },
+        {
+          "id": "b",
+          "text": "ROAD"
+        },
+        {
+          "id": "c",
+          "text": "NOTE"
+        },
+        {
+          "id": "d",
+          "text": "LAMP"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Compare the outside pair with the inside pair, not the first half with the second.",
+      "explanation": "For MATH, M + H is 13 + 8 = 21 and A + T is 1 + 20 = 21. The other three words have unequal pair sums.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "For MATH, M + H is 13 + 8 = 21 and A + T is 1 + 20 = 21. The other three words have unequal pair sums. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-code-counts-itself",
+      "level": 15,
+      "category": "Sports and Games",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "prompt": "A four-digit code uses only 0, 1, 2 and 3. Its digits count, in order, how many zeros, ones, twos and threes occur in the entire code. Its second digit is 2. What is the code?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1220"
+        },
+        {
+          "id": "b",
+          "text": "0211"
+        },
+        {
+          "id": "c",
+          "text": "2210"
+        },
+        {
+          "id": "d",
+          "text": "1210"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Every digit is both a symbol to count and a claim about the counts.",
+      "explanation": "1210 contains one zero, two ones, one two and no threes, exactly matching its digits. Testing the allowed digit counts with the second digit fixed at 2 leaves only this code.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-riddles-hidden-in-plain-sight-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "Newly worded self-contained riddle. Traditional puzzle mechanisms may be used; no originality claim for the underlying concept. Premises, transformations and solutions are checked directly; see docs/SET_NOTES_RIDDLES.md.",
+        "verificationNotes": "1210 contains one zero, two ones, one two and no threes, exactly matching its digits. Testing the allowed digit counts with the second digit fixed at 2 leaves only this code. Assistant-reviewed draft; human editorial review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-riddles-hidden-in-plain-sight-set",
+      "title": "Hidden in Plain Sight",
+      "description": "Familiar objects speak in clues, then words and patterns start hiding their own answers.",
+      "theme": "Word and pattern riddles",
+      "tags": [
+        "riddles",
+        "hidden-in-plain-sight"
+      ],
+      "folderPath": [
+        "Puzzles & Games",
+        "Riddles"
+      ],
+      "questionIds": [
+        "builtin-riddles-hidden-in-plain-sight-hammers-and-keys",
+        "builtin-riddles-hidden-in-plain-sight-corner-traveller",
+        "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
+        "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-riddles-hidden-in-plain-sight-stone-shrinks",
+        "builtin-riddles-hidden-in-plain-sight-between-sea-time",
+        "builtin-riddles-hidden-in-plain-sight-listen-rearranged",
+        "builtin-riddles-hidden-in-plain-sight-stressed-backwards",
+        "builtin-riddles-hidden-in-plain-sight-three-double-pairs",
+        "builtin-riddles-hidden-in-plain-sight-alphabetical-word",
+        "builtin-riddles-hidden-in-plain-sight-one-letter-move",
+        "builtin-riddles-hidden-in-plain-sight-word-lock-counts",
+        "builtin-riddles-hidden-in-plain-sight-balanced-alphabet",
+        "builtin-riddles-hidden-in-plain-sight-code-counts-itself"
+      ],
+      "difficultyNote": "A gentle opening builds toward multi-step deductions. Difficulty is a draft estimate; familiarity with a puzzle can make it much easier.",
+      "audience": "English-language riddle solvers. Each question is independent; use only its stated rules."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "generatedBy": "OpenAI",
+    "verificationNotes": "Direct derivations and executable checks in src/content/riddleSets.test.ts; editorial notes in docs/SET_NOTES_RIDDLES.md. Not certified human-reviewed content."
+  }
+}
