@@ -1,0 +1,781 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-geo-journeys-africa-in-focus-pack",
+  "title": "Africa in Focus",
+  "description": "Travel from familiar African landmarks to desert moisture, inland deltas and the routes out of great lakes.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-kalahari-region",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "deserts"
+      ],
+      "prompt": "The Kalahari is associated with which region of Africa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Northern Africa"
+        },
+        {
+          "id": "b",
+          "text": "Western Africa"
+        },
+        {
+          "id": "c",
+          "text": "The Horn of Africa"
+        },
+        {
+          "id": "d",
+          "text": "Southern Africa"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its sandy landscapes extend across parts of Botswana, Namibia and South Africa.",
+      "explanation": "The Kalahari lies in southern Africa. It includes semiarid savanna as well as drier landscapes, rather than being uniformly bare desert.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Kalahari lies in southern Africa. It includes semiarid savanna as well as drier landscapes, rather than being uniformly bare desert. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-cairo-river",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "rivers"
+      ],
+      "prompt": "Which river runs through Cairo?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Niger"
+        },
+        {
+          "id": "b",
+          "text": "Nile"
+        },
+        {
+          "id": "c",
+          "text": "Congo"
+        },
+        {
+          "id": "d",
+          "text": "Zambezi"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It connects the city to a large delta on the Mediterranean coast.",
+      "explanation": "Cairo stands beside the Nile near the head of its delta. The river has long shaped settlement in this part of Egypt.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/89/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Cairo stands beside the Nile near the head of its delta. The river has long shaped settlement in this part of Egypt. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-accra-capital",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "capitals"
+      ],
+      "prompt": "Accra is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Senegal"
+        },
+        {
+          "id": "b",
+          "text": "Liberia"
+        },
+        {
+          "id": "c",
+          "text": "Ghana"
+        },
+        {
+          "id": "d",
+          "text": "Sierra Leone"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "This country lies on the Gulf of Guinea and was formerly known as the Gold Coast.",
+      "explanation": "Accra is Ghana's capital. It is a coastal city in West Africa.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.au.int/en/cities/accra",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Accra is Ghana's capital. It is a coastal city in West Africa. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-serengeti-country",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "national-parks"
+      ],
+      "prompt": "Serengeti National Park is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tanzania"
+        },
+        {
+          "id": "b",
+          "text": "Kenya"
+        },
+        {
+          "id": "c",
+          "text": "Uganda"
+        },
+        {
+          "id": "d",
+          "text": "Zambia"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Distinguish this park from the Maasai Mara reserve across its northern border.",
+      "explanation": "Serengeti National Park is in Tanzania. Its savanna supports large seasonal movements of grazing animals.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/156/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Serengeti National Park is in Tanzania. Its savanna supports large seasonal movements of grazing animals. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "waterfalls"
+      ],
+      "prompt": "Victoria Falls, also called Mosi-oa-Tunya, is on which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zambezi"
+        },
+        {
+          "id": "b",
+          "text": "Limpopo"
+        },
+        {
+          "id": "c",
+          "text": "Orange"
+        },
+        {
+          "id": "d",
+          "text": "Congo"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look along the boundary between Zambia and Zimbabwe.",
+      "explanation": "Victoria Falls is on the Zambezi River. Water drops over a basalt edge into a system of gorges.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/509/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Victoria Falls is on the Zambezi River. Water drops over a basalt edge into a system of gorges. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-atlas-countries",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "mountains"
+      ],
+      "prompt": "Which mountain system stretches through Morocco, Algeria and Tunisia?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Drakensberg"
+        },
+        {
+          "id": "b",
+          "text": "Rwenzori Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Atlas Mountains"
+        },
+        {
+          "id": "d",
+          "text": "Tibesti Mountains"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the long mountain belt in Africa's northwest.",
+      "explanation": "The Atlas system runs across northwestern Africa. Its ranges form a major boundary between Mediterranean-facing regions and the Sahara.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Africa_s_Atlas_Mountains",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Atlas system runs across northwestern Africa. Its ranges form a major boundary between Mediterranean-facing regions and the Sahara. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-namib-water",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "coastal-deserts"
+      ],
+      "prompt": "In the Namib Sand Sea, what is the main source of moisture supporting life among the coastal dunes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regular monsoon rain"
+        },
+        {
+          "id": "b",
+          "text": "Fog"
+        },
+        {
+          "id": "c",
+          "text": "Seasonal snowmelt"
+        },
+        {
+          "id": "d",
+          "text": "Daily river flooding"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Cool marine air can bring water without a conventional rainstorm.",
+      "explanation": "Fog is the principal water source in the Namib Sand Sea. This makes the coastal desert quite different from one sustained by regular rainfall.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1430/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Fog is the principal water source in the Namib Sand Sea. This makes the coastal desert quite different from one sustained by regular rainfall. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "mountains"
+      ],
+      "prompt": "The Rwenzori Mountains National Park protects high mountain landscapes in the west of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kenya"
+        },
+        {
+          "id": "b",
+          "text": "Tanzania"
+        },
+        {
+          "id": "c",
+          "text": "Ethiopia"
+        },
+        {
+          "id": "d",
+          "text": "Uganda"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look west of Lake Victoria, toward the border with the Democratic Republic of the Congo.",
+      "explanation": "The national park is in western Uganda. It protects the Ugandan part of the Rwenzori mountain chain.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/684/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The national park is in western Uganda. It protects the Ugandan part of the Rwenzori mountain chain. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "lake-outlets"
+      ],
+      "prompt": "Which river is the surface outlet of Lake Malawi?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rufiji"
+        },
+        {
+          "id": "b",
+          "text": "Ruvuma"
+        },
+        {
+          "id": "c",
+          "text": "Shire"
+        },
+        {
+          "id": "d",
+          "text": "Kafue"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Follow the lake south toward the Zambezi system.",
+      "explanation": "The Shire flows out of the southern end of Lake Malawi. It later joins the Zambezi.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://malawi-india.org/southern-lakeshore-lakes.html",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Shire flows out of the southern end of Lake Malawi. It later joins the Zambezi. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "inland-deltas"
+      ],
+      "prompt": "The Niger River's great inland delta is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mali"
+        },
+        {
+          "id": "b",
+          "text": "Niger"
+        },
+        {
+          "id": "c",
+          "text": "Nigeria"
+        },
+        {
+          "id": "d",
+          "text": "Guinea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Do not confuse this inland wetland with the river's coastal delta.",
+      "explanation": "The inland delta is in Mali, far upstream of the sea. The Niger's coastal delta is in Nigeria, a different part of the river system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eros.usgs.gov/earthshots/niger-river-inland-delta-mali",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The inland delta is in Mali, far upstream of the sea. The Niger's coastal delta is in Nigeria, a different part of the river system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "lake-inflows"
+      ],
+      "prompt": "Which river brings most of the inflowing river water to Lake Turkana?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Awash"
+        },
+        {
+          "id": "b",
+          "text": "Tana"
+        },
+        {
+          "id": "c",
+          "text": "Jubba"
+        },
+        {
+          "id": "d",
+          "text": "Omo"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Follow the main tributary north from the lake into Ethiopia.",
+      "explanation": "The Omo is Lake Turkana's principal river inflow. It forms a delta at the northern end of the lake.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://eros.usgs.gov/earthshots/lake-turkana-kenya-and-ethiopia",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Omo is Lake Turkana's principal river inflow. It forms a delta at the northern end of the lake. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-assal-country",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "salt-lakes"
+      ],
+      "prompt": "Lake Assal, a salt lake in a depression below sea level, is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eritrea"
+        },
+        {
+          "id": "b",
+          "text": "Djibouti"
+        },
+        {
+          "id": "c",
+          "text": "Somalia"
+        },
+        {
+          "id": "d",
+          "text": "Ethiopia"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of a small country beside the Gulf of Tadjoura.",
+      "explanation": "Lake Assal lies in Djibouti. Its closed basin and strong evaporation help concentrate salts.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/tentativelists/5959",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Assal lies in Djibouti. Its closed basin and strong evaporation help concentrate salts. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "canyons"
+      ],
+      "prompt": "Which river cuts the canyon along the southern edge of Madagascar's Bemaraha limestone plateau?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Manambolo"
+        },
+        {
+          "id": "b",
+          "text": "Mangoky"
+        },
+        {
+          "id": "c",
+          "text": "Onilahy"
+        },
+        {
+          "id": "d",
+          "text": "Tsiribihina"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look beside the western tsingy formations, rather than in Madagascar's far south.",
+      "explanation": "The Manambolo cuts through the Bemaraha landscape. Its canyon lies beside the limestone formations known as tsingy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/494/ ; https://whc.unesco.org/document/153579",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Manambolo cuts through the Bemaraha landscape. Its canyon lies beside the limestone formations known as tsingy. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-chad-inflow",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "drainage"
+      ],
+      "prompt": "Which linked river pair supplies most of Lake Chad's inflow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benue and Faro"
+        },
+        {
+          "id": "b",
+          "text": "Niger and Bani"
+        },
+        {
+          "id": "c",
+          "text": "Chari and Logone"
+        },
+        {
+          "id": "d",
+          "text": "Senegal and Falémé"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The main supply reaches the lake from the south, passing the N'Djamena area.",
+      "explanation": "The Logone is a tributary of the Chari. Together their system provides the lake's main river supply.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lake-chads-water-wetlands-and-dunes-154407/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Logone is a tributary of the Chari. Together their system provides the lake's main river supply. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "watersheds"
+      ],
+      "prompt": "Which sequence traces Lake Tanganyika's surface outflow toward the Atlantic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ruzizi → Kagera → Nile"
+        },
+        {
+          "id": "b",
+          "text": "Lukuga → Lualaba → Congo"
+        },
+        {
+          "id": "c",
+          "text": "Shire → Zambezi → Limpopo"
+        },
+        {
+          "id": "d",
+          "text": "Malagarasi → Rufiji → Ruvuma"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The outlet leaves the lake's western side rather than following the Nile or Zambezi systems.",
+      "explanation": "The Lukuga carries water west from Lake Tanganyika to the Lualaba, the upper Congo. This places the outlet in the Congo's Atlantic drainage system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://agris.fao.org/search/en/providers/122535/records/65df4370b766d82b1800f92c ; https://lta-alt.org/wp-content/uploads/2025/07/ENG_TDR_Etude-Construction-Barrage.pdf",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Lukuga carries water west from Lake Tanganyika to the Lualaba, the upper Congo. This places the outlet in the Congo's Atlantic drainage system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-set",
+      "title": "Africa in Focus",
+      "description": "Travel from familiar African landmarks to desert moisture, inland deltas and the routes out of great lakes.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "africa-in-focus"
+      ],
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
+      ],
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "audience": "General English-language geography players."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "generatedBy": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-11-19T00:00:00Z",
+    "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats."
+  }
+}

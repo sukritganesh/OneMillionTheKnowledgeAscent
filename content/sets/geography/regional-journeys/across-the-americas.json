@@ -1,0 +1,781 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-geo-journeys-across-the-americas-pack",
+  "title": "Across the Americas",
+  "description": "Follow mountain trails, island chains and waterways from the Canadian Rockies to Patagonia.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-geo-journeys-across-the-americas-rio-country",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "cities"
+      ],
+      "prompt": "Rio de Janeiro is a city in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Argentina"
+        },
+        {
+          "id": "b",
+          "text": "Colombia"
+        },
+        {
+          "id": "c",
+          "text": "Brazil"
+        },
+        {
+          "id": "d",
+          "text": "Mexico"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the Portuguese-speaking country on South America's Atlantic coast.",
+      "explanation": "Rio de Janeiro is in Brazil. Its landscape combines urban neighborhoods, forested hills and coastal bays.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1100/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Rio de Janeiro is in Brazil. Its landscape combines urban neighborhoods, forested hills and coastal bays. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-banff-mountains",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "mountains"
+      ],
+      "prompt": "Canada's Banff and Jasper national parks lie in which mountain system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rocky Mountains"
+        },
+        {
+          "id": "b",
+          "text": "Appalachian Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Andes"
+        },
+        {
+          "id": "d",
+          "text": "Laurentian Mountains"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look in western Canada rather than along its Atlantic side.",
+      "explanation": "Banff and Jasper are in the Canadian Rocky Mountains. Both belong to the Canadian Rocky Mountain Parks World Heritage site.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/304/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Banff and Jasper are in the Canadian Rocky Mountains. Both belong to the Canadian Rocky Mountain Parks World Heritage site. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-lima-capital",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "capitals"
+      ],
+      "prompt": "Lima is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ecuador"
+        },
+        {
+          "id": "b",
+          "text": "Peru"
+        },
+        {
+          "id": "c",
+          "text": "Bolivia"
+        },
+        {
+          "id": "d",
+          "text": "Chile"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The country has a Pacific coast and includes the former Inca heartland.",
+      "explanation": "Lima is Peru's capital. It stands on the country's Pacific side rather than high in the Andes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.gob.pe/29307-informacion-para-disfrutar-de-lima",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lima is Peru's capital. It stands on the country's Pacific side rather than high in the Andes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "islands"
+      ],
+      "prompt": "In which ocean are the Galápagos Islands?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atlantic Ocean"
+        },
+        {
+          "id": "b",
+          "text": "Indian Ocean"
+        },
+        {
+          "id": "c",
+          "text": "Arctic Ocean"
+        },
+        {
+          "id": "d",
+          "text": "Pacific Ocean"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The islands lie west of mainland Ecuador.",
+      "explanation": "The Galápagos are in the Pacific Ocean, off South America's west coast. Their isolation helped distinctive wildlife evolve.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Galápagos are in the Pacific Ocean, off South America's west coast. Their isolation helped distinctive wildlife evolve. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-iguazu-border",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "waterfalls"
+      ],
+      "prompt": "Iguazú Falls spans the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Argentina and Chile"
+        },
+        {
+          "id": "b",
+          "text": "Brazil and Bolivia"
+        },
+        {
+          "id": "c",
+          "text": "Brazil and Uruguay"
+        },
+        {
+          "id": "d",
+          "text": "Argentina and Brazil"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look east of the Andes, near the meeting of three South American countries.",
+      "explanation": "The falls lie on the Argentina–Brazil border. Paraguay is nearby, but the waterfall itself is not on the Paraguayan border.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/303/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The falls lie on the Argentina–Brazil border. Paraguay is nearby, but the waterfall itself is not on the Paraguayan border. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "drainage"
+      ],
+      "prompt": "Which river carries water from Lake Ontario toward the Atlantic Ocean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hudson"
+        },
+        {
+          "id": "b",
+          "text": "St. Lawrence"
+        },
+        {
+          "id": "c",
+          "text": "Mackenzie"
+        },
+        {
+          "id": "d",
+          "text": "Susquehanna"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Follow the Great Lakes system downstream into eastern Canada.",
+      "explanation": "Lake Ontario drains into the St. Lawrence River. The river and its gulf connect the Great Lakes system to the Atlantic.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://tides.gc.ca/en/great-lakes-st-lawrence-river-system",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Ontario drains into the St. Lawrence River. The river and its gulf connect the Great Lakes system to the Atlantic. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "karst"
+      ],
+      "prompt": "The Yucatán Peninsula's cenotes are water-filled openings most closely associated with which landscape?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limestone karst"
+        },
+        {
+          "id": "b",
+          "text": "Granite uplands"
+        },
+        {
+          "id": "c",
+          "text": "Basalt lava fields"
+        },
+        {
+          "id": "d",
+          "text": "Sandstone mesas"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Water has dissolved pathways underground, and some cave roofs have collapsed.",
+      "explanation": "Cenotes expose groundwater in the Yucatán's limestone terrain. Dissolution and collapse are characteristic processes in karst landscapes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/tentativelists/5784/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Cenotes expose groundwater in the Yucatán's limestone terrain. Dissolution and collapse are characteristic processes in karst landscapes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-aconcagua-country",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "mountains"
+      ],
+      "prompt": "Aconcagua's summit lies in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chile"
+        },
+        {
+          "id": "b",
+          "text": "Peru"
+        },
+        {
+          "id": "c",
+          "text": "Argentina"
+        },
+        {
+          "id": "d",
+          "text": "Bolivia"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The approach through Mendoza is on the eastern side of the central Andes.",
+      "explanation": "Aconcagua is in Argentina's Mendoza Province. Although it is near Chile, its summit is not on the international border.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://informacionoficial.mendoza.gob.ar/energiayambiente/aconcagua/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Aconcagua is in Argentina's Mendoza Province. Although it is near Chile, its summit is not on the international border. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-fundy-provinces",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "bays"
+      ],
+      "prompt": "The Bay of Fundy lies chiefly between which two Canadian provinces?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nova Scotia and Newfoundland and Labrador"
+        },
+        {
+          "id": "b",
+          "text": "New Brunswick and Nova Scotia"
+        },
+        {
+          "id": "c",
+          "text": "Quebec and New Brunswick"
+        },
+        {
+          "id": "d",
+          "text": "New Brunswick and Prince Edward Island"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of the long inlet on the inland-facing side of the Nova Scotia peninsula.",
+      "explanation": "The Bay of Fundy lies between New Brunswick and Nova Scotia. Its entrance opens toward the Gulf of Maine.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://publications.gc.ca/collections/collection_2024/mpo-dfo/Fs74-48-2024-9-eng.pdf",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Bay of Fundy lies between New Brunswick and Nova Scotia. Its entrance opens toward the Gulf of Maine. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "wetlands"
+      ],
+      "prompt": "The Pantanal wetland lies mainly within the upper basin of which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tocantins"
+        },
+        {
+          "id": "b",
+          "text": "São Francisco"
+        },
+        {
+          "id": "c",
+          "text": "Orinoco"
+        },
+        {
+          "id": "d",
+          "text": "Paraguay"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Trace its drainage south through inland South America, rather than toward the Amazon.",
+      "explanation": "The Pantanal occupies much of the upper Paraguay River basin. Seasonal flooding connects its rivers, channels and floodplains.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/999/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Pantanal occupies much of the upper Paraguay River basin. Seasonal flooding connects its rivers, channels and floodplains. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-gros-morne-island",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "islands"
+      ],
+      "prompt": "Gros Morne National Park is on the west coast of which Canadian island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vancouver Island"
+        },
+        {
+          "id": "b",
+          "text": "Cape Breton Island"
+        },
+        {
+          "id": "c",
+          "text": "Newfoundland"
+        },
+        {
+          "id": "d",
+          "text": "Baffin Island"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look on Canada's Atlantic side, on the island northeast of the Gulf of St. Lawrence.",
+      "explanation": "Gros Morne is on Newfoundland. Glacial scenery there sits alongside exposed rocks from ocean crust and Earth's mantle.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/419/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Gros Morne is on Newfoundland. Glacial scenery there sits alongside exposed rocks from ocean crust and Earth's mantle. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-nahanni-river",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "rivers"
+      ],
+      "prompt": "Virginia Falls in Nahanni National Park Reserve is on which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "South Nahanni"
+        },
+        {
+          "id": "b",
+          "text": "North Nahanni"
+        },
+        {
+          "id": "c",
+          "text": "Coppermine"
+        },
+        {
+          "id": "d",
+          "text": "Thelon"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The river also winds through the park's great canyons.",
+      "explanation": "Virginia Falls lies on the South Nahanni River. The park protects a striking river corridor in Canada's Northwest Territories.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://parks.canada.ca/pn-np/nt/nahanni/nature/hydrologie-hydrology",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Virginia Falls lies on the South Nahanni River. The park protects a striking river corridor in Canada's Northwest Territories. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "glaciers"
+      ],
+      "prompt": "The Perito Moreno Glacier can dam the Brazo Rico arm of which Patagonian lake?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lake Viedma"
+        },
+        {
+          "id": "b",
+          "text": "Lake Buenos Aires / General Carrera"
+        },
+        {
+          "id": "c",
+          "text": "Lake Nahuel Huapi"
+        },
+        {
+          "id": "d",
+          "text": "Lake Argentino"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The glacier descends from the Southern Patagonian Icefield near El Calafate.",
+      "explanation": "Perito Moreno reaches Lake Argentino. When its ice blocks Brazo Rico, water can accumulate behind the temporary barrier.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/perito-moreno-glacier-argentina-78754/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Perito Moreno reaches Lake Argentino. When its ice blocks Brazo Rico, water can accumulate behind the temporary barrier. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "river-bifurcations"
+      ],
+      "prompt": "Which natural waterway branches from the Orinoco and joins the Rio Negro, linking the Orinoco and Amazon basins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Purus"
+        },
+        {
+          "id": "b",
+          "text": "Casiquiare"
+        },
+        {
+          "id": "c",
+          "text": "Essequibo"
+        },
+        {
+          "id": "d",
+          "text": "Tocantins"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look in southern Venezuela for a river that is a distributary of one system and a tributary of another.",
+      "explanation": "The Casiquiare carries some Orinoco water into the Rio Negro. Because the Rio Negro joins the Amazon, this forms a natural connection between the two basins.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/when-rivers-take-a-weird-turn-154394/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Casiquiare carries some Orinoco water into the Rio Negro. Because the Rio Negro joins the Amazon, this forms a natural connection between the two basins. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-two-ocean-route",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "watersheds"
+      ],
+      "prompt": "At Wyoming's Two Ocean Pass, North Two Ocean Creek splits. Which downstream river sequence does its Atlantic Creek branch follow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yellowstone → Missouri → Mississippi"
+        },
+        {
+          "id": "b",
+          "text": "Snake → Columbia → Willamette"
+        },
+        {
+          "id": "c",
+          "text": "Green → Colorado → Gila"
+        },
+        {
+          "id": "d",
+          "text": "Platte → Arkansas → Mississippi"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the eastern branch across the northern plains before following the main river south.",
+      "explanation": "Atlantic Creek joins the Yellowstone, then the Missouri and Mississippi river system. The other branch, Pacific Creek, reaches the Pacific through the Snake and Columbia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.mdpi.com/2073-4441/12/6/1629 ; https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024WR039824",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Atlantic Creek joins the Yellowstone, then the Missouri and Mississippi river system. The other branch, Pacific Creek, reaches the Pacific through the Snake and Columbia. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-geo-journeys-across-the-americas-set",
+      "title": "Across the Americas",
+      "description": "Follow mountain trails, island chains and waterways from the Canadian Rockies to Patagonia.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "across-the-americas"
+      ],
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route"
+      ],
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "audience": "General English-language geography players."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "generatedBy": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-11-19T00:00:00Z",
+    "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats."
+  }
+}

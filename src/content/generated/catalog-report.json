@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.2.0",
-  "validatedAt": "2026-09-13T00:00:00Z",
+  "releaseVersion": "2.3.0",
+  "validatedAt": "2026-11-19T00:00:00Z",
   "valid": true,
   "sourceIntegrity": {
     "algorithm": "SHA-256",
@@ -607,6 +607,70 @@
         ]
       },
       {
+        "manifestPath": "content/sets/geography/regional-journeys/across-europe.json",
+        "repositoryPath": "content/sets/geography/regional-journeys/across-europe.json",
+        "packId": "builtin-geo-journeys-across-europe-pack",
+        "kind": "set",
+        "byteLength": 27485,
+        "utf8Bom": false,
+        "sourceSha256": "028c56592572c6e1aa009cc68863dc9950590f638e6e4c642ca1b4cbca46a895",
+        "expectedSha256": "028c56592572c6e1aa009cc68863dc9950590f638e6e4c642ca1b4cbca46a895",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Geography"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/geography/regional-journeys/across-the-americas.json",
+        "repositoryPath": "content/sets/geography/regional-journeys/across-the-americas.json",
+        "packId": "builtin-geo-journeys-across-the-americas-pack",
+        "kind": "set",
+        "byteLength": 28443,
+        "utf8Bom": false,
+        "sourceSha256": "f0c49323900c133393040399d5e161643822d0ffce96472ebe0c76db3e27a8dc",
+        "expectedSha256": "f0c49323900c133393040399d5e161643822d0ffce96472ebe0c76db3e27a8dc",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Geography"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/geography/regional-journeys/africa-in-focus.json",
+        "repositoryPath": "content/sets/geography/regional-journeys/africa-in-focus.json",
+        "packId": "builtin-geo-journeys-africa-in-focus-pack",
+        "kind": "set",
+        "byteLength": 27466,
+        "utf8Bom": false,
+        "sourceSha256": "4689895a6a1580fcd3e18ee112a7783e52cb716ee42d27a2578109cbae5f4040",
+        "expectedSha256": "4689895a6a1580fcd3e18ee112a7783e52cb716ee42d27a2578109cbae5f4040",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Geography"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+        "repositoryPath": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+        "packId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+        "kind": "set",
+        "byteLength": 28102,
+        "utf8Bom": false,
+        "sourceSha256": "67ff131f38da8d96bde6c5a65f10592819035429907bc037090a20644ad06844",
+        "expectedSha256": "67ff131f38da8d96bde6c5a65f10592819035429907bc037090a20644ad06844",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Geography"
+        ]
+      },
+      {
         "manifestPath": "content/sets/geography/world/around-the-world.json",
         "repositoryPath": "content/sets/geography/world/around-the-world.json",
         "packId": "builtin-library-legacy-geography-01",
@@ -836,60 +900,60 @@
     ]
   },
   "totals": {
-    "sourceFiles": 47,
+    "sourceFiles": 51,
     "poolFiles": 5,
-    "curatedSetFiles": 42,
-    "questions": 930,
+    "curatedSetFiles": 46,
+    "questions": 990,
     "poolQuestions": 300,
-    "curatedQuestions": 630,
-    "curatedSets": 42,
+    "curatedQuestions": 690,
+    "curatedSets": 46,
     "categories": 20,
     "normalizationRepairs": 5
   },
   "coverage": {
-    "questionCount": 930,
+    "questionCount": 990,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 630,
-    "curatedSetCount": 42,
-    "sourceCount": 47,
+    "curatedQuestionCount": 690,
+    "curatedSetCount": 46,
+    "sourceCount": 51,
     "categoryCount": 20,
     "byLevel": {
-      "1": 62,
-      "2": 62,
-      "3": 62,
-      "4": 62,
-      "5": 62,
-      "6": 62,
-      "7": 62,
-      "8": 62,
-      "9": 62,
-      "10": 62,
-      "11": 62,
-      "12": 62,
-      "13": 62,
-      "14": 62,
-      "15": 62
+      "1": 66,
+      "2": 66,
+      "3": 66,
+      "4": 66,
+      "5": 66,
+      "6": 66,
+      "7": 66,
+      "8": 66,
+      "9": 66,
+      "10": 66,
+      "11": 66,
+      "12": 66,
+      "13": 66,
+      "14": 66,
+      "15": 66
     },
     "byDisplayDifficulty": {
-      "Easy": 310,
-      "Moderate": 310,
-      "Difficult": 248,
-      "Millionaire": 62
+      "Easy": 330,
+      "Moderate": 330,
+      "Difficult": 264,
+      "Millionaire": 66
     },
     "byInternalTier": {
-      "Foundation": 186,
-      "Accessible": 124,
-      "Intermediate": 186,
-      "Advanced": 124,
-      "Expert": 124,
-      "Elite": 124,
-      "Millionaire": 62
+      "Foundation": 198,
+      "Accessible": 132,
+      "Intermediate": 198,
+      "Advanced": 132,
+      "Expert": 132,
+      "Elite": 132,
+      "Millionaire": 66
     },
     "byCategory": {
       "Ancient History": 42,
       "Medieval and Early Modern History": 30,
       "Modern History": 19,
-      "Geography": 81,
+      "Geography": 141,
       "Astronomy and Space": 64,
       "Science": 78,
       "Nature and Earth": 92,
@@ -908,6 +972,10 @@
       "Business and Economics": 23
     },
     "bySourcePack": {
+      "builtin-geo-journeys-across-europe-pack": 15,
+      "builtin-geo-journeys-across-the-americas-pack": 15,
+      "builtin-geo-journeys-africa-in-focus-pack": 15,
+      "builtin-geo-journeys-asia-and-the-pacific-pack": 15,
       "builtin-library-animal-adaptations-pack": 15,
       "builtin-library-archaeology-pack": 15,
       "builtin-library-architecture-pack": 15,
@@ -957,7 +1025,7 @@
       "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 930
+      "assistant-reviewed-draft": 990
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []
@@ -1006,7 +1074,7 @@
       "Ancient History": 27,
       "Medieval and Early Modern History": 15,
       "Modern History": 4,
-      "Geography": 66,
+      "Geography": 126,
       "Astronomy and Space": 49,
       "Science": 63,
       "Nature and Earth": 77,
@@ -1025,23 +1093,23 @@
       "Business and Economics": 8
     },
     "allQuestionsPerLevel": {
-      "1": 62,
-      "2": 62,
-      "3": 62,
-      "4": 62,
-      "5": 62,
-      "6": 62,
-      "7": 62,
-      "8": 62,
-      "9": 62,
-      "10": 62,
-      "11": 62,
-      "12": 62,
-      "13": 62,
-      "14": 62,
-      "15": 62
+      "1": 66,
+      "2": 66,
+      "3": 66,
+      "4": 66,
+      "5": 66,
+      "6": 66,
+      "7": 66,
+      "8": 66,
+      "9": 66,
+      "10": 66,
+      "11": 66,
+      "12": 66,
+      "13": 66,
+      "14": 66,
+      "15": 66
     },
-    "singleCategorySets": 32,
+    "singleCategorySets": 36,
     "mixedCategorySets": 10
   },
   "schemaSignatures": {
@@ -1060,7 +1128,7 @@
           "sets",
           "metadata"
         ],
-        "count": 47
+        "count": 51
       }
     ],
     "question": [
@@ -1093,7 +1161,7 @@
           "usage",
           "metadata"
         ],
-        "count": 385
+        "count": 445
       },
       {
         "keys": [
@@ -1119,7 +1187,7 @@
           "id",
           "text"
         ],
-        "count": 3720
+        "count": 3960
       }
     ],
     "usage": [
@@ -1128,7 +1196,7 @@
           "freshMix",
           "setIds"
         ],
-        "count": 930
+        "count": 990
       }
     ],
     "packMetadata": [
@@ -1192,6 +1260,20 @@
           "verificationNotes"
         ],
         "count": 17
+      },
+      {
+        "keys": [
+          "author",
+          "generatedBy",
+          "questionCount",
+          "setCount",
+          "reviewStatus",
+          "humanReviewRecommended",
+          "timeSensitiveQuestionCount",
+          "createdAt",
+          "verificationNotes"
+        ],
+        "count": 4
       }
     ],
     "curatedSet": [
@@ -1246,7 +1328,7 @@
           "difficultyNote",
           "audience"
         ],
-        "count": 5
+        "count": 9
       }
     ]
   },

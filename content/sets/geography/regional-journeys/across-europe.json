@@ -1,0 +1,781 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-geo-journeys-across-europe-pack",
+  "title": "Across Europe",
+  "description": "From London and Lisbon to Baltic dunes, ancient forests and a coastline still rising after the ice age.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-geo-journeys-across-europe-iberian-peninsula",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "peninsulas"
+      ],
+      "prompt": "Spain and Portugal occupy most of which peninsula?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scandinavian Peninsula"
+        },
+        {
+          "id": "b",
+          "text": "Iberian Peninsula"
+        },
+        {
+          "id": "c",
+          "text": "Balkan Peninsula"
+        },
+        {
+          "id": "d",
+          "text": "Italian Peninsula"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look toward the southwestern corner of mainland Europe.",
+      "explanation": "Most of the Iberian Peninsula lies in Spain and Portugal. It is not exclusively theirs: Andorra and smaller adjoining areas also belong to the peninsula.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/iberian-peninsula-at-night-76777/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Most of the Iberian Peninsula lies in Spain and Portugal. It is not exclusively theirs: Andorra and smaller adjoining areas also belong to the peninsula. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-london-river",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "rivers"
+      ],
+      "prompt": "Which river flows under London's Tower Bridge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seine"
+        },
+        {
+          "id": "b",
+          "text": "Tiber"
+        },
+        {
+          "id": "c",
+          "text": "Severn"
+        },
+        {
+          "id": "d",
+          "text": "Thames"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Think of the river followed by sightseeing boats through central London.",
+      "explanation": "Tower Bridge crosses the Thames in London. The river continues east toward its estuary.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.visitlondon.com/things-to-do/sightseeing/sightseeing-tours/river-tour",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Tower Bridge crosses the Thames in London. The river continues east toward its estuary. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-lisbon-capital",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "capitals"
+      ],
+      "prompt": "Lisbon is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Portugal"
+        },
+        {
+          "id": "b",
+          "text": "Spain"
+        },
+        {
+          "id": "c",
+          "text": "Italy"
+        },
+        {
+          "id": "d",
+          "text": "Greece"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The country lies on Europe's Atlantic edge.",
+      "explanation": "Lisbon is Portugal's capital. Its Portuguese name is Lisboa.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://european-union.europa.eu/principles-countries-history/eu-countries/portugal_en",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lisbon is Portugal's capital. Its Portuguese name is Lisboa. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-etna-island",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "islands"
+      ],
+      "prompt": "Mount Etna stands on which Mediterranean island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sardinia"
+        },
+        {
+          "id": "b",
+          "text": "Corsica"
+        },
+        {
+          "id": "c",
+          "text": "Sicily"
+        },
+        {
+          "id": "d",
+          "text": "Crete"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look just off the toe of the Italian peninsula.",
+      "explanation": "Etna rises on the eastern side of Sicily. Its volcanic landscape is a UNESCO World Heritage site.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1427/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Etna rises on the eastern side of Sicily. Its volcanic landscape is a UNESCO World Heritage site. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-norwegian-fjords",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "fjords"
+      ],
+      "prompt": "In which country could you visit both Geirangerfjord and Nærøyfjord?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sweden"
+        },
+        {
+          "id": "b",
+          "text": "Finland"
+        },
+        {
+          "id": "c",
+          "text": "Norway"
+        },
+        {
+          "id": "d",
+          "text": "Denmark"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of Scandinavia's rugged Atlantic-facing coast.",
+      "explanation": "Both fjords are in western Norway. Their steep valleys were shaped by glaciers and later occupied by seawater.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1195/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Both fjords are in western Norway. Their steep valleys were shaped by glaciers and later occupied by seawater. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-rhine-outlet",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "drainage"
+      ],
+      "prompt": "After crossing the Netherlands, the Rhine reaches which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Sea"
+        },
+        {
+          "id": "b",
+          "text": "Baltic Sea"
+        },
+        {
+          "id": "c",
+          "text": "Adriatic Sea"
+        },
+        {
+          "id": "d",
+          "text": "Black Sea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Follow the river downstream from Germany toward the Dutch coast.",
+      "explanation": "The Rhine reaches the North Sea through its delta. Its Dutch branches carry water from a drainage basin extending back to the Alps.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.iksr.org/en/topics/rhine/sub-basins/delta-rhine/estuary",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Rhine reaches the North Sea through its delta. Its Dutch branches carry water from a drainage basin extending back to the Alps. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-plitvice-country",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "lakes"
+      ],
+      "prompt": "The terraced lakes and waterfalls of Plitvice Lakes National Park are in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slovenia"
+        },
+        {
+          "id": "b",
+          "text": "Slovakia"
+        },
+        {
+          "id": "c",
+          "text": "Montenegro"
+        },
+        {
+          "id": "d",
+          "text": "Croatia"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look in the Dinaric region east of the Adriatic.",
+      "explanation": "Plitvice Lakes National Park is in Croatia. Natural tufa barriers separate its linked lakes and create cascades.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/98/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Plitvice Lakes National Park is in Croatia. Natural tufa barriers separate its linked lakes and create cascades. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-vatnajokull",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "glaciers"
+      ],
+      "prompt": "The Vatnajökull ice cap covers volcanoes in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Norway"
+        },
+        {
+          "id": "b",
+          "text": "Iceland"
+        },
+        {
+          "id": "c",
+          "text": "Sweden"
+        },
+        {
+          "id": "d",
+          "text": "Finland"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Here, a North Atlantic volcanic island carries large glaciers.",
+      "explanation": "Vatnajökull is in Iceland. Heat from volcanoes beneath the ice can produce sudden glacial floods.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1604/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Vatnajökull is in Iceland. Heat from volcanoes beneath the ice can produce sudden glacial floods. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-wadden-coasts",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "coasts"
+      ],
+      "prompt": "Which three countries share the Wadden Sea World Heritage site?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Netherlands, Germany and Denmark"
+        },
+        {
+          "id": "b",
+          "text": "Belgium, Netherlands and Germany"
+        },
+        {
+          "id": "c",
+          "text": "Germany, Denmark and Sweden"
+        },
+        {
+          "id": "d",
+          "text": "Denmark, Sweden and Norway"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the shallow North Sea coast east from the Dutch islands, then north.",
+      "explanation": "The site spans Dutch, German and Danish coastal waters. Its tidal flats are exposed and flooded with the tides.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1314/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The site spans Dutch, German and Danish coastal waters. Its tidal flats are exposed and flooded with the tides. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-ohrid-border",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "border-lakes"
+      ],
+      "prompt": "Lake Ohrid straddles the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Albania and Montenegro"
+        },
+        {
+          "id": "b",
+          "text": "North Macedonia and Greece"
+        },
+        {
+          "id": "c",
+          "text": "Albania and North Macedonia"
+        },
+        {
+          "id": "d",
+          "text": "Greece and Bulgaria"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look inland from the southern Adriatic, north of Greece.",
+      "explanation": "Lake Ohrid is shared by Albania and North Macedonia. The World Heritage property includes portions of both countries.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/decisions/7366/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Ohrid is shared by Albania and North Macedonia. The World Heritage property includes portions of both countries. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-curonian-spit",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "spits"
+      ],
+      "prompt": "The Curonian Spit separates the Curonian Lagoon from which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Sea"
+        },
+        {
+          "id": "b",
+          "text": "Baltic Sea"
+        },
+        {
+          "id": "c",
+          "text": "Black Sea"
+        },
+        {
+          "id": "d",
+          "text": "White Sea"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Locate the lagoon beside Lithuania and Russia's Kaliningrad region.",
+      "explanation": "The Curonian Spit is a narrow sandy barrier between the lagoon and the Baltic Sea. Wind and coastal sediment transport shape its dunes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/994/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Curonian Spit is a narrow sandy barrier between the lagoon and the Baltic Sea. Wind and coastal sediment transport shape its dunes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-bialowieza-border",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "forests"
+      ],
+      "prompt": "Białowieża Forest extends across the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poland and Lithuania"
+        },
+        {
+          "id": "b",
+          "text": "Lithuania and Latvia"
+        },
+        {
+          "id": "c",
+          "text": "Belarus and Ukraine"
+        },
+        {
+          "id": "d",
+          "text": "Poland and Belarus"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look along Poland's eastern frontier, south of Lithuania.",
+      "explanation": "Białowieża Forest is shared by Poland and Belarus. It preserves extensive old forest and is an important refuge for European bison.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/33/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Białowieża Forest is shared by Poland and Belarus. It preserves extensive old forest and is an important refuge for European bison. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-wachau-river",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "river-valleys"
+      ],
+      "prompt": "Austria's Wachau landscape, between Melk and Krems, follows which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inn"
+        },
+        {
+          "id": "b",
+          "text": "Drava"
+        },
+        {
+          "id": "c",
+          "text": "Danube"
+        },
+        {
+          "id": "d",
+          "text": "Mur"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "This waterway continues downstream toward Vienna.",
+      "explanation": "The Wachau occupies a stretch of the Danube valley. Its riverside settlements and cultivated slopes form a cultural landscape.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/970/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Wachau occupies a stretch of the Danube valley. Its riverside settlements and cultivated slopes form a cultural landscape. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-struve-measurement",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "geodesy"
+      ],
+      "prompt": "What was the principal geodetic purpose of the Struve Arc's survey chain from Norway toward the Black Sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Measuring a meridian arc to refine Earth's size and shape"
+        },
+        {
+          "id": "b",
+          "text": "Measuring longitude differences to establish a prime meridian"
+        },
+        {
+          "id": "c",
+          "text": "Measuring tide heights to establish a common sea-level datum"
+        },
+        {
+          "id": "d",
+          "text": "Measuring magnetic bearings to map magnetic declination"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its stations used triangulation across a long north–south span.",
+      "explanation": "The Struve survey measured a long segment of a meridian. That helped establish Earth's dimensions and shape more accurately.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1187/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Struve survey measured a long segment of a meridian. That helped establish Earth's dimensions and shape more accurately. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-kvarken-rebound",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "coastal-change"
+      ],
+      "prompt": "At Finland's Kvarken Archipelago, which process is raising land and gradually isolating shallow bays as lakes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Volcanic uplift above an active mantle plume"
+        },
+        {
+          "id": "b",
+          "text": "Sediment compaction following rapid delta growth"
+        },
+        {
+          "id": "c",
+          "text": "Crustal shortening where two plates converge"
+        },
+        {
+          "id": "d",
+          "text": "Isostatic rebound after the removal of an ice sheet"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider the load once borne by this landscape during the last ice age.",
+      "explanation": "The crust is still rising after the weight of glacial ice was removed. At Kvarken, this emergence exposes new land and can cut bays off from the sea.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/898/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The crust is still rising after the weight of glacial ice was removed. At Kvarken, this emergence exposes new land and can cut bays off from the sea. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-geo-journeys-across-europe-set",
+      "title": "Across Europe",
+      "description": "From London and Lisbon to Baltic dunes, ancient forests and a coastline still rising after the ice age.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "across-europe"
+      ],
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "audience": "General English-language geography players."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "generatedBy": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-11-19T00:00:00Z",
+    "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats."
+  }
+}

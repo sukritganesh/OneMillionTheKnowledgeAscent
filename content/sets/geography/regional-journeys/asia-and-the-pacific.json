@@ -1,0 +1,781 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-geo-journeys-asia-and-the-pacific-pack",
+  "title": "Asia and the Pacific",
+  "description": "Explore Pacific shores, Southeast Asian islands and rivers, then head inland to Siberia and Central Asia.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Geography"
+  ],
+  "questions": [
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+      "level": 1,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "cities"
+      ],
+      "prompt": "Mumbai is a city in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "India"
+        },
+        {
+          "id": "b",
+          "text": "China"
+        },
+        {
+          "id": "c",
+          "text": "Japan"
+        },
+        {
+          "id": "d",
+          "text": "Thailand"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look at the large peninsula in South Asia.",
+      "explanation": "Mumbai is in India. Its historic districts include Victorian Gothic and Art Deco buildings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1480/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Mumbai is in India. Its historic districts include Victorian Gothic and Art Deco buildings. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+      "level": 2,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "reefs"
+      ],
+      "prompt": "The Great Barrier Reef lies off the northeastern coast of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "New Zealand"
+        },
+        {
+          "id": "b",
+          "text": "Indonesia"
+        },
+        {
+          "id": "c",
+          "text": "Australia"
+        },
+        {
+          "id": "d",
+          "text": "Papua New Guinea"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look offshore from Queensland.",
+      "explanation": "The Great Barrier Reef lies off northeastern Australia. It follows the Queensland coast.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/154/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Great Barrier Reef lies off northeastern Australia. It follows the Queensland coast. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+      "level": 3,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "capitals"
+      ],
+      "prompt": "Which city is New Zealand's capital?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Auckland"
+        },
+        {
+          "id": "b",
+          "text": "Christchurch"
+        },
+        {
+          "id": "c",
+          "text": "Dunedin"
+        },
+        {
+          "id": "d",
+          "text": "Wellington"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It is near the southern end of the North Island.",
+      "explanation": "Wellington is New Zealand's capital and the seat of Parliament. Auckland was an earlier capital.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://teara.govt.nz/en/capital-city/page-1",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Wellington is New Zealand's capital and the seat of Parliament. Auckland was an earlier capital. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+      "level": 4,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "islands"
+      ],
+      "prompt": "Mount Fuji rises on which Japanese island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hokkaido"
+        },
+        {
+          "id": "b",
+          "text": "Honshu"
+        },
+        {
+          "id": "c",
+          "text": "Kyushu"
+        },
+        {
+          "id": "d",
+          "text": "Shikoku"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The mountain is west of Tokyo, on the same island.",
+      "explanation": "Mount Fuji is on Honshu. Its layered volcanic cone is a classic stratovolcano.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/mount-fuji-japan-39099/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Mount Fuji is on Honshu. Its layered volcanic cone is a classic stratovolcano. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+      "level": 5,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "coastal-karst"
+      ],
+      "prompt": "Ha Long Bay, known for limestone islands rising from the water, is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thailand"
+        },
+        {
+          "id": "b",
+          "text": "Vietnam"
+        },
+        {
+          "id": "c",
+          "text": "Malaysia"
+        },
+        {
+          "id": "d",
+          "text": "Cambodia"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look along the Gulf of Tonkin.",
+      "explanation": "Ha Long Bay is in Vietnam. Its limestone towers form part of a striking coastal karst landscape.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/672/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Ha Long Bay is in Vietnam. Its limestone towers form part of a striking coastal karst landscape. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+      "level": 6,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "seas"
+      ],
+      "prompt": "Which sea lies between southeastern Australia and New Zealand?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coral Sea"
+        },
+        {
+          "id": "b",
+          "text": "Arafura Sea"
+        },
+        {
+          "id": "c",
+          "text": "Timor Sea"
+        },
+        {
+          "id": "d",
+          "text": "Tasman Sea"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Place the other seas north of Australia before tracing the crossing toward New Zealand.",
+      "explanation": "The Tasman Sea separates southeastern Australia from New Zealand. It adjoins the Coral Sea to the north.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.ncei.noaa.gov/archive/archive-management-system/OAS/bin/prd/jquery/seaname/details/112",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Tasman Sea separates southeastern Australia from New Zealand. It adjoins the Coral Sea to the north. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+      "level": 7,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "rivers"
+      ],
+      "prompt": "Myanmar's temple landscape at Bagan sits beside which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Salween"
+        },
+        {
+          "id": "b",
+          "text": "Mekong"
+        },
+        {
+          "id": "c",
+          "text": "Ayeyarwady (Irrawaddy)"
+        },
+        {
+          "id": "d",
+          "text": "Chao Phraya"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the major river running through Myanmar's central plain.",
+      "explanation": "Bagan lies on a bend of the Ayeyarwady, also called the Irrawaddy. The surrounding plain contains many temples and stupas.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/1588/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Bagan lies on a bend of the Ayeyarwady, also called the Irrawaddy. The surrounding plain contains many temples and stupas. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+      "level": 8,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "island-chains"
+      ],
+      "prompt": "Komodo National Park lies between which two larger Indonesian islands?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sumbawa and Flores"
+        },
+        {
+          "id": "b",
+          "text": "Bali and Lombok"
+        },
+        {
+          "id": "c",
+          "text": "Java and Sumatra"
+        },
+        {
+          "id": "d",
+          "text": "Timor and New Guinea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the Lesser Sunda island chain eastward past Lombok.",
+      "explanation": "The park lies between Sumbawa and Flores. Komodo, Rinca and Padar are its main islands.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/609/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The park lies between Sumbawa and Flores. Komodo, Rinca and Padar are its main islands. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+      "level": 9,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "seasonal-rivers"
+      ],
+      "prompt": "During the usual wet-season reversal, which way does water flow through Cambodia's Tonle Sap River?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From Tonle Sap Lake into the Mekong"
+        },
+        {
+          "id": "b",
+          "text": "From the Mekong into the Salween"
+        },
+        {
+          "id": "c",
+          "text": "From Tonle Sap Lake into the Red River"
+        },
+        {
+          "id": "d",
+          "text": "From the Mekong into Tonle Sap Lake"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Floodwater temporarily changes a lake's normal outlet into an inlet.",
+      "explanation": "During the wet-season reversal, Mekong water flows toward Tonle Sap Lake. Outside that reversal, the lake drains back toward the Mekong.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.mrcmekong.org/geography/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. During the wet-season reversal, Mekong water flows toward Tonle Sap Lake. Outside that reversal, the lake drains back toward the Mekong. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+      "level": 10,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "islands"
+      ],
+      "prompt": "Puerto-Princesa's underground river is on which Philippine island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Luzon"
+        },
+        {
+          "id": "b",
+          "text": "Palawan"
+        },
+        {
+          "id": "c",
+          "text": "Mindanao"
+        },
+        {
+          "id": "d",
+          "text": "Bohol"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look at the long island southwest of the main Philippine island group, toward Borneo.",
+      "explanation": "The subterranean river is on Palawan. The protected landscape includes limestone karst and an underground river system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/652/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The subterranean river is on Palawan. The protected landscape includes limestone karst and an underground river system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+      "level": 11,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "peninsulas"
+      ],
+      "prompt": "Ujung Kulon National Park occupies the southwestern tip of which Indonesian island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Java"
+        },
+        {
+          "id": "b",
+          "text": "Sumatra"
+        },
+        {
+          "id": "c",
+          "text": "Sulawesi"
+        },
+        {
+          "id": "d",
+          "text": "Borneo"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The peninsula faces the Sunda Strait, across from southern Sumatra.",
+      "explanation": "Ujung Kulon is on Java. Its peninsula protects lowland rainforest near the island's western end.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/608/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Ujung Kulon is on Java. Its peninsula protects lowland rainforest near the island's western end. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+      "level": 12,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "raised-atolls"
+      ],
+      "prompt": "Lake Tegano on Rennell Island in the Solomon Islands originated as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A volcanic crater filled by rainfall"
+        },
+        {
+          "id": "b",
+          "text": "A glacial valley blocked by a moraine"
+        },
+        {
+          "id": "c",
+          "text": "The lagoon of an uplifted coral atoll"
+        },
+        {
+          "id": "d",
+          "text": "A river meander cut off from its channel"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The island is built from reef limestone that has been raised above the sea.",
+      "explanation": "Lake Tegano occupies the former lagoon of Rennell's raised coral atoll. Its origin reflects a coastline lifted out of the ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://whc.unesco.org/en/list/854/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Tegano occupies the former lagoon of Rennell's raised coral atoll. Its origin reflects a coastline lifted out of the ocean. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+      "level": 13,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "arctic-drainage"
+      ],
+      "prompt": "Siberia's Lena River forms a delta on the coast of which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kara Sea"
+        },
+        {
+          "id": "b",
+          "text": "Laptev Sea"
+        },
+        {
+          "id": "c",
+          "text": "East Siberian Sea"
+        },
+        {
+          "id": "d",
+          "text": "Barents Sea"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Trace north from the Baikal region; the delta lies west of the New Siberian Islands.",
+      "explanation": "The Lena empties into the Laptev Sea. Its channels spread across a broad Arctic delta.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lena-river-delta-russia-7343/",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Lena empties into the Laptev Sea. Its channels spread across a broad Arctic delta. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+      "level": 14,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "closed-basins"
+      ],
+      "prompt": "Which pattern describes Lake Balkhash's two main basins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The eastern basin is fresher; the western is more saline"
+        },
+        {
+          "id": "b",
+          "text": "Both basins are fresh and drain to the ocean"
+        },
+        {
+          "id": "c",
+          "text": "Both basins are saline and linked by a tidal channel"
+        },
+        {
+          "id": "d",
+          "text": "The western basin is fresher; the eastern is more saline"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The main river supply and restricted exchange between the basins create an uneven salt balance.",
+      "explanation": "Western Lake Balkhash is much fresher than its eastern basin. The lake has no outlet, and exchange between its two parts is restricted.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lake-balkhash-91230/ ; https://www.zin.ru/labs/brackish/pdfs/2019/balkhash_lake.pdf",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Western Lake Balkhash is much fresher than its eastern basin. The lake has no outlet, and exchange between its two parts is restricted. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges",
+      "level": 15,
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "paleogeography"
+      ],
+      "prompt": "Why did lowered Ice Age sea levels fail to create a continuous land bridge through Wallacea between the Sunda and Sahul shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The entire island chain lay under a continuous ice sheet"
+        },
+        {
+          "id": "b",
+          "text": "Rapid subsidence kept both shelves completely submerged"
+        },
+        {
+          "id": "c",
+          "text": "Deep-water straits remained between the islands"
+        },
+        {
+          "id": "d",
+          "text": "Monsoon-fed rivers cut channels across both exposed shelves"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare the depth of the intervening seas with the amount of sea-level fall.",
+      "explanation": "The shelves became more exposed, but deep seas between Wallacea's islands remained barriers. Reaching Sahul through this region still required sea crossings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.minpaku.ac.jp/assets/pages/research/publication/research-publications/bulletin/houkoku_49-3.pdf",
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The shelves became more exposed, but deep seas between Wallacea's islands remained barriers. Reaching Sahul through this region still required sea crossings. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-set",
+      "title": "Asia and the Pacific",
+      "description": "Explore Pacific shores, Southeast Asian islands and rivers, then head inland to Siberia and Central Asia.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "asia-and-the-pacific"
+      ],
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
+      ],
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "audience": "General English-language geography players."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "generatedBy": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-11-19T00:00:00Z",
+    "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats."
+  }
+}
