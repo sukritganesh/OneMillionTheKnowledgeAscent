@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.2.0",
+  "releaseVersion": "2.3.0",
   "questions": [
     {
       "id": "builtin-pool-ancient-history-01",
@@ -40348,6 +40348,3486 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-geo-journeys-across-europe-iberian-peninsula",
+      "localId": "builtin-geo-journeys-across-europe-iberian-peninsula",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "peninsulas"
+      ],
+      "prompt": "Spain and Portugal occupy most of which peninsula?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scandinavian Peninsula"
+        },
+        {
+          "id": "b",
+          "text": "Iberian Peninsula"
+        },
+        {
+          "id": "c",
+          "text": "Balkan Peninsula"
+        },
+        {
+          "id": "d",
+          "text": "Italian Peninsula"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look toward the southwestern corner of mainland Europe.",
+      "explanation": "Most of the Iberian Peninsula lies in Spain and Portugal. It is not exclusively theirs: Andorra and smaller adjoining areas also belong to the peninsula.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Most of the Iberian Peninsula lies in Spain and Portugal. It is not exclusively theirs: Andorra and smaller adjoining areas also belong to the peninsula. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/iberian-peninsula-at-night-76777/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-london-river",
+      "localId": "builtin-geo-journeys-across-europe-london-river",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "rivers"
+      ],
+      "prompt": "Which river flows under London's Tower Bridge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seine"
+        },
+        {
+          "id": "b",
+          "text": "Tiber"
+        },
+        {
+          "id": "c",
+          "text": "Severn"
+        },
+        {
+          "id": "d",
+          "text": "Thames"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Think of the river followed by sightseeing boats through central London.",
+      "explanation": "Tower Bridge crosses the Thames in London. The river continues east toward its estuary.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Tower Bridge crosses the Thames in London. The river continues east toward its estuary. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.visitlondon.com/things-to-do/sightseeing/sightseeing-tours/river-tour",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-lisbon-capital",
+      "localId": "builtin-geo-journeys-across-europe-lisbon-capital",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "capitals"
+      ],
+      "prompt": "Lisbon is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Portugal"
+        },
+        {
+          "id": "b",
+          "text": "Spain"
+        },
+        {
+          "id": "c",
+          "text": "Italy"
+        },
+        {
+          "id": "d",
+          "text": "Greece"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The country lies on Europe's Atlantic edge.",
+      "explanation": "Lisbon is Portugal's capital. Its Portuguese name is Lisboa.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lisbon is Portugal's capital. Its Portuguese name is Lisboa. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://european-union.europa.eu/principles-countries-history/eu-countries/portugal_en",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-etna-island",
+      "localId": "builtin-geo-journeys-across-europe-etna-island",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "islands"
+      ],
+      "prompt": "Mount Etna stands on which Mediterranean island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sardinia"
+        },
+        {
+          "id": "b",
+          "text": "Corsica"
+        },
+        {
+          "id": "c",
+          "text": "Sicily"
+        },
+        {
+          "id": "d",
+          "text": "Crete"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look just off the toe of the Italian peninsula.",
+      "explanation": "Etna rises on the eastern side of Sicily. Its volcanic landscape is a UNESCO World Heritage site.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Etna rises on the eastern side of Sicily. Its volcanic landscape is a UNESCO World Heritage site. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1427/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-norwegian-fjords",
+      "localId": "builtin-geo-journeys-across-europe-norwegian-fjords",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "fjords"
+      ],
+      "prompt": "In which country could you visit both Geirangerfjord and Nærøyfjord?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sweden"
+        },
+        {
+          "id": "b",
+          "text": "Finland"
+        },
+        {
+          "id": "c",
+          "text": "Norway"
+        },
+        {
+          "id": "d",
+          "text": "Denmark"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of Scandinavia's rugged Atlantic-facing coast.",
+      "explanation": "Both fjords are in western Norway. Their steep valleys were shaped by glaciers and later occupied by seawater.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Both fjords are in western Norway. Their steep valleys were shaped by glaciers and later occupied by seawater. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1195/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-rhine-outlet",
+      "localId": "builtin-geo-journeys-across-europe-rhine-outlet",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "drainage"
+      ],
+      "prompt": "After crossing the Netherlands, the Rhine reaches which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Sea"
+        },
+        {
+          "id": "b",
+          "text": "Baltic Sea"
+        },
+        {
+          "id": "c",
+          "text": "Adriatic Sea"
+        },
+        {
+          "id": "d",
+          "text": "Black Sea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Follow the river downstream from Germany toward the Dutch coast.",
+      "explanation": "The Rhine reaches the North Sea through its delta. Its Dutch branches carry water from a drainage basin extending back to the Alps.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Rhine reaches the North Sea through its delta. Its Dutch branches carry water from a drainage basin extending back to the Alps. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.iksr.org/en/topics/rhine/sub-basins/delta-rhine/estuary",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-plitvice-country",
+      "localId": "builtin-geo-journeys-across-europe-plitvice-country",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "lakes"
+      ],
+      "prompt": "The terraced lakes and waterfalls of Plitvice Lakes National Park are in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Slovenia"
+        },
+        {
+          "id": "b",
+          "text": "Slovakia"
+        },
+        {
+          "id": "c",
+          "text": "Montenegro"
+        },
+        {
+          "id": "d",
+          "text": "Croatia"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look in the Dinaric region east of the Adriatic.",
+      "explanation": "Plitvice Lakes National Park is in Croatia. Natural tufa barriers separate its linked lakes and create cascades.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Plitvice Lakes National Park is in Croatia. Natural tufa barriers separate its linked lakes and create cascades. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/98/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-vatnajokull",
+      "localId": "builtin-geo-journeys-across-europe-vatnajokull",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "glaciers"
+      ],
+      "prompt": "The Vatnajökull ice cap covers volcanoes in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Norway"
+        },
+        {
+          "id": "b",
+          "text": "Iceland"
+        },
+        {
+          "id": "c",
+          "text": "Sweden"
+        },
+        {
+          "id": "d",
+          "text": "Finland"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Here, a North Atlantic volcanic island carries large glaciers.",
+      "explanation": "Vatnajökull is in Iceland. Heat from volcanoes beneath the ice can produce sudden glacial floods.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Vatnajökull is in Iceland. Heat from volcanoes beneath the ice can produce sudden glacial floods. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1604/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-wadden-coasts",
+      "localId": "builtin-geo-journeys-across-europe-wadden-coasts",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "coasts"
+      ],
+      "prompt": "Which three countries share the Wadden Sea World Heritage site?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Netherlands, Germany and Denmark"
+        },
+        {
+          "id": "b",
+          "text": "Belgium, Netherlands and Germany"
+        },
+        {
+          "id": "c",
+          "text": "Germany, Denmark and Sweden"
+        },
+        {
+          "id": "d",
+          "text": "Denmark, Sweden and Norway"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the shallow North Sea coast east from the Dutch islands, then north.",
+      "explanation": "The site spans Dutch, German and Danish coastal waters. Its tidal flats are exposed and flooded with the tides.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The site spans Dutch, German and Danish coastal waters. Its tidal flats are exposed and flooded with the tides. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1314/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-ohrid-border",
+      "localId": "builtin-geo-journeys-across-europe-ohrid-border",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "border-lakes"
+      ],
+      "prompt": "Lake Ohrid straddles the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Albania and Montenegro"
+        },
+        {
+          "id": "b",
+          "text": "North Macedonia and Greece"
+        },
+        {
+          "id": "c",
+          "text": "Albania and North Macedonia"
+        },
+        {
+          "id": "d",
+          "text": "Greece and Bulgaria"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look inland from the southern Adriatic, north of Greece.",
+      "explanation": "Lake Ohrid is shared by Albania and North Macedonia. The World Heritage property includes portions of both countries.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Ohrid is shared by Albania and North Macedonia. The World Heritage property includes portions of both countries. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/decisions/7366/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-curonian-spit",
+      "localId": "builtin-geo-journeys-across-europe-curonian-spit",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "spits"
+      ],
+      "prompt": "The Curonian Spit separates the Curonian Lagoon from which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "North Sea"
+        },
+        {
+          "id": "b",
+          "text": "Baltic Sea"
+        },
+        {
+          "id": "c",
+          "text": "Black Sea"
+        },
+        {
+          "id": "d",
+          "text": "White Sea"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Locate the lagoon beside Lithuania and Russia's Kaliningrad region.",
+      "explanation": "The Curonian Spit is a narrow sandy barrier between the lagoon and the Baltic Sea. Wind and coastal sediment transport shape its dunes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Curonian Spit is a narrow sandy barrier between the lagoon and the Baltic Sea. Wind and coastal sediment transport shape its dunes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/994/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-bialowieza-border",
+      "localId": "builtin-geo-journeys-across-europe-bialowieza-border",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "forests"
+      ],
+      "prompt": "Białowieża Forest extends across the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poland and Lithuania"
+        },
+        {
+          "id": "b",
+          "text": "Lithuania and Latvia"
+        },
+        {
+          "id": "c",
+          "text": "Belarus and Ukraine"
+        },
+        {
+          "id": "d",
+          "text": "Poland and Belarus"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look along Poland's eastern frontier, south of Lithuania.",
+      "explanation": "Białowieża Forest is shared by Poland and Belarus. It preserves extensive old forest and is an important refuge for European bison.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Białowieża Forest is shared by Poland and Belarus. It preserves extensive old forest and is an important refuge for European bison. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/33/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-wachau-river",
+      "localId": "builtin-geo-journeys-across-europe-wachau-river",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "river-valleys"
+      ],
+      "prompt": "Austria's Wachau landscape, between Melk and Krems, follows which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inn"
+        },
+        {
+          "id": "b",
+          "text": "Drava"
+        },
+        {
+          "id": "c",
+          "text": "Danube"
+        },
+        {
+          "id": "d",
+          "text": "Mur"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "This waterway continues downstream toward Vienna.",
+      "explanation": "The Wachau occupies a stretch of the Danube valley. Its riverside settlements and cultivated slopes form a cultural landscape.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Wachau occupies a stretch of the Danube valley. Its riverside settlements and cultivated slopes form a cultural landscape. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/970/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-struve-measurement",
+      "localId": "builtin-geo-journeys-across-europe-struve-measurement",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "geodesy"
+      ],
+      "prompt": "What was the principal geodetic purpose of the Struve Arc's survey chain from Norway toward the Black Sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Measuring a meridian arc to refine Earth's size and shape"
+        },
+        {
+          "id": "b",
+          "text": "Measuring longitude differences to establish a prime meridian"
+        },
+        {
+          "id": "c",
+          "text": "Measuring tide heights to establish a common sea-level datum"
+        },
+        {
+          "id": "d",
+          "text": "Measuring magnetic bearings to map magnetic declination"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its stations used triangulation across a long north–south span.",
+      "explanation": "The Struve survey measured a long segment of a meridian. That helped establish Earth's dimensions and shape more accurately.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Struve survey measured a long segment of a meridian. That helped establish Earth's dimensions and shape more accurately. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1187/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-europe-kvarken-rebound",
+      "localId": "builtin-geo-journeys-across-europe-kvarken-rebound",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-europe",
+        "coastal-change"
+      ],
+      "prompt": "At Finland's Kvarken Archipelago, which process is raising land and gradually isolating shallow bays as lakes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Volcanic uplift above an active mantle plume"
+        },
+        {
+          "id": "b",
+          "text": "Sediment compaction following rapid delta growth"
+        },
+        {
+          "id": "c",
+          "text": "Crustal shortening where two plates converge"
+        },
+        {
+          "id": "d",
+          "text": "Isostatic rebound after the removal of an ice sheet"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider the load once borne by this landscape during the last ice age.",
+      "explanation": "The crust is still rising after the weight of glacial ice was removed. At Kvarken, this emergence exposes new land and can cut bays off from the sea.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-europe-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The crust is still rising after the weight of glacial ice was removed. At Kvarken, this emergence exposes new land and can cut bays off from the sea. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/898/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-rio-country",
+      "localId": "builtin-geo-journeys-across-the-americas-rio-country",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "cities"
+      ],
+      "prompt": "Rio de Janeiro is a city in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Argentina"
+        },
+        {
+          "id": "b",
+          "text": "Colombia"
+        },
+        {
+          "id": "c",
+          "text": "Brazil"
+        },
+        {
+          "id": "d",
+          "text": "Mexico"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the Portuguese-speaking country on South America's Atlantic coast.",
+      "explanation": "Rio de Janeiro is in Brazil. Its landscape combines urban neighborhoods, forested hills and coastal bays.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Rio de Janeiro is in Brazil. Its landscape combines urban neighborhoods, forested hills and coastal bays. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1100/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-banff-mountains",
+      "localId": "builtin-geo-journeys-across-the-americas-banff-mountains",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "mountains"
+      ],
+      "prompt": "Canada's Banff and Jasper national parks lie in which mountain system?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rocky Mountains"
+        },
+        {
+          "id": "b",
+          "text": "Appalachian Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Andes"
+        },
+        {
+          "id": "d",
+          "text": "Laurentian Mountains"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look in western Canada rather than along its Atlantic side.",
+      "explanation": "Banff and Jasper are in the Canadian Rocky Mountains. Both belong to the Canadian Rocky Mountain Parks World Heritage site.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Banff and Jasper are in the Canadian Rocky Mountains. Both belong to the Canadian Rocky Mountain Parks World Heritage site. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/304/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-lima-capital",
+      "localId": "builtin-geo-journeys-across-the-americas-lima-capital",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "capitals"
+      ],
+      "prompt": "Lima is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ecuador"
+        },
+        {
+          "id": "b",
+          "text": "Peru"
+        },
+        {
+          "id": "c",
+          "text": "Bolivia"
+        },
+        {
+          "id": "d",
+          "text": "Chile"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The country has a Pacific coast and includes the former Inca heartland.",
+      "explanation": "Lima is Peru's capital. It stands on the country's Pacific side rather than high in the Andes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lima is Peru's capital. It stands on the country's Pacific side rather than high in the Andes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.gob.pe/29307-informacion-para-disfrutar-de-lima",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+      "localId": "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "islands"
+      ],
+      "prompt": "In which ocean are the Galápagos Islands?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atlantic Ocean"
+        },
+        {
+          "id": "b",
+          "text": "Indian Ocean"
+        },
+        {
+          "id": "c",
+          "text": "Arctic Ocean"
+        },
+        {
+          "id": "d",
+          "text": "Pacific Ocean"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The islands lie west of mainland Ecuador.",
+      "explanation": "The Galápagos are in the Pacific Ocean, off South America's west coast. Their isolation helped distinctive wildlife evolve.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Galápagos are in the Pacific Ocean, off South America's west coast. Their isolation helped distinctive wildlife evolve. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-iguazu-border",
+      "localId": "builtin-geo-journeys-across-the-americas-iguazu-border",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "waterfalls"
+      ],
+      "prompt": "Iguazú Falls spans the border between which two countries?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Argentina and Chile"
+        },
+        {
+          "id": "b",
+          "text": "Brazil and Bolivia"
+        },
+        {
+          "id": "c",
+          "text": "Brazil and Uruguay"
+        },
+        {
+          "id": "d",
+          "text": "Argentina and Brazil"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look east of the Andes, near the meeting of three South American countries.",
+      "explanation": "The falls lie on the Argentina–Brazil border. Paraguay is nearby, but the waterfall itself is not on the Paraguayan border.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The falls lie on the Argentina–Brazil border. Paraguay is nearby, but the waterfall itself is not on the Paraguayan border. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/303/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+      "localId": "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "drainage"
+      ],
+      "prompt": "Which river carries water from Lake Ontario toward the Atlantic Ocean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hudson"
+        },
+        {
+          "id": "b",
+          "text": "St. Lawrence"
+        },
+        {
+          "id": "c",
+          "text": "Mackenzie"
+        },
+        {
+          "id": "d",
+          "text": "Susquehanna"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Follow the Great Lakes system downstream into eastern Canada.",
+      "explanation": "Lake Ontario drains into the St. Lawrence River. The river and its gulf connect the Great Lakes system to the Atlantic.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Ontario drains into the St. Lawrence River. The river and its gulf connect the Great Lakes system to the Atlantic. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://tides.gc.ca/en/great-lakes-st-lawrence-river-system",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+      "localId": "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "karst"
+      ],
+      "prompt": "The Yucatán Peninsula's cenotes are water-filled openings most closely associated with which landscape?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Limestone karst"
+        },
+        {
+          "id": "b",
+          "text": "Granite uplands"
+        },
+        {
+          "id": "c",
+          "text": "Basalt lava fields"
+        },
+        {
+          "id": "d",
+          "text": "Sandstone mesas"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Water has dissolved pathways underground, and some cave roofs have collapsed.",
+      "explanation": "Cenotes expose groundwater in the Yucatán's limestone terrain. Dissolution and collapse are characteristic processes in karst landscapes.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Cenotes expose groundwater in the Yucatán's limestone terrain. Dissolution and collapse are characteristic processes in karst landscapes. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/tentativelists/5784/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-aconcagua-country",
+      "localId": "builtin-geo-journeys-across-the-americas-aconcagua-country",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "mountains"
+      ],
+      "prompt": "Aconcagua's summit lies in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chile"
+        },
+        {
+          "id": "b",
+          "text": "Peru"
+        },
+        {
+          "id": "c",
+          "text": "Argentina"
+        },
+        {
+          "id": "d",
+          "text": "Bolivia"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The approach through Mendoza is on the eastern side of the central Andes.",
+      "explanation": "Aconcagua is in Argentina's Mendoza Province. Although it is near Chile, its summit is not on the international border.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Aconcagua is in Argentina's Mendoza Province. Although it is near Chile, its summit is not on the international border. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://informacionoficial.mendoza.gob.ar/energiayambiente/aconcagua/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-fundy-provinces",
+      "localId": "builtin-geo-journeys-across-the-americas-fundy-provinces",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "bays"
+      ],
+      "prompt": "The Bay of Fundy lies chiefly between which two Canadian provinces?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nova Scotia and Newfoundland and Labrador"
+        },
+        {
+          "id": "b",
+          "text": "New Brunswick and Nova Scotia"
+        },
+        {
+          "id": "c",
+          "text": "Quebec and New Brunswick"
+        },
+        {
+          "id": "d",
+          "text": "New Brunswick and Prince Edward Island"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of the long inlet on the inland-facing side of the Nova Scotia peninsula.",
+      "explanation": "The Bay of Fundy lies between New Brunswick and Nova Scotia. Its entrance opens toward the Gulf of Maine.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Bay of Fundy lies between New Brunswick and Nova Scotia. Its entrance opens toward the Gulf of Maine. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://publications.gc.ca/collections/collection_2024/mpo-dfo/Fs74-48-2024-9-eng.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+      "localId": "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "wetlands"
+      ],
+      "prompt": "The Pantanal wetland lies mainly within the upper basin of which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tocantins"
+        },
+        {
+          "id": "b",
+          "text": "São Francisco"
+        },
+        {
+          "id": "c",
+          "text": "Orinoco"
+        },
+        {
+          "id": "d",
+          "text": "Paraguay"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Trace its drainage south through inland South America, rather than toward the Amazon.",
+      "explanation": "The Pantanal occupies much of the upper Paraguay River basin. Seasonal flooding connects its rivers, channels and floodplains.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Pantanal occupies much of the upper Paraguay River basin. Seasonal flooding connects its rivers, channels and floodplains. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/999/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-gros-morne-island",
+      "localId": "builtin-geo-journeys-across-the-americas-gros-morne-island",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "islands"
+      ],
+      "prompt": "Gros Morne National Park is on the west coast of which Canadian island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vancouver Island"
+        },
+        {
+          "id": "b",
+          "text": "Cape Breton Island"
+        },
+        {
+          "id": "c",
+          "text": "Newfoundland"
+        },
+        {
+          "id": "d",
+          "text": "Baffin Island"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look on Canada's Atlantic side, on the island northeast of the Gulf of St. Lawrence.",
+      "explanation": "Gros Morne is on Newfoundland. Glacial scenery there sits alongside exposed rocks from ocean crust and Earth's mantle.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Gros Morne is on Newfoundland. Glacial scenery there sits alongside exposed rocks from ocean crust and Earth's mantle. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/419/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-nahanni-river",
+      "localId": "builtin-geo-journeys-across-the-americas-nahanni-river",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "rivers"
+      ],
+      "prompt": "Virginia Falls in Nahanni National Park Reserve is on which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "South Nahanni"
+        },
+        {
+          "id": "b",
+          "text": "North Nahanni"
+        },
+        {
+          "id": "c",
+          "text": "Coppermine"
+        },
+        {
+          "id": "d",
+          "text": "Thelon"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The river also winds through the park's great canyons.",
+      "explanation": "Virginia Falls lies on the South Nahanni River. The park protects a striking river corridor in Canada's Northwest Territories.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Virginia Falls lies on the South Nahanni River. The park protects a striking river corridor in Canada's Northwest Territories. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://parks.canada.ca/pn-np/nt/nahanni/nature/hydrologie-hydrology",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+      "localId": "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "glaciers"
+      ],
+      "prompt": "The Perito Moreno Glacier can dam the Brazo Rico arm of which Patagonian lake?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lake Viedma"
+        },
+        {
+          "id": "b",
+          "text": "Lake Buenos Aires / General Carrera"
+        },
+        {
+          "id": "c",
+          "text": "Lake Nahuel Huapi"
+        },
+        {
+          "id": "d",
+          "text": "Lake Argentino"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The glacier descends from the Southern Patagonian Icefield near El Calafate.",
+      "explanation": "Perito Moreno reaches Lake Argentino. When its ice blocks Brazo Rico, water can accumulate behind the temporary barrier.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Perito Moreno reaches Lake Argentino. When its ice blocks Brazo Rico, water can accumulate behind the temporary barrier. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/perito-moreno-glacier-argentina-78754/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+      "localId": "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "river-bifurcations"
+      ],
+      "prompt": "Which natural waterway branches from the Orinoco and joins the Rio Negro, linking the Orinoco and Amazon basins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Purus"
+        },
+        {
+          "id": "b",
+          "text": "Casiquiare"
+        },
+        {
+          "id": "c",
+          "text": "Essequibo"
+        },
+        {
+          "id": "d",
+          "text": "Tocantins"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look in southern Venezuela for a river that is a distributary of one system and a tributary of another.",
+      "explanation": "The Casiquiare carries some Orinoco water into the Rio Negro. Because the Rio Negro joins the Amazon, this forms a natural connection between the two basins.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Casiquiare carries some Orinoco water into the Rio Negro. Because the Rio Negro joins the Amazon, this forms a natural connection between the two basins. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/when-rivers-take-a-weird-turn-154394/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-two-ocean-route",
+      "localId": "builtin-geo-journeys-across-the-americas-two-ocean-route",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "across-the-americas",
+        "watersheds"
+      ],
+      "prompt": "At Wyoming's Two Ocean Pass, North Two Ocean Creek splits. Which downstream river sequence does its Atlantic Creek branch follow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yellowstone → Missouri → Mississippi"
+        },
+        {
+          "id": "b",
+          "text": "Snake → Columbia → Willamette"
+        },
+        {
+          "id": "c",
+          "text": "Green → Colorado → Gila"
+        },
+        {
+          "id": "d",
+          "text": "Platte → Arkansas → Mississippi"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the eastern branch across the northern plains before following the main river south.",
+      "explanation": "Atlantic Creek joins the Yellowstone, then the Missouri and Mississippi river system. The other branch, Pacific Creek, reaches the Pacific through the Snake and Columbia.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-across-the-americas-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Atlantic Creek joins the Yellowstone, then the Missouri and Mississippi river system. The other branch, Pacific Creek, reaches the Pacific through the Snake and Columbia. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.mdpi.com/2073-4441/12/6/1629 ; https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024WR039824",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-kalahari-region",
+      "localId": "builtin-geo-journeys-africa-in-focus-kalahari-region",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "deserts"
+      ],
+      "prompt": "The Kalahari is associated with which region of Africa?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Northern Africa"
+        },
+        {
+          "id": "b",
+          "text": "Western Africa"
+        },
+        {
+          "id": "c",
+          "text": "The Horn of Africa"
+        },
+        {
+          "id": "d",
+          "text": "Southern Africa"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Its sandy landscapes extend across parts of Botswana, Namibia and South Africa.",
+      "explanation": "The Kalahari lies in southern Africa. It includes semiarid savanna as well as drier landscapes, rather than being uniformly bare desert.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Kalahari lies in southern Africa. It includes semiarid savanna as well as drier landscapes, rather than being uniformly bare desert. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/wp-content/uploads/2023/04/703154main_earth_art_ebook.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-cairo-river",
+      "localId": "builtin-geo-journeys-africa-in-focus-cairo-river",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "rivers"
+      ],
+      "prompt": "Which river runs through Cairo?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Niger"
+        },
+        {
+          "id": "b",
+          "text": "Nile"
+        },
+        {
+          "id": "c",
+          "text": "Congo"
+        },
+        {
+          "id": "d",
+          "text": "Zambezi"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "It connects the city to a large delta on the Mediterranean coast.",
+      "explanation": "Cairo stands beside the Nile near the head of its delta. The river has long shaped settlement in this part of Egypt.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Cairo stands beside the Nile near the head of its delta. The river has long shaped settlement in this part of Egypt. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/89/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-accra-capital",
+      "localId": "builtin-geo-journeys-africa-in-focus-accra-capital",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "capitals"
+      ],
+      "prompt": "Accra is the capital of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Senegal"
+        },
+        {
+          "id": "b",
+          "text": "Liberia"
+        },
+        {
+          "id": "c",
+          "text": "Ghana"
+        },
+        {
+          "id": "d",
+          "text": "Sierra Leone"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "This country lies on the Gulf of Guinea and was formerly known as the Gold Coast.",
+      "explanation": "Accra is Ghana's capital. It is a coastal city in West Africa.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Accra is Ghana's capital. It is a coastal city in West Africa. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.au.int/en/cities/accra",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-serengeti-country",
+      "localId": "builtin-geo-journeys-africa-in-focus-serengeti-country",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "national-parks"
+      ],
+      "prompt": "Serengeti National Park is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tanzania"
+        },
+        {
+          "id": "b",
+          "text": "Kenya"
+        },
+        {
+          "id": "c",
+          "text": "Uganda"
+        },
+        {
+          "id": "d",
+          "text": "Zambia"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Distinguish this park from the Maasai Mara reserve across its northern border.",
+      "explanation": "Serengeti National Park is in Tanzania. Its savanna supports large seasonal movements of grazing animals.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Serengeti National Park is in Tanzania. Its savanna supports large seasonal movements of grazing animals. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/156/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+      "localId": "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "waterfalls"
+      ],
+      "prompt": "Victoria Falls, also called Mosi-oa-Tunya, is on which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zambezi"
+        },
+        {
+          "id": "b",
+          "text": "Limpopo"
+        },
+        {
+          "id": "c",
+          "text": "Orange"
+        },
+        {
+          "id": "d",
+          "text": "Congo"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look along the boundary between Zambia and Zimbabwe.",
+      "explanation": "Victoria Falls is on the Zambezi River. Water drops over a basalt edge into a system of gorges.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Victoria Falls is on the Zambezi River. Water drops over a basalt edge into a system of gorges. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/509/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-atlas-countries",
+      "localId": "builtin-geo-journeys-africa-in-focus-atlas-countries",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "mountains"
+      ],
+      "prompt": "Which mountain system stretches through Morocco, Algeria and Tunisia?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Drakensberg"
+        },
+        {
+          "id": "b",
+          "text": "Rwenzori Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Atlas Mountains"
+        },
+        {
+          "id": "d",
+          "text": "Tibesti Mountains"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the long mountain belt in Africa's northwest.",
+      "explanation": "The Atlas system runs across northwestern Africa. Its ranges form a major boundary between Mediterranean-facing regions and the Sahara.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Atlas system runs across northwestern Africa. Its ranges form a major boundary between Mediterranean-facing regions and the Sahara. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.esa.int/Applications/Observing_the_Earth/Earth_from_Space_Africa_s_Atlas_Mountains",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-namib-water",
+      "localId": "builtin-geo-journeys-africa-in-focus-namib-water",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "coastal-deserts"
+      ],
+      "prompt": "In the Namib Sand Sea, what is the main source of moisture supporting life among the coastal dunes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Regular monsoon rain"
+        },
+        {
+          "id": "b",
+          "text": "Fog"
+        },
+        {
+          "id": "c",
+          "text": "Seasonal snowmelt"
+        },
+        {
+          "id": "d",
+          "text": "Daily river flooding"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Cool marine air can bring water without a conventional rainstorm.",
+      "explanation": "Fog is the principal water source in the Namib Sand Sea. This makes the coastal desert quite different from one sustained by regular rainfall.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Fog is the principal water source in the Namib Sand Sea. This makes the coastal desert quite different from one sustained by regular rainfall. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1430/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+      "localId": "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "mountains"
+      ],
+      "prompt": "The Rwenzori Mountains National Park protects high mountain landscapes in the west of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kenya"
+        },
+        {
+          "id": "b",
+          "text": "Tanzania"
+        },
+        {
+          "id": "c",
+          "text": "Ethiopia"
+        },
+        {
+          "id": "d",
+          "text": "Uganda"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Look west of Lake Victoria, toward the border with the Democratic Republic of the Congo.",
+      "explanation": "The national park is in western Uganda. It protects the Ugandan part of the Rwenzori mountain chain.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The national park is in western Uganda. It protects the Ugandan part of the Rwenzori mountain chain. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/684/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+      "localId": "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "lake-outlets"
+      ],
+      "prompt": "Which river is the surface outlet of Lake Malawi?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rufiji"
+        },
+        {
+          "id": "b",
+          "text": "Ruvuma"
+        },
+        {
+          "id": "c",
+          "text": "Shire"
+        },
+        {
+          "id": "d",
+          "text": "Kafue"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Follow the lake south toward the Zambezi system.",
+      "explanation": "The Shire flows out of the southern end of Lake Malawi. It later joins the Zambezi.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Shire flows out of the southern end of Lake Malawi. It later joins the Zambezi. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://malawi-india.org/southern-lakeshore-lakes.html",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+      "localId": "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "inland-deltas"
+      ],
+      "prompt": "The Niger River's great inland delta is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mali"
+        },
+        {
+          "id": "b",
+          "text": "Niger"
+        },
+        {
+          "id": "c",
+          "text": "Nigeria"
+        },
+        {
+          "id": "d",
+          "text": "Guinea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Do not confuse this inland wetland with the river's coastal delta.",
+      "explanation": "The inland delta is in Mali, far upstream of the sea. The Niger's coastal delta is in Nigeria, a different part of the river system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The inland delta is in Mali, far upstream of the sea. The Niger's coastal delta is in Nigeria, a different part of the river system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://eros.usgs.gov/earthshots/niger-river-inland-delta-mali",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+      "localId": "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "lake-inflows"
+      ],
+      "prompt": "Which river brings most of the inflowing river water to Lake Turkana?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Awash"
+        },
+        {
+          "id": "b",
+          "text": "Tana"
+        },
+        {
+          "id": "c",
+          "text": "Jubba"
+        },
+        {
+          "id": "d",
+          "text": "Omo"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Follow the main tributary north from the lake into Ethiopia.",
+      "explanation": "The Omo is Lake Turkana's principal river inflow. It forms a delta at the northern end of the lake.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Omo is Lake Turkana's principal river inflow. It forms a delta at the northern end of the lake. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://eros.usgs.gov/earthshots/lake-turkana-kenya-and-ethiopia",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-assal-country",
+      "localId": "builtin-geo-journeys-africa-in-focus-assal-country",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "salt-lakes"
+      ],
+      "prompt": "Lake Assal, a salt lake in a depression below sea level, is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eritrea"
+        },
+        {
+          "id": "b",
+          "text": "Djibouti"
+        },
+        {
+          "id": "c",
+          "text": "Somalia"
+        },
+        {
+          "id": "d",
+          "text": "Ethiopia"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Think of a small country beside the Gulf of Tadjoura.",
+      "explanation": "Lake Assal lies in Djibouti. Its closed basin and strong evaporation help concentrate salts.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Assal lies in Djibouti. Its closed basin and strong evaporation help concentrate salts. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/tentativelists/5959",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+      "localId": "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "canyons"
+      ],
+      "prompt": "Which river cuts the canyon along the southern edge of Madagascar's Bemaraha limestone plateau?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Manambolo"
+        },
+        {
+          "id": "b",
+          "text": "Mangoky"
+        },
+        {
+          "id": "c",
+          "text": "Onilahy"
+        },
+        {
+          "id": "d",
+          "text": "Tsiribihina"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look beside the western tsingy formations, rather than in Madagascar's far south.",
+      "explanation": "The Manambolo cuts through the Bemaraha landscape. Its canyon lies beside the limestone formations known as tsingy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Manambolo cuts through the Bemaraha landscape. Its canyon lies beside the limestone formations known as tsingy. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/494/ ; https://whc.unesco.org/document/153579",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-chad-inflow",
+      "localId": "builtin-geo-journeys-africa-in-focus-chad-inflow",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "drainage"
+      ],
+      "prompt": "Which linked river pair supplies most of Lake Chad's inflow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benue and Faro"
+        },
+        {
+          "id": "b",
+          "text": "Niger and Bani"
+        },
+        {
+          "id": "c",
+          "text": "Chari and Logone"
+        },
+        {
+          "id": "d",
+          "text": "Senegal and Falémé"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The main supply reaches the lake from the south, passing the N'Djamena area.",
+      "explanation": "The Logone is a tributary of the Chari. Together their system provides the lake's main river supply.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Logone is a tributary of the Chari. Together their system provides the lake's main river supply. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lake-chads-water-wetlands-and-dunes-154407/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+      "localId": "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "africa-in-focus",
+        "watersheds"
+      ],
+      "prompt": "Which sequence traces Lake Tanganyika's surface outflow toward the Atlantic?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ruzizi → Kagera → Nile"
+        },
+        {
+          "id": "b",
+          "text": "Lukuga → Lualaba → Congo"
+        },
+        {
+          "id": "c",
+          "text": "Shire → Zambezi → Limpopo"
+        },
+        {
+          "id": "d",
+          "text": "Malagarasi → Rufiji → Ruvuma"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The outlet leaves the lake's western side rather than following the Nile or Zambezi systems.",
+      "explanation": "The Lukuga carries water west from Lake Tanganyika to the Lualaba, the upper Congo. This places the outlet in the Congo's Atlantic drainage system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-africa-in-focus-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Lukuga carries water west from Lake Tanganyika to the Lualaba, the upper Congo. This places the outlet in the Congo's Atlantic drainage system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://agris.fao.org/search/en/providers/122535/records/65df4370b766d82b1800f92c ; https://lta-alt.org/wp-content/uploads/2025/07/ENG_TDR_Etude-Construction-Barrage.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "cities"
+      ],
+      "prompt": "Mumbai is a city in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "India"
+        },
+        {
+          "id": "b",
+          "text": "China"
+        },
+        {
+          "id": "c",
+          "text": "Japan"
+        },
+        {
+          "id": "d",
+          "text": "Thailand"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Look at the large peninsula in South Asia.",
+      "explanation": "Mumbai is in India. Its historic districts include Victorian Gothic and Art Deco buildings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Mumbai is in India. Its historic districts include Victorian Gothic and Art Deco buildings. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1480/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "reefs"
+      ],
+      "prompt": "The Great Barrier Reef lies off the northeastern coast of which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "New Zealand"
+        },
+        {
+          "id": "b",
+          "text": "Indonesia"
+        },
+        {
+          "id": "c",
+          "text": "Australia"
+        },
+        {
+          "id": "d",
+          "text": "Papua New Guinea"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Look offshore from Queensland.",
+      "explanation": "The Great Barrier Reef lies off northeastern Australia. It follows the Queensland coast.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Great Barrier Reef lies off northeastern Australia. It follows the Queensland coast. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/154/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "capitals"
+      ],
+      "prompt": "Which city is New Zealand's capital?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Auckland"
+        },
+        {
+          "id": "b",
+          "text": "Christchurch"
+        },
+        {
+          "id": "c",
+          "text": "Dunedin"
+        },
+        {
+          "id": "d",
+          "text": "Wellington"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "It is near the southern end of the North Island.",
+      "explanation": "Wellington is New Zealand's capital and the seat of Parliament. Auckland was an earlier capital.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Wellington is New Zealand's capital and the seat of Parliament. Auckland was an earlier capital. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://teara.govt.nz/en/capital-city/page-1",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "islands"
+      ],
+      "prompt": "Mount Fuji rises on which Japanese island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hokkaido"
+        },
+        {
+          "id": "b",
+          "text": "Honshu"
+        },
+        {
+          "id": "c",
+          "text": "Kyushu"
+        },
+        {
+          "id": "d",
+          "text": "Shikoku"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The mountain is west of Tokyo, on the same island.",
+      "explanation": "Mount Fuji is on Honshu. Its layered volcanic cone is a classic stratovolcano.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Mount Fuji is on Honshu. Its layered volcanic cone is a classic stratovolcano. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/mount-fuji-japan-39099/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "coastal-karst"
+      ],
+      "prompt": "Ha Long Bay, known for limestone islands rising from the water, is in which country?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thailand"
+        },
+        {
+          "id": "b",
+          "text": "Vietnam"
+        },
+        {
+          "id": "c",
+          "text": "Malaysia"
+        },
+        {
+          "id": "d",
+          "text": "Cambodia"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look along the Gulf of Tonkin.",
+      "explanation": "Ha Long Bay is in Vietnam. Its limestone towers form part of a striking coastal karst landscape.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Ha Long Bay is in Vietnam. Its limestone towers form part of a striking coastal karst landscape. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/672/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "seas"
+      ],
+      "prompt": "Which sea lies between southeastern Australia and New Zealand?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Coral Sea"
+        },
+        {
+          "id": "b",
+          "text": "Arafura Sea"
+        },
+        {
+          "id": "c",
+          "text": "Timor Sea"
+        },
+        {
+          "id": "d",
+          "text": "Tasman Sea"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Place the other seas north of Australia before tracing the crossing toward New Zealand.",
+      "explanation": "The Tasman Sea separates southeastern Australia from New Zealand. It adjoins the Coral Sea to the north.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Tasman Sea separates southeastern Australia from New Zealand. It adjoins the Coral Sea to the north. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.ncei.noaa.gov/archive/archive-management-system/OAS/bin/prd/jquery/seaname/details/112",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "rivers"
+      ],
+      "prompt": "Myanmar's temple landscape at Bagan sits beside which river?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Salween"
+        },
+        {
+          "id": "b",
+          "text": "Mekong"
+        },
+        {
+          "id": "c",
+          "text": "Ayeyarwady (Irrawaddy)"
+        },
+        {
+          "id": "d",
+          "text": "Chao Phraya"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the major river running through Myanmar's central plain.",
+      "explanation": "Bagan lies on a bend of the Ayeyarwady, also called the Irrawaddy. The surrounding plain contains many temples and stupas.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Bagan lies on a bend of the Ayeyarwady, also called the Irrawaddy. The surrounding plain contains many temples and stupas. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/1588/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "island-chains"
+      ],
+      "prompt": "Komodo National Park lies between which two larger Indonesian islands?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sumbawa and Flores"
+        },
+        {
+          "id": "b",
+          "text": "Bali and Lombok"
+        },
+        {
+          "id": "c",
+          "text": "Java and Sumatra"
+        },
+        {
+          "id": "d",
+          "text": "Timor and New Guinea"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Trace the Lesser Sunda island chain eastward past Lombok.",
+      "explanation": "The park lies between Sumbawa and Flores. Komodo, Rinca and Padar are its main islands.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The park lies between Sumbawa and Flores. Komodo, Rinca and Padar are its main islands. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/609/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "seasonal-rivers"
+      ],
+      "prompt": "During the usual wet-season reversal, which way does water flow through Cambodia's Tonle Sap River?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "From Tonle Sap Lake into the Mekong"
+        },
+        {
+          "id": "b",
+          "text": "From the Mekong into the Salween"
+        },
+        {
+          "id": "c",
+          "text": "From Tonle Sap Lake into the Red River"
+        },
+        {
+          "id": "d",
+          "text": "From the Mekong into Tonle Sap Lake"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Floodwater temporarily changes a lake's normal outlet into an inlet.",
+      "explanation": "During the wet-season reversal, Mekong water flows toward Tonle Sap Lake. Outside that reversal, the lake drains back toward the Mekong.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. During the wet-season reversal, Mekong water flows toward Tonle Sap Lake. Outside that reversal, the lake drains back toward the Mekong. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.mrcmekong.org/geography/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "islands"
+      ],
+      "prompt": "Puerto-Princesa's underground river is on which Philippine island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Luzon"
+        },
+        {
+          "id": "b",
+          "text": "Palawan"
+        },
+        {
+          "id": "c",
+          "text": "Mindanao"
+        },
+        {
+          "id": "d",
+          "text": "Bohol"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Look at the long island southwest of the main Philippine island group, toward Borneo.",
+      "explanation": "The subterranean river is on Palawan. The protected landscape includes limestone karst and an underground river system.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The subterranean river is on Palawan. The protected landscape includes limestone karst and an underground river system. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/652/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "peninsulas"
+      ],
+      "prompt": "Ujung Kulon National Park occupies the southwestern tip of which Indonesian island?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Java"
+        },
+        {
+          "id": "b",
+          "text": "Sumatra"
+        },
+        {
+          "id": "c",
+          "text": "Sulawesi"
+        },
+        {
+          "id": "d",
+          "text": "Borneo"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "The peninsula faces the Sunda Strait, across from southern Sumatra.",
+      "explanation": "Ujung Kulon is on Java. Its peninsula protects lowland rainforest near the island's western end.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Ujung Kulon is on Java. Its peninsula protects lowland rainforest near the island's western end. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/608/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "raised-atolls"
+      ],
+      "prompt": "Lake Tegano on Rennell Island in the Solomon Islands originated as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A volcanic crater filled by rainfall"
+        },
+        {
+          "id": "b",
+          "text": "A glacial valley blocked by a moraine"
+        },
+        {
+          "id": "c",
+          "text": "The lagoon of an uplifted coral atoll"
+        },
+        {
+          "id": "d",
+          "text": "A river meander cut off from its channel"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "The island is built from reef limestone that has been raised above the sea.",
+      "explanation": "Lake Tegano occupies the former lagoon of Rennell's raised coral atoll. Its origin reflects a coastline lifted out of the ocean.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Lake Tegano occupies the former lagoon of Rennell's raised coral atoll. Its origin reflects a coastline lifted out of the ocean. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://whc.unesco.org/en/list/854/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "arctic-drainage"
+      ],
+      "prompt": "Siberia's Lena River forms a delta on the coast of which sea?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kara Sea"
+        },
+        {
+          "id": "b",
+          "text": "Laptev Sea"
+        },
+        {
+          "id": "c",
+          "text": "East Siberian Sea"
+        },
+        {
+          "id": "d",
+          "text": "Barents Sea"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Trace north from the Baikal region; the delta lies west of the New Siberian Islands.",
+      "explanation": "The Lena empties into the Laptev Sea. Its channels spread across a broad Arctic delta.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The Lena empties into the Laptev Sea. Its channels spread across a broad Arctic delta. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lena-river-delta-russia-7343/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "closed-basins"
+      ],
+      "prompt": "Which pattern describes Lake Balkhash's two main basins?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The eastern basin is fresher; the western is more saline"
+        },
+        {
+          "id": "b",
+          "text": "Both basins are fresh and drain to the ocean"
+        },
+        {
+          "id": "c",
+          "text": "Both basins are saline and linked by a tidal channel"
+        },
+        {
+          "id": "d",
+          "text": "The western basin is fresher; the eastern is more saline"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The main river supply and restricted exchange between the basins create an uneven salt balance.",
+      "explanation": "Western Lake Balkhash is much fresher than its eastern basin. The lake has no outlet, and exchange between its two parts is restricted.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. Western Lake Balkhash is much fresher than its eastern basin. The lake has no outlet, and exchange between its two parts is restricted. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://science.nasa.gov/earth/earth-observatory/lake-balkhash-91230/ ; https://www.zin.ru/labs/brackish/pdfs/2019/balkhash_lake.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Geography",
+      "tags": [
+        "regional-journeys",
+        "asia-and-the-pacific",
+        "paleogeography"
+      ],
+      "prompt": "Why did lowered Ice Age sea levels fail to create a continuous land bridge through Wallacea between the Sunda and Sahul shelves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The entire island chain lay under a continuous ice sheet"
+        },
+        {
+          "id": "b",
+          "text": "Rapid subsidence kept both shelves completely submerged"
+        },
+        {
+          "id": "c",
+          "text": "Deep-water straits remained between the islands"
+        },
+        {
+          "id": "d",
+          "text": "Monsoon-fed rivers cut channels across both exposed shelves"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Compare the depth of the intervening seas with the amount of sea-level fall.",
+      "explanation": "The shelves became more exposed, but deep seas between Wallacea's islands remained barriers. Reaching Sahul through this region still required sea crossings.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-geo-journeys-asia-and-the-pacific-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-19 for the answer and geographic scope. The shelves became more exposed, but deep seas between Wallacea's islands remained barriers. Reaching Sahul through this region still required sea crossings. Assistant-reviewed draft; human factual review and difficulty play-testing remain recommended.",
+        "sourceNotes": "https://www.minpaku.ac.jp/assets/pages/research/publication/research-publications/bulletin/houkoku_49-3.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-set-geography-01-q01",
       "localId": "builtin-set-geography-01-q01",
       "level": 1,
@@ -53414,6 +56894,166 @@
     {
       "folderPath": [
         "Geography",
+        "Regional Journeys"
+      ],
+      "id": "builtin-geo-journeys-across-europe-set",
+      "localId": "builtin-geo-journeys-across-europe-set",
+      "title": "Across Europe",
+      "description": "From London and Lisbon to Baltic dunes, ancient forests and a coastline still rising after the ice age.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "across-europe"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "audience": "General English-language geography players.",
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-europe-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "id": "builtin-geo-journeys-across-the-americas-set",
+      "localId": "builtin-geo-journeys-across-the-americas-set",
+      "title": "Across the Americas",
+      "description": "Follow mountain trails, island chains and waterways from the Canadian Rockies to Patagonia.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "across-the-americas"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route"
+      ],
+      "audience": "General English-language geography players.",
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-across-the-americas-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "id": "builtin-geo-journeys-africa-in-focus-set",
+      "localId": "builtin-geo-journeys-africa-in-focus-set",
+      "title": "Africa in Focus",
+      "description": "Travel from familiar African landmarks to desert moisture, inland deltas and the routes out of great lakes.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "africa-in-focus"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
+      ],
+      "audience": "General English-language geography players.",
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Geography",
+        "Regional Journeys"
+      ],
+      "id": "builtin-geo-journeys-asia-and-the-pacific-set",
+      "localId": "builtin-geo-journeys-asia-and-the-pacific-set",
+      "title": "Asia and the Pacific",
+      "description": "Explore Pacific shores, Southeast Asian islands and rivers, then head inland to Siberia and Central Asia.",
+      "theme": "Regional geography",
+      "tags": [
+        "geography",
+        "regional-journeys",
+        "asia-and-the-pacific"
+      ],
+      "questionIds": [
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
+      ],
+      "audience": "General English-language geography players.",
+      "difficultyNote": "Familiar places lead into regional detail and expert geographic relationships. Levels are editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Geography",
         "World"
       ],
       "id": "builtin-set-geography-01",
@@ -54848,6 +58488,114 @@
       "sourceSha256": "72973e856b13751e73f81fe8064449a702b1274c1361567183202fb826d9c59a"
     },
     {
+      "id": "builtin-geo-journeys-across-europe-pack",
+      "title": "Across Europe",
+      "description": "From London and Lisbon to Baltic dunes, ancient forests and a coastline still rising after the ice age.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Geography"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/geography/regional-journeys/across-europe.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-19T00:00:00Z"
+      },
+      "sourceSha256": "028c56592572c6e1aa009cc68863dc9950590f638e6e4c642ca1b4cbca46a895"
+    },
+    {
+      "id": "builtin-geo-journeys-across-the-americas-pack",
+      "title": "Across the Americas",
+      "description": "Follow mountain trails, island chains and waterways from the Canadian Rockies to Patagonia.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Geography"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/geography/regional-journeys/across-the-americas.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-19T00:00:00Z"
+      },
+      "sourceSha256": "f0c49323900c133393040399d5e161643822d0ffce96472ebe0c76db3e27a8dc"
+    },
+    {
+      "id": "builtin-geo-journeys-africa-in-focus-pack",
+      "title": "Africa in Focus",
+      "description": "Travel from familiar African landmarks to desert moisture, inland deltas and the routes out of great lakes.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Geography"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/geography/regional-journeys/africa-in-focus.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-19T00:00:00Z"
+      },
+      "sourceSha256": "4689895a6a1580fcd3e18ee112a7783e52cb716ee42d27a2578109cbae5f4040"
+    },
+    {
+      "id": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "title": "Asia and the Pacific",
+      "description": "Explore Pacific shores, Southeast Asian islands and rivers, then head inland to Siberia and Central Asia.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Geography"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/geography/regional-journeys/asia-and-the-pacific.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary and authoritative references are recorded on every question. See docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md for scope, difficulty and editorial caveats.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-19T00:00:00Z"
+      },
+      "sourceSha256": "67ff131f38da8d96bde6c5a65f10592819035429907bc037090a20644ad06844"
+    },
+    {
       "id": "builtin-library-legacy-geography-01",
       "title": "Geography: Around the World",
       "description": "Fifteen geography questions covering capitals, landforms, straits, enclaves, and less familiar world regions.",
@@ -55263,6 +59011,10 @@
         "builtin-set-general-knowledge-02-q01",
         "builtin-set-physical-geography-01-q01",
         "builtin-set-islands-and-seas-01-q01",
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
         "builtin-set-geography-01-q01",
         "builtin-set-borders-geography-01-q01",
         "builtin-media-earth-from-above-q01",
@@ -55327,6 +59079,10 @@
         "builtin-set-general-knowledge-02-q02",
         "builtin-set-physical-geography-01-q02",
         "builtin-set-islands-and-seas-01-q02",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
         "builtin-set-geography-01-q02",
         "builtin-set-borders-geography-01-q02",
         "builtin-media-earth-from-above-q02",
@@ -55391,6 +59147,10 @@
         "builtin-set-general-knowledge-02-q03",
         "builtin-set-physical-geography-01-q03",
         "builtin-set-islands-and-seas-01-q03",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
         "builtin-set-geography-01-q03",
         "builtin-set-borders-geography-01-q03",
         "builtin-media-earth-from-above-q03",
@@ -55455,6 +59215,10 @@
         "builtin-set-general-knowledge-02-q04",
         "builtin-set-physical-geography-01-q04",
         "builtin-set-islands-and-seas-01-q04",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
         "builtin-set-geography-01-q04",
         "builtin-set-borders-geography-01-q04",
         "builtin-media-earth-from-above-q04",
@@ -55519,6 +59283,10 @@
         "builtin-set-general-knowledge-02-q05",
         "builtin-set-physical-geography-01-q05",
         "builtin-set-islands-and-seas-01-q05",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
         "builtin-set-geography-01-q05",
         "builtin-set-borders-geography-01-q05",
         "builtin-media-earth-from-above-q05",
@@ -55583,6 +59351,10 @@
         "builtin-set-general-knowledge-02-q06",
         "builtin-set-physical-geography-01-q06",
         "builtin-set-islands-and-seas-01-q06",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
         "builtin-set-geography-01-q06",
         "builtin-set-borders-geography-01-q06",
         "builtin-media-earth-from-above-q06",
@@ -55647,6 +59419,10 @@
         "builtin-set-general-knowledge-02-q07",
         "builtin-set-physical-geography-01-q07",
         "builtin-set-islands-and-seas-01-q07",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
         "builtin-set-geography-01-q07",
         "builtin-set-borders-geography-01-q07",
         "builtin-media-earth-from-above-q07",
@@ -55711,6 +59487,10 @@
         "builtin-set-general-knowledge-02-q08",
         "builtin-set-physical-geography-01-q08",
         "builtin-set-islands-and-seas-01-q08",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
         "builtin-set-geography-01-q08",
         "builtin-set-borders-geography-01-q08",
         "builtin-media-earth-from-above-q08",
@@ -55775,6 +59555,10 @@
         "builtin-set-general-knowledge-02-q09",
         "builtin-set-physical-geography-01-q09",
         "builtin-set-islands-and-seas-01-q09",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
         "builtin-set-geography-01-q09",
         "builtin-set-borders-geography-01-q09",
         "builtin-media-earth-from-above-q09",
@@ -55839,6 +59623,10 @@
         "builtin-set-general-knowledge-02-q10",
         "builtin-set-physical-geography-01-q10",
         "builtin-set-islands-and-seas-01-q10",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
         "builtin-set-geography-01-q10",
         "builtin-set-borders-geography-01-q10",
         "builtin-media-earth-from-above-q10",
@@ -55903,6 +59691,10 @@
         "builtin-set-general-knowledge-02-q11",
         "builtin-set-physical-geography-01-q11",
         "builtin-set-islands-and-seas-01-q11",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
         "builtin-set-geography-01-q11",
         "builtin-set-borders-geography-01-q11",
         "builtin-media-earth-from-above-q11",
@@ -55967,6 +59759,10 @@
         "builtin-set-general-knowledge-02-q12",
         "builtin-set-physical-geography-01-q12",
         "builtin-set-islands-and-seas-01-q12",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
         "builtin-set-geography-01-q12",
         "builtin-set-borders-geography-01-q12",
         "builtin-media-earth-from-above-q12",
@@ -56031,6 +59827,10 @@
         "builtin-set-general-knowledge-02-q13",
         "builtin-set-physical-geography-01-q13",
         "builtin-set-islands-and-seas-01-q13",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
         "builtin-set-geography-01-q13",
         "builtin-set-borders-geography-01-q13",
         "builtin-media-earth-from-above-q13",
@@ -56095,6 +59895,10 @@
         "builtin-set-general-knowledge-02-q14",
         "builtin-set-physical-geography-01-q14",
         "builtin-set-islands-and-seas-01-q14",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
         "builtin-set-geography-01-q14",
         "builtin-set-borders-geography-01-q14",
         "builtin-media-earth-from-above-q14",
@@ -56159,6 +59963,10 @@
         "builtin-set-general-knowledge-02-q15",
         "builtin-set-physical-geography-01-q15",
         "builtin-set-islands-and-seas-01-q15",
+        "builtin-geo-journeys-across-europe-kvarken-rebound",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges",
         "builtin-set-geography-01-q15",
         "builtin-set-borders-geography-01-q15",
         "builtin-media-earth-from-above-q15",
@@ -56325,6 +60133,66 @@
         "builtin-set-islands-and-seas-01-q13",
         "builtin-set-islands-and-seas-01-q14",
         "builtin-set-islands-and-seas-01-q15",
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound",
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route",
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges",
         "builtin-set-geography-01-q01",
         "builtin-set-geography-01-q02",
         "builtin-set-geography-01-q03",
@@ -57157,6 +61025,40 @@
       "accretion": [
         "builtin-set-astronomy-01-q15"
       ],
+      "across-europe": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "across-the-americas": [
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route"
+      ],
       "addition": [
         "builtin-pool-computation-01",
         "builtin-set-computation-01-q01"
@@ -57182,6 +61084,23 @@
         "builtin-set-geography-01-q02",
         "builtin-set-geography-01-q12",
         "builtin-set-geography-01-q15"
+      ],
+      "africa-in-focus": [
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
       ],
       "agglutination": [
         "builtin-library-writing-systems-agglutination"
@@ -57284,6 +61203,9 @@
       "Arctic": [
         "builtin-pool-geography-08"
       ],
+      "arctic-drainage": [
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea"
+      ],
       "art history": [
         "builtin-set-arts-and-culture-01-q15"
       ],
@@ -57295,6 +61217,23 @@
         "builtin-set-physical-geography-01-q12",
         "builtin-set-geography-01-q05",
         "builtin-set-geography-01-q13"
+      ],
+      "asia-and-the-pacific": [
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
       ],
       "asteroids": [
         "builtin-pool-astronomy-and-space-08"
@@ -57370,6 +61309,9 @@
       "basketball": [
         "builtin-pool-sports-and-games-02"
       ],
+      "bays": [
+        "builtin-geo-journeys-across-the-americas-fundy-provinces"
+      ],
       "Beatles": [
         "builtin-pool-music-04"
       ],
@@ -57423,6 +61365,9 @@
         "builtin-pool-business-and-economics-06",
         "builtin-set-everyday-expert-01-q15"
       ],
+      "border-lakes": [
+        "builtin-geo-journeys-across-europe-ohrid-border"
+      ],
       "borders": [
         "builtin-set-borders-geography-01-q01",
         "builtin-set-borders-geography-01-q04"
@@ -57456,6 +61401,9 @@
       "canterbury": [
         "builtin-library-storytelling-canterbury"
       ],
+      "canyons": [
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon"
+      ],
       "capitals": [
         "builtin-pool-geography-01",
         "builtin-set-world-civilizations-01-q01",
@@ -57463,6 +61411,10 @@
         "builtin-set-general-knowledge-02-q03",
         "builtin-set-physical-geography-01-q04",
         "builtin-set-islands-and-seas-01-q08",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
         "builtin-set-geography-01-q01",
         "builtin-set-borders-geography-01-q05"
       ],
@@ -57544,7 +61496,9 @@
         "builtin-pool-film-and-television-14"
       ],
       "cities": [
-        "builtin-set-world-civilizations-01-q06"
+        "builtin-set-world-civilizations-01-q06",
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country"
       ],
       "clarinet-register": [
         "builtin-library-music-making-clarinet-register"
@@ -57568,6 +61522,9 @@
       "close-up": [
         "builtin-library-cinema-craft-close-up"
       ],
+      "closed-basins": [
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity"
+      ],
       "closer-look-art": [
         "builtin-media-closer-look-art-q01",
         "builtin-media-closer-look-art-q02",
@@ -57584,6 +61541,18 @@
         "builtin-media-closer-look-art-q13",
         "builtin-media-closer-look-art-q14",
         "builtin-media-closer-look-art-q15"
+      ],
+      "coastal-change": [
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "coastal-deserts": [
+        "builtin-geo-journeys-africa-in-focus-namib-water"
+      ],
+      "coastal-karst": [
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country"
+      ],
+      "coasts": [
+        "builtin-geo-journeys-across-europe-wadden-coasts"
       ],
       "codes": [
         "builtin-pool-technology-02",
@@ -57786,6 +61755,7 @@
       ],
       "deserts": [
         "builtin-pool-geography-09",
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
         "builtin-set-geography-01-q02"
       ],
       "design": [
@@ -57840,7 +61810,10 @@
         "builtin-library-music-making-dorian"
       ],
       "drainage": [
-        "builtin-set-physical-geography-01-q13"
+        "builtin-set-physical-geography-01-q13",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow"
       ],
       "drama": [
         "builtin-pool-literature-and-language-01"
@@ -58090,6 +62063,9 @@
       "first-person": [
         "builtin-library-storytelling-first-person"
       ],
+      "fjords": [
+        "builtin-geo-journeys-across-europe-norwegian-fjords"
+      ],
       "fold": [
         "builtin-library-cooking-fold"
       ],
@@ -58101,6 +62077,9 @@
       ],
       "food science": [
         "builtin-pool-food-and-drink-10"
+      ],
+      "forests": [
+        "builtin-geo-journeys-across-europe-bialowieza-border"
       ],
       "form": [
         "builtin-pool-music-14"
@@ -58153,6 +62132,9 @@
         "builtin-set-science-01-q12",
         "builtin-set-stem-01-q05"
       ],
+      "geodesy": [
+        "builtin-geo-journeys-across-europe-struve-measurement"
+      ],
       "geography": [
         "builtin-pool-film-and-television-04"
       ],
@@ -58168,6 +62150,10 @@
         "builtin-pool-medieval-and-early-modern-history-03",
         "builtin-pool-modern-history-01",
         "builtin-set-borders-geography-01-q12"
+      ],
+      "glaciers": [
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake"
       ],
       "Go": [
         "builtin-pool-sports-and-games-12"
@@ -58344,6 +62330,9 @@
         "builtin-pool-food-and-drink-05",
         "builtin-pool-food-and-drink-13"
       ],
+      "inland-deltas": [
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta"
+      ],
       "institutions": [
         "builtin-pool-society-and-everyday-life-02",
         "builtin-pool-society-and-everyday-life-06",
@@ -58393,6 +62382,9 @@
       "Islam": [
         "builtin-pool-mythology-and-religion-04"
       ],
+      "island-chains": [
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors"
+      ],
       "islands": [
         "builtin-pool-geography-08",
         "builtin-set-islands-and-seas-01-q01",
@@ -58401,6 +62393,11 @@
         "builtin-set-islands-and-seas-01-q05",
         "builtin-set-islands-and-seas-01-q06",
         "builtin-set-islands-and-seas-01-q10",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
         "builtin-set-geography-01-q10"
       ],
       "isthmuses": [
@@ -58452,6 +62449,9 @@
       "kanji": [
         "builtin-library-writing-systems-kanji"
       ],
+      "karst": [
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes"
+      ],
       "Kiribati": [
         "builtin-set-borders-geography-01-q14"
       ],
@@ -58461,9 +62461,16 @@
       "Lagrange points": [
         "builtin-pool-astronomy-and-space-13"
       ],
+      "lake-inflows": [
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow"
+      ],
+      "lake-outlets": [
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet"
+      ],
       "lakes": [
         "builtin-pool-geography-10",
         "builtin-set-physical-geography-01-q08",
+        "builtin-geo-journeys-across-europe-plitvice-country",
         "builtin-set-geography-01-q07"
       ],
       "lamination": [
@@ -58704,6 +62711,10 @@
         "builtin-set-physical-geography-01-q04",
         "builtin-set-physical-geography-01-q06",
         "builtin-set-physical-geography-01-q12",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
         "builtin-set-geography-01-q04"
       ],
       "Mozart": [
@@ -58756,6 +62767,9 @@
       "narrative technique": [
         "builtin-pool-literature-and-language-13",
         "builtin-set-arts-and-culture-01-q09"
+      ],
+      "national-parks": [
+        "builtin-geo-journeys-africa-in-focus-serengeti-country"
       ],
       "NATO": [
         "builtin-pool-politics-and-world-affairs-05"
@@ -58872,6 +62886,9 @@
       "Palau": [
         "builtin-set-islands-and-seas-01-q08"
       ],
+      "paleogeography": [
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
+      ],
       "Panama": [
         "builtin-set-borders-geography-01-q03"
       ],
@@ -58889,6 +62906,10 @@
       ],
       "pendentive": [
         "builtin-library-architecture-pendentive"
+      ],
+      "peninsulas": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island"
       ],
       "pentatonic": [
         "builtin-library-music-making-pentatonic"
@@ -59057,6 +63078,9 @@
       "rack-focus": [
         "builtin-library-cinema-craft-rack-focus"
       ],
+      "raised-atolls": [
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon"
+      ],
       "rates": [
         "builtin-pool-computation-10",
         "builtin-set-computation-01-q10"
@@ -59081,6 +63105,71 @@
       ],
       "reduce": [
         "builtin-library-cooking-reduce"
+      ],
+      "reefs": [
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country"
+      ],
+      "regional-journeys": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound",
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route",
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route",
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
       ],
       "relative-minor": [
         "builtin-library-music-making-relative-minor"
@@ -59189,12 +63278,22 @@
         "builtin-pool-society-and-everyday-life-13",
         "builtin-pool-business-and-economics-12"
       ],
+      "river-bifurcations": [
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection"
+      ],
+      "river-valleys": [
+        "builtin-geo-journeys-across-europe-wachau-river"
+      ],
       "rivers": [
         "builtin-pool-geography-03",
         "builtin-pool-geography-06",
         "builtin-set-physical-geography-01-q01",
         "builtin-set-physical-geography-01-q05",
         "builtin-set-physical-geography-01-q08",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
         "builtin-set-geography-01-q03",
         "builtin-set-geography-01-q05",
         "builtin-set-geography-01-q12"
@@ -59252,6 +63351,9 @@
       "salt flats": [
         "builtin-set-physical-geography-01-q09"
       ],
+      "salt-lakes": [
+        "builtin-geo-journeys-africa-in-focus-assal-country"
+      ],
       "Sarajevo": [
         "builtin-pool-modern-history-04"
       ],
@@ -59285,7 +63387,11 @@
       "seas": [
         "builtin-pool-geography-15",
         "builtin-set-physical-geography-01-q03",
-        "builtin-set-islands-and-seas-01-q07"
+        "builtin-set-islands-and-seas-01-q07",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea"
+      ],
+      "seasonal-rivers": [
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal"
       ],
       "security": [
         "builtin-set-everyday-expert-01-q04"
@@ -59421,6 +63527,9 @@
       ],
       "spectroscopy": [
         "builtin-set-astronomy-01-q09"
+      ],
+      "spits": [
+        "builtin-geo-journeys-across-europe-curonian-spit"
       ],
       "squares": [
         "builtin-pool-computation-13"
@@ -59747,10 +63856,14 @@
         "builtin-set-ancient-history-01-q07"
       ],
       "waterfalls": [
-        "builtin-set-physical-geography-01-q11"
+        "builtin-set-physical-geography-01-q11",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river"
       ],
       "watersheds": [
-        "builtin-set-physical-geography-01-q15"
+        "builtin-set-physical-geography-01-q15",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
       ],
       "waves": [
         "builtin-set-science-01-q05",
@@ -59781,6 +63894,9 @@
       "West Africa": [
         "builtin-set-borders-geography-01-q04",
         "builtin-set-borders-geography-01-q05"
+      ],
+      "wetlands": [
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage"
       ],
       "whisk": [
         "builtin-library-cooking-whisk"
@@ -59853,6 +63969,74 @@
       ]
     },
     "bySourcePack": {
+      "builtin-geo-journeys-across-europe-pack": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "builtin-geo-journeys-across-the-americas-pack": [
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route"
+      ],
+      "builtin-geo-journeys-africa-in-focus-pack": [
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
+      ],
+      "builtin-geo-journeys-asia-and-the-pacific-pack": [
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
+      ],
       "builtin-library-animal-adaptations-pack": [
         "builtin-library-animal-adaptations-camouflage",
         "builtin-library-animal-adaptations-migration",
@@ -60879,6 +65063,74 @@
       ]
     },
     "bySet": {
+      "builtin-geo-journeys-across-europe-set": [
+        "builtin-geo-journeys-across-europe-iberian-peninsula",
+        "builtin-geo-journeys-across-europe-london-river",
+        "builtin-geo-journeys-across-europe-lisbon-capital",
+        "builtin-geo-journeys-across-europe-etna-island",
+        "builtin-geo-journeys-across-europe-norwegian-fjords",
+        "builtin-geo-journeys-across-europe-rhine-outlet",
+        "builtin-geo-journeys-across-europe-plitvice-country",
+        "builtin-geo-journeys-across-europe-vatnajokull",
+        "builtin-geo-journeys-across-europe-wadden-coasts",
+        "builtin-geo-journeys-across-europe-ohrid-border",
+        "builtin-geo-journeys-across-europe-curonian-spit",
+        "builtin-geo-journeys-across-europe-bialowieza-border",
+        "builtin-geo-journeys-across-europe-wachau-river",
+        "builtin-geo-journeys-across-europe-struve-measurement",
+        "builtin-geo-journeys-across-europe-kvarken-rebound"
+      ],
+      "builtin-geo-journeys-across-the-americas-set": [
+        "builtin-geo-journeys-across-the-americas-rio-country",
+        "builtin-geo-journeys-across-the-americas-banff-mountains",
+        "builtin-geo-journeys-across-the-americas-lima-capital",
+        "builtin-geo-journeys-across-the-americas-galapagos-ocean",
+        "builtin-geo-journeys-across-the-americas-iguazu-border",
+        "builtin-geo-journeys-across-the-americas-great-lakes-outlet",
+        "builtin-geo-journeys-across-the-americas-yucatan-cenotes",
+        "builtin-geo-journeys-across-the-americas-aconcagua-country",
+        "builtin-geo-journeys-across-the-americas-fundy-provinces",
+        "builtin-geo-journeys-across-the-americas-pantanal-drainage",
+        "builtin-geo-journeys-across-the-americas-gros-morne-island",
+        "builtin-geo-journeys-across-the-americas-nahanni-river",
+        "builtin-geo-journeys-across-the-americas-perito-moreno-lake",
+        "builtin-geo-journeys-across-the-americas-casiquiare-connection",
+        "builtin-geo-journeys-across-the-americas-two-ocean-route"
+      ],
+      "builtin-geo-journeys-africa-in-focus-set": [
+        "builtin-geo-journeys-africa-in-focus-kalahari-region",
+        "builtin-geo-journeys-africa-in-focus-cairo-river",
+        "builtin-geo-journeys-africa-in-focus-accra-capital",
+        "builtin-geo-journeys-africa-in-focus-serengeti-country",
+        "builtin-geo-journeys-africa-in-focus-victoria-falls-river",
+        "builtin-geo-journeys-africa-in-focus-atlas-countries",
+        "builtin-geo-journeys-africa-in-focus-namib-water",
+        "builtin-geo-journeys-africa-in-focus-rwenzori-country",
+        "builtin-geo-journeys-africa-in-focus-malawi-outlet",
+        "builtin-geo-journeys-africa-in-focus-niger-inland-delta",
+        "builtin-geo-journeys-africa-in-focus-turkana-inflow",
+        "builtin-geo-journeys-africa-in-focus-assal-country",
+        "builtin-geo-journeys-africa-in-focus-bemaraha-canyon",
+        "builtin-geo-journeys-africa-in-focus-chad-inflow",
+        "builtin-geo-journeys-africa-in-focus-tanganyika-outlet-route"
+      ],
+      "builtin-geo-journeys-asia-and-the-pacific-set": [
+        "builtin-geo-journeys-asia-and-the-pacific-mumbai-country",
+        "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country",
+        "builtin-geo-journeys-asia-and-the-pacific-wellington-capital",
+        "builtin-geo-journeys-asia-and-the-pacific-fuji-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ha-long-country",
+        "builtin-geo-journeys-asia-and-the-pacific-tasman-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-bagan-river",
+        "builtin-geo-journeys-asia-and-the-pacific-komodo-neighbors",
+        "builtin-geo-journeys-asia-and-the-pacific-tonle-sap-reversal",
+        "builtin-geo-journeys-asia-and-the-pacific-puerto-princesa-island",
+        "builtin-geo-journeys-asia-and-the-pacific-ujung-kulon-island",
+        "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon",
+        "builtin-geo-journeys-asia-and-the-pacific-lena-sea",
+        "builtin-geo-journeys-asia-and-the-pacific-balkhash-salinity",
+        "builtin-geo-journeys-asia-and-the-pacific-wallacea-land-bridges"
+      ],
       "builtin-library-animal-adaptations-set": [
         "builtin-library-animal-adaptations-camouflage",
         "builtin-library-animal-adaptations-migration",
@@ -62200,49 +66452,49 @@
     ]
   },
   "summary": {
-    "questionCount": 930,
+    "questionCount": 990,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 630,
-    "curatedSetCount": 42,
-    "sourceCount": 47,
+    "curatedQuestionCount": 690,
+    "curatedSetCount": 46,
+    "sourceCount": 51,
     "categoryCount": 20,
     "byLevel": {
-      "1": 62,
-      "2": 62,
-      "3": 62,
-      "4": 62,
-      "5": 62,
-      "6": 62,
-      "7": 62,
-      "8": 62,
-      "9": 62,
-      "10": 62,
-      "11": 62,
-      "12": 62,
-      "13": 62,
-      "14": 62,
-      "15": 62
+      "1": 66,
+      "2": 66,
+      "3": 66,
+      "4": 66,
+      "5": 66,
+      "6": 66,
+      "7": 66,
+      "8": 66,
+      "9": 66,
+      "10": 66,
+      "11": 66,
+      "12": 66,
+      "13": 66,
+      "14": 66,
+      "15": 66
     },
     "byDisplayDifficulty": {
-      "Easy": 310,
-      "Moderate": 310,
-      "Difficult": 248,
-      "Millionaire": 62
+      "Easy": 330,
+      "Moderate": 330,
+      "Difficult": 264,
+      "Millionaire": 66
     },
     "byInternalTier": {
-      "Foundation": 186,
-      "Accessible": 124,
-      "Intermediate": 186,
-      "Advanced": 124,
-      "Expert": 124,
-      "Elite": 124,
-      "Millionaire": 62
+      "Foundation": 198,
+      "Accessible": 132,
+      "Intermediate": 198,
+      "Advanced": 132,
+      "Expert": 132,
+      "Elite": 132,
+      "Millionaire": 66
     },
     "byCategory": {
       "Ancient History": 42,
       "Medieval and Early Modern History": 30,
       "Modern History": 19,
-      "Geography": 81,
+      "Geography": 141,
       "Astronomy and Space": 64,
       "Science": 78,
       "Nature and Earth": 92,
@@ -62261,6 +66513,10 @@
       "Business and Economics": 23
     },
     "bySourcePack": {
+      "builtin-geo-journeys-across-europe-pack": 15,
+      "builtin-geo-journeys-across-the-americas-pack": 15,
+      "builtin-geo-journeys-africa-in-focus-pack": 15,
+      "builtin-geo-journeys-asia-and-the-pacific-pack": 15,
       "builtin-library-animal-adaptations-pack": 15,
       "builtin-library-archaeology-pack": 15,
       "builtin-library-architecture-pack": 15,
@@ -62310,7 +66566,7 @@
       "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 930
+      "assistant-reviewed-draft": 990
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []

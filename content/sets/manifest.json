@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2.2.0",
-  "validatedAt": "2026-09-13T00:00:00Z",
+  "version": "2.3.0",
+  "validatedAt": "2026-11-19T00:00:00Z",
   "files": [
     {
       "path": "culture/architecture/built-to-last.json",
@@ -142,6 +142,26 @@
       "path": "geography/physical/islands-and-seas.json",
       "packId": "builtin-library-legacy-islands-and-seas-01",
       "sha256": "72973e856b13751e73f81fe8064449a702b1274c1361567183202fb826d9c59a"
+    },
+    {
+      "path": "geography/regional-journeys/across-europe.json",
+      "packId": "builtin-geo-journeys-across-europe-pack",
+      "sha256": "028c56592572c6e1aa009cc68863dc9950590f638e6e4c642ca1b4cbca46a895"
+    },
+    {
+      "path": "geography/regional-journeys/across-the-americas.json",
+      "packId": "builtin-geo-journeys-across-the-americas-pack",
+      "sha256": "f0c49323900c133393040399d5e161643822d0ffce96472ebe0c76db3e27a8dc"
+    },
+    {
+      "path": "geography/regional-journeys/africa-in-focus.json",
+      "packId": "builtin-geo-journeys-africa-in-focus-pack",
+      "sha256": "4689895a6a1580fcd3e18ee112a7783e52cb716ee42d27a2578109cbae5f4040"
+    },
+    {
+      "path": "geography/regional-journeys/asia-and-the-pacific.json",
+      "packId": "builtin-geo-journeys-asia-and-the-pacific-pack",
+      "sha256": "67ff131f38da8d96bde6c5a65f10592819035429907bc037090a20644ad06844"
     },
     {
       "path": "geography/world/around-the-world.json",
