@@ -9,7 +9,7 @@ The application is a local-only React, TypeScript, and Vite PWA. It has no backe
 - Fifteen exact difficulty levels from $100 to $1,000,000, with $1,000 and $32,000 checkpoints.
 - Deliberate answer selection, final-answer confirmation, suspense, explanations, walk-away payouts, and millionaire victory.
 - Fresh Mix with profile-aware unseen/least-seen/least-recent selection and soft category diversity.
-- Fifteen authored curated sets, including three geography collections, plus Surprise Me selection.
+- A browsable library of 46 authored curated sets, including geography, riddles, and image/video questions, plus Surprise Me selection.
 - Hint and absolute-deadline 60-second Phone a Friend lifelines.
 - Up to 20 named local profiles, Guest play, career statistics, set progress, history, and full run review.
 - Exactly one global, owner-bound resumable save with immutable question/answer snapshots and multi-tab takeover protection.
@@ -112,6 +112,9 @@ docs/             architecture, development, testing, content, and release notes
 - [Documentation index](docs/README.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Development](docs/DEVELOPMENT.md)
+- [Contributor and agent instructions](AGENTS.md)
+- [Releasing and updating the game](docs/RELEASING.md)
+- [Changelog](CHANGELOG.md)
 - [Content pipeline](docs/CONTENT_PIPELINE.md)
 - [Testing](docs/TESTING.md)
 - [Implementation decisions](docs/IMPLEMENTATION_NOTES.md)
@@ -131,6 +134,6 @@ docs/             architecture, development, testing, content, and release notes
 - The normalized catalog makes the initial JavaScript chunk comparatively large (roughly 1,041 kB minified, about 195 kB gzip in the verified build). It remains fully precached; future content growth should move the catalog to a separately loaded cached chunk.
 - The source-scope UI exposes Built-in and All Enabled. Individual imported curated sets are directly selectable, while a custom-pack-only Fresh Mix scope is not exposed in this release.
 
-## Repository state
+## Contributing and releases
 
-The repository is prepared for version control but no implementation commits, pushes, or pull requests are created by the build process. A proposed reviewable history is documented in [docs/COMMIT_PLAN.md](docs/COMMIT_PLAN.md).
+Work on a focused branch and open a PR against `main`, following [AGENTS.md](AGENTS.md). Record material changes in [CHANGELOG.md](CHANGELOG.md). CI validates PRs; merging does not deploy the game or activate a cached browser update. Follow [Releasing](docs/RELEASING.md) to publish or update a running installation. The original [commit plan](docs/COMMIT_PLAN.md) is historical planning material.
