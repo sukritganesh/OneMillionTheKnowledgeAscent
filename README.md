@@ -87,7 +87,7 @@ npm run normalize:content
 npm run build:content
 ```
 
-The active catalog contains 300 Fresh Mix questions and 630 separate questions in 42 curated sets: 930 unique questions across 20 primary categories. The library includes the original 15 sets, 20 themed additions, three image/video sets and four riddle sets, each in its own file under `content/sets/`. Browse folders or search all sets in the game; riddles live under **Puzzles & Games / Riddles**. Moving a set preserves its progress and saved games. The Fresh Mix bank and archived Release 001 remain unchanged. See [Set Library](docs/SET_LIBRARY.md) for organization, [Riddle notes](docs/SET_NOTES_RIDDLES.md) for the new puzzles, [Question Media](docs/QUESTION_MEDIA.md) for attachments, and [Content Pipeline](docs/CONTENT_PIPELINE.md) for validation.
+The active catalog contains 300 Fresh Mix questions and 690 separate questions in 46 curated sets: 990 unique questions across 20 primary categories. The library includes the original 15 sets, 20 themed additions, three image/video sets, four riddle sets and four regional geography sets, each in its own file under `content/sets/`. Browse folders or search all sets in the game; riddles live under **Puzzles & Games / Riddles**, and the new geography sets under **Geography / Regional Journeys**. Moving a set preserves its progress and saved games. The Fresh Mix bank and archived Release 001 remain unchanged. See [Set Library](docs/SET_LIBRARY.md) for organization, [Geography notes](docs/SET_NOTES_GEOGRAPHY_JOURNEYS.md) and [Riddle notes](docs/SET_NOTES_RIDDLES.md) for editorial review, [Question Media](docs/QUESTION_MEDIA.md) for attachments, and [Content Pipeline](docs/CONTENT_PIPELINE.md) for validation.
 
 ## Project structure
 

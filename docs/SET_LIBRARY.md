@@ -1,6 +1,6 @@
 # The 15-question set library
 
-The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 42 sets: the original 15, 20 themed additions, three image/video sets and four riddle sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachments and [Riddle notes](SET_NOTES_RIDDLES.md) for puzzle verification.
+The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 46 sets: the original 15, 20 themed additions, three image/video sets, four riddle sets and four regional geography sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachments, [Riddle notes](SET_NOTES_RIDDLES.md) for puzzle verification and [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) for geography sources.
 
 ## Playing and organizing
 
@@ -51,3 +51,7 @@ Source trails, scoped rules and editorial caveats are in [Science notes](SET_NOT
 ## Riddle sets
 
 Under **Puzzles & Games / Riddles**, choose Hidden in Plain Sight, The Midnight Detective, The Number Vault, or The Rules of This Place. Each is an independent 15-question game. The folder uses the existing primary categories; it does not expand the controlled taxonomy. See [Riddle notes](SET_NOTES_RIDDLES.md) for sources, exact-rule caveats and executable solution checks.
+
+## Regional geography sets
+
+Under **Geography / Regional Journeys**, choose Across Europe, Across the Americas, Africa in Focus, or Asia and the Pacific. Each contains 15 independent questions spanning familiar locations, regional detail and harder geographic relationships. Sources live in `content/sets/geography/regional-journeys/`, one file per game. All questions use the existing Geography primary category and are excluded from Fresh Mix. See [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) for sources and editorial scope.
