@@ -8,6 +8,7 @@ Changes on `main` after `v1.0.0`, plus the repository procedure introduced with 
 
 ### Added
 
+- Two standard-progression automobile sets, **Road Icons** and **Under the Hood**, under **Science & Technology / Automobiles**. Library v2.4.0 contains 48 curated sets and 1,020 questions overall; the 300-question Fresh Mix bank is unchanged. [Editorial and source notes](docs/SET_NOTES_AUTOMOBILES.md)
 - Recorded local music and three supplemental geography sets, bringing the original library to 15 sets. [Commit 6b6c41a](https://github.com/sukritganesh/OneMillionTheKnowledgeAscent/commit/6b6c41a)
 - A browsable folder library for individual 15-question sets, local folder placement, search, and 20 themed sets. [PR #3](https://github.com/sukritganesh/OneMillionTheKnowledgeAscent/pull/3)
 - Image/video questions with accessible descriptions, portable imports/exports, offline playback, and three sample sets. [PR #4](https://github.com/sukritganesh/OneMillionTheKnowledgeAscent/pull/4)

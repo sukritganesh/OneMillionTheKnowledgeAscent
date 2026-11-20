@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2.3.0",
-  "validatedAt": "2026-11-19T00:00:00Z",
+  "version": "2.4.0",
+  "validatedAt": "2026-11-20T00:00:00Z",
   "files": [
     {
       "path": "culture/architecture/built-to-last.json",
@@ -107,6 +107,16 @@
       "path": "discovery/puzzles/mental-gymnastics.json",
       "packId": "builtin-library-legacy-computation-01",
       "sha256": "5c1793d66cdfd625a0cb6602bc2b9bc120fed4842748f86005d347cacb2ba9e6"
+    },
+    {
+      "path": "discovery/science-and-technology/automobiles/road-icons.json",
+      "packId": "builtin-automobiles-road-icons-pack",
+      "sha256": "d729c400011374a78bbac5e93cdbb3e3e215a7a8ef157829d7e2d520b39a33a9"
+    },
+    {
+      "path": "discovery/science-and-technology/automobiles/under-the-hood.json",
+      "packId": "builtin-automobiles-under-the-hood-pack",
+      "sha256": "7d755a2ce251ab1abbd1ae79bd5ea780dec5780ac088469505506179207338e3"
     },
     {
       "path": "discovery/science-and-technology/communication/messages-in-disguise.json",

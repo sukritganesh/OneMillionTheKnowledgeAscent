@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.3.0",
-  "validatedAt": "2026-11-19T00:00:00Z",
+  "releaseVersion": "2.4.0",
+  "validatedAt": "2026-11-20T00:00:00Z",
   "valid": true,
   "sourceIntegrity": {
     "algorithm": "SHA-256",
@@ -459,6 +459,46 @@
         ]
       },
       {
+        "manifestPath": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+        "repositoryPath": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+        "packId": "builtin-automobiles-road-icons-pack",
+        "kind": "set",
+        "byteLength": 27277,
+        "utf8Bom": false,
+        "sourceSha256": "d729c400011374a78bbac5e93cdbb3e3e215a7a8ef157829d7e2d520b39a33a9",
+        "expectedSha256": "d729c400011374a78bbac5e93cdbb3e3e215a7a8ef157829d7e2d520b39a33a9",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Business and Economics",
+          "Art and Culture",
+          "Film and Television",
+          "Modern History",
+          "Technology",
+          "Sports and Games"
+        ]
+      },
+      {
+        "manifestPath": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+        "repositoryPath": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+        "packId": "builtin-automobiles-under-the-hood-pack",
+        "kind": "set",
+        "byteLength": 28105,
+        "utf8Bom": false,
+        "sourceSha256": "7d755a2ce251ab1abbd1ae79bd5ea780dec5780ac088469505506179207338e3",
+        "expectedSha256": "7d755a2ce251ab1abbd1ae79bd5ea780dec5780ac088469505506179207338e3",
+        "hashMatches": true,
+        "questionCount": 15,
+        "setCount": 1,
+        "categories": [
+          "Society and Everyday Life",
+          "Technology",
+          "Science",
+          "Computation"
+        ]
+      },
+      {
         "manifestPath": "content/sets/discovery/science-and-technology/communication/messages-in-disguise.json",
         "repositoryPath": "content/sets/discovery/science-and-technology/communication/messages-in-disguise.json",
         "packId": "builtin-library-codes-pack",
@@ -900,78 +940,80 @@
     ]
   },
   "totals": {
-    "sourceFiles": 51,
+    "sourceFiles": 53,
     "poolFiles": 5,
-    "curatedSetFiles": 46,
-    "questions": 990,
+    "curatedSetFiles": 48,
+    "questions": 1020,
     "poolQuestions": 300,
-    "curatedQuestions": 690,
-    "curatedSets": 46,
+    "curatedQuestions": 720,
+    "curatedSets": 48,
     "categories": 20,
     "normalizationRepairs": 5
   },
   "coverage": {
-    "questionCount": 990,
+    "questionCount": 1020,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 690,
-    "curatedSetCount": 46,
-    "sourceCount": 51,
+    "curatedQuestionCount": 720,
+    "curatedSetCount": 48,
+    "sourceCount": 53,
     "categoryCount": 20,
     "byLevel": {
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 66,
-      "9": 66,
-      "10": 66,
-      "11": 66,
-      "12": 66,
-      "13": 66,
-      "14": 66,
-      "15": 66
+      "1": 68,
+      "2": 68,
+      "3": 68,
+      "4": 68,
+      "5": 68,
+      "6": 68,
+      "7": 68,
+      "8": 68,
+      "9": 68,
+      "10": 68,
+      "11": 68,
+      "12": 68,
+      "13": 68,
+      "14": 68,
+      "15": 68
     },
     "byDisplayDifficulty": {
-      "Easy": 330,
-      "Moderate": 330,
-      "Difficult": 264,
-      "Millionaire": 66
+      "Easy": 340,
+      "Moderate": 340,
+      "Difficult": 272,
+      "Millionaire": 68
     },
     "byInternalTier": {
-      "Foundation": 198,
-      "Accessible": 132,
-      "Intermediate": 198,
-      "Advanced": 132,
-      "Expert": 132,
-      "Elite": 132,
-      "Millionaire": 66
+      "Foundation": 204,
+      "Accessible": 136,
+      "Intermediate": 204,
+      "Advanced": 136,
+      "Expert": 136,
+      "Elite": 136,
+      "Millionaire": 68
     },
     "byCategory": {
       "Ancient History": 42,
       "Medieval and Early Modern History": 30,
-      "Modern History": 19,
+      "Modern History": 21,
       "Geography": 141,
       "Astronomy and Space": 64,
-      "Science": 78,
+      "Science": 79,
       "Nature and Earth": 92,
-      "Technology": 51,
-      "Computation": 64,
+      "Technology": 71,
+      "Computation": 65,
       "Vocabulary": 37,
       "Literature and Language": 52,
-      "Art and Culture": 53,
-      "Film and Television": 35,
+      "Art and Culture": 55,
+      "Film and Television": 36,
       "Music": 37,
-      "Sports and Games": 66,
-      "Society and Everyday Life": 20,
+      "Sports and Games": 67,
+      "Society and Everyday Life": 21,
       "Food and Drink": 34,
       "Politics and World Affairs": 19,
       "Mythology and Religion": 33,
-      "Business and Economics": 23
+      "Business and Economics": 24
     },
     "bySourcePack": {
+      "builtin-automobiles-road-icons-pack": 15,
+      "builtin-automobiles-under-the-hood-pack": 15,
       "builtin-geo-journeys-across-europe-pack": 15,
       "builtin-geo-journeys-across-the-americas-pack": 15,
       "builtin-geo-journeys-africa-in-focus-pack": 15,
@@ -1025,7 +1067,7 @@
       "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 990
+      "assistant-reviewed-draft": 1020
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []
@@ -1073,44 +1115,44 @@
     "curatedQuestionsPerCategory": {
       "Ancient History": 27,
       "Medieval and Early Modern History": 15,
-      "Modern History": 4,
+      "Modern History": 6,
       "Geography": 126,
       "Astronomy and Space": 49,
-      "Science": 63,
+      "Science": 64,
       "Nature and Earth": 77,
-      "Technology": 36,
-      "Computation": 49,
+      "Technology": 56,
+      "Computation": 50,
       "Vocabulary": 22,
       "Literature and Language": 37,
-      "Art and Culture": 38,
-      "Film and Television": 20,
+      "Art and Culture": 40,
+      "Film and Television": 21,
       "Music": 22,
-      "Sports and Games": 51,
-      "Society and Everyday Life": 5,
+      "Sports and Games": 52,
+      "Society and Everyday Life": 6,
       "Food and Drink": 19,
       "Politics and World Affairs": 4,
       "Mythology and Religion": 18,
-      "Business and Economics": 8
+      "Business and Economics": 9
     },
     "allQuestionsPerLevel": {
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 66,
-      "9": 66,
-      "10": 66,
-      "11": 66,
-      "12": 66,
-      "13": 66,
-      "14": 66,
-      "15": 66
+      "1": 68,
+      "2": 68,
+      "3": 68,
+      "4": 68,
+      "5": 68,
+      "6": 68,
+      "7": 68,
+      "8": 68,
+      "9": 68,
+      "10": 68,
+      "11": 68,
+      "12": 68,
+      "13": 68,
+      "14": 68,
+      "15": 68
     },
     "singleCategorySets": 36,
-    "mixedCategorySets": 10
+    "mixedCategorySets": 12
   },
   "schemaSignatures": {
     "pack": [
@@ -1128,7 +1170,7 @@
           "sets",
           "metadata"
         ],
-        "count": 51
+        "count": 53
       }
     ],
     "question": [
@@ -1161,7 +1203,7 @@
           "usage",
           "metadata"
         ],
-        "count": 445
+        "count": 475
       },
       {
         "keys": [
@@ -1187,7 +1229,7 @@
           "id",
           "text"
         ],
-        "count": 3960
+        "count": 4080
       }
     ],
     "usage": [
@@ -1196,7 +1238,7 @@
           "freshMix",
           "setIds"
         ],
-        "count": 990
+        "count": 1020
       }
     ],
     "packMetadata": [
@@ -1273,7 +1315,7 @@
           "createdAt",
           "verificationNotes"
         ],
-        "count": 4
+        "count": 6
       }
     ],
     "curatedSet": [
@@ -1328,7 +1370,7 @@
           "difficultyNote",
           "audience"
         ],
-        "count": 9
+        "count": 11
       }
     ]
   },

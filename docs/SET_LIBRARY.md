@@ -1,6 +1,6 @@
 # The 15-question set library
 
-The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 46 sets: the original 15, 20 themed additions, three image/video sets, four riddle sets and four regional geography sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachments, [Riddle notes](SET_NOTES_RIDDLES.md) for puzzle verification and [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) for geography sources.
+The library organizes complete, fixed Level 1–15 games. It does not reorganize the larger Fresh Mix question banks. The active catalog has 48 sets: the original 15, 20 themed additions, three image/video sets, four riddle sets, four regional geography sets and two automobile sets, alongside the unchanged 300-question pool. See [Question Media](QUESTION_MEDIA.md) for attachments, [Riddle notes](SET_NOTES_RIDDLES.md) for puzzle verification, [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) for geography sources and [Automobile notes](SET_NOTES_AUTOMOBILES.md) for car history and engineering sources.
 
 ## Playing and organizing
 
@@ -55,3 +55,7 @@ Under **Puzzles & Games / Riddles**, choose Hidden in Plain Sight, The Midnight 
 ## Regional geography sets
 
 Under **Geography / Regional Journeys**, choose Across Europe, Across the Americas, Africa in Focus, or Asia and the Pacific. Each contains 15 independent questions spanning familiar locations, regional detail and harder geographic relationships. Sources live in `content/sets/geography/regional-journeys/`, one file per game. All questions use the existing Geography primary category and are excluded from Fresh Mix. See [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) for sources and editorial scope.
+
+## Automobile sets
+
+Under **Science & Technology / Automobiles**, choose **Road Icons** for car history, design, screen appearances and racing innovations, or **Under the Hood** for instruments, electric cars, engines, brakes, steering and transmission reasoning. Both follow the standard 15-level difficulty ladder. Files live in `content/sets/discovery/science-and-technology/automobiles/`; all 30 questions are excluded from Fresh Mix. See [Automobile notes](SET_NOTES_AUTOMOBILES.md) for references, technical scope and editorial review.

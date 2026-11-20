@@ -1,0 +1,783 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "builtin-automobiles-under-the-hood-pack",
+  "title": "Under the Hood",
+  "description": "From dashboard dials and electric cars to cornering geometry, lubrication, and a final gearbox puzzle.",
+  "version": "1.0.0",
+  "language": "en-US",
+  "contentType": "curated-sets",
+  "categories": [
+    "Society and Everyday Life",
+    "Technology",
+    "Science",
+    "Computation"
+  ],
+  "questions": [
+    {
+      "id": "builtin-automobiles-under-the-hood-tachometer",
+      "level": 1,
+      "category": "Society and Everyday Life",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "tachometer"
+      ],
+      "prompt": "What does a car's tachometer display?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Distance traveled"
+        },
+        {
+          "id": "b",
+          "text": "Fuel remaining"
+        },
+        {
+          "id": "c",
+          "text": "Engine speed in revolutions per minute"
+        },
+        {
+          "id": "d",
+          "text": "Road speed in miles per hour"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its reading can change even while the car is standing still.",
+      "explanation": "A tachometer shows engine rotational speed, usually in rpm. The speedometer measures road speed, and the odometer records distance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/01ranog4e.pdf",
+        "verificationNotes": "Reference checked on 2026-11-20. Owner's guide instrumentation section; conventional engine-speed tachometer."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-radiator-heat",
+      "level": 2,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "radiator-heat"
+      ],
+      "prompt": "In a liquid-cooled car engine, what is the radiator's main job?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Transfer heat from coolant to the surrounding air"
+        },
+        {
+          "id": "b",
+          "text": "Store fuel before it reaches the injectors"
+        },
+        {
+          "id": "c",
+          "text": "Recharge the starter battery"
+        },
+        {
+          "id": "d",
+          "text": "Filter particles from the engine oil"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Air flowing through the grille helps this component do its work.",
+      "explanation": "Coolant carries heat away from the engine. The radiator transfers that heat to air, with a fan helping when airflow is insufficient.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.denso-am.eu/products/ac-engine-cooling/cooling-radiators",
+        "verificationNotes": "Reference checked on 2026-11-20. Liquid-cooled engine radiator; excludes cabin heater and air-conditioning condenser."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ev-energy-store",
+      "level": 3,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ev-energy-store"
+      ],
+      "prompt": "In a battery-electric car, which component stores most of the energy used to drive the wheels?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The onboard charger"
+        },
+        {
+          "id": "b",
+          "text": "The power steering pump"
+        },
+        {
+          "id": "c",
+          "text": "The traction motor"
+        },
+        {
+          "id": "d",
+          "text": "The traction battery pack"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Distinguish the energy reservoir from the device that turns energy into motion.",
+      "explanation": "The traction battery stores the energy supplied to the drive motor. The charger helps replenish that store rather than acting as the main store itself.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+        "verificationNotes": "Reference checked on 2026-11-20. Battery-electric vehicle, not a fuel-cell or combustion-powered vehicle."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-tread-water",
+      "level": 4,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "tread-water"
+      ],
+      "prompt": "On a wet road, what useful job do the grooves in a road tire's tread perform?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep the tread rubber at a constant temperature"
+        },
+        {
+          "id": "b",
+          "text": "Channel water away from the contact area"
+        },
+        {
+          "id": "c",
+          "text": "Keep the tire's inflation pressure constant"
+        },
+        {
+          "id": "d",
+          "text": "Prevent the sidewalls from flexing under load"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The rubber needs a chance to contact the road instead of riding on a film of water.",
+      "explanation": "Tread grooves help displace water from beneath the tire and resist hydroplaning. They do not make a tire immune to losing grip in standing water.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.continental-tires.com/tire-knowledge/tire-tread/",
+        "verificationNotes": "Reference checked on 2026-11-20. Wet-road role of grooves, not a claim that grooves maximize dry-track grip."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ignition-coil",
+      "level": 5,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ignition-coil"
+      ],
+      "prompt": "Which component steps up the battery's low voltage for a conventional gasoline engine's spark plugs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The alternator"
+        },
+        {
+          "id": "b",
+          "text": "The starter motor"
+        },
+        {
+          "id": "c",
+          "text": "The ignition coil"
+        },
+        {
+          "id": "d",
+          "text": "The voltage regulator"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of electromagnetic induction, rather than a device that generates electricity by rotating.",
+      "explanation": "The ignition coil uses electromagnetic induction to produce the high voltage needed at the spark plug. The alternator supplies the vehicle's electrical system but does not directly provide the plug's firing voltage.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.denso-am.eu/products/ignition/ignition-coil",
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional battery-and-coil spark ignition; distinguishes the coil from the alternator and starter motor."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-regenerative-braking",
+      "level": 6,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "regenerative-braking"
+      ],
+      "prompt": "During regenerative braking in an electric or hybrid car, the traction motor can act as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An electrical generator"
+        },
+        {
+          "id": "b",
+          "text": "An exhaust compressor"
+        },
+        {
+          "id": "c",
+          "text": "A fuel injector"
+        },
+        {
+          "id": "d",
+          "text": "A mechanical parking pawl"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider reversing the usual direction of energy flow between the wheels and the battery.",
+      "explanation": "The motor can function as a generator, converting some of the car's motion into electrical energy for the battery. Friction brakes still have a role; regeneration does not recover all the energy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://afdc.energy.gov/vehicles/electric-basics-hev",
+        "verificationNotes": "Reference checked on 2026-11-20. Energy recovery principle, not a claim that all braking energy is recovered."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-abs-wheel-lock",
+      "level": 7,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "abs-wheel-lock"
+      ],
+      "prompt": "When a wheel is about to lock during heavy braking, what does an anti-lock braking system initially do to that wheel's brake pressure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase it continuously until the car stops"
+        },
+        {
+          "id": "b",
+          "text": "Hold it constant until the pedal is released"
+        },
+        {
+          "id": "c",
+          "text": "Transfer all braking effort to the rear axle"
+        },
+        {
+          "id": "d",
+          "text": "Reduce the pressure before reapplying it"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The system must let a nearly stopped wheel rotate again.",
+      "explanation": "ABS reduces pressure at a wheel that is about to lock, then builds it again as appropriate. This modulation helps preserve steering control during braking.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.bosch-mobility.com/en/solutions/braking-systems/antilock-braking-system/",
+        "verificationNotes": "Reference checked on 2026-11-20. Wheel-pressure modulation, with no guarantee of shorter stopping distance on every surface."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-turbo-drive",
+      "level": 8,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "turbo-drive"
+      ],
+      "prompt": "What normally drives the turbine of a conventional exhaust-gas turbocharger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A belt from the crankshaft"
+        },
+        {
+          "id": "b",
+          "text": "The flow of exhaust gas"
+        },
+        {
+          "id": "c",
+          "text": "The rotation of the road wheels"
+        },
+        {
+          "id": "d",
+          "text": "The pressure of engine coolant"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Distinguish the turbine's energy source from a mechanically driven supercharger's.",
+      "explanation": "Exhaust gas drives the turbine, which shares a shaft with the intake-air compressor. A conventional belt-driven supercharger takes its drive mechanically from the engine instead.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.garrettmotion.com/wp-content/uploads/2019/10/GAM_Turbo-Tech-101_BASIC.pdf",
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional exhaust-driven turbocharger; excludes electric assistance and unusual combined systems."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-differential-turn",
+      "level": 9,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "differential-turn"
+      ],
+      "prompt": "Why does a conventional driven axle need a differential when a car turns a corner?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inner wheel must cover more distance than the outer wheel"
+        },
+        {
+          "id": "b",
+          "text": "Both wheels must follow the same-length path"
+        },
+        {
+          "id": "c",
+          "text": "The outer wheel must cover more distance than the inner wheel"
+        },
+        {
+          "id": "d",
+          "text": "Both tires must slip across the road at the same rate"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Imagine drawing two concentric arcs for the tires on the same axle.",
+      "explanation": "The outside wheel follows a longer arc. A differential allows the driven wheels to rotate at different speeds while transmitting drive.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.eaton.com/content/dam/eaton/products/differentials-traction-control/eaton-ebook-5-things-differentials-epdl200-0617.pdf",
+        "verificationNotes": "Reference checked on 2026-11-20. Ordinary turn with rolling tires; separate from locking-differential behavior."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-octane-knock",
+      "level": 10,
+      "category": "Science",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "octane-knock"
+      ],
+      "prompt": "A gasoline's octane rating primarily measures its resistance to what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Engine knock from unwanted auto-ignition"
+        },
+        {
+          "id": "b",
+          "text": "Evaporation in the fuel tank"
+        },
+        {
+          "id": "c",
+          "text": "Freezing in winter"
+        },
+        {
+          "id": "d",
+          "text": "Absorbing water from the air"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think about how the unburned mixture behaves under high pressure and temperature inside a firing cylinder.",
+      "explanation": "Octane rating measures resistance to knock. It is not a direct measurement of how much energy a liter of fuel contains.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.eia.gov/energyexplained/gasoline/octane-in-depth.php",
+        "verificationNotes": "Reference checked on 2026-11-20. Knock resistance, not fuel energy content or a universal performance upgrade."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-intercooler-charge",
+      "level": 11,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "intercooler-charge"
+      ],
+      "prompt": "At comparable intake pressure, charge-air cooling in a turbocharged gasoline engine generally has which pair of effects?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Denser air and more tendency to knock"
+        },
+        {
+          "id": "b",
+          "text": "Less dense air and less tendency to knock"
+        },
+        {
+          "id": "c",
+          "text": "Less dense air and more tendency to knock"
+        },
+        {
+          "id": "d",
+          "text": "Denser air and less tendency to knock"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider both gas density and the effect of a hotter unburned charge during combustion.",
+      "explanation": "Cooling the compressed intake charge increases its density at comparable pressure and helps resist detonation. This is why an intercooler can benefit both air delivery and knock resistance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.garrettmotion.com/wp-content/uploads/2019/10/GAM_Turbo-Tech-101_BASIC.pdf",
+        "verificationNotes": "Reference checked on 2026-11-20. Garrett identifies increased density and resistance to detonation; density comparison assumes comparable pressure."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+      "level": 12,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "four-stroke-cam-speed"
+      ],
+      "prompt": "In a conventional four-stroke piston engine, the crankshaft turns at 3,000 rpm. At what speed does its valve-operating camshaft turn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "750 rpm"
+        },
+        {
+          "id": "b",
+          "text": "1,500 rpm"
+        },
+        {
+          "id": "c",
+          "text": "3,000 rpm"
+        },
+        {
+          "id": "d",
+          "text": "6,000 rpm"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Intake, compression, power, and exhaust must all occur before the valve sequence repeats.",
+      "explanation": "One four-stroke cycle takes two crankshaft revolutions and one camshaft revolution. The camshaft therefore runs at half the crankshaft speed: 1,500 rpm.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.continental-engineparts.com/eu/getmedia/39aff0cc-b87a-44c5-91bd-3899aae89fe6/CT_PTG_AAM_Workbook_EN.pdf",
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional four-stroke cam drive; independently checked 3000 / 2 = 1500."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ackermann-angles",
+      "level": 13,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ackermann-angles"
+      ],
+      "prompt": "For ideal Ackermann steering in a slow turn, how do the front-wheel steering angles compare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inner wheel turns through a larger angle"
+        },
+        {
+          "id": "b",
+          "text": "The outer wheel turns through a larger angle"
+        },
+        {
+          "id": "c",
+          "text": "Both wheels always turn through equal angles"
+        },
+        {
+          "id": "d",
+          "text": "The front wheels turn in opposite directions"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Both wheels should roll around one turn center, but their paths have different radii.",
+      "explanation": "The inner front wheel follows the tighter arc and needs the larger steering angle. This is ideal low-speed geometry, not a claim about every racing setup at speed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.mathworks.com/help/vdynblks/ref/steeringsystem.html",
+        "verificationNotes": "Reference checked on 2026-11-20. Ideal front-axle Ackermann geometry, with tire slip neglected."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-dry-sump-cornering",
+      "level": 14,
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "dry-sump-cornering"
+      ],
+      "prompt": "Why is a dry-sump oil system valuable in a performance car during sustained hard cornering?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It stores all the oil in a deeper pan under the crankshaft"
+        },
+        {
+          "id": "b",
+          "text": "It replaces pressure-fed lubrication with crankshaft splash"
+        },
+        {
+          "id": "c",
+          "text": "It helps maintain engine oil supply despite strong lateral acceleration"
+        },
+        {
+          "id": "d",
+          "text": "It raises oil pressure solely by increasing engine speed"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Consider what liquid in a shallow container does when the container is pushed sideways.",
+      "explanation": "A dry-sump system scavenges oil into a separate reservoir and supplies it under pressure. This helps maintain lubrication when acceleration makes oil move around inside the engine.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://newsroom.porsche.com/en_US/2021/products/porsche-911-gt3-technical-fine-tuning-performance-enhancement-24117.html",
+        "verificationNotes": "Reference checked on 2026-11-20. Oil-supply benefit under sustained acceleration; dry sump does not mean no oil."
+      }
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-planetary-reduction",
+      "level": 15,
+      "category": "Computation",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "planetary-reduction"
+      ],
+      "prompt": "An ideal simple planetary gearset in a transmission has a 30-tooth sun and a 90-tooth ring. The ring is held still and the sun turns at 1,200 rpm. How fast does the planet carrier turn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "400 rpm"
+        },
+        {
+          "id": "b",
+          "text": "600 rpm"
+        },
+        {
+          "id": "c",
+          "text": "900 rpm"
+        },
+        {
+          "id": "d",
+          "text": "300 rpm"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The planet centers move with the output carrier. This is not just a fixed-axis pair of gears with a 90-to-30 ratio.",
+      "explanation": "With the ring fixed, the sun-to-carrier reduction is 1 + ring teeth / sun teeth. Here it is 1 + 90/30 = 4, so the carrier turns at 1,200/4 = 300 rpm in the sun's direction.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitive": false,
+        "validThrough": null,
+        "sourceNotes": "https://www.mathworks.com/help/sdl/ref/planetarygear.html",
+        "verificationNotes": "Reference checked on 2026-11-20. Simple single-pinion planetary set with fixed ring; independently checked using the relative-speed equation and a 30-tooth planet geometry."
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "builtin-automobiles-under-the-hood-set",
+      "title": "Under the Hood",
+      "description": "From dashboard dials and electric cars to cornering geometry, lubrication, and a final gearbox puzzle.",
+      "theme": "Automobiles",
+      "tags": [
+        "automobiles",
+        "under-the-hood"
+      ],
+      "folderPath": [
+        "Science & Technology",
+        "Automobiles"
+      ],
+      "questionIds": [
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
+      "difficultyNote": "Standard 15-level progression: familiar foundations, intermediate knowledge, difficult distinctions, and a millionaire finale. Editorial estimates pending player calibration.",
+      "audience": "General English-language players with an interest in automobiles."
+    }
+  ],
+  "metadata": {
+    "author": "OpenAI",
+    "generatedBy": "OpenAI",
+    "questionCount": 15,
+    "setCount": 1,
+    "reviewStatus": "assistant-reviewed-draft",
+    "humanReviewRecommended": true,
+    "timeSensitiveQuestionCount": 0,
+    "createdAt": "2026-11-20T00:00:00Z",
+    "verificationNotes": "Primary references and scope notes accompany every question. See docs/SET_NOTES_AUTOMOBILES.md for difficulty, factual review, and calculation checks."
+  }
+}
