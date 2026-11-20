@@ -318,17 +318,7 @@ Adding a file to the directory without a manifest entry is intentionally rejecte
 
 ## Adding curated sets
 
-For a new versioned release:
-
-1. Add a curated pack under `curated-sets/` with `contentType: "curated-sets"`.
-2. Include each referenced question in that same pack.
-3. Give every set and question a globally unique built-in ID.
-4. For each set, include exactly 15 unique question IDs ordered Level 1 through Level 15.
-5. Set each curated question's `freshMix` flag as intended and make `usage.setIds` exactly reciprocal with set membership.
-6. Update pack metadata `questionCount`, `setCount`, review fields, and time-sensitive count.
-7. Add the manifest entry with kind `set`, exact count, categories, SHA-256, and default state.
-8. Update manifest totals and every affected coverage-index value, including single/mixed set counts and curated category totals.
-9. Run the complete command sequence below.
+Use the active `content/sets/` library and the [Set Library authoring procedure](SET_LIBRARY.md#adding-a-set). Each file contains one complete set; explicitly register its path, preserve stable identities, and regenerate the active outputs. Do not add questions to the frozen Release 001 archive. Question-only additions use [focused local checks](TESTING.md#question-additions-focused-local-checks), with full application validation in CI. Changes to pipeline or schema behavior also require the relevant application checks.
 
 ## Commands and expected workflow
 
@@ -358,7 +348,7 @@ Run focused content tests:
 npx vitest run src/content/content.test.ts
 ```
 
-Run the broader checks:
+For application or pipeline changes, run the broader checks required by [Development](DEVELOPMENT.md); these are not an additional local gate for routine question additions:
 
 ```powershell
 npm run typecheck
@@ -366,10 +356,12 @@ npm test
 npm run build
 ```
 
-`npm run build` already starts with `npm run build:content`. Current successful content output is:
+`npm run build` already starts with `npm run build:content`. For a media-content smoke check, build once and target the new assets offline. Text-only additions can use the development server. CI runs `npm run validate` for full regression coverage.
+
+The archived Release 001 build originally reported:
 
 ```text
 Content catalog built: 525 questions (300 pool + 225 curated), 15 sets, 12 source files, 5 repairs.
 ```
 
-After a content change, inspect `content/normalized/release-001/validation-report.json`. Its `valid` flag must be true, `errors` must be empty, all source hashes must match, totals and coverage must be expected, and only understood editorial warnings may remain.
+After an active library change, inspect `content/normalized/library/validation-report.json`. Its `valid` flag must be true, `errors` must be empty, all source hashes must match, totals and coverage must be expected, and only understood editorial warnings may remain. The report under `content/normalized/release-001/` remains historical evidence.

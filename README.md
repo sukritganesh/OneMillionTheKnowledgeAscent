@@ -69,6 +69,8 @@ npx playwright install chromium
 
 See [Testing](docs/TESTING.md) for layers, fixtures, recovery coverage, and browser notes.
 
+For routine question additions, follow [focused local checks](docs/TESTING.md#question-additions-focused-local-checks): keep factual/editorial review, validate and rebuild content, run focused tests, and smoke-test the additions. CI runs the full application suite. Documentation-only changes need link, accuracy, and whitespace checks locally; application changes and releases have broader requirements.
+
 ## Offline and PWA behavior
 
 The production service worker precaches the application shell, local fonts, SVG icons, and normalized built-in question catalog. After the first successful production load reports offline readiness, the app can be refreshed and relaunched offline. Development mode intentionally does not register the service worker; verify offline behavior with `npm run build` and `npm run preview`.

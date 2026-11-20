@@ -57,6 +57,8 @@ e2e/              Playwright production-browser workflows
 
 Follow [AGENTS.md](../AGENTS.md) for branch, commit, PR, and changelog conventions. Use [Releasing](RELEASING.md) when publishing a build or updating a local production game; merging alone does not update an installed PWA. Documentation-only changes need accuracy, link, and whitespace checks locally; the application workflow below applies to code changes, while CI still runs its full gate on all PRs.
 
+For question additions through existing schemas/features, use [focused content checks](TESTING.md#question-additions-focused-local-checks) instead of the full local application workflow below. Keep fact-checking, editorial review, content integrity, and targeted smoke checks; let CI run the full regression suite. Count-only test-fixture updates accompanying new sets do not make the task an application-logic change.
+
 1. Run `npm ci` after cloning or after lockfile changes.
 2. Run `npm run dev` from the repository root.
 3. Keep domain rules in `src/game`, browser/storage effects in `src/app` or a repository, and rendering in screens/components.

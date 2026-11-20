@@ -61,6 +61,8 @@ The three new sets add 45 questions, with 20 media-bearing questions (including 
 
 The six images and four silent WebM videos total about 8 MiB. WebM was selected so the samples also work in Chromium builds without H.264. Media are sourced from The Met's public-domain collection and NASA; original downloaded renditions are bundled without content edits. Their per-question references document factual sources. These remain `assistant-reviewed-draft`, with human review and difficulty play-testing recommended—not certified human-reviewed content.
 
-`npm run validate` checks the full content manifest, source hashes, unit regressions and browser flows. `e2e/media.spec.ts` plays all 45 new questions offline, checks actual video decoding/playback and pause behaviour, exercises gallery enlargement, checks credits at reveal, and measures layout at 1280×720.
+CI's `npm run validate` checks the full content manifest, source hashes, unit regressions and browser flows. `e2e/media.spec.ts` plays all 45 sample questions offline, checks actual video decoding/playback and pause behaviour, exercises gallery enlargement, checks credits at reveal, and measures layout at 1280×720.
+
+For new questions using existing media support, follow [focused local checks](TESTING.md#question-additions-focused-local-checks): retain provenance/permission and factual review, then verify the new assets and their questions in a production build offline. The full existing media suite runs in CI; do not routinely replay all older media packs locally. Changes to media handling code require the relevant application/browser tests.
 
 If another project occupies the default test port (4173), set `PLAYWRIGHT_PORT` to a free local port before running validation. CI continues to use the default.

@@ -28,17 +28,20 @@ The frozen archive at `content/source/release-001/` is still verified on every b
 2. Create one file under a suitable topic directory. Use unique concept-based pack, set and question IDs. Include exactly 15 questions with ordered levels 1–15, four distinct stable-ID choices, one correct answer, a useful non-leaking hint and a concise explanation. Set every question's `usage.freshMix` to `false` and its reciprocal `usage.setIds` to this set's ID.
 3. Include valid nonempty `folderPath` on built-in sets. Each label is 1–80 trimmed characters, with at most six levels. Labels cannot contain slashes, backslashes, control characters or angle brackets; dot/parent and prototype-property names are rejected. JSON imports may omit the field or use `[]` for Unfiled. This optional additive field remains compatible with schema 1.0.0.
 4. Follow the prescribed difficulty ramp. Verify facts against suitable primary references and independently check calculations. Add question-level source/verification notes and a short editorial review document. Use honest metadata: assistant-authored work remains `assistant-reviewed-draft`, with `humanReviewRecommended: true`. Structural tests do not certify factual accuracy or player-calibrated difficulty.
-5. Explicitly register the new file, review the manifest diff, then rebuild and validate:
+5. Explicitly register the new file, review the manifest diff, then rebuild and run focused content checks:
 
 ```powershell
 npm run register:sets -- science/spaceflight/leaving-earth.json
 npm run build:content
-npm run validate
+npm run validate:content
+npx vitest run src/content/content.test.ts
 ```
 
 Pass several relative paths to register several intentional additions/edits. To move a file, move it within `content/sets/`, preserve its IDs, and explicitly register its new path; the old manifest entry for the same pack ID is replaced. Update `folderPath` too only when changing the in-game home. Registration checks that unrelated registered files still match their pinned identities/hashes—it does not silently bless other edits.
 
 Generated outputs live under `content/normalized/library/` and `src/content/generated/`. Commit them with their source and manifest changes. Do not hand-edit generated JSON or alter the archived Release 001 payloads to add new sets.
+
+Follow [focused local checks](TESTING.md#question-additions-focused-local-checks) for existing-content comparison, directly affected fixtures, and a smoke check of the new sets. CI runs the full application suite; routine question additions do not require a full local run. The factual review and difficulty standards above remain mandatory. Historical set notes describe their original validation runs; use this current procedure for future additions.
 
 ## The 20 new sets
 
