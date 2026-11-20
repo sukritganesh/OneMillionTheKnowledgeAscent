@@ -18,6 +18,8 @@ For application releases, use a patch increment for compatible fixes, minor for 
 
 ## Prepare a release PR
 
+This full local release procedure applies to release candidates. Ordinary question additions follow [focused local checks](TESTING.md#question-additions-focused-local-checks) and the full CI gate; they are not automatically release candidates.
+
 1. Start a focused branch from current `main`, inspect the changes since the last tag, and choose the intended scope/version. Follow the ordinary PR procedure; do not mix unrelated local edits into the release.
 2. Update the application version and lockfile together, for example `npm version 1.1.0 --no-git-tag-version` for a planned 1.1.0 release. The number is an example, not the next predetermined release.
 3. Move the relevant Unreleased notes into a section for that version, leaving an empty Unreleased section. Use the actual publication date when known; do not guess a future date. Include compatibility notes and any backup or migration steps.

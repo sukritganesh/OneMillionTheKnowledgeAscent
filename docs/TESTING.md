@@ -33,7 +33,7 @@ npm run test:coverage
 # Production Chromium workflows; builds first
 npm run test:e2e
 
-# Complete local validation chain
+# Full CI/release validation chain (also available locally)
 npm run validate
 ```
 
@@ -47,6 +47,29 @@ npx vitest run src/data/data.test.ts
 npx vitest run src/screens/GameplayScreen.test.tsx
 npx playwright test -g "multi-tab takeover"
 ```
+
+## Question additions: focused local checks
+
+Use this path for additions through existing question schemas and game features: question files, their manifest and generated catalogs, supported image/video assets, editorial docs, and count-only test-fixture updates. If the task also changes application logic, schemas, validators, build tooling, dependencies, or CI configuration, follow the relevant [application workflow](DEVELOPMENT.md#recommended-workflow) as well. A versioned release still follows [Releasing](RELEASING.md).
+
+1. **Review every question.** Read the [question specification](<../ChatGPT Generated Files/QUESTION_BANK_SPEC.md>) and [Set Library](SET_LIBRARY.md). Verify facts against suitable primary references, independently solve calculations and puzzles, check that exactly one answer is correct, and review distractors, hints, explanations, overlap, and the difficulty progression. Record sources and scope; retain `assistant-reviewed-draft` and `humanReviewRecommended: true`. Faster testing does not replace factual or editorial review.
+2. **Register, regenerate, and validate content.** Follow the explicit registration procedure in Set Library, run `npm run build:content`, then `npm run validate:content`. Review the manifest hashes and generated report for expected totals, complete ladders, valid membership, unique IDs/prompts, and understood warnings. Never hand-edit generated files.
+3. **Run focused tests.** After updating expected catalog totals where needed, run `npx vitest run src/content/content.test.ts`. Run any additional directly affected assertions; for example, a Content Manager count update needs its coverage test, not every manual-editor interaction. There is no requirement to add a duplicate structural test for each pack.
+4. **Check preservation and the diff.** For additive sets, compare existing normalized question/set records with the base branch: their identities, content, and Fresh Mix membership must remain unchanged. Inspect the diff for unintended source/assets changes and run `git diff --check`. Commit the source, manifest, and reproducible outputs together.
+5. **Smoke-test the additions.** Browse the intended folders and start each new set. Inspect representative questions, especially the longest prompts, choices, and hints, at the supported 1280×720 size; check answer reveal. A development server is sufficient for text-only additions. Full 15-question playthroughs are optional unless the content presents a specific risk that requires them. For new media, verify each new asset's rendering/playback, descriptions and credits, and use one production build for targeted offline checks. Avoid retesting every existing set or unrelated feature locally.
+6. **Push and let CI run the full suite.** Record the focused local checks and any limitations in the PR. Wait for `Release validation` on the final head and address failures/review feedback. Do not run `npm test`, `npm run test:e2e`, or `npm run validate` locally as a routine extra gate for question-only additions. A full local suite remains available when a concrete failure or broader change justifies it.
+
+For a count-only change in the Content Manager fixture, this focused command selects the relevant test:
+
+```powershell
+npx vitest run src/screens/ContentManagerScreen.test.tsx -t "shows built-in coverage"
+```
+
+### Local failure triage
+
+Inspect the failed assertion and use a focused rerun or a baseline comparison when it will distinguish a regression from an existing/environment issue. Once that distinction is established, avoid repeated broad reruns and unrelated repairs during content work. Record the failing command, evidence, and CI result separately; never report a failed local command as passing because CI passed. Preserve useful traces. Do not weaken assertions, disable tests, or increase timeouts just to obtain a pass.
+
+Fix task-caused failures. If a failure might affect the new content, prevents its targeted verification, or occurs in CI, investigate before reporting the PR ready. CI success does not excuse a known question defect or a blocked check of the additions.
 
 ## Vitest configuration
 
@@ -98,7 +121,7 @@ The Playwright configuration:
 - Uses `e2e/` as its test directory.
 - Runs one Chromium desktop project at 1440×900.
 - Starts `npm run preview -- --strictPort` on `127.0.0.1:4173`.
-- Runs serially (`fullyParallel: false`).
+- Runs tests within a file sequentially (`fullyParallel: false`); different files may use concurrent workers. Use `--workers=1` for a focused diagnostic rerun when browser contention is suspected.
 - Uses no local retries and two retries when `CI` is set.
 - Keeps traces and screenshots on failure and writes an HTML report.
 
@@ -111,7 +134,7 @@ npm run build
 npm run test:e2e:ui
 ```
 
-If another process owns port 4173, stop it before running the suite. The strict-port preview should fail rather than silently test a different port.
+If another project owns port 4173, choose a free `PLAYWRIGHT_PORT` (for example, `$env:PLAYWRIGHT_PORT = '4184'` in PowerShell). Do not stop unrelated servers. The strict-port preview should fail rather than silently test a different port.
 
 ## Browser scenarios
 
@@ -155,7 +178,7 @@ If the app has not yet been controlled by a service worker, `navigator.onLine ==
 
 ## Validation and reports
 
-`npm run validate` is the intended aggregate local gate. It currently repeats some work because `test:e2e` invokes a production build; this is deliberate in favor of testing the exact production artifact.
+`npm run validate` is the full CI and release gate. Routine question additions use the focused local checks above; they do not need to duplicate the full suite locally. The aggregate command includes a production build through `test:e2e` so browser tests exercise the built artifact.
 
 Do not record a command as passing unless it was run in the current environment. Preserve Playwright traces/screenshots and the failing seed or fixture when reporting a defect.
 

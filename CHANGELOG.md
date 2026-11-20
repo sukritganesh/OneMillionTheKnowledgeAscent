@@ -19,6 +19,7 @@ Changes on `main` after `v1.0.0`, plus the repository procedure introduced with 
 
 ### Changed
 
+- Question additions now use focused local content checks and targeted smoke tests, with the full regression suite in CI. Fact-checking and editorial standards remain mandatory; application changes and release candidates retain broader validation. [Testing procedure](docs/TESTING.md#question-additions-focused-local-checks)
 - Refined the existing interface and player-facing copy across game screens. [PR #2](https://github.com/sukritganesh/OneMillionTheKnowledgeAscent/pull/2)
 
 ### Fixed
