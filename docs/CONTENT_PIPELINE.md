@@ -15,9 +15,9 @@ The boundaries are intentional:
 
 Fresh Mix, set browsing, and selection services should consume the normalized catalog. They must not select a source file first, read raw JSON during a run, or depend on source-file grouping.
 
-## Active set library (v2.3.0)
+## Active set library (v2.4.0)
 
-The game combines the unchanged 300-question Release 001 pool with 46 individual curated-set files under `content/sets/`: 690 curated questions and 990 total. Each file contains exactly one 15-question set. The original 15 sets retain their IDs, ordering and gameplay content; 20 themed additions, three media sets, four riddle sets and four regional geography sets add 465 questions. There are 66 questions at each exact level. Question banks are not reorganized. Optional [question media](QUESTION_MEDIA.md) is validated, copied into snapshots, and checked against hashed local files during the built-in set build. [Riddle notes](SET_NOTES_RIDDLES.md) describe the puzzle solution checks; [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) document the geography source review.
+The game combines the unchanged 300-question Release 001 pool with 48 individual curated-set files under `content/sets/`: 720 curated questions and 1,020 total. Each file contains exactly one 15-question set. The original 15 sets retain their IDs, ordering and gameplay content; 20 themed additions, three media sets, four riddle sets, four regional geography sets and two automobile sets add 495 questions. There are 68 questions at each exact level. Question banks are not reorganized. Optional [question media](QUESTION_MEDIA.md) is validated, copied into snapshots, and checked against hashed local files during the built-in set build. [Riddle notes](SET_NOTES_RIDDLES.md) describe the puzzle solution checks; [Regional Journeys notes](SET_NOTES_GEOGRAPHY_JOURNEYS.md) and [Automobile notes](SET_NOTES_AUTOMOBILES.md) document source review for the later additions.
 
 `content/sets/manifest.json` explicitly pins each set's path, pack ID and SHA-256. The build rejects unregistered files and changed hashes, validates the entire frozen archive first, and checks the original set migration contract. It then writes the active artifacts to `content/normalized/library/` and `src/content/generated/`. The archived normalized Release 001 files remain historical evidence.
 
