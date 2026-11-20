@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "builtin-question-content-release-001",
-  "releaseVersion": "2.3.0",
+  "releaseVersion": "2.4.0",
   "questions": [
     {
       "id": "builtin-pool-ancient-history-01",
@@ -34408,6 +34408,1746 @@
       "normalizationRepairs": []
     },
     {
+      "id": "builtin-automobiles-road-icons-beetle-maker",
+      "localId": "builtin-automobiles-road-icons-beetle-maker",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Business and Economics",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "beetle-maker"
+      ],
+      "prompt": "Which manufacturer made the original Beetle, also affectionately called the Bug?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Volkswagen"
+        },
+        {
+          "id": "b",
+          "text": "Renault"
+        },
+        {
+          "id": "c",
+          "text": "Fiat"
+        },
+        {
+          "id": "d",
+          "text": "Opel"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its name translates from German as \"people's car.\"",
+      "explanation": "The original Beetle was the Volkswagen Type 1. Its rounded shape made the insect nickname an enduring part of its identity.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Original Type 1, not a claim about who invented the automobile.",
+        "sourceNotes": "https://www.volkswagen-newsroom.com/en/beetle-kaefer-19567",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-ferrari-emblem",
+      "localId": "builtin-automobiles-road-icons-ferrari-emblem",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Art and Culture",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "ferrari-emblem"
+      ],
+      "prompt": "Which animal appears on Ferrari's familiar yellow badge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bull"
+        },
+        {
+          "id": "b",
+          "text": "A lion"
+        },
+        {
+          "id": "c",
+          "text": "A horse"
+        },
+        {
+          "id": "d",
+          "text": "A jaguar"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of the animal associated with the traditional unit used to describe engine power.",
+      "explanation": "Ferrari uses a black prancing horse. The question concerns Ferrari's badge, not every car logo featuring a horse.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Ferrari annual report, intellectual-property section: Prancing Horse mark.",
+        "sourceNotes": "https://cdn.ferrari.com/cms/network/media/pdf/Ferrari%20NV%20Annual%20Report%202023%20%28SEC%20Filing%29.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-time-machine-car",
+      "localId": "builtin-automobiles-road-icons-time-machine-car",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Film and Television",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "time-machine-car"
+      ],
+      "prompt": "In the original Back to the Future film, Doc Brown builds his time machine from which car?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chevrolet Corvette"
+        },
+        {
+          "id": "b",
+          "text": "DeLorean DMC-12"
+        },
+        {
+          "id": "c",
+          "text": "Ford Mustang"
+        },
+        {
+          "id": "d",
+          "text": "Pontiac Firebird"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Picture the silver body and doors that open upward from the roof.",
+      "explanation": "Doc Brown's time machine is a DeLorean DMC-12. The film turned the distinctive sports car into a screen icon.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Official film site describes writer/producer Bob Gale discussing the vehicle choice.",
+        "sourceNotes": "https://www.backtothefuture.com/news/2019/4/28/exclusive-clip-bob-gale-discusss-time-machine-selection-from-framing-john-delorean-2019",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-spirit-of-ecstasy",
+      "localId": "builtin-automobiles-road-icons-spirit-of-ecstasy",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Art and Culture",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "spirit-of-ecstasy"
+      ],
+      "prompt": "The Spirit of Ecstasy hood ornament is associated with which car marque?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bentley"
+        },
+        {
+          "id": "b",
+          "text": "Jaguar"
+        },
+        {
+          "id": "c",
+          "text": "Aston Martin"
+        },
+        {
+          "id": "d",
+          "text": "Rolls-Royce"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Think of a British luxury marque whose badge uses two interlocking initials.",
+      "explanation": "The Spirit of Ecstasy is the sculptural mascot of Rolls-Royce. Charles Sykes created the original figure.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Historical identity and sculptor, not a claim that every individual car retains its mascot.",
+        "sourceNotes": "https://newsroom.rolls-roycemotorcars.com/rolls-royce-commemorates-150-years-since-the-birth-of-charles-sykes/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-mustang-worlds-fair",
+      "localId": "builtin-automobiles-road-icons-mustang-worlds-fair",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Modern History",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "mustang-worlds-fair"
+      ],
+      "prompt": "Which Ford model made its public debut at the 1964 New York World's Fair?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thunderbird"
+        },
+        {
+          "id": "b",
+          "text": "Mustang"
+        },
+        {
+          "id": "c",
+          "text": "Model A"
+        },
+        {
+          "id": "d",
+          "text": "Escort"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Its name evokes a free-roaming horse of the American West.",
+      "explanation": "The Mustang was introduced to the public on April 17, 1964, at the New York World's Fair. The calendar-year launch preceded its 1965 model-year designation.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Public debut, distinguished from the earlier press introduction and model year.",
+        "sourceNotes": "https://corporate.ford.com/corporate/corporate/articles/history/mustang-worlds-fair/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-classic-911-layout",
+      "localId": "builtin-automobiles-road-icons-classic-911-layout",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "classic-911-layout"
+      ],
+      "prompt": "Where is the engine in a classic road-going Porsche 911?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ahead of the front axle"
+        },
+        {
+          "id": "b",
+          "text": "Between the front axle and the cabin"
+        },
+        {
+          "id": "c",
+          "text": "Behind the rear axle"
+        },
+        {
+          "id": "d",
+          "text": "Between the cabin and the rear axle"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Do not confuse a rear-engine layout with a rear-mid-engine layout.",
+      "explanation": "The classic 911 has its engine behind the rear axle. A rear-mid-engine car instead places its engine ahead of that axle, behind the occupants.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Classic production road car; excludes competition derivatives with different layouts.",
+        "sourceNotes": "https://www.porsche.com/stories/innovation/why-is-the-porsche-911-engine-in-the-rear/ ; https://files.porsche.com/filestore/download/uk/none/christophorus-junejuly2008-elfermotor/default/3ee7b951-6c32-4a71-a5b9-f13ae08492ea/The-Legend-Lives.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-bohlin-restraint",
+      "localId": "builtin-automobiles-road-icons-bohlin-restraint",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Modern History",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "bohlin-restraint"
+      ],
+      "prompt": "In 1959, Volvo introduced Nils Bohlin's design for which now-familiar safety feature?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three-point seat belt"
+        },
+        {
+          "id": "b",
+          "text": "Driver airbag"
+        },
+        {
+          "id": "c",
+          "text": "Anti-lock braking system"
+        },
+        {
+          "id": "d",
+          "text": "Collapsible steering column"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "It changed how an occupant was held in the seat during an impact.",
+      "explanation": "Bohlin's three-point belt combined restraint across the pelvis and upper body. Volvo introduced it in 1959; seat belts themselves were not new.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Volvo introduction of Bohlin's three-point design, not invention of all seat belts.",
+        "sourceNotes": "https://www.volvocars.com/uk/media/press-releases/AB57626B8B94A718/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-mini-space-saving",
+      "localId": "builtin-automobiles-road-icons-mini-space-saving",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "mini-space-saving"
+      ],
+      "prompt": "The original Mini put a transverse engine and front-wheel drive in a very short car. What was a central benefit of that layout?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It increased off-road ground clearance"
+        },
+        {
+          "id": "b",
+          "text": "It allowed a longer inline engine"
+        },
+        {
+          "id": "c",
+          "text": "It created room for a rear driveshaft tunnel"
+        },
+        {
+          "id": "d",
+          "text": "It left more room for occupants"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider how much of a small car must be given over to its mechanical parts.",
+      "explanation": "Alec Issigonis's compact powertrain arrangement helped the 1959 Mini accommodate four people in a small footprint. Space efficiency was central to the design.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Packaging advantage only; avoids claiming that Mini invented transverse engines.",
+        "sourceNotes": "https://www.press.bmwgroup.com/netherlands/article/detail/T0292607NL/103-jaar-bmw-group-100-jaar-records-en-overwinningen?language=nl",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-ds-suspension",
+      "localId": "builtin-automobiles-road-icons-ds-suspension",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "ds-suspension"
+      ],
+      "prompt": "Which suspension system became a defining feature of the Citroën DS introduced in 1955?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hydropneumatic suspension"
+        },
+        {
+          "id": "b",
+          "text": "Leaf-spring suspension"
+        },
+        {
+          "id": "c",
+          "text": "Torsion-bar suspension"
+        },
+        {
+          "id": "d",
+          "text": "Coil-spring suspension"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Its name combines two different kinds of fluid medium.",
+      "explanation": "The DS became famous for its hydropneumatic suspension, developed by Paul Magès. Its hydraulic systems were a major part of the car's unusual engineering.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. DS identity; does not claim the system first appeared on the DS.",
+        "sourceNotes": "https://www.media.stellantis.com/me-en/ds/press/ds-a-70-year-history",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-le-mans-rotary",
+      "localId": "builtin-automobiles-road-icons-le-mans-rotary",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Sports and Games",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "le-mans-rotary"
+      ],
+      "prompt": "What kind of engine powered the Mazda 787B to overall victory at the 1991 24 Hours of Le Mans?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A reciprocating V12"
+        },
+        {
+          "id": "b",
+          "text": "A gas turbine"
+        },
+        {
+          "id": "c",
+          "text": "A turbocharged diesel"
+        },
+        {
+          "id": "d",
+          "text": "A four-rotor rotary engine"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Think of the engine concept Mazda championed in sports cars such as the RX-7.",
+      "explanation": "The winning 787B used Mazda's R26B four-rotor rotary engine. This question refers specifically to the 1991 overall winner.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. R26B architecture and the 1991 result; avoids changing records or current racing rules.",
+        "sourceNotes": "https://www.mazda.com/en/experience/mspr/motorsports/lemans/r26b/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-gullwing-frame",
+      "localId": "builtin-automobiles-road-icons-gullwing-frame",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "gullwing-frame"
+      ],
+      "prompt": "What structural feature helped dictate the Mercedes-Benz 300 SL's famous gullwing doors?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A removable central roof beam"
+        },
+        {
+          "id": "b",
+          "text": "A tubular frame with high side sections"
+        },
+        {
+          "id": "c",
+          "text": "A backbone chassis below the center console"
+        },
+        {
+          "id": "d",
+          "text": "A front bulkhead supporting the dashboard"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Imagine trying to step into the cockpit without cutting away part of its lightweight structure.",
+      "explanation": "The 300 SL's light, rigid tubular frame extended high along the cabin sides. Roof-hinged doors allowed access where a conventional door opening was constrained by the frame.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Engineering reason for the original 300 SL door design, not later gullwing models.",
+        "sourceNotes": "https://media.mercedes-benz.com/en/article/0ee71ec7-80ea-46c6-a0d4-c41b3f168a96",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-tucker-center-light",
+      "localId": "builtin-automobiles-road-icons-tucker-center-light",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "tucker-center-light"
+      ],
+      "prompt": "What was distinctive about the Tucker 48's central headlight?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It dipped automatically for oncoming traffic"
+        },
+        {
+          "id": "b",
+          "text": "It kept its beam level as the body pitched"
+        },
+        {
+          "id": "c",
+          "text": "It turned with the steering to light corners"
+        },
+        {
+          "id": "d",
+          "text": "It changed beam pattern with road speed"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Consider where a driver wants light to fall on a winding, unlit road.",
+      "explanation": "The center lamp was linked to the steering, helping illuminate the road around a bend. It was one of the Tucker's distinctive safety-oriented ideas.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Steering-linked central light; no claim that Tucker invented all directional headlights.",
+        "sourceNotes": "https://www.thehenryford.org/collections/explore/sets/detail/preston-tucker-and-the-tucker-48",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-miura-transverse-v12",
+      "localId": "builtin-automobiles-road-icons-miura-transverse-v12",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "miura-transverse-v12"
+      ],
+      "prompt": "Which combination describes the Lamborghini Miura's V12 engine layout?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Front-mid-mounted and longitudinal"
+        },
+        {
+          "id": "b",
+          "text": "Rear-mounted and longitudinal"
+        },
+        {
+          "id": "c",
+          "text": "Rear-mid-mounted and longitudinal"
+        },
+        {
+          "id": "d",
+          "text": "Rear-mid-mounted and transverse"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The designers wanted to fit a large engine without stretching the wheelbase too far.",
+      "explanation": "The Miura's V12 was mounted transversely in a rear-mid-engine position. That compact arrangement imposed packaging challenges on the engine and gearbox.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Original Miura layout, not a universal description of Lamborghini V12 cars.",
+        "sourceNotes": "https://www.lamborghini.com/en-en/history/miura",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-lotus-ground-effect",
+      "localId": "builtin-automobiles-road-icons-lotus-ground-effect",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "lotus-ground-effect"
+      ],
+      "prompt": "On the Lotus 78 Formula One car, what did the shaped underbody passages and side skirts chiefly achieve?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lower pressure beneath the sidepods, producing downforce"
+        },
+        {
+          "id": "b",
+          "text": "Higher pressure beneath the sidepods, producing lift"
+        },
+        {
+          "id": "c",
+          "text": "An engine-driven fan evacuating the entire underbody"
+        },
+        {
+          "id": "d",
+          "text": "Movable panels acting as underbody air brakes"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider which direction an aerodynamic pressure difference must act to press a car toward the track.",
+      "explanation": "The sidepods and track formed Venturi passages. Skirts helped seal the low-pressure region beneath the car, generating downforce through ground effect.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Type 78 ground-effect mechanism; avoids an absolute claim about the first use of ground effect.",
+        "sourceNotes": "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-78/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-road-icons-cvcc-stratified-charge",
+      "localId": "builtin-automobiles-road-icons-cvcc-stratified-charge",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "road-icons",
+        "cvcc-stratified-charge"
+      ],
+      "prompt": "How did Honda's original CVCC system make a very lean main-cylinder mixture burn reliably?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It used compression alone to ignite the charge, without a spark"
+        },
+        {
+          "id": "b",
+          "text": "It ignited a richer mixture in a small prechamber to light the lean main charge"
+        },
+        {
+          "id": "c",
+          "text": "It used extra main-chamber spark plugs to ignite a uniform lean charge"
+        },
+        {
+          "id": "d",
+          "text": "It burned the unburned charge in a reactor after it left the cylinder"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "A mixture that is easy to ignite can help start combustion somewhere else.",
+      "explanation": "A spark ignited a richer mixture in an auxiliary chamber. A flame jet then initiated combustion in the leaner main charge. CVCC used controlled mixture differences rather than diesel-style compression ignition.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-road-icons-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Original CVCC combustion principle, confirmed by Honda's technical history; no contemporary emissions-compliance claim.",
+        "sourceNotes": "https://global.honda/en/tech/serial/ACCORD_50th_part01/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-tachometer",
+      "localId": "builtin-automobiles-under-the-hood-tachometer",
+      "level": 1,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Society and Everyday Life",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "tachometer"
+      ],
+      "prompt": "What does a car's tachometer display?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Distance traveled"
+        },
+        {
+          "id": "b",
+          "text": "Fuel remaining"
+        },
+        {
+          "id": "c",
+          "text": "Engine speed in revolutions per minute"
+        },
+        {
+          "id": "d",
+          "text": "Road speed in miles per hour"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Its reading can change even while the car is standing still.",
+      "explanation": "A tachometer shows engine rotational speed, usually in rpm. The speedometer measures road speed, and the odometer records distance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Owner's guide instrumentation section; conventional engine-speed tachometer.",
+        "sourceNotes": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/01ranog4e.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-radiator-heat",
+      "localId": "builtin-automobiles-under-the-hood-radiator-heat",
+      "level": 2,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "radiator-heat"
+      ],
+      "prompt": "In a liquid-cooled car engine, what is the radiator's main job?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Transfer heat from coolant to the surrounding air"
+        },
+        {
+          "id": "b",
+          "text": "Store fuel before it reaches the injectors"
+        },
+        {
+          "id": "c",
+          "text": "Recharge the starter battery"
+        },
+        {
+          "id": "d",
+          "text": "Filter particles from the engine oil"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Air flowing through the grille helps this component do its work.",
+      "explanation": "Coolant carries heat away from the engine. The radiator transfers that heat to air, with a fan helping when airflow is insufficient.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Liquid-cooled engine radiator; excludes cabin heater and air-conditioning condenser.",
+        "sourceNotes": "https://www.denso-am.eu/products/ac-engine-cooling/cooling-radiators",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ev-energy-store",
+      "localId": "builtin-automobiles-under-the-hood-ev-energy-store",
+      "level": 3,
+      "displayDifficulty": "Easy",
+      "internalTier": "Foundation",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ev-energy-store"
+      ],
+      "prompt": "In a battery-electric car, which component stores most of the energy used to drive the wheels?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The onboard charger"
+        },
+        {
+          "id": "b",
+          "text": "The power steering pump"
+        },
+        {
+          "id": "c",
+          "text": "The traction motor"
+        },
+        {
+          "id": "d",
+          "text": "The traction battery pack"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Distinguish the energy reservoir from the device that turns energy into motion.",
+      "explanation": "The traction battery stores the energy supplied to the drive motor. The charger helps replenish that store rather than acting as the main store itself.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Battery-electric vehicle, not a fuel-cell or combustion-powered vehicle.",
+        "sourceNotes": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-tread-water",
+      "localId": "builtin-automobiles-under-the-hood-tread-water",
+      "level": 4,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "tread-water"
+      ],
+      "prompt": "On a wet road, what useful job do the grooves in a road tire's tread perform?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep the tread rubber at a constant temperature"
+        },
+        {
+          "id": "b",
+          "text": "Channel water away from the contact area"
+        },
+        {
+          "id": "c",
+          "text": "Keep the tire's inflation pressure constant"
+        },
+        {
+          "id": "d",
+          "text": "Prevent the sidewalls from flexing under load"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "The rubber needs a chance to contact the road instead of riding on a film of water.",
+      "explanation": "Tread grooves help displace water from beneath the tire and resist hydroplaning. They do not make a tire immune to losing grip in standing water.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Wet-road role of grooves, not a claim that grooves maximize dry-track grip.",
+        "sourceNotes": "https://www.continental-tires.com/tire-knowledge/tire-tread/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ignition-coil",
+      "localId": "builtin-automobiles-under-the-hood-ignition-coil",
+      "level": 5,
+      "displayDifficulty": "Easy",
+      "internalTier": "Accessible",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ignition-coil"
+      ],
+      "prompt": "Which component steps up the battery's low voltage for a conventional gasoline engine's spark plugs?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The alternator"
+        },
+        {
+          "id": "b",
+          "text": "The starter motor"
+        },
+        {
+          "id": "c",
+          "text": "The ignition coil"
+        },
+        {
+          "id": "d",
+          "text": "The voltage regulator"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Think of electromagnetic induction, rather than a device that generates electricity by rotating.",
+      "explanation": "The ignition coil uses electromagnetic induction to produce the high voltage needed at the spark plug. The alternator supplies the vehicle's electrical system but does not directly provide the plug's firing voltage.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional battery-and-coil spark ignition; distinguishes the coil from the alternator and starter motor.",
+        "sourceNotes": "https://www.denso-am.eu/products/ignition/ignition-coil",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-regenerative-braking",
+      "localId": "builtin-automobiles-under-the-hood-regenerative-braking",
+      "level": 6,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "regenerative-braking"
+      ],
+      "prompt": "During regenerative braking in an electric or hybrid car, the traction motor can act as what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An electrical generator"
+        },
+        {
+          "id": "b",
+          "text": "An exhaust compressor"
+        },
+        {
+          "id": "c",
+          "text": "A fuel injector"
+        },
+        {
+          "id": "d",
+          "text": "A mechanical parking pawl"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Consider reversing the usual direction of energy flow between the wheels and the battery.",
+      "explanation": "The motor can function as a generator, converting some of the car's motion into electrical energy for the battery. Friction brakes still have a role; regeneration does not recover all the energy.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Energy recovery principle, not a claim that all braking energy is recovered.",
+        "sourceNotes": "https://afdc.energy.gov/vehicles/electric-basics-hev",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-abs-wheel-lock",
+      "localId": "builtin-automobiles-under-the-hood-abs-wheel-lock",
+      "level": 7,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "abs-wheel-lock"
+      ],
+      "prompt": "When a wheel is about to lock during heavy braking, what does an anti-lock braking system initially do to that wheel's brake pressure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase it continuously until the car stops"
+        },
+        {
+          "id": "b",
+          "text": "Hold it constant until the pedal is released"
+        },
+        {
+          "id": "c",
+          "text": "Transfer all braking effort to the rear axle"
+        },
+        {
+          "id": "d",
+          "text": "Reduce the pressure before reapplying it"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The system must let a nearly stopped wheel rotate again.",
+      "explanation": "ABS reduces pressure at a wheel that is about to lock, then builds it again as appropriate. This modulation helps preserve steering control during braking.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Wheel-pressure modulation, with no guarantee of shorter stopping distance on every surface.",
+        "sourceNotes": "https://www.bosch-mobility.com/en/solutions/braking-systems/antilock-braking-system/",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-turbo-drive",
+      "localId": "builtin-automobiles-under-the-hood-turbo-drive",
+      "level": 8,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Intermediate",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "turbo-drive"
+      ],
+      "prompt": "What normally drives the turbine of a conventional exhaust-gas turbocharger?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A belt from the crankshaft"
+        },
+        {
+          "id": "b",
+          "text": "The flow of exhaust gas"
+        },
+        {
+          "id": "c",
+          "text": "The rotation of the road wheels"
+        },
+        {
+          "id": "d",
+          "text": "The pressure of engine coolant"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Distinguish the turbine's energy source from a mechanically driven supercharger's.",
+      "explanation": "Exhaust gas drives the turbine, which shares a shaft with the intake-air compressor. A conventional belt-driven supercharger takes its drive mechanically from the engine instead.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional exhaust-driven turbocharger; excludes electric assistance and unusual combined systems.",
+        "sourceNotes": "https://www.garrettmotion.com/wp-content/uploads/2019/10/GAM_Turbo-Tech-101_BASIC.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-differential-turn",
+      "localId": "builtin-automobiles-under-the-hood-differential-turn",
+      "level": 9,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "differential-turn"
+      ],
+      "prompt": "Why does a conventional driven axle need a differential when a car turns a corner?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inner wheel must cover more distance than the outer wheel"
+        },
+        {
+          "id": "b",
+          "text": "Both wheels must follow the same-length path"
+        },
+        {
+          "id": "c",
+          "text": "The outer wheel must cover more distance than the inner wheel"
+        },
+        {
+          "id": "d",
+          "text": "Both tires must slip across the road at the same rate"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Imagine drawing two concentric arcs for the tires on the same axle.",
+      "explanation": "The outside wheel follows a longer arc. A differential allows the driven wheels to rotate at different speeds while transmitting drive.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Ordinary turn with rolling tires; separate from locking-differential behavior.",
+        "sourceNotes": "https://www.eaton.com/content/dam/eaton/products/differentials-traction-control/eaton-ebook-5-things-differentials-epdl200-0617.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-octane-knock",
+      "localId": "builtin-automobiles-under-the-hood-octane-knock",
+      "level": 10,
+      "displayDifficulty": "Moderate",
+      "internalTier": "Advanced",
+      "category": "Science",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "octane-knock"
+      ],
+      "prompt": "A gasoline's octane rating primarily measures its resistance to what?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Engine knock from unwanted auto-ignition"
+        },
+        {
+          "id": "b",
+          "text": "Evaporation in the fuel tank"
+        },
+        {
+          "id": "c",
+          "text": "Freezing in winter"
+        },
+        {
+          "id": "d",
+          "text": "Absorbing water from the air"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Think about how the unburned mixture behaves under high pressure and temperature inside a firing cylinder.",
+      "explanation": "Octane rating measures resistance to knock. It is not a direct measurement of how much energy a liter of fuel contains.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Knock resistance, not fuel energy content or a universal performance upgrade.",
+        "sourceNotes": "https://www.eia.gov/energyexplained/gasoline/octane-in-depth.php",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-intercooler-charge",
+      "localId": "builtin-automobiles-under-the-hood-intercooler-charge",
+      "level": 11,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "intercooler-charge"
+      ],
+      "prompt": "At comparable intake pressure, charge-air cooling in a turbocharged gasoline engine generally has which pair of effects?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Denser air and more tendency to knock"
+        },
+        {
+          "id": "b",
+          "text": "Less dense air and less tendency to knock"
+        },
+        {
+          "id": "c",
+          "text": "Less dense air and more tendency to knock"
+        },
+        {
+          "id": "d",
+          "text": "Denser air and less tendency to knock"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "Consider both gas density and the effect of a hotter unburned charge during combustion.",
+      "explanation": "Cooling the compressed intake charge increases its density at comparable pressure and helps resist detonation. This is why an intercooler can benefit both air delivery and knock resistance.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Garrett identifies increased density and resistance to detonation; density comparison assumes comparable pressure.",
+        "sourceNotes": "https://www.garrettmotion.com/wp-content/uploads/2019/10/GAM_Turbo-Tech-101_BASIC.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+      "localId": "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+      "level": 12,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Expert",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "four-stroke-cam-speed"
+      ],
+      "prompt": "In a conventional four-stroke piston engine, the crankshaft turns at 3,000 rpm. At what speed does its valve-operating camshaft turn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "750 rpm"
+        },
+        {
+          "id": "b",
+          "text": "1,500 rpm"
+        },
+        {
+          "id": "c",
+          "text": "3,000 rpm"
+        },
+        {
+          "id": "d",
+          "text": "6,000 rpm"
+        }
+      ],
+      "correctChoiceId": "b",
+      "hint": "Intake, compression, power, and exhaust must all occur before the valve sequence repeats.",
+      "explanation": "One four-stroke cycle takes two crankshaft revolutions and one camshaft revolution. The camshaft therefore runs at half the crankshaft speed: 1,500 rpm.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Conventional four-stroke cam drive; independently checked 3000 / 2 = 1500.",
+        "sourceNotes": "https://www.continental-engineparts.com/eu/getmedia/39aff0cc-b87a-44c5-91bd-3899aae89fe6/CT_PTG_AAM_Workbook_EN.pdf",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-ackermann-angles",
+      "localId": "builtin-automobiles-under-the-hood-ackermann-angles",
+      "level": 13,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "ackermann-angles"
+      ],
+      "prompt": "For ideal Ackermann steering in a slow turn, how do the front-wheel steering angles compare?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inner wheel turns through a larger angle"
+        },
+        {
+          "id": "b",
+          "text": "The outer wheel turns through a larger angle"
+        },
+        {
+          "id": "c",
+          "text": "Both wheels always turn through equal angles"
+        },
+        {
+          "id": "d",
+          "text": "The front wheels turn in opposite directions"
+        }
+      ],
+      "correctChoiceId": "a",
+      "hint": "Both wheels should roll around one turn center, but their paths have different radii.",
+      "explanation": "The inner front wheel follows the tighter arc and needs the larger steering angle. This is ideal low-speed geometry, not a claim about every racing setup at speed.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Ideal front-axle Ackermann geometry, with tire slip neglected.",
+        "sourceNotes": "https://www.mathworks.com/help/vdynblks/ref/steeringsystem.html",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-dry-sump-cornering",
+      "localId": "builtin-automobiles-under-the-hood-dry-sump-cornering",
+      "level": 14,
+      "displayDifficulty": "Difficult",
+      "internalTier": "Elite",
+      "category": "Technology",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "dry-sump-cornering"
+      ],
+      "prompt": "Why is a dry-sump oil system valuable in a performance car during sustained hard cornering?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It stores all the oil in a deeper pan under the crankshaft"
+        },
+        {
+          "id": "b",
+          "text": "It replaces pressure-fed lubrication with crankshaft splash"
+        },
+        {
+          "id": "c",
+          "text": "It helps maintain engine oil supply despite strong lateral acceleration"
+        },
+        {
+          "id": "d",
+          "text": "It raises oil pressure solely by increasing engine speed"
+        }
+      ],
+      "correctChoiceId": "c",
+      "hint": "Consider what liquid in a shallow container does when the container is pushed sideways.",
+      "explanation": "A dry-sump system scavenges oil into a separate reservoir and supplies it under pressure. This helps maintain lubrication when acceleration makes oil move around inside the engine.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Oil-supply benefit under sustained acceleration; dry sump does not mean no oil.",
+        "sourceNotes": "https://newsroom.porsche.com/en_US/2021/products/porsche-911-gt3-technical-fine-tuning-performance-enhancement-24117.html",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-planetary-reduction",
+      "localId": "builtin-automobiles-under-the-hood-planetary-reduction",
+      "level": 15,
+      "displayDifficulty": "Millionaire",
+      "internalTier": "Millionaire",
+      "category": "Computation",
+      "tags": [
+        "automobiles",
+        "under-the-hood",
+        "planetary-reduction"
+      ],
+      "prompt": "An ideal simple planetary gearset in a transmission has a 30-tooth sun and a 90-tooth ring. The ring is held still and the sun turns at 1,200 rpm. How fast does the planet carrier turn?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "400 rpm"
+        },
+        {
+          "id": "b",
+          "text": "600 rpm"
+        },
+        {
+          "id": "c",
+          "text": "900 rpm"
+        },
+        {
+          "id": "d",
+          "text": "300 rpm"
+        }
+      ],
+      "correctChoiceId": "d",
+      "hint": "The planet centers move with the output carrier. This is not just a fixed-axis pair of gears with a 90-to-30 ratio.",
+      "explanation": "With the ring fixed, the sun-to-carrier reduction is 1 + ring teeth / sun teeth. Here it is 1 + 90/30 = 4, so the carrier turns at 1,200/4 = 300 rpm in the sun's direction.",
+      "usage": {
+        "freshMix": false,
+        "setIds": [
+          "builtin-automobiles-under-the-hood-set"
+        ]
+      },
+      "metadata": {
+        "language": "en-US",
+        "author": "OpenAI",
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "verificationNotes": "Reference checked on 2026-11-20. Simple single-pinion planetary set with fixed ring; independently checked using the relative-speed equation and a 30-tooth planet geometry.",
+        "sourceNotes": "https://www.mathworks.com/help/sdl/ref/planetarygear.html",
+        "generatedBy": "OpenAI",
+        "timeSensitive": false,
+        "validThrough": null
+      },
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true,
+      "normalizationRepairs": []
+    },
+    {
       "id": "builtin-library-codes-morse-elements",
       "localId": "builtin-library-codes-morse-elements",
       "level": 1,
@@ -56626,6 +58366,84 @@
     {
       "folderPath": [
         "Science & Technology",
+        "Automobiles"
+      ],
+      "id": "builtin-automobiles-road-icons-set",
+      "localId": "builtin-automobiles-road-icons-set",
+      "title": "Road Icons",
+      "description": "Famous badges, movie cars, racing breakthroughs, and the clever ideas behind some memorable machines.",
+      "theme": "Automobiles",
+      "tags": [
+        "automobiles",
+        "road-icons"
+      ],
+      "questionIds": [
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge"
+      ],
+      "audience": "General English-language players with an interest in automobiles.",
+      "difficultyNote": "Standard 15-level progression: familiar foundations, intermediate knowledge, difficult distinctions, and a millionaire finale. Editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-road-icons-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Science & Technology",
+        "Automobiles"
+      ],
+      "id": "builtin-automobiles-under-the-hood-set",
+      "localId": "builtin-automobiles-under-the-hood-set",
+      "title": "Under the Hood",
+      "description": "From dashboard dials and electric cars to cornering geometry, lubrication, and a final gearbox puzzle.",
+      "theme": "Automobiles",
+      "tags": [
+        "automobiles",
+        "under-the-hood"
+      ],
+      "questionIds": [
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
+      "audience": "General English-language players with an interest in automobiles.",
+      "difficultyNote": "Standard 15-level progression: familiar foundations, intermediate knowledge, difficult distinctions, and a millionaire finale. Editorial estimates pending player calibration.",
+      "origin": "built-in",
+      "sourcePackId": "builtin-automobiles-under-the-hood-pack",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "sourceVersion": "1.0.0",
+      "enabled": true
+    },
+    {
+      "folderPath": [
+        "Science & Technology",
         "Communication"
       ],
       "id": "builtin-library-codes-set",
@@ -58275,6 +60093,68 @@
       "sourceSha256": "5c1793d66cdfd625a0cb6602bc2b9bc120fed4842748f86005d347cacb2ba9e6"
     },
     {
+      "id": "builtin-automobiles-road-icons-pack",
+      "title": "Road Icons",
+      "description": "Famous badges, movie cars, racing breakthroughs, and the clever ideas behind some memorable machines.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Business and Economics",
+        "Art and Culture",
+        "Film and Television",
+        "Modern History",
+        "Technology",
+        "Sports and Games"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/road-icons.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary references and scope notes accompany every question. See docs/SET_NOTES_AUTOMOBILES.md for difficulty, factual review, and calculation checks.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-20T00:00:00Z"
+      },
+      "sourceSha256": "d729c400011374a78bbac5e93cdbb3e3e215a7a8ef157829d7e2d520b39a33a9"
+    },
+    {
+      "id": "builtin-automobiles-under-the-hood-pack",
+      "title": "Under the Hood",
+      "description": "From dashboard dials and electric cars to cornering geometry, lubrication, and a final gearbox puzzle.",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "language": "en-US",
+      "contentType": "curated-sets",
+      "categories": [
+        "Society and Everyday Life",
+        "Technology",
+        "Science",
+        "Computation"
+      ],
+      "origin": "built-in",
+      "sourceFile": "content/sets/discovery/science-and-technology/automobiles/under-the-hood.json",
+      "enabled": true,
+      "metadata": {
+        "author": "OpenAI",
+        "questionCount": 15,
+        "setCount": 1,
+        "reviewStatus": "assistant-reviewed-draft",
+        "humanReviewRecommended": true,
+        "timeSensitiveQuestionCount": 0,
+        "verificationNotes": "Primary references and scope notes accompany every question. See docs/SET_NOTES_AUTOMOBILES.md for difficulty, factual review, and calculation checks.",
+        "generatedBy": "OpenAI",
+        "createdAt": "2026-11-20T00:00:00Z"
+      },
+      "sourceSha256": "7d755a2ce251ab1abbd1ae79bd5ea780dec5780ac088469505506179207338e3"
+    },
+    {
       "id": "builtin-library-codes-pack",
       "title": "Messages in Disguise",
       "description": "From flags and tactile dots to compression, error correction and secret messages.",
@@ -59004,6 +60884,8 @@
         "builtin-riddles-the-number-vault-missing-coins",
         "builtin-riddles-the-rules-of-this-place-robot-turns",
         "builtin-set-computation-01-q01",
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-under-the-hood-tachometer",
         "builtin-library-codes-morse-elements",
         "builtin-library-engineering-compression",
         "builtin-set-everyday-expert-01-q01",
@@ -59072,6 +60954,8 @@
         "builtin-riddles-the-number-vault-double-and-three",
         "builtin-riddles-the-rules-of-this-place-lamp-button",
         "builtin-set-computation-01-q02",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-under-the-hood-radiator-heat",
         "builtin-library-codes-ascii-purpose",
         "builtin-library-engineering-triangles",
         "builtin-set-everyday-expert-01-q02",
@@ -59140,6 +61024,8 @@
         "builtin-riddles-the-number-vault-sibling-ages",
         "builtin-riddles-the-rules-of-this-place-dark-drawer",
         "builtin-set-computation-01-q03",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
         "builtin-library-codes-braille-cell",
         "builtin-library-engineering-hydro-turbine",
         "builtin-set-everyday-expert-01-q03",
@@ -59208,6 +61094,8 @@
         "builtin-riddles-the-number-vault-climbing-snail",
         "builtin-riddles-the-rules-of-this-place-five-stones",
         "builtin-set-computation-01-q04",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-under-the-hood-tread-water",
         "builtin-library-codes-semaphore-flags",
         "builtin-library-engineering-expansion-joints",
         "builtin-set-everyday-expert-01-q04",
@@ -59276,6 +61164,8 @@
         "builtin-riddles-the-number-vault-facing-pages",
         "builtin-riddles-the-rules-of-this-place-two-cups",
         "builtin-set-computation-01-q05",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-under-the-hood-ignition-coil",
         "builtin-library-codes-five-bit-alphabet",
         "builtin-library-engineering-suspension-cables",
         "builtin-set-everyday-expert-01-q05",
@@ -59344,6 +61234,8 @@
         "builtin-riddles-the-number-vault-reversed-digits",
         "builtin-riddles-the-rules-of-this-place-two-jugs",
         "builtin-set-computation-01-q06",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
         "builtin-library-codes-atlantic-cable",
         "builtin-library-engineering-cantilever",
         "builtin-set-everyday-expert-01-q06",
@@ -59412,6 +61304,8 @@
         "builtin-riddles-the-number-vault-gold-and-silver",
         "builtin-riddles-the-rules-of-this-place-river-crossing",
         "builtin-set-computation-01-q07",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
         "builtin-library-codes-checksum-job",
         "builtin-library-engineering-elevator-counterweight",
         "builtin-set-everyday-expert-01-q07",
@@ -59480,6 +61374,8 @@
         "builtin-riddles-the-number-vault-secret-handshakes",
         "builtin-riddles-the-rules-of-this-place-heavy-counter",
         "builtin-set-computation-01-q08",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-under-the-hood-turbo-drive",
         "builtin-library-codes-frequency-substitution",
         "builtin-library-engineering-hydraulic-pistons",
         "builtin-set-everyday-expert-01-q08",
@@ -59548,6 +61444,8 @@
         "builtin-riddles-the-number-vault-three-bells",
         "builtin-riddles-the-rules-of-this-place-night-bridge",
         "builtin-set-computation-01-q09",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-under-the-hood-differential-turn",
         "builtin-library-codes-hamming-count",
         "builtin-library-engineering-reinforced-concrete",
         "builtin-set-everyday-expert-01-q09",
@@ -59616,6 +61514,8 @@
         "builtin-riddles-the-number-vault-counting-ones",
         "builtin-riddles-the-rules-of-this-place-fragile-orbs",
         "builtin-set-computation-01-q10",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-under-the-hood-octane-knock",
         "builtin-library-codes-parity-limit",
         "builtin-library-engineering-column-buckling",
         "builtin-set-everyday-expert-01-q10",
@@ -59684,6 +61584,8 @@
         "builtin-riddles-the-number-vault-one-short-every-time",
         "builtin-riddles-the-rules-of-this-place-three-coins",
         "builtin-set-computation-01-q11",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
         "builtin-library-codes-huffman-lengths",
         "builtin-library-engineering-prestressing",
         "builtin-set-everyday-expert-01-q11",
@@ -59752,6 +61654,8 @@
         "builtin-riddles-the-number-vault-three-tollkeepers",
         "builtin-riddles-the-rules-of-this-place-missing-corners",
         "builtin-set-computation-01-q12",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
         "builtin-library-codes-prefix-free",
         "builtin-library-engineering-tuned-mass-damper",
         "builtin-set-everyday-expert-01-q12",
@@ -59820,6 +61724,8 @@
         "builtin-riddles-the-number-vault-three-remainders",
         "builtin-riddles-the-rules-of-this-place-three-piles",
         "builtin-set-computation-01-q13",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
         "builtin-library-codes-compression-counting",
         "builtin-library-engineering-beam-span-scaling",
         "builtin-set-everyday-expert-01-q13",
@@ -59888,6 +61794,8 @@
         "builtin-riddles-the-number-vault-helpful-keeper",
         "builtin-riddles-the-rules-of-this-place-numbered-rooms",
         "builtin-set-computation-01-q14",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
         "builtin-library-codes-distance-correction",
         "builtin-library-engineering-cable-curve",
         "builtin-set-everyday-expert-01-q14",
@@ -59956,6 +61864,8 @@
         "builtin-riddles-the-number-vault-hundred-locks",
         "builtin-riddles-the-rules-of-this-place-glowing-vial",
         "builtin-set-computation-01-q15",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge",
+        "builtin-automobiles-under-the-hood-planetary-reduction",
         "builtin-library-codes-reused-pad",
         "builtin-library-engineering-indeterminate-beam",
         "builtin-set-everyday-expert-01-q15",
@@ -60077,6 +61987,8 @@
         "builtin-pool-modern-history-14",
         "builtin-pool-modern-history-15",
         "builtin-set-world-civilizations-01-q14",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-bohlin-restraint",
         "builtin-library-codes-atlantic-cable",
         "builtin-set-general-knowledge-01-q06",
         "builtin-set-general-knowledge-02-q15"
@@ -60315,6 +62227,7 @@
         "builtin-library-archaeology-marine-reservoir",
         "builtin-riddles-hidden-in-plain-sight-sunlit-outline",
         "builtin-riddles-hidden-in-plain-sight-replying-cliff",
+        "builtin-automobiles-under-the-hood-octane-knock",
         "builtin-set-everyday-expert-01-q06",
         "builtin-set-everyday-expert-01-q13",
         "builtin-set-general-knowledge-01-q14",
@@ -60480,6 +62393,26 @@
         "builtin-pool-technology-13",
         "builtin-pool-technology-14",
         "builtin-pool-technology-15",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
         "builtin-library-codes-morse-elements",
         "builtin-library-codes-ascii-purpose",
         "builtin-library-codes-braille-cell",
@@ -60578,6 +62511,7 @@
         "builtin-set-computation-01-q13",
         "builtin-set-computation-01-q14",
         "builtin-set-computation-01-q15",
+        "builtin-automobiles-under-the-hood-planetary-reduction",
         "builtin-set-stem-01-q01",
         "builtin-set-stem-01-q06",
         "builtin-set-stem-01-q10",
@@ -60728,6 +62662,8 @@
         "builtin-media-closer-look-art-q14",
         "builtin-media-closer-look-art-q15",
         "builtin-set-world-civilizations-01-q09",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
         "builtin-set-general-knowledge-01-q10",
         "builtin-set-general-knowledge-02-q13"
       ],
@@ -60765,6 +62701,7 @@
         "builtin-library-cinema-craft-eyeline",
         "builtin-library-cinema-craft-sound-bridge",
         "builtin-library-cinema-craft-dolly-zoom",
+        "builtin-automobiles-road-icons-time-machine-car",
         "builtin-set-general-knowledge-01-q03",
         "builtin-set-general-knowledge-02-q07"
       ],
@@ -60873,6 +62810,7 @@
         "builtin-riddles-the-rules-of-this-place-three-piles",
         "builtin-riddles-the-rules-of-this-place-numbered-rooms",
         "builtin-riddles-the-rules-of-this-place-glowing-vial",
+        "builtin-automobiles-road-icons-le-mans-rotary",
         "builtin-set-general-knowledge-01-q07"
       ],
       "Society and Everyday Life": [
@@ -60893,6 +62831,7 @@
         "builtin-pool-society-and-everyday-life-15",
         "builtin-riddles-hidden-in-plain-sight-corner-traveller",
         "builtin-riddles-hidden-in-plain-sight-teeth-without-bites",
+        "builtin-automobiles-under-the-hood-tachometer",
         "builtin-set-everyday-expert-01-q01",
         "builtin-set-everyday-expert-01-q02",
         "builtin-set-general-knowledge-02-q01"
@@ -61006,6 +62945,7 @@
         "builtin-pool-business-and-economics-14",
         "builtin-pool-business-and-economics-15",
         "builtin-set-world-civilizations-01-q11",
+        "builtin-automobiles-road-icons-beetle-maker",
         "builtin-set-everyday-expert-01-q03",
         "builtin-set-everyday-expert-01-q07",
         "builtin-set-everyday-expert-01-q10",
@@ -61019,11 +62959,17 @@
       "abjad": [
         "builtin-library-writing-systems-abjad"
       ],
+      "abs-wheel-lock": [
+        "builtin-automobiles-under-the-hood-abs-wheel-lock"
+      ],
       "accounting": [
         "builtin-pool-society-and-everyday-life-12"
       ],
       "accretion": [
         "builtin-set-astronomy-01-q15"
+      ],
+      "ackermann-angles": [
+        "builtin-automobiles-under-the-hood-ackermann-angles"
       ],
       "across-europe": [
         "builtin-geo-journeys-across-europe-iberian-peninsula",
@@ -61269,6 +63215,38 @@
       "Austria": [
         "builtin-pool-geography-06"
       ],
+      "automobiles": [
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge",
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
       "averages": [
         "builtin-pool-computation-06",
         "builtin-set-computation-01-q06"
@@ -61321,6 +63299,9 @@
       "Beethoven": [
         "builtin-pool-music-02"
       ],
+      "beetle-maker": [
+        "builtin-automobiles-road-icons-beetle-maker"
+      ],
       "Belgium": [
         "builtin-set-borders-geography-01-q09",
         "builtin-set-borders-geography-01-q12"
@@ -61357,6 +63338,9 @@
       ],
       "board games": [
         "builtin-pool-sports-and-games-12"
+      ],
+      "bohlin-restraint": [
+        "builtin-automobiles-road-icons-bohlin-restraint"
       ],
       "Bolivia": [
         "builtin-set-physical-geography-01-q09"
@@ -61506,6 +63490,9 @@
       "classic film": [
         "builtin-pool-film-and-television-06",
         "builtin-set-general-knowledge-01-q03"
+      ],
+      "classic-911-layout": [
+        "builtin-automobiles-road-icons-classic-911-layout"
       ],
       "classical art": [
         "builtin-pool-art-and-culture-10"
@@ -61692,6 +63679,9 @@
       "custard-network": [
         "builtin-library-cooking-custard-network"
       ],
+      "cvcc-stratified-charge": [
+        "builtin-automobiles-road-icons-cvcc-stratified-charge"
+      ],
       "cybersecurity": [
         "builtin-set-everyday-expert-01-q09"
       ],
@@ -61762,6 +63752,9 @@
         "builtin-pool-art-and-culture-07",
         "builtin-set-arts-and-culture-01-q08"
       ],
+      "differential-turn": [
+        "builtin-automobiles-under-the-hood-differential-turn"
+      ],
       "diplomacy": [
         "builtin-pool-medieval-and-early-modern-history-10",
         "builtin-pool-modern-history-15",
@@ -61823,6 +63816,12 @@
       ],
       "drum": [
         "builtin-library-music-making-drum"
+      ],
+      "dry-sump-cornering": [
+        "builtin-automobiles-under-the-hood-dry-sump-cornering"
+      ],
+      "ds-suspension": [
+        "builtin-automobiles-road-icons-ds-suspension"
       ],
       "Earth": [
         "builtin-pool-astronomy-and-space-02"
@@ -61975,6 +63974,9 @@
       "European Union": [
         "builtin-pool-politics-and-world-affairs-11"
       ],
+      "ev-energy-store": [
+        "builtin-automobiles-under-the-hood-ev-energy-store"
+      ],
       "everyday life": [
         "builtin-pool-society-and-everyday-life-08"
       ],
@@ -62024,6 +64026,9 @@
       "fermentation": [
         "builtin-pool-food-and-drink-02",
         "builtin-pool-food-and-drink-15"
+      ],
+      "ferrari-emblem": [
+        "builtin-automobiles-road-icons-ferrari-emblem"
       ],
       "festivals": [
         "builtin-pool-mythology-and-religion-03"
@@ -62086,6 +64091,9 @@
       ],
       "fossils": [
         "builtin-pool-nature-and-earth-14"
+      ],
+      "four-stroke-cam-speed": [
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed"
       ],
       "fractions": [
         "builtin-pool-computation-04",
@@ -62201,6 +64209,9 @@
       "Greek religion": [
         "builtin-pool-mythology-and-religion-13"
       ],
+      "gullwing-frame": [
+        "builtin-automobiles-road-icons-gullwing-frame"
+      ],
       "haiku": [
         "builtin-pool-literature-and-language-05"
       ],
@@ -62282,6 +64293,9 @@
         "builtin-pool-computation-15",
         "builtin-set-computation-01-q15"
       ],
+      "ignition-coil": [
+        "builtin-automobiles-under-the-hood-ignition-coil"
+      ],
       "illusion": [
         "builtin-pool-art-and-culture-14"
       ],
@@ -62348,6 +64362,9 @@
       ],
       "insurance": [
         "builtin-set-everyday-expert-01-q10"
+      ],
+      "intercooler-charge": [
+        "builtin-automobiles-under-the-hood-intercooler-charge"
       ],
       "interest": [
         "builtin-set-everyday-expert-01-q14"
@@ -62501,6 +64518,9 @@
       "LCM": [
         "builtin-pool-computation-14"
       ],
+      "le-mans-rotary": [
+        "builtin-automobiles-road-icons-le-mans-rotary"
+      ],
       "legislatures": [
         "builtin-pool-politics-and-world-affairs-03",
         "builtin-pool-politics-and-world-affairs-10",
@@ -62546,6 +64566,9 @@
       ],
       "local government": [
         "builtin-set-everyday-expert-01-q12"
+      ],
+      "lotus-ground-effect": [
+        "builtin-automobiles-road-icons-lotus-ground-effect"
       ],
       "Macedon": [
         "builtin-set-ancient-history-01-q05"
@@ -62656,6 +64679,12 @@
       "Milky Way": [
         "builtin-pool-astronomy-and-space-05"
       ],
+      "mini-space-saving": [
+        "builtin-automobiles-road-icons-mini-space-saving"
+      ],
+      "miura-transverse-v12": [
+        "builtin-automobiles-road-icons-miura-transverse-v12"
+      ],
       "modern music": [
         "builtin-set-arts-and-culture-01-q14"
       ],
@@ -62754,6 +64783,9 @@
         "builtin-library-music-making-sympathetic-strings",
         "builtin-library-music-making-touch-third"
       ],
+      "mustang-worlds-fair": [
+        "builtin-automobiles-road-icons-mustang-worlds-fair"
+      ],
       "Mycenae": [
         "builtin-pool-ancient-history-12"
       ],
@@ -62838,6 +64870,9 @@
         "builtin-pool-nature-and-earth-11",
         "builtin-pool-nature-and-earth-15",
         "builtin-set-physical-geography-01-q10"
+      ],
+      "octane-knock": [
+        "builtin-automobiles-under-the-hood-octane-knock"
       ],
       "Old English": [
         "builtin-pool-literature-and-language-07"
@@ -62961,6 +64996,9 @@
       "plague": [
         "builtin-pool-medieval-and-early-modern-history-01"
       ],
+      "planetary-reduction": [
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
       "planets": [
         "builtin-pool-astronomy-and-space-01",
         "builtin-pool-astronomy-and-space-03",
@@ -63078,6 +65116,9 @@
       "rack-focus": [
         "builtin-library-cinema-craft-rack-focus"
       ],
+      "radiator-heat": [
+        "builtin-automobiles-under-the-hood-radiator-heat"
+      ],
       "raised-atolls": [
         "builtin-geo-journeys-asia-and-the-pacific-rennell-lagoon"
       ],
@@ -63108,6 +65149,9 @@
       ],
       "reefs": [
         "builtin-geo-journeys-asia-and-the-pacific-barrier-reef-country"
+      ],
+      "regenerative-braking": [
+        "builtin-automobiles-under-the-hood-regenerative-braking"
       ],
       "regional-journeys": [
         "builtin-geo-journeys-across-europe-iberian-peninsula",
@@ -63297,6 +65341,23 @@
         "builtin-set-geography-01-q03",
         "builtin-set-geography-01-q05",
         "builtin-set-geography-01-q12"
+      ],
+      "road-icons": [
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge"
       ],
       "roads": [
         "builtin-pool-ancient-history-13"
@@ -63528,6 +65589,9 @@
       "spectroscopy": [
         "builtin-set-astronomy-01-q09"
       ],
+      "spirit-of-ecstasy": [
+        "builtin-automobiles-road-icons-spirit-of-ecstasy"
+      ],
       "spits": [
         "builtin-geo-journeys-across-europe-curonian-spit"
       ],
@@ -63629,6 +65693,9 @@
         "builtin-library-tabletop-games-go-ko",
         "builtin-library-tabletop-games-backgammon-higher-die",
         "builtin-library-tabletop-games-chess-time-draw"
+      ],
+      "tachometer": [
+        "builtin-automobiles-under-the-hood-tachometer"
       ],
       "taj-mahal": [
         "builtin-library-architecture-taj-mahal"
@@ -63742,6 +65809,9 @@
         "builtin-pool-technology-15",
         "builtin-pool-society-and-everyday-life-04"
       ],
+      "time-machine-car": [
+        "builtin-automobiles-road-icons-time-machine-car"
+      ],
       "Titanic": [
         "builtin-pool-modern-history-03"
       ],
@@ -63776,17 +65846,43 @@
         "builtin-pool-society-and-everyday-life-01",
         "builtin-pool-society-and-everyday-life-09"
       ],
+      "tread-water": [
+        "builtin-automobiles-under-the-hood-tread-water"
+      ],
       "trenches": [
         "builtin-set-physical-geography-01-q10"
       ],
       "trumpet": [
         "builtin-library-music-making-trumpet"
       ],
+      "tucker-center-light": [
+        "builtin-automobiles-road-icons-tucker-center-light"
+      ],
       "tuning": [
         "builtin-pool-music-10"
       ],
+      "turbo-drive": [
+        "builtin-automobiles-under-the-hood-turbo-drive"
+      ],
       "Turkey": [
         "builtin-set-geography-01-q08"
+      ],
+      "under-the-hood": [
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
       ],
       "unicorn": [
         "builtin-library-world-myths-unicorn"
@@ -63969,6 +66065,40 @@
       ]
     },
     "bySourcePack": {
+      "builtin-automobiles-road-icons-pack": [
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge"
+      ],
+      "builtin-automobiles-under-the-hood-pack": [
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
       "builtin-geo-journeys-across-europe-pack": [
         "builtin-geo-journeys-across-europe-iberian-peninsula",
         "builtin-geo-journeys-across-europe-london-river",
@@ -65063,6 +67193,40 @@
       ]
     },
     "bySet": {
+      "builtin-automobiles-road-icons-set": [
+        "builtin-automobiles-road-icons-beetle-maker",
+        "builtin-automobiles-road-icons-ferrari-emblem",
+        "builtin-automobiles-road-icons-time-machine-car",
+        "builtin-automobiles-road-icons-spirit-of-ecstasy",
+        "builtin-automobiles-road-icons-mustang-worlds-fair",
+        "builtin-automobiles-road-icons-classic-911-layout",
+        "builtin-automobiles-road-icons-bohlin-restraint",
+        "builtin-automobiles-road-icons-mini-space-saving",
+        "builtin-automobiles-road-icons-ds-suspension",
+        "builtin-automobiles-road-icons-le-mans-rotary",
+        "builtin-automobiles-road-icons-gullwing-frame",
+        "builtin-automobiles-road-icons-tucker-center-light",
+        "builtin-automobiles-road-icons-miura-transverse-v12",
+        "builtin-automobiles-road-icons-lotus-ground-effect",
+        "builtin-automobiles-road-icons-cvcc-stratified-charge"
+      ],
+      "builtin-automobiles-under-the-hood-set": [
+        "builtin-automobiles-under-the-hood-tachometer",
+        "builtin-automobiles-under-the-hood-radiator-heat",
+        "builtin-automobiles-under-the-hood-ev-energy-store",
+        "builtin-automobiles-under-the-hood-tread-water",
+        "builtin-automobiles-under-the-hood-ignition-coil",
+        "builtin-automobiles-under-the-hood-regenerative-braking",
+        "builtin-automobiles-under-the-hood-abs-wheel-lock",
+        "builtin-automobiles-under-the-hood-turbo-drive",
+        "builtin-automobiles-under-the-hood-differential-turn",
+        "builtin-automobiles-under-the-hood-octane-knock",
+        "builtin-automobiles-under-the-hood-intercooler-charge",
+        "builtin-automobiles-under-the-hood-four-stroke-cam-speed",
+        "builtin-automobiles-under-the-hood-ackermann-angles",
+        "builtin-automobiles-under-the-hood-dry-sump-cornering",
+        "builtin-automobiles-under-the-hood-planetary-reduction"
+      ],
       "builtin-geo-journeys-across-europe-set": [
         "builtin-geo-journeys-across-europe-iberian-peninsula",
         "builtin-geo-journeys-across-europe-london-river",
@@ -66452,67 +68616,69 @@
     ]
   },
   "summary": {
-    "questionCount": 990,
+    "questionCount": 1020,
     "freshMixQuestionCount": 300,
-    "curatedQuestionCount": 690,
-    "curatedSetCount": 46,
-    "sourceCount": 51,
+    "curatedQuestionCount": 720,
+    "curatedSetCount": 48,
+    "sourceCount": 53,
     "categoryCount": 20,
     "byLevel": {
-      "1": 66,
-      "2": 66,
-      "3": 66,
-      "4": 66,
-      "5": 66,
-      "6": 66,
-      "7": 66,
-      "8": 66,
-      "9": 66,
-      "10": 66,
-      "11": 66,
-      "12": 66,
-      "13": 66,
-      "14": 66,
-      "15": 66
+      "1": 68,
+      "2": 68,
+      "3": 68,
+      "4": 68,
+      "5": 68,
+      "6": 68,
+      "7": 68,
+      "8": 68,
+      "9": 68,
+      "10": 68,
+      "11": 68,
+      "12": 68,
+      "13": 68,
+      "14": 68,
+      "15": 68
     },
     "byDisplayDifficulty": {
-      "Easy": 330,
-      "Moderate": 330,
-      "Difficult": 264,
-      "Millionaire": 66
+      "Easy": 340,
+      "Moderate": 340,
+      "Difficult": 272,
+      "Millionaire": 68
     },
     "byInternalTier": {
-      "Foundation": 198,
-      "Accessible": 132,
-      "Intermediate": 198,
-      "Advanced": 132,
-      "Expert": 132,
-      "Elite": 132,
-      "Millionaire": 66
+      "Foundation": 204,
+      "Accessible": 136,
+      "Intermediate": 204,
+      "Advanced": 136,
+      "Expert": 136,
+      "Elite": 136,
+      "Millionaire": 68
     },
     "byCategory": {
       "Ancient History": 42,
       "Medieval and Early Modern History": 30,
-      "Modern History": 19,
+      "Modern History": 21,
       "Geography": 141,
       "Astronomy and Space": 64,
-      "Science": 78,
+      "Science": 79,
       "Nature and Earth": 92,
-      "Technology": 51,
-      "Computation": 64,
+      "Technology": 71,
+      "Computation": 65,
       "Vocabulary": 37,
       "Literature and Language": 52,
-      "Art and Culture": 53,
-      "Film and Television": 35,
+      "Art and Culture": 55,
+      "Film and Television": 36,
       "Music": 37,
-      "Sports and Games": 66,
-      "Society and Everyday Life": 20,
+      "Sports and Games": 67,
+      "Society and Everyday Life": 21,
       "Food and Drink": 34,
       "Politics and World Affairs": 19,
       "Mythology and Religion": 33,
-      "Business and Economics": 23
+      "Business and Economics": 24
     },
     "bySourcePack": {
+      "builtin-automobiles-road-icons-pack": 15,
+      "builtin-automobiles-under-the-hood-pack": 15,
       "builtin-geo-journeys-across-europe-pack": 15,
       "builtin-geo-journeys-across-the-americas-pack": 15,
       "builtin-geo-journeys-africa-in-focus-pack": 15,
@@ -66566,7 +68732,7 @@
       "builtin-riddles-the-rules-of-this-place-pack": 15
     },
     "byReviewStatus": {
-      "assistant-reviewed-draft": 990
+      "assistant-reviewed-draft": 1020
     },
     "missingFreshMixLevels": [],
     "missingCategoryLevelCells": []
